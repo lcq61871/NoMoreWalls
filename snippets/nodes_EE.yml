@@ -1,1 +1,55 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇺 RU
+  name: 378,426,512|🇺 RU_254
+  password: LqlPI19oqnunGNSLMvdXyB
+  port: 16356
+  server: 147.45.60.33
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 426,551,567|🇪🇪 github.com/freefq - 爱沙尼亚  2...
+  network: ws
+  port: '80'
+  server: 176.112.146.190
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  name: 426|🇪EE-37.252.5.234-5342
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.252.5.234
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 566|🇪EE-176.112.146.190-229
+  network: ws
+  port: 80
+  server: 176.112.146.190
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-headers:
+    Host: 176.112.146.190
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '567|🇪🇪 github.com/freefq - 爱沙尼亚  2... #1'
+  network: ws
+  port: '80'
+  server: ee.oppo.quest
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /

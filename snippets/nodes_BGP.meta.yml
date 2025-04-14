@@ -1,1 +1,529 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 227|越南1|BGP|0.4X
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|马来西亚1BGP|0.4X
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|乌克兰1|BGP|0.4X
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|澳大利亚1|BGP|0.4X
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|阿根廷1|BGP|0.4X
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|意大利1|BGP|0.4X
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|拉脱维亚1|BGP|0.4X
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|西班牙1|BGP|0.4X
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|立陶宛1|BGP|0.4X
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|保加利亚1|BGP|0.4X
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: 227|阿联酋1|BGP|0.4X
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 2a06b971-edfe-4e4b-9bd2-db5007889014
+- alterId: 0
+  cipher: auto
+  name: '228|越南1|BGP|0.4X #1'
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|马来西亚1BGP|0.4X #1'
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|乌克兰1|BGP|0.4X #1'
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|澳大利亚1|BGP|0.4X #1'
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|阿根廷1|BGP|0.4X #1'
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|意大利1|BGP|0.4X #1'
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|拉脱维亚1|BGP|0.4X #1'
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|西班牙1|BGP|0.4X #1'
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|立陶宛1|BGP|0.4X #1'
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|保加利亚1|BGP|0.4X #1'
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '228|阿联酋1|BGP|0.4X #1'
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: ab944eb1-41b8-489d-8079-251727bf3e32
+- alterId: 0
+  cipher: auto
+  name: '229|越南1|BGP|0.4X #2'
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|马来西亚1BGP|0.4X #2'
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|乌克兰1|BGP|0.4X #2'
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|澳大利亚1|BGP|0.4X #2'
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|阿根廷1|BGP|0.4X #2'
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|意大利1|BGP|0.4X #2'
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|拉脱维亚1|BGP|0.4X #2'
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|西班牙1|BGP|0.4X #2'
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|立陶宛1|BGP|0.4X #2'
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|保加利亚1|BGP|0.4X #2'
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '229|阿联酋1|BGP|0.4X #2'
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: dc271d9b-18d7-4b1d-964a-2c2f99efd23e
+- alterId: 0
+  cipher: auto
+  name: '230|越南1|BGP|0.4X #3'
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|马来西亚1BGP|0.4X #3'
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|乌克兰1|BGP|0.4X #3'
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|澳大利亚1|BGP|0.4X #3'
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|阿根廷1|BGP|0.4X #3'
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|意大利1|BGP|0.4X #3'
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|拉脱维亚1|BGP|0.4X #3'
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|西班牙1|BGP|0.4X #3'
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|立陶宛1|BGP|0.4X #3'
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|保加利亚1|BGP|0.4X #3'
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '230|阿联酋1|BGP|0.4X #3'
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f62cb479-7a74-4cdc-95cb-4c7e712df67e
+- alterId: 0
+  cipher: auto
+  name: '231,232|越南1|BGP|0.4X #5'
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|马来西亚1BGP|0.4X #5'
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|乌克兰1|BGP|0.4X #5'
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|澳大利亚1|BGP|0.4X #5'
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|阿根廷1|BGP|0.4X #5'
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|意大利1|BGP|0.4X #5'
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|拉脱维亚1|BGP|0.4X #5'
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|西班牙1|BGP|0.4X #5'
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|立陶宛1|BGP|0.4X #5'
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|保加利亚1|BGP|0.4X #5'
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '231,232|阿联酋1|BGP|0.4X #5'
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: f7eb5b07-0dd6-4d6d-900d-6781c51c2283
+- alterId: 0
+  cipher: auto
+  name: '233|越南1|BGP|0.4X #6'
+  port: 26071
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|马来西亚1BGP|0.4X #6'
+  port: 26081
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|乌克兰1|BGP|0.4X #6'
+  port: 26101
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|澳大利亚1|BGP|0.4X #6'
+  port: 26111
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|阿根廷1|BGP|0.4X #6'
+  port: 26151
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|意大利1|BGP|0.4X #6'
+  port: 26161
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|拉脱维亚1|BGP|0.4X #6'
+  port: 26171
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|西班牙1|BGP|0.4X #6'
+  port: 26201
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|立陶宛1|BGP|0.4X #6'
+  port: 26211
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|保加利亚1|BGP|0.4X #6'
+  port: 26221
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
+- alterId: 0
+  cipher: auto
+  name: '233|阿联酋1|BGP|0.4X #6'
+  port: 26231
+  server: bgp-xdd.blue-bgp.xyz
+  type: vmess
+  udp: true
+  uuid: 5dc31797-d467-4392-95d8-5b3393ca7041
