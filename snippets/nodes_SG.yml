@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,21,78,79,193,197,320,429,430,561,566|🇬SG-54.255.247.220-166
+  name: 1,20,77,78,192,196,314,419,420,553,555,558|🇬SG-54.255.247.220-166
   password: '!!str 1234'
   port: 1234
   server: 54.255.247.220
@@ -9,7 +9,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,21,78,79,193,197,320,426,429,430,561,566|🇨🇳CN-120.232.218.246-167
+  name: 1,20,77,78,192,196,314,416,419,420,553,555,558|🇨🇳CN-120.232.218.246-167
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
@@ -17,7 +17,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,21,78,79,193,197,320,378,426,429,430,561,566|🇨🇳CN-120.238.97.218-168
+  name: 1,20,77,78,192,196,314,416,419,420,553,555,558|🇨🇳CN-120.238.97.218-168
   password: d192a833-b118-4b46-8e54-12cf5025d4cd
   port: 33461
   server: gsyd.aicheetah.lol
@@ -25,7 +25,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1,21,78,79,193,197,426,429,430,561,566|🇷KR-13.209.80.28-174
+  name: 1,20,77,78,192,196,314,416,419,420,553,555,558|🇷KR-13.209.80.28-174
   password: amazonskr05
   port: 443
   server: 13.209.80.28
@@ -55,121 +55,23 @@ proxies:
   sni: mmbiz1.redapricotcloud.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-01
-  network: tcp
-  port: 45224
-  server: 183.232.139.140
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 21|🇸🇬 Singapore 01
+  password: 14b4e191-c526-49a8-9d92-0dd5749f21ed
+  port: 10933
+  server: mthk.ppooqq.top
+  type: ss
   udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-02
-  network: tcp
-  port: 45204
-  server: fg.fxlcn.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 21|🇸🇬 Singapore 02
+  password: 14b4e191-c526-49a8-9d92-0dd5749f21ed
+  port: 12152
+  server: mthk.ppooqq.top
+  type: ss
   udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
 - alterId: 0
   cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-03
-  network: tcp
-  port: 45240
-  server: 120.232.17.9
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-04
-  network: tcp
-  port: 45221
-  server: 36.150.232.128
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-05
-  network: tcp
-  port: 45293
-  server: 120.226.84.209
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-06
-  network: tcp
-  port: 45403
-  server: 120.226.84.209
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  grpc-opts: null
-  h2-opts: null
-  http-opts: null
-  name: 10|新加坡-07
-  network: tcp
-  port: 45264
-  server: ys.fxlcn.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3888997d-dca4-40ba-92e4-06b6918c9643
-  ws-opts: null
-- alterId: 0
-  cipher: auto
-  name: '29,205|🇸🇬新加坡高速接入点-02 #1'
+  name: '28,205|🇸🇬新加坡高速接入点-02 #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -184,7 +86,7 @@ proxies:
     path: /video/3YKfzGw4
 - alterId: 0
   cipher: auto
-  name: '29,205|🇸🇬新加坡高速接入点-03 #1'
+  name: '28,205|🇸🇬新加坡高速接入点-03 #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -199,7 +101,7 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 54|🇸🇬 新加坡NO.1
+  name: 53|🇸🇬 新加坡NO.1
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -208,7 +110,7 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
-  name: 54|🇸🇬 新加坡NO.2
+  name: 53|🇸🇬 新加坡NO.2
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
@@ -217,7 +119,7 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
-  name: 54|🇸🇬 新加坡05极速节点|油管速度优化
+  name: 53|🇸🇬 新加坡05极速节点|油管速度优化
   network: ws
   port: 80
   server: yx.sulink.one
@@ -230,77 +132,77 @@ proxies:
       Host: sg05.sulink.one
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 54|🇸🇬 新加坡1SS移动直连
+  name: 53|🇸🇬 新加坡1SS移动直连
   password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
   port: 12343
   server: sg6.sulink.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-01 x1
+  name: 57|🇸🇬 新加坡-01 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27715
   server: zj-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-02 x1
+  name: 57|🇸🇬 新加坡-02 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27715
   server: gz-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-03 x1
+  name: 57|🇸🇬 新加坡-03 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27716
   server: zj-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-04 x1
+  name: 57|🇸🇬 新加坡-04 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27716
   server: gz-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-05 x1
+  name: 57|🇸🇬 新加坡-05 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27717
   server: zj-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-06 x1
+  name: 57|🇸🇬 新加坡-06 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27717
   server: gz-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-07 x1
+  name: 57|🇸🇬 新加坡-07 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27803
   server: zj-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-08 x1
+  name: 57|🇸🇬 新加坡-08 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27803
   server: gz-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-09 x1
+  name: 57|🇸🇬 新加坡-09 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27736
   server: zj-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇸🇬 新加坡-10 x1
+  name: 57|🇸🇬 新加坡-10 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27736
   server: gz-api.2819v2rhzb56.download
@@ -308,7 +210,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '72,392|🇸🇬 新加坡 - 新加坡 - BrainStorm Netw... #1'
+  name: '71,382|🇸🇬 新加坡 - 新加坡 - BrainStorm Netw... #1'
   port: 14427
   server: 103.106.229.207
   skip-cert-verify: true
@@ -316,14 +218,14 @@ proxies:
   type: vmess
   uuid: c01988cc-b0b1-4026-bb9b-9152ff19c145
 - cipher: chacha20-ietf-poly1305
-  name: 74|果宝特攻-免费节点-新加坡-A1
+  name: 73|果宝特攻-免费节点-新加坡-A1
   password: b7e92acc-70e2-4945-9625-c909251ca5ee
   port: 30443
   server: xjp2.ydso.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '75|果宝特攻-免费节点-新加坡-A1 #1'
+  name: '74|果宝特攻-免费节点-新加坡-A1 #1'
   password: 65d3c960-41fb-46d0-bd6c-b9bd5cc100a3
   port: 30443
   server: xjp2.ydso.xyz
@@ -331,7 +233,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 95|🇸🇬 No.683_SG_x1.00_Amazon_新加坡@...
+  name: 94|🇸🇬 No.683_SG_x1.00_Amazon_新加坡@...
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -346,7 +248,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 95|No.929_SG_x1.00_AWS_Netflix@南曼...
+  name: 94|No.929_SG_x1.00_AWS_Netflix@南曼...
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -361,7 +263,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 95|🇸🇬 No.889_SG_x1.00_Vimach_新加坡@...
+  name: 94|🇸🇬 No.889_SG_x1.00_Vimach_新加坡@...
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -376,7 +278,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 95|No.844_SG_x1.00_腾讯云@j1024***6_...
+  name: 94|No.844_SG_x1.00_腾讯云@j1024***6_...
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -391,7 +293,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 95|🇸🇬 No.814_SG_x1.30_新加坡_新加坡@小*曦...
+  name: 94|🇸🇬 No.814_SG_x1.30_新加坡_新加坡@小*曦...
   network: ws
   port: 443
   server: 8.219.53.156
@@ -406,7 +308,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡NO.1 #3'
+  name: '102,490|🇸🇬 新加坡NO.1 #3'
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -415,7 +317,7 @@ proxies:
   uuid: a6fff1fb-ef23-4dd4-ac7b-ad86608ede5c
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1E #1'
+  name: '102,490|🇸🇬 新加坡西部-1E #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -429,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡NO.2 #3'
+  name: '102,490|🇸🇬 新加坡NO.2 #3'
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
@@ -438,7 +340,7 @@ proxies:
   uuid: a6fff1fb-ef23-4dd4-ac7b-ad86608ede5c
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1B #2'
+  name: '102,490|🇸🇬 新加坡西部-1B #2'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -452,7 +354,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1F #1'
+  name: '102,490|🇸🇬 新加坡西部-1F #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -466,7 +368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1C #1'
+  name: '102,490|🇸🇬 新加坡西部-1C #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -480,7 +382,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1A #2'
+  name: '102,490|🇸🇬 新加坡西部-1A #2'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -494,7 +396,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,503|🇸🇬 新加坡西部-1D #1'
+  name: '102,490|🇸🇬 新加坡西部-1D #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -508,7 +410,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '104,507|新加坡NO.2 #1'
+  name: '103,494|新加坡NO.2 #1'
   port: 45055
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -518,7 +420,7 @@ proxies:
   uuid: 43c111b6-6d9e-4e7d-8a14-15d134a15130
 - alterId: 0
   cipher: auto
-  name: '104,507|新加坡NO.1 #1'
+  name: '103,494|新加坡NO.1 #1'
   port: 45054
   server: haa.dashuai.cyou
   skip-cert-verify: true
@@ -528,7 +430,7 @@ proxies:
   uuid: 43c111b6-6d9e-4e7d-8a14-15d134a15130
 - alterId: 0
   cipher: auto
-  name: '107,378,426,511,542,551,565,567,674|🇺🇸 美国 091 #2'
+  name: '106,368,416,498,532,541,557,559,659|🇺🇸 美国 091 #2'
   network: ws
   port: '443'
   server: sgcft01.xqc.best
@@ -544,7 +446,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1W #1'
+  name: '106,498|SG | 新加坡 LB-1W #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -560,7 +462,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1T #1'
+  name: '106,498|SG | 新加坡 LB-1T #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -576,7 +478,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2A #1'
+  name: '106,498|SG | 新加坡 LB-2A #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -592,7 +494,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2E #1'
+  name: '106,498|SG | 新加坡 LB-2E #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -608,7 +510,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1H #1'
+  name: '106,498|SG | 新加坡 LB-1H #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -624,7 +526,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1J #1'
+  name: '106,498|SG | 新加坡 LB-1J #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -640,7 +542,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1R #1'
+  name: '106,498|SG | 新加坡 LB-1R #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -656,7 +558,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1E #1'
+  name: '106,498|SG | 新加坡 LB-1E #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -672,7 +574,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2D #1'
+  name: '106,498|SG | 新加坡 LB-2D #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -688,7 +590,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1U #1'
+  name: '106,498|SG | 新加坡 LB-1U #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -704,7 +606,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1S #1'
+  name: '106,498|SG | 新加坡 LB-1S #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -720,7 +622,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1Z #1'
+  name: '106,498|SG | 新加坡 LB-1Z #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -736,7 +638,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1Q #1'
+  name: '106,498|SG | 新加坡 LB-1Q #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -752,7 +654,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2F #1'
+  name: '106,498|SG | 新加坡 LB-2F #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -768,7 +670,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1D #1'
+  name: '106,498|SG | 新加坡 LB-1D #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -784,7 +686,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1L #1'
+  name: '106,498|SG | 新加坡 LB-1L #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -800,7 +702,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1x #1'
+  name: '106,498|SG | 新加坡 LB-1x #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -816,7 +718,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1M #1'
+  name: '106,498|SG | 新加坡 LB-1M #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -832,7 +734,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1K #1'
+  name: '106,498|SG | 新加坡 LB-1K #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -848,7 +750,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1B #1'
+  name: '106,498|SG | 新加坡 LB-1B #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -864,7 +766,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2B #1'
+  name: '106,498|SG | 新加坡 LB-2B #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -880,7 +782,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1Y #1'
+  name: '106,498|SG | 新加坡 LB-1Y #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -896,7 +798,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1C #1'
+  name: '106,498|SG | 新加坡 LB-1C #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -912,7 +814,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1V #1'
+  name: '106,498|SG | 新加坡 LB-1V #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -928,7 +830,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-2C #1'
+  name: '106,498|SG | 新加坡 LB-2C #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -944,7 +846,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1I #1'
+  name: '106,498|SG | 新加坡 LB-1I #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -960,7 +862,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1O #1'
+  name: '106,498|SG | 新加坡 LB-1O #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -976,7 +878,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1G #1'
+  name: '106,498|SG | 新加坡 LB-1G #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -992,7 +894,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1F #1'
+  name: '106,498|SG | 新加坡 LB-1F #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -1008,7 +910,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1P #1'
+  name: '106,498|SG | 新加坡 LB-1P #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -1024,7 +926,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: '107,511|SG | 新加坡 LB-1N #1'
+  name: '106,498|SG | 新加坡 LB-1N #1'
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -1039,48 +941,49 @@ proxies:
       Host: d16henb377mok4.cloudfront.net
     path: /stream
 - cipher: aes-128-gcm
-  name: 151|🇸🇬SG5-江苏移动500M
+  name: 150|🇸🇬SG5-江苏移动500M
   password: a916d16a-a382-44a4-bc9a-e16af7d34e4e
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '152|🇸🇬SG5-江苏移动500M #1'
+  name: '151|🇸🇬SG5-江苏移动500M #1'
   password: 89728169-508c-4863-8edd-ef1acccec8af
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '153|🇸🇬SG5-江苏移动500M #2'
+  name: '152|🇸🇬SG5-江苏移动500M #2'
   password: 10bb0f9d-36b0-4e0b-976f-512a09686c35
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '154|🇸🇬SG5-江苏移动500M #3'
+  name: '153|🇸🇬SG5-江苏移动500M #3'
   password: 3b6f8043-5876-432a-a853-f5d292080651
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '155|🇸🇬SG5-江苏移动500M #4'
+  name: '154|🇸🇬SG5-江苏移动500M #4'
   password: 398e2bc3-2b79-47eb-ac28-49f102bb57d1
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '156|🇸🇬SG5-江苏移动500M #5'
+  name: '155|🇸🇬SG5-江苏移动500M #5'
   password: 4f09e15d-4814-48be-8447-9068f02824ee
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
-- name: '167,168|新加坡05|流媒体 #1'
+- name: '166,167|新加坡05|流媒体 #1'
+  network: ws
   password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38
   port: 20230
   server: sg005.421421.xyz
@@ -1088,7 +991,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '167,168|新加坡06|流媒体 #1'
+- name: '166,167|新加坡06|流媒体 #1'
   network: ws
   password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38
   port: 20230
@@ -1097,7 +1000,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '167,168|新加坡07|流媒体 #1'
+- name: '166,167|新加坡07|流媒体 #1'
+  network: ws
   password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38
   port: 20230
   server: sg007.421421.xyz
@@ -1105,7 +1009,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '167,168|新加坡08|流媒体 #1'
+- name: '166,167|新加坡08|流媒体 #1'
+  network: ws
   password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38
   port: 20230
   server: sg008.421421.xyz
@@ -1113,7 +1018,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '169,170,171|新加坡05|流媒体 #4'
+- name: '168,169,170|新加坡05|流媒体 #4'
+  network: ws
   password: 0bfa2050-b165-4156-859c-70f36d300dce
   port: 20230
   server: sg005.421421.xyz
@@ -1121,7 +1027,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '169,170,171|新加坡06|流媒体 #4'
+- name: '168,169,170|新加坡06|流媒体 #4'
   network: ws
   password: 0bfa2050-b165-4156-859c-70f36d300dce
   port: 20230
@@ -1130,7 +1036,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '169,170,171|新加坡07|流媒体 #4'
+- name: '168,169,170|新加坡07|流媒体 #4'
+  network: ws
   password: 0bfa2050-b165-4156-859c-70f36d300dce
   port: 20230
   server: sg007.421421.xyz
@@ -1138,7 +1045,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '169,170,171|新加坡08|流媒体 #4'
+- name: '168,169,170|新加坡08|流媒体 #4'
+  network: ws
   password: 0bfa2050-b165-4156-859c-70f36d300dce
   port: 20230
   server: sg008.421421.xyz
@@ -1146,7 +1054,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: 185|[trojan]新加坡1-443
+- name: 184|[trojan]新加坡1-443
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -1161,7 +1069,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 191|🌴新加坡 01/信家婆/🚀CDN加速
+  name: 190|🌴新加坡 01/信家婆/🚀CDN加速
   network: ws
   port: 80
   server: bvdhgfhfs.fask511.cfd
@@ -1177,7 +1085,7 @@ proxies:
   ws-path: /market/asgjjz?ed=512
 - alterId: 0
   cipher: auto
-  name: 191|🌴新加坡 02/信家婆/🚀CDN加速
+  name: 190|🌴新加坡 02/信家婆/🚀CDN加速
   network: ws
   port: 80
   server: tttxbmsm.fask511.cfd
@@ -1193,7 +1101,7 @@ proxies:
   ws-path: /market/asgjjz?ed=512
 - alterId: 0
   cipher: auto
-  name: 191|🌴新加坡 03/信家婆/🚀CDN加速
+  name: 190|🌴新加坡 03/信家婆/🚀CDN加速
   network: ws
   port: 80
   server: qdfhytmhg.fask511.cfd
@@ -1208,83 +1116,111 @@ proxies:
     path: /market/asgjjz?ed=512
   ws-path: /market/asgjjz?ed=512
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 01
+  name: 193|新加坡 01
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 02
+  name: 193|新加坡 02
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cname03a-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 03
+  name: 193|新加坡 03
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cname03b-ncpbbyhazxjnwkrx.bestluausa.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 04
+  name: 193|新加坡 04
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cname03c-ncpbbyhazxjnwkrx.bestluausa.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 05 [0.5x]
+  name: 193|新加坡 05 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cnamepc01-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 06 [0.5x]
+  name: 193|新加坡 06 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cnamepc02-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 194|新加坡 07 [0.5x]
+  name: 193|新加坡 07 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51041
   server: cnamepc03-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
-- name: 199|新加坡（新加坡）2
+- name: 198|新加坡（新加坡）2
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 45536
   server: 250407.jichang.my
   sni: singapore2.678789.xyz
   type: trojan
   udp: true
+- name: '199|新加坡（新加坡）2 #1'
+  password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
+  port: 45536
+  server: 250407.jichang.my
+  sni: singapore2.678789.xyz
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 208|🇸🇬新加坡 01 | 1x SG
-  password: 4e7532b6-3f02-492b-a13c-2aff803afa82
+  name: 208|🇸🇬 新加坡 01 | 1x SG
+  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 208|🇸🇬 新加坡 02 | 1x SG
+  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 208|🇸🇬 新加坡 03 | 1x SG
+  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 209|🇸🇬新加坡 01 | 1x SG
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 208|🇸🇬新加坡 02 | 1x SG
-  password: 4e7532b6-3f02-492b-a13c-2aff803afa82
+  name: 209|🇸🇬新加坡 02 | 1x SG
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 208|🇸🇬新加坡 03 | 1x SG
-  password: 4e7532b6-3f02-492b-a13c-2aff803afa82
+  name: 209|🇸🇬新加坡 03 | 1x SG
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: '240,241|「🇸🇬」EMO | 西贡蕉 x3 #1'
+- name: '237,238|「🇸🇬」EMO | 西贡蕉 x3 #1'
   password: a78fc14e-4e8b-4fc0-8cab-86fd81c583ca
   port: 8451
   server: t32.emoyes.top
@@ -1293,12 +1229,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 244|🇸🇬 SG
+  name: 241|🇸🇬 SG
   password: 25612qazwsx
   port: 25612
   server: 18.142.181.4
   type: ss
-- name: '271,272,273,274,275|新加坡05|流媒体 #9'
+- name: '268,269,270,271|新加坡05|流媒体 #8'
+  network: ws
   password: 90e7b2f3-fb61-4fd7-959f-176e9a51d8d7
   port: 20230
   server: sg005.421421.xyz
@@ -1306,7 +1243,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '271,272,273,274,275|新加坡06|流媒体 #9'
+- name: '268,269,270,271|新加坡06|流媒体 #8'
   network: ws
   password: 90e7b2f3-fb61-4fd7-959f-176e9a51d8d7
   port: 20230
@@ -1315,7 +1252,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '271,272,273,274,275|新加坡07|流媒体 #9'
+- name: '268,269,270,271|新加坡07|流媒体 #8'
+  network: ws
   password: 90e7b2f3-fb61-4fd7-959f-176e9a51d8d7
   port: 20230
   server: sg007.421421.xyz
@@ -1323,7 +1261,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '271,272,273,274,275|新加坡08|流媒体 #9'
+- name: '268,269,270,271|新加坡08|流媒体 #8'
+  network: ws
   password: 90e7b2f3-fb61-4fd7-959f-176e9a51d8d7
   port: 20230
   server: sg008.421421.xyz
@@ -1333,7 +1272,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '301,302|🇸🇬 SG-Cylix #1'
+  name: '297,298|🇸🇬 SG-Cylix #1'
   network: ws
   port: 443
   server: www.visa.com.tw
@@ -1346,28 +1285,128 @@ proxies:
     headers:
       Host: permalink-kiss-calendar-stream.trycloudflare.com
     path: /vmess-argo?ed=2048
-- cipher: aes-256-cfb
-  name: 320,426|🇸🇬SG-47.129.241.217-2088
-  password: amazonskr05
-  port: 443
-  server: 47.129.241.217
-  tfo: false
+- cipher: aes-128-gcm
+  name: 327|SGP.新加坡.A | 推荐
+  password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
+  port: 43461
+  server: xcsgp.cokecloud.top
   type: ss
-- cipher: aes-256-cfb
-  name: 320,426|🇸🇬SG-54.255.246.167-2089
-  password: amazonskr05
-  port: 443
-  server: 54.255.246.167
-  tfo: false
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 327|SGP.新加坡.B | 负载均衡
+  port: 10420
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
+- cipher: chacha20-ietf-poly1305
+  name: 327|SGP.新加坡.C | 高速.2x倍率
+  password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
+  port: 29611
+  server: xcsgp.cokecloud.top
   type: ss
-- cipher: aes-256-cfb
-  name: 320,426|🇬SG-13.229.180.165-2311
-  password: amazonskr05
-  port: 443
-  server: 13.229.180.165
-  tfo: false
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 327|SGP.新加坡.D | 推荐
+  port: 25878
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
+- cipher: aes-128-gcm
+  name: '328|SGP.新加坡.A | 推荐 #1'
+  password: c106677f-d706-421f-9904-825db2ca97d8
+  port: 43461
+  server: xcsgp.cokecloud.top
   type: ss
-- name: '339,611|新加坡05|流媒体 #13'
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '328|SGP.新加坡.B | 负载均衡 #1'
+  port: 10420
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: c106677f-d706-421f-9904-825db2ca97d8
+- cipher: chacha20-ietf-poly1305
+  name: '328|SGP.新加坡.C | 高速.2x倍率 #1'
+  password: c106677f-d706-421f-9904-825db2ca97d8
+  port: 29611
+  server: xcsgp.cokecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '328|SGP.新加坡.D | 推荐 #1'
+  port: 25878
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: c106677f-d706-421f-9904-825db2ca97d8
+- cipher: aes-128-gcm
+  name: '329|SGP.新加坡.A | 推荐 #2'
+  password: de6faec6-4bce-4537-9f53-0b31dbeef558
+  port: 43461
+  server: xcsgp.cokecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '329|SGP.新加坡.B | 负载均衡 #2'
+  port: 10420
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: de6faec6-4bce-4537-9f53-0b31dbeef558
+- cipher: chacha20-ietf-poly1305
+  name: '329|SGP.新加坡.C | 高速.2x倍率 #2'
+  password: de6faec6-4bce-4537-9f53-0b31dbeef558
+  port: 29611
+  server: xcsgp.cokecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '329|SGP.新加坡.D | 推荐 #2'
+  port: 25878
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: de6faec6-4bce-4537-9f53-0b31dbeef558
+- cipher: aes-128-gcm
+  name: '330|SGP.新加坡.A | 推荐 #3'
+  password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
+  port: 43461
+  server: xcsgp.cokecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '330|SGP.新加坡.B | 负载均衡 #3'
+  port: 10420
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
+- cipher: chacha20-ietf-poly1305
+  name: '330|SGP.新加坡.C | 高速.2x倍率 #3'
+  password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
+  port: 29611
+  server: xcsgp.cokecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '330|SGP.新加坡.D | 推荐 #3'
+  port: 25878
+  server: xcsgp.cokecloud.top
+  type: vmess
+  udp: true
+  uuid: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
+- name: '335,603|新加坡05|流媒体 #15'
+  network: ws
   password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
   port: 20230
   server: sg005.421421.xyz
@@ -1375,7 +1414,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '339,611|新加坡06|流媒体 #13'
+- name: '335,603|新加坡06|流媒体 #15'
   network: ws
   password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
   port: 20230
@@ -1384,7 +1423,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '339,611|新加坡07|流媒体 #13'
+- name: '335,603|新加坡07|流媒体 #15'
+  network: ws
   password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
   port: 20230
   server: sg007.421421.xyz
@@ -1392,7 +1432,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '339,611|新加坡08|流媒体 #13'
+- name: '335,603|新加坡08|流媒体 #15'
+  network: ws
   password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
   port: 20230
   server: sg008.421421.xyz
@@ -1400,7 +1441,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '341,342|新加坡05|流媒体 #12'
+- name: '336,337|新加坡05|流媒体 #11'
+  network: ws
   password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
   port: 20230
   server: sg005.421421.xyz
@@ -1408,7 +1450,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '341,342|新加坡06|流媒体 #12'
+- name: '336,337|新加坡06|流媒体 #11'
   network: ws
   password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
   port: 20230
@@ -1417,7 +1459,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '341,342|新加坡07|流媒体 #12'
+- name: '336,337|新加坡07|流媒体 #11'
+  network: ws
   password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
   port: 20230
   server: sg007.421421.xyz
@@ -1425,7 +1468,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '341,342|新加坡08|流媒体 #12'
+- name: '336,337|新加坡08|流媒体 #11'
+  network: ws
   password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
   port: 20230
   server: sg008.421421.xyz
@@ -1433,354 +1477,357 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
+- name: '338,339,340|新加坡05|流媒体 #14'
+  network: ws
+  password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63
+  port: 20230
+  server: sg005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+- name: '338,339,340|新加坡06|流媒体 #14'
+  network: ws
+  password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63
+  port: 20230
+  server: sg006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+- name: '338,339,340|新加坡07|流媒体 #14'
+  network: ws
+  password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63
+  port: 20230
+  server: sg007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+- name: '338,339,340|新加坡08|流媒体 #14'
+  network: ws
+  password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 361|🇸🇬 狮城 01
+  name: 353|🇸🇬 狮城 01
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47513
   server: sg1.dianxinzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 361|🇸🇬 狮城 02
+  name: 353|🇸🇬 狮城 02
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47613
   server: sg1.yidongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '362|🇸🇬 狮城 01 #1'
+  name: '354|🇸🇬 狮城 01 #1'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47513
   server: sg1.dianxinzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '362|🇸🇬 狮城 02 #1'
+  name: '354|🇸🇬 狮城 02 #1'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47613
   server: sg1.yidongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 9
+  name: 357|🇸🇬  Singapore 9
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46609
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 10
+  name: 357|🇸🇬  Singapore 10
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46610
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 11
+  name: 357|🇸🇬  Singapore 11
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46611
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 12
+  name: 357|🇸🇬  Singapore 12
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46612
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 13
+  name: 357|🇸🇬  Singapore 13
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46613
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 365|🇸🇬  Singapore 14
+  name: 357|🇸🇬  Singapore 14
   password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
   port: 46614
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 9 #1'
+  name: '358|🇸🇬  Singapore 9 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46609
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 10 #1'
+  name: '358|🇸🇬  Singapore 10 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46610
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 11 #1'
+  name: '358|🇸🇬  Singapore 11 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46611
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 12 #1'
+  name: '358|🇸🇬  Singapore 12 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46612
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 13 #1'
+  name: '358|🇸🇬  Singapore 13 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46613
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '366|🇸🇬  Singapore 14 #1'
+  name: '358|🇸🇬  Singapore 14 #1'
   password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
   port: 46614
   server: xjp-jd.huidu51.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡1 💧 1x
+  name: 365|🇸🇬新加坡1 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39781
   server: hk1.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡2 💧 1x
+  name: 365|🇸🇬新加坡2 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39782
   server: hk2.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡3 💧 1x
+  name: 365|🇸🇬新加坡3 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39783
   server: hk3.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡4 💧 1x
+  name: 365|🇸🇬新加坡4 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39784
   server: hk4.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡5 💧 1x
+  name: 365|🇸🇬新加坡5 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39785
   server: hk2.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 373|🇸🇬新加坡6 💧 1x
+  name: 365|🇸🇬新加坡6 💧 1x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 39786
   server: hk1.qsm1.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 374|🇸🇬 新加坡 01 | 1x SG
-  password: 203db9a6-2ec8-4873-a28b-2f6d6affdc97
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 374|🇸🇬 新加坡 02 | 1x SG
-  password: 203db9a6-2ec8-4873-a28b-2f6d6affdc97
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 374|🇸🇬 新加坡 03 | 1x SG
-  password: 203db9a6-2ec8-4873-a28b-2f6d6affdc97
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 377,378,426,533,534,551|🇸🇬SG-20.191.138.47-0239
-  password: dQUWbcwECl
-  port: 443
-  server: automq4-proxy.automq-sg.com
-  skip-cert-verify: false
-  type: trojan
 - cipher: rc4-md5
-  name: 378,407,426|🇬SG-68.183.227.4-1014
+  name: 368,397,416|🇬SG-68.183.227.4-1014
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.227.4
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇷 IR
-  name: 378,426,512| IR_182
+  name: 368,416,497,499| IR_164
   password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
   port: 8388
   server: 5.223.55.99
   type: ss
-- cipher: aes-256-cfb
-  name: '378|🇸🇬 SG #1'
-  password: amazonskr05
-  port: 443
-  server: 47.128.155.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 378|🇸🇬 SG 2
-  password: amazonskr05
-  port: 443
-  server: 52.221.252.207
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 388,565|27|1|🇬5 |  6.3MB/s
+  name: 378,557|5|1|🇸🇬5 |  6.3MB/s
   network: tcp
   port: 3683
   server: 183.240.179.191
   tls: false
   type: vmess
   uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- name: 378,416,418,541,546,549,556,557,558,559,776|中国【机场推荐：https://socks.news】27
+  network: tcp
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-01
+  name: 380|Singapore-01
   password: 1P120c
   port: 56041
   server: bbf2db5d.g1v1p1b6f2-fb-sg01.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-02
+  name: 380|Singapore-02
   password: 1P120c
   port: 56042
   server: bbf2db5d.n3k8r2m5d0-fb-sg02.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-03
+  name: 380|Singapore-03
   password: 1P120c
   port: 56043
   server: bbf2db5d.h1v1d0d4y0-fb-sg03.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-04
+  name: 380|Singapore-04
   password: 1P120c
   port: 56044
   server: bbf2db5d.v7j4k1a0s1-fb-sg04.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-05
+  name: 380|Singapore-05
   password: 1P120c
   port: 56045
   server: bbf2db5d.v2c3p9i2y0-fb-sg05.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-06
+  name: 380|Singapore-06
   password: 1P120c
   port: 56046
   server: bbf2db5d.q2q9p9t0q2-fb-sg06.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-07
+  name: 380|Singapore-07
   password: 1P120c
   port: 56047
   server: bbf2db5d.l9x3y6g1c9-fb-sg07.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-08
+  name: 380|Singapore-08
   password: 1P120c
   port: 56048
   server: bbf2db5d.y6r5t2u7x1-fb-sg08.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-09
+  name: 380|Singapore-09
   password: 1P120c
   port: 56049
   server: bbf2db5d.p0c1h3j5d6-fb-sg09.6pzfwf.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 390|Singapore-10
+  name: 380|Singapore-10
   password: 1P120c
   port: 56050
   server: bbf2db5d.i6c5x1e2v0-fb-sg10.6pzfwf.com
   type: ss
   udp: true
-- name: 407|🇸🇬1 |  9.0MB/s
+- name: 397|🇸🇬1 |  9.0MB/s
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: connectwithemployers.online
   skip-cert-verify: true
   type: trojan
 - cipher: rc4-md5
-  name: 407|🇸🇬2 |  4.2MB/s
+  name: 397|🇸🇬2 |  4.2MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.227.45
   type: ss
 - cipher: rc4-md5
-  name: 407|🇸🇬3 |  4.3MB/s
+  name: 397|🇸🇬3 |  4.3MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 128.199.172.224
   type: ss
 - cipher: rc4-md5
-  name: 407|🇸🇬5 |  4.5MB/s
+  name: 397|🇸🇬5 |  4.5MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.227.236
   type: ss
 - cipher: aes-128-gcm
-  name: 413|🇸🇬 SG 028 |  32.2MB/s
+  name: 403|🇸🇬 SG 028 |  32.2MB/s
   password: 08d96d4a-d83e-4c14-9529-f00a63d25242
   port: 40007
   server: lh.node-is.green
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 006 |  38.9MB/s
+  name: 403|🇸🇬 SG 006 |  38.9MB/s
   password: amazonskr05
   port: 443
   server: 18.143.165.183
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 002 |  37.8MB/s
+  name: 403|🇸🇬 SG 002 |  37.8MB/s
   password: amazonskr05
   port: 443
   server: 52.77.249.55
   type: ss
 - cipher: aes-128-gcm
-  name: 413|🇸🇬 SG 006 |  59.0MB/s
+  name: 403|🇸🇬 SG 006 |  59.0MB/s
   password: 08d96d4a-d83e-4c14-9529-f00a63d25242
   port: 40006
   server: lh.node-is.green
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 008 |  26.2MB/s
+  name: 403|🇸🇬 SG 008 |  26.2MB/s
   password: amazonskr05
   port: 443
   server: 13.229.59.137
   type: ss
 - cipher: aes-128-gcm
-  name: 413|🇸🇬 SG 009 |  18.4MB/s
+  name: 403|🇸🇬 SG 009 |  18.4MB/s
   password: 08d96d4a-d83e-4c14-9529-f00a63d25242
   port: 40004
   server: lh.node-is.green
   type: ss
-- name: 413|🇸🇬 SG 015 |  22.4MB/s
+- name: 403|🇸🇬 SG 015 |  22.4MB/s
   password: 08d96d4a-d83e-4c14-9529-f00a63d25242
   port: 44904
   server: f3f370d4b5231c5f8d28e3f082d950f3.lh.gtm.node-is.green
@@ -1788,19 +1835,19 @@ proxies:
   sni: lhsg1.bilibili.com
   type: trojan
 - cipher: aes-128-gcm
-  name: 413|🇸🇬 SG 026 |  22.3MB/s
+  name: 403|🇸🇬 SG 026 |  22.3MB/s
   password: 08d96d4a-d83e-4c14-9529-f00a63d25242
   port: 40005
   server: lh.node-is.green
   type: ss
-- name: 413|🇸🇬 SG 032 |  25.2MB/s
+- name: 403|🇸🇬 SG 032 |  25.2MB/s
   password: 337f620e-3ed2-4be2-850f-659a93700be5
   port: 18489
   server: nbae7a7.kaiqsz.com
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
-- name: 413|🇸🇬 SG 034 |  21.1MB/s
+- name: 403|🇸🇬 SG 034 |  21.1MB/s
   password: 337f620e-3ed2-4be2-850f-659a93700be5
   port: 48291
   server: nbae7a7.kaiqsz.com
@@ -1808,39 +1855,39 @@ proxies:
   sni: mmbiz1.redapricotcloud.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 001 |  38.2MB/s
+  name: 403|🇸🇬 SG 001 |  38.2MB/s
   password: amazonskr05
   port: 443
   server: 47.129.48.255
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 015 |  38.0MB/s
+  name: 403|🇸🇬 SG 015 |  38.0MB/s
   password: amazonskr05
   port: 443
   server: 54.255.224.231
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 001 |  38.5MB/s
+  name: 403|🇸🇬 SG 001 |  38.5MB/s
   password: amazonskr05
   port: 443
   server: 13.229.82.37
   type: ss
 - cipher: aes-256-cfb
-  name: 413|🇸🇬 SG 004 |  37.4MB/s
+  name: 403|🇸🇬 SG 004 |  37.4MB/s
   password: amazonskr05
   port: 443
   server: 54.254.169.121
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 421|🇸🇬 Singapore 1 TG:@nodpai
+  name: 411|🇸🇬 Singapore 1 TG:@nodpai
   password: amazonskr05
   port: 443
   server: 13.229.87.253
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 421|🇸🇬 Singapore 3 TG:@nodpai
+  name: 411|🇸🇬 Singapore 3 TG:@nodpai
   password: mHFgPCg56bKi
   port: 12020
   server: 18.142.183.241
@@ -1849,14 +1896,14 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 421|🇸🇬 Singapore 5 TG:@nodpai
+  name: 411|🇸🇬 Singapore 5 TG:@nodpai
   password: w5nnXBsq
   port: 8388
   server: 194.233.73.79
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 421|🇸🇬 Singapore 7 TG:@nodpai
+  name: 411|🇸🇬 Singapore 7 TG:@nodpai
   password: c4AjbEwZafgk
   port: 12051
   server: 18.139.114.61
@@ -1865,26 +1912,26 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 421|🇸🇬 Singapore 8 TG:@nodpai
+  name: 411|🇸🇬 Singapore 8 TG:@nodpai
   password: amazonskr05
   port: 443
   server: 13.250.14.224
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 422|🇸🇬 SG 104 |  10.19 MB/s
+  name: 412|🇸🇬 SG 104 |  10.19 MB/s
   password: amazonskr05
   port: 443
   server: 13.229.213.8
   type: ss
 - cipher: aes-256-cfb
-  name: 422|🇸🇬 SG 143 |  10.30 MB/s
+  name: 412|🇸🇬 SG 143 |  10.30 MB/s
   password: amazonskr05
   port: 443
   server: 47.129.168.96
   type: ss
 - cipher: aes-128-gcm
-  name: 422|🇸🇬 SG 151 |  51.33 MB/s
+  name: 412|🇸🇬 SG 151 |  51.33 MB/s
   password: Sj10bnYDe7w6V29E
   plugin: obfs
   plugin-opts:
@@ -1896,20 +1943,20 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   delay: 359
-  name: 422|🇸🇬 SG 171 |  2.06 MB/s
+  name: 412|🇸🇬 SG 171 |  2.06 MB/s
   password: amazonskr05
   port: 443
   server: 13.250.96.5
   type: ss
 - cipher: aes-256-cfb
-  name: 422|🇸🇬 SG 047 |  8.93 MB/s
+  name: 412|🇸🇬 SG 047 |  8.93 MB/s
   password: amazonskr05
   port: 443
   server: 18.143.186.182
   type: ss
 - alterId: 0
   cipher: auto
-  name: '423|🇸🇬 新加坡NO.2 #2'
+  name: '413|🇸🇬 新加坡NO.2 #2'
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
@@ -1918,7 +1965,7 @@ proxies:
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - alterId: 0
   cipher: auto
-  name: '423|🇸🇬 新加坡西部-1A #1'
+  name: '413|🇸🇬 新加坡西部-1A #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -1932,7 +1979,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '423|🇸🇬 新加坡NO.1 #2'
+  name: '413|🇸🇬 新加坡NO.1 #2'
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -1941,7 +1988,7 @@ proxies:
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - alterId: 0
   cipher: auto
-  name: '423|🇸🇬 新加坡西部-1B #1'
+  name: '413|🇸🇬 新加坡西部-1B #1'
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -1955,7 +2002,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,567|🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+  name: 416,559|🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
   network: ws
   port: '80'
   server: sg1.31vpn.com
@@ -1969,7 +2016,7 @@ proxies:
     path: /fastssh/ppdt/624dde181c76e/
 - alterId: 0
   cipher: auto
-  name: '426,567|🇸🇬 新加坡(欢迎订阅Youtube破解资源君) #1'
+  name: '416,559|🇸🇬 新加坡(欢迎订阅Youtube破解资源君) #1'
   network: ws
   port: '80'
   server: sg1.31vpn.com
@@ -1983,7 +2030,7 @@ proxies:
     path: /fastssh/ccvcxds/6252624d4fda3/
 - alterId: 0
   cipher: auto
-  name: '426,567|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #4'
+  name: '416,559|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #4'
   network: ws
   port: '443'
   server: sg1.31vpn.com
@@ -1997,7 +2044,7 @@ proxies:
     path: /fastssh/bddasdf/624e71635ed8e/
 - alterId: 0
   cipher: auto
-  name: '426,567|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #12'
+  name: '416,559|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #12'
   network: ws
   port: '80'
   server: sg1.31vpn.com
@@ -2010,14 +2057,14 @@ proxies:
       Host: sg1.31vpn.com
     path: /fastssh/bddasdf/624e71635ed8e/
 - cipher: aes-256-cfb
-  name: 426,566|SG-54.179.87.28-020
+  name: 416,558|SG-54.179.87.28-020
   password: amazonskr05
   port: 443
   server: 54.179.87.28
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-159.223.32.230-0051
+  name: 416,541|🇸🇬SG-159.223.32.230-0051
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -2031,326 +2078,326 @@ proxies:
       Host: 159.223.32.230
     path: /cctv13/hd.m3u8
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.138-0134
+  name: 416|🇬SG-217.197.161.138-0134
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.166-0135
+  name: 416|🇬SG-217.197.161.166-0135
   password: G!yBwPWH3Vao
   port: 809
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.166-0136
+  name: 416|🇬SG-217.197.161.166-0136
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-81.90.189.18-0137
+  name: 416|🇬SG-81.90.189.18-0137
   password: G!yBwPWH3Vao
   port: 811
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.166-0138
+  name: 416|🇬SG-217.197.161.166-0138
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0139
+  name: 416|🇸🇬SG-217.197.161.138-0139
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0140
+  name: 416|🇸🇬SG-217.197.161.136-0140
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-81.90.189.18-0141
+  name: 416|🇬SG-81.90.189.18-0141
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0142
+  name: 416|🇸🇬SG-81.90.189.18-0142
   password: G!yBwPWH3Vao
   port: 808
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0143
+  name: 416|🇸🇬SG-217.197.161.138-0143
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0144
+  name: 416|🇸🇬SG-217.197.161.138-0144
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.184-0145
+  name: 416|🇸🇬SG-81.90.189.184-0145
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.184
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0146
+  name: 416|🇸🇬SG-217.197.161.166-0146
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0147
+  name: 416|🇸🇬SG-217.197.161.136-0147
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.152-0148
+  name: 416|🇸🇬SG-81.90.189.152-0148
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0149
+  name: 416|🇸🇬SG-217.197.161.138-0149
   password: G!yBwPWH3Vao
   port: 804
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.136-0150
+  name: 416|🇬SG-217.197.161.136-0150
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-81.90.189.152-0151
+  name: 416|🇬SG-81.90.189.152-0151
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0152
+  name: 416|🇸🇬SG-217.197.161.138-0152
   password: G!yBwPWH3Vao
   port: 800
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0153
+  name: 416|🇸🇬SG-217.197.161.136-0153
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0154
+  name: 416|🇸🇬SG-217.197.161.166-0154
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0155
+  name: 416|🇸🇬SG-217.197.161.136-0155
   password: G!yBwPWH3Vao
   port: 809
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0156
+  name: 416|🇸🇬SG-217.197.161.136-0156
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.138-0157
+  name: 416|🇬SG-217.197.161.138-0157
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0158
+  name: 416|🇸🇬SG-81.90.189.18-0158
   password: G!yBwPWH3Vao
   port: 807
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0159
+  name: 416|🇸🇬SG-81.90.189.18-0159
   password: G!yBwPWH3Vao
   port: 802
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0160
+  name: 416|🇸🇬SG-217.197.161.166-0160
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-81.90.189.18-0161
+  name: 416|🇬SG-81.90.189.18-0161
   password: G!yBwPWH3Vao
   port: 805
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0162
+  name: 416|🇸🇬SG-217.197.161.138-0162
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0163
+  name: 416|🇸🇬SG-217.197.161.166-0163
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-217.197.161.164-0164
+  name: 416|🇬SG-217.197.161.164-0164
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0165
+  name: 416|🇸🇬SG-217.197.161.166-0165
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0166
+  name: 416|🇸🇬SG-81.90.189.18-0166
   password: G!yBwPWH3Vao
   port: 810
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0167
+  name: 416|🇸🇬SG-217.197.161.166-0167
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0168
+  name: 416|🇸🇬SG-81.90.189.18-0168
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0169
+  name: 416|🇸🇬SG-217.197.161.166-0169
   password: G!yBwPWH3Vao
   port: 804
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0170
+  name: 416|🇸🇬SG-217.197.161.138-0170
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0171
+  name: 416|🇸🇬SG-217.197.161.166-0171
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0172
+  name: 416|🇸🇬SG-217.197.161.166-0172
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0173
+  name: 416|🇸🇬SG-217.197.161.136-0173
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.166-0174
+  name: 416|🇸🇬SG-217.197.161.166-0174
   password: G!yBwPWH3Vao
   port: 800
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0175
+  name: 416|🇸🇬SG-217.197.161.136-0175
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.164-0176
+  name: 416|🇸🇬SG-217.197.161.164-0176
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.164-0177
+  name: 416|🇸🇬SG-217.197.161.164-0177
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0178
+  name: 416|🇸🇬SG-217.197.161.136-0178
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0179
+  name: 416|🇸🇬SG-81.90.189.18-0179
   password: G!yBwPWH3Vao
   port: 812
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.152-0180
+  name: 416|🇸🇬SG-81.90.189.152-0180
   password: G!yBwPWH3Vao
   port: 805
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.164-0181
+  name: 416|🇸🇬SG-217.197.161.164-0181
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.152-0182
+  name: 416|🇸🇬SG-81.90.189.152-0182
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0183
+  name: 416|🇸🇬SG-81.90.189.18-0183
   password: G!yBwPWH3Vao
   port: 806
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-81.90.189.18-0184
+  name: 416|🇸🇬SG-81.90.189.18-0184
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.136-0185
+  name: 416|🇸🇬SG-217.197.161.136-0185
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇸🇬SG-217.197.161.138-0186
+  name: 416|🇸🇬SG-217.197.161.138-0186
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.138
   type: ss
 - alterId: 4
   cipher: auto
-  name: 426,551|🇸🇬SG-103.253.26.134-0140
+  name: 416,541|🇸🇬SG-103.253.26.134-0140
   network: ws
   port: 443
   server: 103.253.26.134
@@ -2365,7 +2412,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-180.215.130.123-0141
+  name: 416,541|🇸🇬SG-180.215.130.123-0141
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -2380,7 +2427,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.214.33.158-0142
+  name: 416,541|🇸🇬SG-8.214.33.158-0142
   network: ws
   port: 80
   server: 8.214.33.158
@@ -2395,7 +2442,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 426,551|🇸🇬SG-202.61.141.130-0144
+  name: 416,541|🇸🇬SG-202.61.141.130-0144
   network: ws
   port: 443
   server: 202.61.141.130
@@ -2410,7 +2457,7 @@ proxies:
     path: /ws
 - alterId: 4
   cipher: auto
-  name: 426,551|🇸🇬SG-103.253.26.20-0145
+  name: 416,541|🇸🇬SG-103.253.26.20-0145
   network: ws
   port: 443
   server: 103.253.26.20
@@ -2425,7 +2472,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-180.215.130.123-0146
+  name: 416,541|🇸🇬SG-180.215.130.123-0146
   network: ws
   port: 11584
   server: 180.215.130.123
@@ -2438,15 +2485,22 @@ proxies:
     headers:
       Host: 180.215.130.123
     path: /
-- name: 426,551|🇸🇬SG-159.65.14.166-0226
+- name: 416,541|🇸🇬SG-159.65.14.166-0226
   password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
   server: std1.loadingip.com
   skip-cert-verify: false
   type: trojan
+- name: 416,499,541|🇸🇬SG-20.191.138.47-0239
+  password: dQUWbcwECl
+  port: 443
+  server: automq4-proxy.automq-sg.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-139.99.61.53-1149
+  name: 416,541|🇸🇬SG-139.99.61.53-1149
   network: ws
   port: 80
   server: 139.99.61.53
@@ -2461,7 +2515,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-15.235.147.186-1235
+  name: 416,541|🇸🇬SG-15.235.147.186-1235
   network: ws
   port: 80
   server: 15.235.147.186
@@ -2474,15 +2528,9 @@ proxies:
     headers:
       Host: ''
     path: /sshkit/Ertusg86/635014638c264/
-- name: 426|🇬SG-157.245.202.237-1739
-  password: guKUnUpJam
-  port: 443
-  server: 157.245.202.237
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-174.138.25.187-1869
+  name: 416,541|🇸🇬SG-174.138.25.187-1869
   network: ws
   port: 8880
   server: 174.138.25.187
@@ -2495,9 +2543,27 @@ proxies:
     headers:
       Host: ''
     path: /hkaa0
+- cipher: aes-256-cfb
+  name: 416|🇸🇬SG-47.129.241.217-2088
+  password: amazonskr05
+  port: 443
+  server: 47.129.241.217
+  type: ss
+- cipher: aes-256-cfb
+  name: 416|🇸🇬SG-54.255.246.167-2089
+  password: amazonskr05
+  port: 443
+  server: 54.255.246.167
+  type: ss
+- cipher: aes-256-cfb
+  name: 416|🇬SG-13.229.180.165-2311
+  password: amazonskr05
+  port: 443
+  server: 13.229.180.165
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '426,526,551,556,564,565|24|_中国 #57'
+  name: '416,513,541,546,556,557|24|_中国 #57'
   network: ws
   port: '443'
   server: 8.219.206.22
@@ -2512,7 +2578,7 @@ proxies:
     path: /linkws
 - alterId: 1
   cipher: auto
-  name: '426,551,564|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #106'
+  name: '416,541,556|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #106'
   network: ws
   port: '8888'
   server: 103.83.156.89
@@ -2527,7 +2593,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '426,551,564|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #89'
+  name: '416,541,556|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #89'
   network: ws
   port: '21888'
   server: 104.248.148.147
@@ -2542,7 +2608,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '426,551,564|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #46'
+  name: '416,541,556|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #46'
   network: ws
   port: '80'
   server: 139.99.61.53
@@ -2557,7 +2623,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '426,551,564|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #128'
+  name: '416,541,556|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #128'
   network: ws
   port: '80'
   server: 139.99.61.154
@@ -2572,7 +2638,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '426,551,564|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #31'
+  name: '416,541,556|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #31'
   network: ws
   port: '80'
   server: 15.235.202.196
@@ -2587,7 +2653,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 426,551|🇸🇬SG-202.79.172.53-2414
+  name: 416,541|🇸🇬SG-202.79.172.53-2414
   network: ws
   port: 443
   server: 202.79.172.53
@@ -2602,7 +2668,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-143.198.219.182-2430
+  name: 416,541|🇸🇬SG-143.198.219.182-2430
   network: ws
   port: 80
   server: 143.198.219.182
@@ -2617,7 +2683,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-146.190.82.241-2467
+  name: 416,541|🇸🇬SG-146.190.82.241-2467
   network: ws
   port: 80
   server: 146.190.82.241
@@ -2631,14 +2697,14 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 426|🇬SG-54.179.221.54-2677
+  name: 416|🇬SG-54.179.221.54-2677
   password: amazonskr05
   port: 443
   server: 54.179.221.54
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-18.143.123.35-2503
+  name: 416,541|🇸🇬SG-18.143.123.35-2503
   network: ws
   port: 80
   server: 18.143.123.35
@@ -2652,20 +2718,20 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.191.190-2715
+  name: 416|🇬SG-13.215.191.190-2715
   password: amazonskr05
   port: 443
   server: 13.215.191.190
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.177.216-2865
+  name: 416|🇬SG-13.215.177.216-2865
   password: amazonskr05
   port: 443
   server: 13.215.177.216
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-178.128.61.149-2697
+  name: 416,541|🇸🇬SG-178.128.61.149-2697
   network: ws
   port: 50328
   server: 178.128.61.149
@@ -2679,7 +2745,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.49.89-3010
+  name: 416|🇬SG-13.215.49.89-3010
   password: amazonskr05
   port: 443
   server: 13.215.49.89
@@ -2690,7 +2756,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 426,551|🇸🇬SG-138.2.83.217-2827
+  name: 416,541|🇸🇬SG-138.2.83.217-2827
   network: http
   port: 43863
   server: 138.2.83.217
@@ -2701,7 +2767,7 @@ proxies:
   uuid: ca984457-b017-46e5-d973-42a3c3fdc292
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-146.190.82.241-2880
+  name: 416,541|🇸🇬SG-146.190.82.241-2880
   network: ws
   port: 443
   server: 146.190.82.241
@@ -2715,14 +2781,14 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.214.212.124-3368
+  name: 416|🇬SG-13.214.212.124-3368
   password: amazonskr05
   port: 443
   server: 13.214.212.124
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-129.150.44.64-3538
+  name: 416,541|🇸🇬SG-129.150.44.64-3538
   network: ws
   port: 46075
   server: 129.150.44.64
@@ -2741,7 +2807,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 426,551|🇸🇬SG-152.69.211.235-3193
+  name: 416,541|🇸🇬SG-152.69.211.235-3193
   network: http
   port: 80
   server: 152.69.211.235
@@ -2752,7 +2818,7 @@ proxies:
   uuid: d345916f-1673-4a98-f37d-49357c84ce03
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-15.235.184.36-3248
+  name: 416,541|🇸🇬SG-15.235.184.36-3248
   network: ws
   port: 80
   server: 15.235.184.36
@@ -2767,7 +2833,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-139.99.61.154-3253
+  name: 416,541|🇸🇬SG-139.99.61.154-3253
   network: ws
   port: 80
   server: 139.99.61.154
@@ -2782,7 +2848,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-109.123.237.41-3280
+  name: 416,541|🇸🇬SG-109.123.237.41-3280
   network: ws
   port: 80
   server: 109.123.237.41
@@ -2796,12 +2862,12 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.173.2-3528
+  name: 416|🇬SG-13.215.173.2-3528
   password: amazonskr05
   port: 443
   server: 13.215.173.2
   type: ss
-- name: 426,551|🇸🇬SG-103.172.116.196-3352
+- name: 416,541|🇸🇬SG-103.172.116.196-3352
   password: 0c6a3341e8d5ab17
   port: 3389
   server: 103.172.116.196
@@ -2809,7 +2875,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-109.123.237.41-3442
+  name: 416,541|🇸🇬SG-109.123.237.41-3442
   network: ws
   port: 80
   server: 109.123.237.41
@@ -2823,14 +2889,14 @@ proxies:
       Host: ''
     path: /fastssh
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.163.54-3659
+  name: 416|🇬SG-13.215.163.54-3659
   password: amazonskr05
   port: 443
   server: 13.215.163.54
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-15.235.192.196-3534
+  name: 416,541|🇸🇬SG-15.235.192.196-3534
   network: ws
   port: 80
   server: 15.235.192.196
@@ -2845,7 +2911,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-157.230.36.235-3535
+  name: 416,541|🇸🇬SG-157.230.36.235-3535
   network: ws
   port: 80
   server: 157.230.36.235
@@ -2858,19 +2924,19 @@ proxies:
     headers:
       Host: ''
     path: /graphql
-- name: 426,551|🇸🇬SG-18.143.209.115-3553
+- name: 416,541|🇸🇬SG-18.143.209.115-3553
   password: b341f309-7e2b-45c4-a316-9e23037e3711
   port: 443
   server: sg.liangyuandian.top
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-168.138.189.17-3556
+- name: 416,541|🇸🇬SG-168.138.189.17-3556
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   port: 28443
   server: 168.138.189.17
   skip-cert-verify: false
   type: trojan
-- name: 426,526,551|🇸🇬SG-18.143.209.115-3563
+- name: 416,513,541|🇸🇬SG-18.143.209.115-3563
   network: tcp
   password: 58dcd460-65df-47b1-b062-517df30bef29
   port: 443
@@ -2878,19 +2944,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-13.229.105.31-3786
+  name: 416|🇸🇬SG-13.229.105.31-3786
   password: amazonskr05
   port: 443
   server: 13.229.105.31
   type: ss
-- name: 426,526,551|🇸🇬SG-18.143.209.115-3605
+- name: 416,513,541|🇸🇬SG-18.143.209.115-3605
   network: tcp
   password: 58dcd460-65df-47b1-b062-517df30bef29
   port: 443
   server: sg.liangyuandian.top
   skip-cert-verify: true
   type: trojan
-- name: 426,526,551|🇸🇬SG-18.143.209.115-3623
+- name: 416,513,541|🇸🇬SG-18.143.209.115-3623
   network: tcp
   password: cc55e294-b76f-425a-9301-c18afbecaa22
   port: 443
@@ -2898,19 +2964,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇬SG-3.0.148.195-3833
+  name: 416|🇬SG-3.0.148.195-3833
   password: amazonskr05
   port: 443
   server: 3.0.148.195
   type: ss
-- name: 426,526,551|🇸🇬SG-18.143.209.115-3671
+- name: 416,513,541|🇸🇬SG-18.143.209.115-3671
   network: tcp
   password: ceaea123-1b4b-469b-8358-bcd5f5529305
   port: 443
   server: uk.liangyuandian.top
   skip-cert-verify: true
   type: trojan
-- name: 426,526,551|🇸🇬SG-18.143.209.115-3686
+- name: 416,513,541|🇸🇬SG-18.143.209.115-3686
   network: tcp
   password: 176196e4-7cf7-4561-87a9-21a1b4e344be
   port: 443
@@ -2919,7 +2985,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 426,551|🇸🇬SG-202.79.171.157-3703
+  name: 416,541|🇸🇬SG-202.79.171.157-3703
   network: ws
   port: 443
   server: 202.79.171.157
@@ -2932,31 +2998,31 @@ proxies:
     headers:
       Host: ''
     path: /path/243535322906
-- name: 426,551|🇸🇬SG-18.143.209.115-3704
+- name: 416,541|🇸🇬SG-18.143.209.115-3704
   password: 51c44c4e-f8c2-4419-a52b-b4b7bd915078
   port: 443
   server: ap.liangyuandian.top
   skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-54.254.199.122-3977
+  name: 416|🇸🇬SG-54.254.199.122-3977
   password: amazonskr05
   port: 443
   server: 54.254.199.122
   type: ss
-- name: 426,551|🇸🇬SG-18.143.209.115-3784
+- name: 416,541|🇸🇬SG-18.143.209.115-3784
   password: 58dcd460-65df-47b1-b062-517df30bef29
   port: 443
   server: jp.liangyuandian.top
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-18.143.209.115-3833
+- name: 416,541|🇸🇬SG-18.143.209.115-3833
   password: 58dcd460-65df-47b1-b062-517df30bef29
   port: 443
   server: usa.liangyuandian.top
   skip-cert-verify: false
   type: trojan
-- name: 426,526,551|🇸🇬SG-18.143.209.115-4058
+- name: 416,513,541|🇸🇬SG-18.143.209.115-4058
   network: tcp
   password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
   port: 443
@@ -2964,18 +3030,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.215.174.243-4272
+  name: 416|🇬SG-13.215.174.243-4272
   password: amazonskr05
   port: 443
   server: 13.215.174.243
   type: ss
-- name: 426,551|🇸🇬SG-139.162.45.139-4108
+- name: 416,541|🇸🇬SG-139.162.45.139-4108
   password: FLpONjB2Lb
   port: 443
   server: 139.162.45.139
   skip-cert-verify: false
   type: trojan
-- name: 426,526,551|🇸🇬SG-18.143.209.115-4618
+- name: 416,513,541|🇸🇬SG-18.143.209.115-4618
   network: tcp
   password: 18304160-03d4-4c55-95c1-586c0a5f3a0a
   port: 443
@@ -2983,44 +3049,44 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.250.46.178-5001
+  name: 416|🇬SG-13.250.46.178-5001
   password: amazonskr05
   port: 443
   server: 13.250.46.178
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.213.2.160-5205
+  name: 416|🇬SG-13.213.2.160-5205
   password: amazonskr05
   port: 443
   server: 13.213.2.160
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-18.141.183.204-5065
+  name: 416|🇬SG-18.141.183.204-5065
   password: amazonskr05
   port: 443
   server: 18.141.183.204
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.250.54.18-5100
+  name: 416|🇬SG-13.250.54.18-5100
   password: amazonskr05
   port: 443
   server: 13.250.54.18
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-13.215.200.86-5124
+  name: 416|🇸🇬SG-13.215.200.86-5124
   password: amazonskr05
   port: 443
   server: 13.215.200.86
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-18.142.183.235-5144
+  name: 416|🇬SG-18.142.183.235-5144
   password: amazonskr05
   port: 443
   server: 18.142.183.235
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.58.58-5264
+  name: 416,541|🇸🇬SG-8.219.58.58-5264
   network: ws
   port: 443
   server: 8.219.58.58
@@ -3035,7 +3101,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.214.33.158-5712
+  name: 416,541|🇸🇬SG-8.214.33.158-5712
   network: ws
   port: 80
   server: 8.214.33.158
@@ -3050,7 +3116,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 426,551|🇸🇬SG-202.61.141.130-5734
+  name: 416,541|🇸🇬SG-202.61.141.130-5734
   network: ws
   port: 443
   server: 202.61.141.130
@@ -3065,7 +3131,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-180.215.130.123-5742
+  name: 416,541|🇸🇬SG-180.215.130.123-5742
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -3080,7 +3146,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-139.99.61.53-5754
+  name: 416,541|🇸🇬SG-139.99.61.53-5754
   network: ws
   port: 80
   server: 139.99.61.53
@@ -3095,7 +3161,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 426,551|🇸🇬SG-159.223.32.230-5888
+  name: 416,541|🇸🇬SG-159.223.32.230-5888
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -3109,20 +3175,20 @@ proxies:
       Host: ''
     path: /cctv13/hd.m3u8
 - cipher: aes-256-cfb
-  name: 426,566|🇬SG-13.213.46.196-201
+  name: 416,558|🇬SG-13.213.46.196-201
   password: amazonskr05
   port: 443
   server: 13.213.46.196
   type: ss
 - cipher: aes-256-cfb
-  name: 426,566|🇸🇬SG-54.251.168.143-203
+  name: 416,558|🇸🇬SG-54.251.168.143-203
   password: amazonskr05
   port: 443
   server: 54.251.168.143
   type: ss
 - alterId: 64
   cipher: auto
-  name: '426,551,567|未命名 #6'
+  name: '416,541,559|未命名 #55'
   network: ws
   port: '80'
   server: 159.223.94.156
@@ -3136,7 +3202,7 @@ proxies:
       Host: ''
     path: /anti13.zingfast.vn
 - country: 🇬SG
-  name: 426,512,551|🇸🇬SG-206.189.39.34-6200
+  name: 416,499,541|🇸🇬SG-206.189.39.34-6200
   password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088
   port: 443
   server: sg-full.privateip.net
@@ -3144,86 +3210,86 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 426|SG-139.99.68.21-7080
+  name: 416|SG-139.99.68.21-7080
   password: zDNVedRFPQexG9v
   port: 6379
   server: 139.99.68.21
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-81.90.189.41-7081
+  name: 416|🇬SG-81.90.189.41-7081
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
   type: ss
-- name: 426,551|🇸🇬SG-172.104.51.247-6882
+- name: 416,541|🇸🇬SG-172.104.51.247-6882
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
   server: trojan1.udpgw.com
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-18.141.8.87-6883
+- name: 416,541|🇸🇬SG-18.141.8.87-6883
   password: iyinglong
   port: 443
   server: 18.141.8.87
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-128.199.185.211-6884
+- name: 416,541|🇸🇬SG-128.199.185.211-6884
   password: 973ef350-f6a5-11ec-9274-1239d0255272
   port: 443
   server: trojan2.udpgw.com
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-18.140.67.76-6885
+- name: 416,541|🇸🇬SG-18.140.67.76-6885
   password: iyinglong
   port: 443
   server: 18.140.67.76
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-103.253.24.212-6887
+- name: 416,541|🇸🇬SG-103.253.24.212-6887
   password: 71086710-33eb-11ed-adce-1239d0255272
   port: 443
   server: sg1-trojan.bonds.id
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-172.104.177.105-6889
+- name: 416,541|🇸🇬SG-172.104.177.105-6889
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   port: 443
   server: w12.udpgw.com
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-18.143.209.115-6967
+- name: 416,541|🇸🇬SG-18.143.209.115-6967
   password: 192a5fc9-2baa-4043-8655-d840d370cb86
   port: 443
   server: jp.liangyuandian.top
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-13.213.69.245-6978
+- name: 416,541|🇸🇬SG-13.213.69.245-6978
   password: iyinglong
   port: 443
   server: 13.213.69.245
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-5.44.249.43-7006
+- name: 416,541|🇸🇬SG-5.44.249.43-7006
   password: cd39f62aed7b90f6
   port: 3389
   server: 5.44.249.43
   skip-cert-verify: false
   type: trojan
-- name: 426,551|🇸🇬SG-5.44.249.43-7008
+- name: 416,541|🇸🇬SG-5.44.249.43-7008
   password: 6f0a9d0fa39d65fa
   port: 3389
   server: 5.44.249.43
   skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇬SG-165.232.169.142-8332
+  name: 416|🇬SG-165.232.169.142-8332
   password: 1e5111699c45496da84112f35db665c4
   port: 29332
   server: 165.232.169.142
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.120.168-8207
+  name: 416,541|🇸🇬SG-8.219.120.168-8207
   network: ws
   port: 443
   server: 8.219.120.168
@@ -3238,7 +3304,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.214.221-8208
+  name: 416,541|🇸🇬SG-8.219.214.221-8208
   network: ws
   port: 443
   server: 8.219.214.221
@@ -3253,7 +3319,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.211.222-8211
+  name: 416,541|🇸🇬SG-8.219.211.222-8211
   network: ws
   port: 443
   server: 8.219.211.222
@@ -3267,68 +3333,68 @@ proxies:
       Host: ''
     path: /vmess
 - cipher: aes-256-cfb
-  name: 426|🇬SG-103.172.116.6-8436
+  name: 416|🇬SG-103.172.116.6-8436
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.5-8437
+  name: 416|🇸🇬SG-103.172.116.5-8437
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.5-8438
+  name: 416|🇸🇬SG-103.172.116.5-8438
   password: y9VURyNzJWNRYEGQ
   port: 9008
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.6-8439
+  name: 416|🇸🇬SG-103.172.116.6-8439
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.6-8440
+  name: 416|🇸🇬SG-103.172.116.6-8440
   password: 9XwYyZsK8SNzQDtY
   port: 9059
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇬SG-103.172.116.6-8441
+  name: 416|🇬SG-103.172.116.6-8441
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.5-8442
+  name: 416|🇸🇬SG-103.172.116.5-8442
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.5-8443
+  name: 416|🇸🇬SG-103.172.116.5-8443
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.5-8444
+  name: 416|🇸🇬SG-103.172.116.5-8444
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-103.172.116.6-8445
+  name: 416|🇸🇬SG-103.172.116.6-8445
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 103.172.116.6
   type: ss
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-206.238.236.36-8546
+  name: 416,541|🇸🇬SG-206.238.236.36-8546
   network: ws
   port: 2052
   server: 206.238.236.36
@@ -3343,7 +3409,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 64
   cipher: auto
-  name: 426,551|🇸🇬SG-134.122.184.117-8756
+  name: 416,541|🇸🇬SG-134.122.184.117-8756
   network: ws
   port: 30002
   server: 134.122.184.117
@@ -3358,7 +3424,7 @@ proxies:
     path: /path/351212081517
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-47.84.66.79-8815
+  name: 416,541|🇸🇬SG-47.84.66.79-8815
   network: ws
   port: 80
   server: 47.84.66.79
@@ -3373,7 +3439,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-192.53.114.167-8816
+  name: 416,541|🇸🇬SG-192.53.114.167-8816
   network: ws
   port: 443
   server: 192.53.114.167
@@ -3388,7 +3454,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-192.53.172.191-8817
+  name: 416,541|🇸🇬SG-192.53.172.191-8817
   network: ws
   port: 443
   server: 192.53.172.191
@@ -3403,7 +3469,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-192.53.172.172-8818
+  name: 416,541|🇸🇬SG-192.53.172.172-8818
   network: ws
   port: 443
   server: 192.53.172.172
@@ -3418,7 +3484,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-192.53.114.166-8826
+  name: 416,541|🇸🇬SG-192.53.114.166-8826
   network: ws
   port: 443
   server: 192.53.114.166
@@ -3433,7 +3499,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-172.105.115.147-8827
+  name: 416,541|🇸🇬SG-172.105.115.147-8827
   network: ws
   port: 443
   server: 172.105.115.147
@@ -3448,7 +3514,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-139.162.33.70-8831
+  name: 416,541|🇸🇬SG-139.162.33.70-8831
   network: ws
   port: 443
   server: 139.162.33.70
@@ -3463,7 +3529,7 @@ proxies:
     path: /BqVwBioP
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-172.104.189.84-8834
+  name: 416,541|🇸🇬SG-172.104.189.84-8834
   network: ws
   port: 2052
   server: 172.104.189.84
@@ -3478,7 +3544,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-138.2.90.147-9088
+  name: 416,541|🇸🇬SG-138.2.90.147-9088
   network: ws
   port: 23006
   server: 138.2.90.147
@@ -3493,7 +3559,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-152.42.174.134-9098
+  name: 416,541|🇸🇬SG-152.42.174.134-9098
   network: ws
   port: 17704
   server: 152.42.174.134
@@ -3508,7 +3574,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.222.222.64-9366
+  name: 416,541|🇸🇬SG-8.222.222.64-9366
   network: ws
   port: 80
   server: 8.222.222.64
@@ -3523,7 +3589,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.222.138.164-9367
+  name: 416,541|🇸🇬SG-8.222.138.164-9367
   network: ws
   port: 80
   server: 8.222.138.164
@@ -3538,7 +3604,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.150.28-9368
+  name: 416,541|🇸🇬SG-8.219.150.28-9368
   network: ws
   port: 443
   server: 8.219.150.28
@@ -3553,7 +3619,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 426,551|🇸🇬SG-8.219.123.35-9369
+  name: 416,541|🇸🇬SG-8.219.123.35-9369
   network: ws
   port: 80
   server: 8.219.123.35
@@ -3567,25 +3633,25 @@ proxies:
       Host: ''
     path: /2TokGE9A/
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-54.254.129.246-9598
+  name: 416|🇸🇬SG-54.254.129.246-9598
   password: amazonskr05
   port: 443
   server: 54.254.129.246
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 426|🇬SG-51.79.161.232-9614
+  name: 416|🇬SG-51.79.161.232-9614
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: 51.79.161.232
   type: ss
-- name: 426,551|🇸🇬SG-15.235.197.4-10001
+- name: 416,541|🇸🇬SG-15.235.197.4-10001
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
   skip-cert-verify: false
   sni: 15.235.197.4
   type: trojan
-- name: 426,551,571|🔒 TR-TCP-TLS 🇸🇬 SG-15.235.197....
+- name: 416,541,563|🔒 TR-TCP-TLS 🇸🇬 SG-15.235.197....
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
@@ -3593,20 +3659,20 @@ proxies:
   sni: getandroid.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 426|🇬SG-13.213.44.183-10301
+  name: 416|🇬SG-13.213.44.183-10301
   password: amazonskr05
   port: 443
   server: 13.213.44.183
   type: ss
 - cipher: aes-256-cfb
-  name: 426|🇸🇬SG-13.212.199.120-10302
+  name: 416|🇸🇬SG-13.212.199.120-10302
   password: amazonskr05
   port: 443
   server: 13.212.199.120
   type: ss
 - alterId: 64
   cipher: auto
-  name: 426,551|🇸🇬SG-118.107.46.173-10101
+  name: 416,541|🇸🇬SG-118.107.46.173-10101
   network: ws
   port: 443
   server: 118.107.46.173
@@ -3620,97 +3686,70 @@ proxies:
       Host: ''
     path: /path/080712342310
 - cipher: aes-256-cfb
-  name: 426|SG-103.172.116.79-10516
+  name: 416|SG-103.172.116.79-10516
   password: KBGjZYcy4SyRShmA
   port: 9044
   server: 103.172.116.79
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 440|🇸🇬新加坡05 2X ss
+  name: 430|🇸🇬新加坡05 2X ss
   password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
   port: 57769
   server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 440|🇸🇬新加坡07 2X ss
+  name: 430|🇸🇬新加坡07 2X ss
   password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
   port: 50120
   server: 117.173.88.171
   type: ss
   udp: true
-- name: '443|🇸🇬 新加坡1 #1'
-  network: tcp
-  password: 675ddf25-0a98-4ec6-bcd0-fa1c1cc498cd
-  port: 48291
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-  udp: true
-- name: '443|🇸🇬 新加坡2 #1'
-  network: tcp
-  password: 675ddf25-0a98-4ec6-bcd0-fa1c1cc498cd
-  port: 18489
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-  udp: true
-- name: '443|🇸🇬 新加坡 IPV6 #1'
-  network: tcp
-  password: 675ddf25-0a98-4ec6-bcd0-fa1c1cc498cd
-  port: 48291
-  server: ipv6.hongxingdl.vip
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-  udp: true
-- name: 452|Singapore  Pro 7
-  password: '!!str 3791397255878287360'
-  port: 443
-  server: endless-muskrat.magpie719.homes
-  skip-cert-verify: true
-  type: trojan
-- name: 452|Singapore  5
+- name: 441|Singapore  Pro 5
   password: '!!str 3791397255878287360'
   port: 443
   server: assured-moose.magpie719.homes
   skip-cert-verify: true
   type: trojan
-- name: 452|Singapore 3
-  password: '!!str 3791397255878287360'
-  port: 443
-  server: apt-bull.magpie719.homes
-  skip-cert-verify: true
-  type: trojan
-- name: 452|Singapore  4
+- name: 441|Singapore  Pro 4
   password: '!!str 3791397255878287360'
   port: 443
   server: normal-lark.magpie719.homes
   skip-cert-verify: true
   type: trojan
-- name: 452|Singapore  Pro 2
+- name: 441|Singapore Pro 3
   password: '!!str 3791397255878287360'
   port: 443
-  server: exotic-louse.foxhound677.makeup
+  server: apt-bull.magpie719.homes
   skip-cert-verify: true
   type: trojan
-- name: 452|Singapore  6
+- name: 441|Singapore  Pro 6
   password: '!!str 3791397255878287360'
   port: 443
   server: star-bream.magpie719.homes
   skip-cert-verify: true
   type: trojan
-- name: 452|Singapore Pro 1
+- name: 441|Singapore  Pro 2
+  password: '!!str 3791397255878287360'
+  port: 443
+  server: exotic-louse.foxhound677.makeup
+  skip-cert-verify: true
+  type: trojan
+- name: 441|Singapore Pro 1
   password: '!!str 3791397255878287360'
   port: 443
   server: amazing-martin.foxhound677.makeup
   skip-cert-verify: true
   type: trojan
+- name: 441|Singapore  Pro 7
+  password: '!!str 3791397255878287360'
+  port: 443
+  server: endless-muskrat.magpie719.homes
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG01
+  name: 449|🇸🇬 新加坡|SG01
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 34781
   server: bapss6r0ksj2is11odwsuqak1w9e0sk9.08.01.sg.6l6.site
@@ -3718,7 +3757,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG02
+  name: 449|🇸🇬 新加坡|SG02
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 14556
   server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
@@ -3726,7 +3765,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG03
+  name: 449|🇸🇬 新加坡|SG03
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 24219
   server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
@@ -3734,7 +3773,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG04
+  name: 449|🇸🇬 新加坡|SG04
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 43885
   server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
@@ -3742,7 +3781,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG05
+  name: 449|🇸🇬 新加坡|SG05
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 48641
   server: g3lfv57lbqu5o1i17256wvwx0nv2e74x.08.05.sg.6l6.site
@@ -3750,7 +3789,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG06
+  name: 449|🇸🇬 新加坡|SG06
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 26515
   server: un3tv0v7z8rha5eqfrnmcobym3msnmpm.08.06.sg.6l6.site
@@ -3758,7 +3797,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG07
+  name: 449|🇸🇬 新加坡|SG07
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 19310
   server: 9r9jrm2szl2m9lch2s1yhbrk8hse514j.08.07.sg.6l6.site
@@ -3766,7 +3805,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG08
+  name: 449|🇸🇬 新加坡|SG08
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 35197
   server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
@@ -3774,76 +3813,76 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 460|🇸🇬 新加坡|SG09
+  name: 449|🇸🇬 新加坡|SG09
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 47558
   server: z7gfq8utflizatg56x6ghg8pzrr0fio4.08.09.sg.6l6.site
   tfo: false
   type: ss
-- name: '468|新加坡 01 #1'
+- name: '457|新加坡 01 #1'
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50431
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '468|新加坡 02 #1'
+- name: '457|新加坡 02 #1'
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50432
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '468|新加坡 03 #1'
+- name: '457|新加坡 03 #1'
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50433
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '468|新加坡 04 #1'
+- name: '457|新加坡 04 #1'
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50434
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 05
+- name: 457|新加坡 05
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50435
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 06
+- name: 457|新加坡 06
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50436
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 07
+- name: 457|新加坡 07
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50437
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 08
+- name: 457|新加坡 08
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50438
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 09
+- name: 457|新加坡 09
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50439
   server: mpkrykuslqfijsw-sg.fliggynode.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 468|新加坡 10
+- name: 457|新加坡 10
   password: eb2ec34c-1d94-4ca5-bec0-356f75f9f4fa
   port: 50440
   server: mpkrykuslqfijsw-sg.fliggynode.com
@@ -3851,20 +3890,20 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 474|🇸🇬 新加坡S01
+  name: 463|🇸🇬 新加坡S01
   password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
   port: 20004
-  server: 9gp0w-g06.sg01-ae5.entry.v50307shvkaa.art
+  server: 65br4-g06.sg01-ae5.entry.v50307shvkaa.art
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 474|🇸🇬 新加坡S02
+  name: 463|🇸🇬 新加坡S02
   password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
   port: 20079
-  server: iaa93-g06.sg02-ae5.entry.v50307shvkaa.art
+  server: 2jm7a-g06.sg02-ae5.entry.v50307shvkaa.art
   type: ss
   udp: true
-- name: 482|新加坡SG-T
+- name: 470|新加坡SG-T
   password: d0774966-fb63-4aca-9478-16c3f32be220
   port: 443
   server: sg.mjt000.com
@@ -3874,7 +3913,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 482|新加坡-优化
+  name: 470|新加坡-优化
   network: ws
   port: 16618
   server: yes.mojcn.com
@@ -3890,7 +3929,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 482|新加坡-优化2
+  name: 470|新加坡-优化2
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -3906,7 +3945,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 482|新加坡-优化3
+  name: 470|新加坡-优化3
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -3920,7 +3959,7 @@ proxies:
       Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: '483|新加坡SG-T #1'
+- name: '471|新加坡SG-T #1'
   password: 820517c1-1cfb-47ff-bfdd-48faf83773b5
   port: 443
   server: sg.mjt000.com
@@ -3930,7 +3969,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '483|新加坡-优化 #1'
+  name: '471|新加坡-优化 #1'
   network: ws
   port: 16618
   server: yes.mojcn.com
@@ -3946,7 +3985,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '483|新加坡-优化2 #1'
+  name: '471|新加坡-优化2 #1'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -3962,7 +4001,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '483|新加坡-优化3 #1'
+  name: '471|新加坡-优化3 #1'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -3976,7 +4015,7 @@ proxies:
       Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: '484,485|新加坡SG-T #3'
+- name: '472,473|新加坡SG-T #3'
   password: ba001863-ddd0-4beb-8933-8a75a898c7ec
   port: 443
   server: sg.mjt000.com
@@ -3986,7 +4025,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '484,485|新加坡-优化 #3'
+  name: '472,473|新加坡-优化 #3'
   network: ws
   port: 16618
   server: yes.mojcn.com
@@ -4002,7 +4041,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '484,485|新加坡-优化2 #3'
+  name: '472,473|新加坡-优化2 #3'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -4018,7 +4057,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '484,485|新加坡-优化3 #3'
+  name: '472,473|新加坡-优化3 #3'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -4032,7 +4071,7 @@ proxies:
       Host: ba0f678896ea70308a3ea611bb985d7b.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: '488|新加坡SG-T #4'
+- name: '476|新加坡SG-T #4'
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
   server: sg.mjt000.com
@@ -4042,7 +4081,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '488|新加坡-优化 #4'
+  name: '476|新加坡-优化 #4'
   network: ws
   port: 16618
   server: yes.mojcn.com
@@ -4058,7 +4097,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '488|新加坡-优化2 #4'
+  name: '476|新加坡-优化2 #4'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -4074,7 +4113,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '488|新加坡-优化3 #4'
+  name: '476|新加坡-优化3 #4'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -4088,7 +4127,7 @@ proxies:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: '490|[trojan]新加坡1-443 #1'
+- name: '478|[trojan]新加坡1-443 #1'
   network: ws
   password: ffd7d998-d5a6-4d2e-94c7-cfc795d3fa9c
   port: 443
@@ -4102,69 +4141,55 @@ proxies:
       Host: 6666.golinkwuxian.top
     path: /apple
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 01
+  name: 479|🇸🇬Singapore 01
   password: ee802256-9a25-41aa-a368-72042786bcff
-  port: 41777
-  server: laoma1234.qeayr.cn
+  port: 12354
+  server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 02 双ISP 2X
+  name: 479|🇸🇬Singapore 02 双ISP 2X
   password: ee802256-9a25-41aa-a368-72042786bcff
-  port: 58874
-  server: laoma1234.qeayr.cn
+  port: 12368
+  server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 03
+  name: 479|🇸🇬Singapore 03
   password: ee802256-9a25-41aa-a368-72042786bcff
-  port: 48587
-  server: laoma1234.qeayr.cn
+  port: 12371
+  server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 04 1x
+  name: 479|🇸🇬Singapore 04 1x
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 11634
   server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 07
+  name: 479|🇸🇬Singapore 07
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 44348
   server: laoma1234.qeayr.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 09
+  name: 479|🇸🇬Singapore 09
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 16432
   server: laoma1234.qeayr.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 491|🇸🇬Singapore 11
+  name: 479|🇸🇬Singapore 11
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 45722
   server: laoma1234.qeayr.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 494|[ss]SG-新加坡-1
-  password: 26c63441-e28e-43c1-8119-99ec52c071e1
-  port: 17269
-  server: zz.npccloud.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 494|[ss]SG-新加坡-3
-  password: 26c63441-e28e-43c1-8119-99ec52c071e1
-  port: 54732
-  server: zz.npccloud.top
-  type: ss
-  udp: true
-- name: '495,496,497,498,499,500|新加坡SG-T #10'
+- name: '482,483,484,485,486,487|新加坡SG-T #10'
   password: 918003d3-1f5d-425c-b39c-ff61781e48f1
   port: 443
   server: sg.mjt000.com
@@ -4174,7 +4199,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '495,496,497,498,499,500|新加坡-优化 #10'
+  name: '482,483,484,485,486,487|新加坡-优化 #10'
   network: ws
   port: 16618
   server: yes.mojcn.com
@@ -4190,7 +4215,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '495,496,497,498,499,500|新加坡-优化2 #10'
+  name: '482,483,484,485,486,487|新加坡-优化2 #10'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -4206,7 +4231,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '495,496,497,498,499,500|新加坡-优化3 #10'
+  name: '482,483,484,485,486,487|新加坡-优化3 #10'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -4220,7 +4245,7 @@ proxies:
       Host: 51b0e42034dd75a815fa9eb16021fbda.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: 501,565|5|新加坡SG-T
+- name: 488,557|5|新加坡SG-T
   password: da91214e-b022-4f61-a724-01c538170e62
   port: 443
   server: sg.mjt000.com
@@ -4230,7 +4255,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 501,565|5|新加坡-优化
+  name: 488,557|5|新加坡-优化
   network: ws
   port: '16618'
   server: yes.mojcn.com
@@ -4247,7 +4272,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 501,565|5|新加坡-优化2
+  name: 488,557|5|新加坡-优化2
   network: ws
   port: '16618'
   server: m.cnmjin.net
@@ -4264,7 +4289,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 501,565|5|新加坡-优化3
+  name: 488,557|5|新加坡-优化3
   network: ws
   port: '16618'
   server: t.cnmjcn.cyou
@@ -4281,11 +4306,11 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '505,506|新加坡1-CDN | 1x #1'
+  name: '492,493|新加坡1-CDN | 1x #1'
   network: ws
-  port: 2053
-  server: 1744610541.tencentapp.cn
-  servername: 1744610578.speed.sgcczwa.cccp.freefly.pp.ua
+  port: 8443
+  server: 1744633941.tencentapp.cn
+  servername: 1744633978.speed.sgcczwa.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -4293,15 +4318,15 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744610578.speed.sgcczwa.cccp.freefly.pp.ua
+      Host: 1744633978.speed.sgcczwa.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: '505,506|新加坡2-CDN | 1x #1'
+  name: '492,493|新加坡2-CDN | 1x #1'
   network: ws
-  port: 2053
-  server: 1744610541.tencentapp.cn
-  servername: 1744610578.speed.sgcczwb.cccp.freefly.pp.ua
+  port: 8443
+  server: 1744633941.tencentapp.cn
+  servername: 1744633978.speed.sgcczwb.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -4309,15 +4334,15 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744610578.speed.sgcczwb.cccp.freefly.pp.ua
+      Host: 1744633978.speed.sgcczwb.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: '505,506|新加坡3-CDN | 1x #1'
+  name: '492,493|新加坡3-CDN | 1x #1'
   network: ws
-  port: 2087
-  server: 1744610541.tencentapp.cn
-  servername: 1744610578.speed.sgcczwc.cccp.freefly.pp.ua
+  port: 2083
+  server: 1744633941.tencentapp.cn
+  servername: 1744633978.speed.sgcczwc.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -4325,15 +4350,15 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744610578.speed.sgcczwc.cccp.freefly.pp.ua
+      Host: 1744633978.speed.sgcczwc.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: '505,506|新加坡4-CDN | 1x #1'
+  name: '492,493|新加坡4-CDN | 1x #1'
   network: ws
-  port: 2087
-  server: 1744610541.tencentapp.cn
-  servername: 1744610578.speed.sgcczwd.cccp.freefly.pp.ua
+  port: 2083
+  server: 1744633941.tencentapp.cn
+  servername: 1744633978.speed.sgcczwd.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -4341,9 +4366,9 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744610578.speed.sgcczwd.cccp.freefly.pp.ua
+      Host: 1744633978.speed.sgcczwd.cccp.freefly.pp.ua
     path: /
-- name: '526|🇸🇬SG(AzadNet.t.me) #1'
+- name: '513|🇸🇬SG(AzadNet.t.me) #1'
   network: tcp
   password: 0028109a-37ed-4ded-b858-e566388a904c
   port: 20230
@@ -4351,7 +4376,7 @@ proxies:
   skip-cert-verify: true
   sni: 421421.xyz
   type: trojan
-- name: 526,571|🔒 TR-TCP-TLS 🇸🇬 SG-18.141.138....
+- name: 513,563|🔒 TR-TCP-TLS 🇸🇬 SG-18.141.138....
   network: tcp
   password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
   port: 443
@@ -4359,7 +4384,7 @@ proxies:
   skip-cert-verify: true
   sni: mention.protocolbuffer.com
   type: trojan
-- name: 526,571|🔒 TR-TCP-TLS 🇸🇬 SG-103.253.24....
+- name: 513,563|🔒 TR-TCP-TLS 🇸🇬 SG-103.253.24....
   network: tcp
   password: b1ac00e0-adc2-11ed-875a-1239d0255272
   port: 443
@@ -4367,7 +4392,7 @@ proxies:
   skip-cert-verify: true
   sni: telewebion.com
   type: trojan
-- name: '527|新加坡_新加坡 #4'
+- name: '514|新加坡_新加坡 #4'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -4377,7 +4402,7 @@ proxies:
     headers:
       Host: tz.ylks.xyz
     path: '%2F'
-- name: '527|新加坡_新加坡 #10'
+- name: '514|新加坡_新加坡 #10'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -4387,7 +4412,7 @@ proxies:
     headers:
       Host: tz.ylks.xyz
     path: '%2F'
-- name: '529|新加坡_新加坡 #76'
+- name: '516|新加坡_新加坡 #76'
   network: grpc
   password: fQ84Q7A4dw
   port: 443
@@ -4396,7 +4421,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '532,565,572|🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232... #1'
+  name: '520,557,564|🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232... #2'
   network: tcp
   port: 14372
   server: 62.146.232.159
@@ -4406,7 +4431,7 @@ proxies:
   uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805060 L0
+  name: 520|新加坡_021805060 L0
   network: tcp
   port: '59032'
   server: 109.123.232.74
@@ -4416,7 +4441,7 @@ proxies:
   uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805061 L20
+  name: 520|新加坡_021805061 L20
   network: tcp
   port: '38324'
   server: 62.146.233.115
@@ -4426,7 +4451,7 @@ proxies:
   uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805062 M49
+  name: 520|新加坡_021805062 M49
   network: tcp
   port: '57143'
   server: 154.26.129.247
@@ -4436,7 +4461,7 @@ proxies:
   uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805063 L20
+  name: 520|新加坡_021805063 L20
   network: tcp
   port: '43763'
   server: 62.146.233.159
@@ -4446,7 +4471,7 @@ proxies:
   uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805064 L21
+  name: 520|新加坡_021805064 L21
   network: tcp
   port: '27575'
   server: 194.233.72.228
@@ -4456,7 +4481,7 @@ proxies:
   uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805065 L19
+  name: 520|新加坡_021805065 L19
   network: tcp
   port: '50678'
   server: 62.146.233.53
@@ -4466,7 +4491,7 @@ proxies:
   uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805066 M49
+  name: 520|新加坡_021805066 M49
   network: tcp
   port: '44104'
   server: 154.26.137.42
@@ -4474,14 +4499,14 @@ proxies:
   tls: false
   type: vmess
   uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55
-- name: 532|新加坡_021805071+L3
+- name: 520|新加坡_021805071+L3
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
   server: 18.139.99.11
   sni: probable-drum.treefrog761.one
   type: trojan
-- name: 532|新加坡_021805072+L3
+- name: 520|新加坡_021805072+L3
   network: tcp
   password: '!!str 3774827088566296576'
   port: 443
@@ -4489,7 +4514,7 @@ proxies:
   skip-cert-verify: true
   sni: exotic-bengal.treefrog761.one
   type: trojan
-- name: 532|新加坡_021805078+L17
+- name: 520|新加坡_021805078+L17
   network: tcp
   password: '!!str 3774827088566296576'
   port: 443
@@ -4499,7 +4524,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 532,564|🇸🇬 新加坡_041320175 L0
+  name: 520,556|🇸🇬 新加坡_041320175 L0
   network: tcp
   port: '33281'
   server: 62.146.232.156
@@ -4507,21 +4532,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 24eda0ea-acf0-4538-a001-f746a480237a
-- name: 532|新加坡_021805111
+- name: 520|新加坡_021805111
   password: '!!str 3747000103274291200'
   port: 443
   server: probable-drum.treefrog761.one
   skip-cert-verify: true
   sni: probable-drum.treefrog761.one
   type: trojan
-- name: 532|新加坡_021805113
+- name: 520|新加坡_021805113
   password: '!!str 3774827088566296576'
   port: 443
   server: flying-tuna.treefrog761.one
   skip-cert-verify: false
   sni: flying-tuna.treefrog761.one
   type: trojan
-- name: 532|新加坡_021805116
+- name: 520|新加坡_021805116
   password: '!!str 3774827088566296576'
   port: 443
   server: exotic-bengal.treefrog761.one
@@ -4530,7 +4555,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 532|新加坡_021805117
+  name: 520|新加坡_021805117
   network: ws
   port: '80'
   server: sg-1.hihu.net
@@ -4542,14 +4567,14 @@ proxies:
     headers:
       Host: mtn.zm
     path: /2rvi6l8n
-- name: 532|新加坡_021805612
+- name: 520|新加坡_021805612
   password: '!!str 3778399737045327872'
   port: 443
   server: probable-drum.treefrog761.one
   skip-cert-verify: true
   sni: probable-drum.treefrog761.one
   type: trojan
-- name: 532|新加坡_021805613
+- name: 520|新加坡_021805613
   password: '!!str 3778399737045327872'
   port: 443
   server: flying-tuna.treefrog761.one
@@ -4558,22 +4583,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  country: 🇮🇳IN
-  delay: 1837
-  h2-opts: {}
-  http-opts: {}
-  name: '547,564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229.... #3'
-  network: tcp
-  port: '14427'
-  server: 103.106.229.207
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c01988cc-b0b1-4026-bb9b-9152ff19c145
-- alterId: 0
-  cipher: auto
-  name: 551|🇸🇬SG-8.219.206.22-6199
+  name: 541|🇸🇬SG-8.219.206.22-6199
   network: ws
   port: 443
   server: 8.219.206.22
@@ -4585,172 +4595,257 @@ proxies:
     headers:
       Host: ''
     path: /linkws
-- name: 551|🇸🇬SG-152.42.194.105-6345
+- name: 541|🇸🇬SG-152.42.194.105-6345
   password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
   server: bs1.loadingip.com
   type: trojan
-- name: 551|🇸🇬SG-152.42.194.105-6346
+- name: 541|🇸🇬SG-152.42.194.105-6346
   password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
   server: 152.42.194.105
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡01_toshare5
+  name: 542|🇸🇬新加坡01_toshare5
   password: f3dcf569-05d8-4088-85d1-8c3afdc26b31
   port: 41171
   server: free.6vczxw.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡02_toshare5
+  name: 542|🇸🇬新加坡02_toshare5
   password: f3dcf569-05d8-4088-85d1-8c3afdc26b31
   port: 41173
   server: free.6vczxw.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡03_toshare5
+  name: 542|🇸🇬新加坡03_toshare5
   password: f3dcf569-05d8-4088-85d1-8c3afdc26b31
   port: 41175
   server: free.6vczxw.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 01_mksshare
+  name: 542|🇸🇬新加坡 01_mksshare
   password: 95b10ca0-d2c4-4113-8364-5f2a4f3d7a41
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 02_mksshare
+  name: 542|🇸🇬新加坡 02_mksshare
   password: 95b10ca0-d2c4-4113-8364-5f2a4f3d7a41
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 03_mksshare
+  name: 542|🇸🇬新加坡 03_mksshare
   password: 95b10ca0-d2c4-4113-8364-5f2a4f3d7a41
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 01_abshare
+  name: 542|🇸🇬 新加坡 01_abshare
   password: e821e780-875c-4feb-bc88-7b3fef35da70
   port: 36171
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 02_abshare
+  name: 542|🇸🇬 新加坡 02_abshare
   password: e821e780-875c-4feb-bc88-7b3fef35da70
   port: 36173
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 03_abshare
+  name: 542|🇸🇬 新加坡 03_abshare
   password: e821e780-875c-4feb-bc88-7b3fef35da70
   port: 36175
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 01_mkshare3
+  name: 542|🇸🇬新加坡 01_mkshare3
   password: f2479061-4261-4752-b664-ccebcba7ca14
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 02_mkshare3
+  name: 542|🇸🇬新加坡 02_mkshare3
   password: f2479061-4261-4752-b664-ccebcba7ca14
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡 03_mkshare3
+  name: 542|🇸🇬新加坡 03_mkshare3
   password: f2479061-4261-4752-b664-ccebcba7ca14
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 01_abshare3
+  name: 542|🇸🇬 新加坡 01_abshare3
   password: 3ce1adfc-6e6b-4852-8ed1-340c8f67ca1d
   port: 36171
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 02_abshare3
+  name: 542|🇸🇬 新加坡 02_abshare3
   password: 3ce1adfc-6e6b-4852-8ed1-340c8f67ca1d
   port: 36173
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬 新加坡 03_abshare3
+  name: 542|🇸🇬 新加坡 03_abshare3
   password: 3ce1adfc-6e6b-4852-8ed1-340c8f67ca1d
   port: 36175
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡01_tolinkshare2
+  name: 542|🇸🇬新加坡01_tolinkshare2
   password: d82dfa1e-9ca4-4add-9881-22c1ab16ed2f
   port: 41171
   server: free.6vczxw.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡02_tolinkshare2
+  name: 542|🇸🇬新加坡02_tolinkshare2
   password: d82dfa1e-9ca4-4add-9881-22c1ab16ed2f
   port: 41173
   server: free.6vczxw.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇸🇬新加坡03_tolinkshare2
+  name: 542|🇸🇬新加坡03_tolinkshare2
   password: d82dfa1e-9ca4-4add-9881-22c1ab16ed2f
   port: 41175
   server: free.6vczxw.xyz
   type: ss
 - alterId: '0'
   cipher: auto
-  name: 552|新加坡|@ripaojiedian
+  name: 542|新加坡|@ripaojiedian
   port: '3681'
   server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
   tls: false
   type: vmess
   uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - cipher: aes-256-cfb
-  name: 552|狮城特殊|@ripaojiedian
+  name: 542|狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.78.247.197
   type: ss
 - cipher: aes-256-gcm
-  name: 552|🇸🇬-Singapore - 1
+  name: 542|🇸🇬-Singapore - 1
   password: ae69e2d8-1d99-4feb-88b7-93ddd85aa869
   port: 32662
   server: gzct.guguyun.xyz
   type: ss
 - cipher: aes-256-gcm
-  name: 552|🇸🇬-Singapore - 2
+  name: 542|🇸🇬-Singapore - 2
   password: ae69e2d8-1d99-4feb-88b7-93ddd85aa869
   port: 10150
   server: mmt.gya.zhangwei.li
   type: ss
 - cipher: aes-256-gcm
-  name: 552|🇸🇬-Singapore - 3
+  name: 542|🇸🇬-Singapore - 3
   password: ae69e2d8-1d99-4feb-88b7-93ddd85aa869
   port: 16175
   server: mm-gzdxaa.la-chinata.hk
   type: ss
 - cipher: aes-128-gcm
-  name: 552|新加坡2 | ⬇️ 25.5MB/s
+  name: 542|新加坡2 | ⬇️ 25.5MB/s
   password: Sj10bnYDe7w6V29E
   port: 10003
   server: pregzdata1.fc-adobe.xyz
   type: ss
-- name: 555|🇸🇬 新加坡•高速129•高速 - 飞翔吧
-  password: a2072eb3-1639-358e-9108-ce4244faf0fb
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 543|🇬 新加坡 101 - 墙了个墙
+  network: grpc
+  password: 3c668456-cc9c-3392-9014-0f73e5a09bb3
+  port: 11223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 543|🇸🇬 新加坡 102 - 墙了个墙
+  network: grpc
+  password: 3c668456-cc9c-3392-9014-0f73e5a09bb3
+  port: 21223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 543|🇸🇬 新加坡 103 - 墙了个墙
+  network: grpc
+  password: 3c668456-cc9c-3392-9014-0f73e5a09bb3
+  port: 31223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 543|🇸🇬 新加坡 104 - 墙了个墙
+  network: grpc
+  password: 3c668456-cc9c-3392-9014-0f73e5a09bb3
+  port: 41223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 543|🇸🇬 新加坡 105 - 墙了个墙
+  network: grpc
+  password: 3c668456-cc9c-3392-9014-0f73e5a09bb3
+  port: 51223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 543|【高级】🇬新加坡 - 滑梯云
+  network: ws
+  port: 20011
+  server: htsub-2024.899696998.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed
+  ws-opts:
+    headers:
+      Host: yyyt-sg-2024.mofaxw.top
+    path: /2024
+- alterId: 2
+  cipher: auto
+  name: 543|🇬 [vip①]②新加坡 - MG Network
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ac440ac-aceb-3e80-af3a-3c243a55ee1c
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- name: '543,545|🇸🇬 新加坡•高速129•高速 - 飞翔吧 #1'
+  password: bd55fe36-342b-3aa3-a6df-3dbe36eeeb14
   port: 20129
   server: gy.58n.net
   skip-cert-verify: true
   sni: x129.flybar.work
   type: trojan
   udp: true
-- name: 555|🇸🇬 新加坡•高速130•铂金 - 飞翔吧
-  password: a2072eb3-1639-358e-9108-ce4244faf0fb
+- name: '543,545|🇸🇬 新加坡•高速130•铂金 - 飞翔吧 #1'
+  password: bd55fe36-342b-3aa3-a6df-3dbe36eeeb14
   port: 20130
   server: gy.58n.net
   skip-cert-verify: true
@@ -4758,14 +4853,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡2-1A
+  name: 550|🇸🇬 V1 | 新加坡2-1A
   password: 06f93490-1c41-4e0b-b4c0-3444033e2fb8
   port: 49042
   server: sg92.cctv14.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡二
+  name: 550|🇸🇬 新加坡二
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30622
   server: 02.kjahbg.info
@@ -4773,7 +4868,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 SINGAPORE 1-1A
+  name: 550|🇸🇬 SINGAPORE 1-1A
   port: 28673
   server: svip1.pingboy.top
   tls: false
@@ -4781,21 +4876,21 @@ proxies:
   udp: true
   uuid: 86277c12-fca4-4e80-84e4-bf8e6df03b8d
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡五
+  name: 550|🇸🇬 新加坡五
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30625
   server: 05.kjahbg.info
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡四
+  name: 550|🇸🇬 新加坡四
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30624
   server: 04.kjahbg.info
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡1-1B
+  name: 550|🇸🇬 V1 | 新加坡1-1B
   password: 57c76796-8d7a-4b05-a3c8-b45774712dd5
   port: 49041
   server: sg91.cctv14.xyz
@@ -4803,7 +4898,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.2-1C
+  name: 550|🇸🇬 新加坡NO.2-1C
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
@@ -4811,13 +4906,13 @@ proxies:
   udp: true
   uuid: dd65959c-2d06-48e6-9423-c16b0fb36e3d
 - cipher: chacha20-ietf-poly1305
-  name: 560|🇸🇬 新加坡02-1B
+  name: 550|🇸🇬 新加坡02-1B
   password: a92dff6b-12eb-4b72-bc31-13e6c60adeb4
   port: 15637
   server: gy.tangu.win
   type: ss
   udp: true
-- name: 560,565|28|🇸🇬 新加坡
+- name: 550,557|28|🇸🇬 新加坡
   password: 1682c3b0-c038-47cc-ade5-428523608df6
   port: 443
   server: pop.09d21837-9b89-4490-92bf-eabf449e3321.heima360.cc
@@ -4825,7 +4920,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡2-1B
+  name: 550|🇸🇬 V1 | 新加坡2-1B
   password: 57c76796-8d7a-4b05-a3c8-b45774712dd5
   port: 49042
   server: sg92.cctv14.xyz
@@ -4833,7 +4928,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡03-隧道-1B
+  name: 550|🇸🇬 新加坡03-隧道-1B
   port: 35661
   server: gzdx.newbee8.me
   tls: false
@@ -4841,7 +4936,7 @@ proxies:
   udp: true
   uuid: 1cd97335-f191-449d-9b7e-387b760cac77
 - cipher: chacha20-ietf-poly1305
-  name: 560|🇸🇬 新加坡03-1B
+  name: 550|🇸🇬 新加坡03-1B
   password: a92dff6b-12eb-4b72-bc31-13e6c60adeb4
   port: 15627
   server: gy.tangu.win
@@ -4849,14 +4944,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡03-隧道-1A
+  name: 550|🇸🇬 新加坡03-隧道-1A
   port: 35661
   server: gzdx.newbee8.me
   tls: false
   type: vmess
   udp: true
   uuid: 76bd1e95-e804-4e92-ae2b-6f9c68145624
-- name: 560|🇸🇬 新加坡01隧道5-1A
+- name: 550|🇸🇬 新加坡01隧道5-1A
   password: 2e246a56-b93e-4382-9035-00aa639648e6
   port: 13855
   server: twjpzz2.376897.xyz
@@ -4864,7 +4959,7 @@ proxies:
   sni: 1azyunsg02b59642a6-326f-46e8-a174-5ae2f1948cc0.767887.xyz
   type: trojan
   udp: true
-- name: 560|🇸🇬 新加坡01隧道4-1D
+- name: 550|🇸🇬 新加坡01隧道4-1D
   password: 89e620b1-f5cb-4362-a128-39d67b6cca35
   port: 31203
   server: twjpzz2.376897.xyz
@@ -4874,7 +4969,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 SINGAPORE 1-1B
+  name: 550|🇸🇬 SINGAPORE 1-1B
   port: 28673
   server: svip1.pingboy.top
   tls: false
@@ -4882,13 +4977,13 @@ proxies:
   udp: true
   uuid: b25f5924-3be4-465e-bfdd-90c1333354ab
 - cipher: chacha20-ietf-poly1305
-  name: 560|🇸🇬 新加坡01-1C
+  name: 550|🇸🇬 新加坡01-1C
   password: a92dff6b-12eb-4b72-bc31-13e6c60adeb4
   port: 15636
   server: gy.tangu.win
   type: ss
   udp: true
-- name: 560|🇸🇬 新加坡01隧道4-1A
+- name: 550|🇸🇬 新加坡01隧道4-1A
   password: 2e246a56-b93e-4382-9035-00aa639648e6
   port: 31203
   server: twjpzz2.376897.xyz
@@ -4897,35 +4992,35 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡1-1A
+  name: 550|🇸🇬 V1 | 新加坡1-1A
   password: 06f93490-1c41-4e0b-b4c0-3444033e2fb8
   port: 49041
   server: sg91.cctv14.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 新加坡02-1C
+  name: 550|🇸🇬 新加坡02-1C
   password: 0a023320-7c6d-46b6-9770-eb9b91efa986
   port: 21114
   server: okanc.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡三
+  name: 550|🇸🇬 新加坡三
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30623
   server: 03.kjahbg.info
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡3-1B
+  name: 550|🇸🇬 V1 | 新加坡3-1B
   password: 57c76796-8d7a-4b05-a3c8-b45774712dd5
   port: 49043
   server: sg93.cctv14.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 V1 | 新加坡3-1A
+  name: 550|🇸🇬 V1 | 新加坡3-1A
   password: 06f93490-1c41-4e0b-b4c0-3444033e2fb8
   port: 49043
   server: sg93.cctv14.xyz
@@ -4933,14 +5028,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡01-1B
+  name: 550|🇸🇬 新加坡01-1B
   port: 22252
   server: hn3x.newbee8.me
   tls: false
   type: vmess
   udp: true
   uuid: 1cd97335-f191-449d-9b7e-387b760cac77
-- name: 560|🇸🇬 新加坡01隧道快-1C
+- name: 550|🇸🇬 新加坡01隧道快-1C
   password: 14043b45-6ace-464f-9cf7-5d41a9585dae
   port: 22252
   server: twjpzznew.376897.xyz
@@ -4949,7 +5044,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 新加坡03-1C
+  name: 550|🇸🇬 新加坡03-1C
   password: 0a023320-7c6d-46b6-9770-eb9b91efa986
   port: 21115
   server: okanc.node-is.green
@@ -4957,14 +5052,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.2-1A
+  name: 550|🇸🇬 新加坡NO.2-1A
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
   uuid: 6e47db09-ccfc-43ee-b40f-a3fec31bb274
-- name: 560|🇸🇬 新加坡01隧道4-1B
+- name: 550|🇸🇬 新加坡01隧道4-1B
   password: 1dd6c7b9-28d4-4fd2-91b9-326ae9b26e28
   port: 31203
   server: twjpzz2.376897.xyz
@@ -4973,13 +5068,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '560|🇸🇬 新加坡1 #2'
+  name: '550|🇸🇬 新加坡1 #1'
   password: dfade59c-15df-4ac3-b39e-d7da5e4f41bf
   port: 19641
   server: h.cm.xiaomi-api.xyz
   type: ss
   udp: true
-- name: 560|🇸🇬 新加坡01隧道5-1C
+- name: 550|🇸🇬 新加坡01隧道5-1C
   password: 14043b45-6ace-464f-9cf7-5d41a9585dae
   port: 13855
   server: twjpzz2.376897.xyz
@@ -4987,7 +5082,7 @@ proxies:
   sni: 1azyunsg02b59642a6-326f-46e8-a174-5ae2f1948cc0.767887.xyz
   type: trojan
   udp: true
-- name: 560|🇸🇬 新加坡01隧道5-1D
+- name: 550|🇸🇬 新加坡01隧道5-1D
   password: 89e620b1-f5cb-4362-a128-39d67b6cca35
   port: 13855
   server: twjpzz2.376897.xyz
@@ -4997,7 +5092,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡01-1A
+  name: 550|🇸🇬 新加坡01-1A
   port: 22252
   server: hn3x.newbee8.me
   tls: false
@@ -5006,7 +5101,7 @@ proxies:
   uuid: 76bd1e95-e804-4e92-ae2b-6f9c68145624
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.1-1A
+  name: 550|🇸🇬 新加坡NO.1-1A
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -5014,27 +5109,27 @@ proxies:
   udp: true
   uuid: 6e47db09-ccfc-43ee-b40f-a3fec31bb274
 - cipher: aes-256-gcm
-  name: 560|🇸🇬 新加坡01-1D
+  name: 550|🇸🇬 新加坡01-1D
   password: 0a023320-7c6d-46b6-9770-eb9b91efa986
   port: 21113
   server: okanc.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡六
+  name: 550|🇸🇬 新加坡六
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30626
   server: 06.kjahbg.info
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 560|🇸🇬 新加坡一
+  name: 550|🇸🇬 新加坡一
   password: e820d30e-a3c5-42ff-941c-479fd8e1fbb0
   port: 30621
   server: 01.kjahbg.info
   type: ss
   udp: true
-- name: 560,565|28|🇸🇬 新加坡01隧道4-1C
+- name: 550,557|28|🇸🇬 新加坡01隧道4-1C
   password: 14043b45-6ace-464f-9cf7-5d41a9585dae
   port: 31203
   server: twjpzz2.376897.xyz
@@ -5042,7 +5137,7 @@ proxies:
   sni: 1azyunsg02b59642a6-326f-46e8-a174-5ae2f1948cc0.767887.xyz
   type: trojan
   udp: true
-- name: 560|🇸🇬 新加坡01隧道快-1D
+- name: 550|🇸🇬 新加坡01隧道快-1D
   password: 89e620b1-f5cb-4362-a128-39d67b6cca35
   port: 22252
   server: twjpzznew.376897.xyz
@@ -5050,7 +5145,7 @@ proxies:
   sni: 1azyunsg02b59642a6-326f-46e8-a174-5ae2f1948cc0.767887.xyz
   type: trojan
   udp: true
-- name: 560|🇸🇬 新加坡01隧道快-1B
+- name: 550|🇸🇬 新加坡01隧道快-1B
   password: 1dd6c7b9-28d4-4fd2-91b9-326ae9b26e28
   port: 22252
   server: twjpzznew.376897.xyz
@@ -5058,7 +5153,7 @@ proxies:
   sni: 1azyunsg02b59642a6-326f-46e8-a174-5ae2f1948cc0.767887.xyz
   type: trojan
   udp: true
-- name: 560,565|28|🇸🇬 新加坡01隧道快-1A
+- name: 550,557|28|🇸🇬 新加坡01隧道快-1A
   password: 2e246a56-b93e-4382-9035-00aa639648e6
   port: 22252
   server: twjpzznew.376897.xyz
@@ -5068,7 +5163,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.1-1B
+  name: 550|🇸🇬 新加坡NO.1-1B
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -5077,7 +5172,7 @@ proxies:
   uuid: 2a8e240f-7d39-4479-92a5-09d7c30d595b
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.1-1C
+  name: 550|🇸🇬 新加坡NO.1-1C
   port: 45054
   server: haa.dashuai.cyou
   tls: false
@@ -5085,14 +5180,14 @@ proxies:
   udp: true
   uuid: dd65959c-2d06-48e6-9423-c16b0fb36e3d
 - cipher: chacha20-ietf-poly1305
-  name: '560|🇸🇬 新加坡2 #2'
+  name: '550|🇸🇬 新加坡2 #1'
   password: dfade59c-15df-4ac3-b39e-d7da5e4f41bf
   port: 19641
   server: h.ct.xiaomi-api.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 560|🇸🇬 新加坡03-1A
+  name: 550|🇸🇬 新加坡03-1A
   password: ae36b9b8-7604-4943-85fd-0e6874bf7716
   port: 45627
   server: gy.tangu.win
@@ -5100,7 +5195,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 560|🇸🇬 新加坡NO.2-1B
+  name: 550|🇸🇬 新加坡NO.2-1B
   port: 45055
   server: xdd.dashuai.cyou
   tls: false
@@ -5108,13 +5203,13 @@ proxies:
   udp: true
   uuid: 2a8e240f-7d39-4479-92a5-09d7c30d595b
 - cipher: chacha20-ietf-poly1305
-  name: 560|🇸🇬 新加坡02-1A
+  name: 550|🇸🇬 新加坡02-1A
   password: ae36b9b8-7604-4943-85fd-0e6874bf7716
   port: 45637
   server: gy.tangu.win
   type: ss
   udp: true
-- name: 560,565|28|🇸🇬 新加坡01隧道5-1B
+- name: 550,557|28|🇸🇬 新加坡01隧道5-1B
   password: 1dd6c7b9-28d4-4fd2-91b9-326ae9b26e28
   port: 13855
   server: twjpzz2.376897.xyz
@@ -5124,7 +5219,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229....
+  name: '556,557,564|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229.... #4'
   network: tcp
   port: '50644'
   server: 103.106.229.238
@@ -5132,27 +5227,7 @@ proxies:
   tls: false
   type: vmess
   uuid: f0d90685-7599-485c-944b-f36b48d2f88e
-- alterId: 0
-  cipher: auto
-  name: '564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229.... #2'
-  network: tcp
-  port: '50266'
-  server: 103.106.229.54
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edf584e-1351-436b-99b2-1033ba593d02
-- alterId: 0
-  cipher: auto
-  name: '564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229.... #1'
-  network: tcp
-  port: '38233'
-  server: 103.106.229.132
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 537a199c-c1f1-4b6b-a7dd-cd00eb1babfc
-- name: 564|🇸🇬 新加坡_7
+- name: 556|🇸🇬 新加坡_7
   password: dQUWbcwECl
   port: 443
   server: automq4-proxy.automq-sg.com
@@ -5161,16 +5236,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-103.106.229.... #4'
-  network: tcp
-  port: '53802'
-  server: 103.106.229.207
-  tls: false
-  type: vmess
-  uuid: 803c04ae-2da6-434b-a692-8fd75e5964d7
-- alterId: 0
-  cipher: auto
-  name: '564,565,572|🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232... #2'
+  name: 556,557,564|🔒 VM-TCP-NONE 🇸🇬 SG-62.146.232...
   network: tcp
   port: 52856
   server: 62.146.232.157
@@ -5179,7 +5245,7 @@ proxies:
   uuid: ed54e388-bfc5-4b36-ae4d-8b3cd460d3d4
 - alterId: 0
   cipher: auto
-  name: 564|🇸🇬 新加坡_041320180
+  name: 556|🇸🇬 新加坡_041320180
   network: tcp
   port: '45284'
   server: ysl.fxlcn.com
@@ -5188,7 +5254,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: 564|🇸🇬 更新于 04-14 0117 by https//gi...
+  name: 556|🇸🇬 更新于 04-14 0117 by https//gi...
   network: tcp
   port: '80'
   server: 127.1.1.127
@@ -5197,7 +5263,7 @@ proxies:
   uuid: 602736e4-a2e8-4eb3-9fc9-7c7082925365
 - alterId: 0
   cipher: auto
-  name: 564,565,572|🔒 VM-TCP-NA 🇸🇬 SG-62.146.232.1...
+  name: 556,557,564|🔒 VM-TCP-NA 🇸🇬 SG-62.146.232.1...
   network: tcp
   port: '53144'
   server: 62.146.232.153
@@ -5205,42 +5271,42 @@ proxies:
   tls: false
   type: vmess
   uuid: 13e13a3e-e981-4eea-a9fc-13e50628fd9b
-- name: 565|5|🇸🇬 GG新加坡1-5｜流媒体｜T
+- name: 557|5|🇸🇬 GG新加坡1-5｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 33622
   server: abaidusb5.xn--z7x16bf6t.com
   skip-cert-verify: true
   sni: g.alicdn.com
   type: trojan
-- name: 565|5|🇸🇬 UL新加坡1-5｜流媒体｜T
+- name: 557|5|🇸🇬 UL新加坡1-5｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 19442
   server: abaidusb5.xn--z7x16bf6t.com
   skip-cert-verify: true
   sni: g.alicdn.com
   type: trojan
-- name: 565|5|🇸🇬 GG新加坡1-1｜流媒体｜T
+- name: 557|5|🇸🇬 GG新加坡1-1｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 33622
   server: alibaba1.xn--z7x16bf6t.com
   skip-cert-verify: true
   sni: g.alicdn.com
   type: trojan
-- name: 565|5|🇸🇬 UL新加坡1-3｜流媒体｜T
+- name: 557|5|🇸🇬 UL新加坡1-3｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 19442
   server: agoogleyun3.xn--z7x16bf6t.com
   skip-cert-verify: true
   sni: g.alicdn.com
   type: trojan
-- name: 565|5|🇸🇬 UL新加坡1-1｜流媒体｜T
+- name: 557|5|🇸🇬 UL新加坡1-1｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 19442
   server: alibaba1.xn--z7x16bf6t.com
   skip-cert-verify: true
   sni: g.alicdn.com
   type: trojan
-- name: 565|5|🇸🇬 GG新加坡1-3｜流媒体｜T
+- name: 557|5|🇸🇬 GG新加坡1-3｜流媒体｜T
   password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d
   port: 33622
   server: agoogleyun3.xn--z7x16bf6t.com
@@ -5249,7 +5315,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 565,566|🇸🇬SG-159.223.94.156-207
+  name: 557,558|🇸🇬SG-159.223.94.156-207
   network: ws
   port: 80
   server: 159.223.94.156
@@ -5263,7 +5329,7 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 565|8|🇸🇬SG-8.222.174.108-205_1@204
+  name: 557|8|🇸🇬SG-8.222.174.108-205_1@204
   network: ws
   port: 2082
   server: 8.222.174.108
@@ -5273,7 +5339,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 565|8|🇸🇬SG-146.190.87.238-227_1@22...
+  name: 557|8|🇸🇬SG-146.190.87.238-227_1@22...
   network: ws
   port: 19193
   server: 146.190.87.238
@@ -5283,7 +5349,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 565|8|新加坡 001_2@65
+  name: 557|8|新加坡 001_2@65
   network: ws
   port: 80
   server: sg1.pkyun.website
@@ -5296,7 +5362,7 @@ proxies:
     path: /sg1
 - alterId: 0
   cipher: auto
-  name: 565|23|mattkaydiary.com|新加坡(SG)Sin...
+  name: 557|23|mattkaydiary.com|新加坡(SG)Sin...
   network: ws
   port: 30526
   server: v2-2.godlight.xyz
@@ -5305,13 +5371,13 @@ proxies:
   uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
   ws-opts:
     path: /54f634fs
-- name: 565|26|V2-新加坡02∣K37线路∣
+- name: 557|26|V2-新加坡02∣K37线路∣
   password: 7daf833c-37b9-4afc-8495-96590f03f781
   port: 21178
   server: 219.135.231.205
   skip-cert-verify: true
   type: trojan
-- name: 565|26|V2-新加坡04∣K39线路∣
+- name: 557|26|V2-新加坡04∣K39线路∣
   password: 7daf833c-37b9-4afc-8495-96590f03f781
   port: 21170
   server: 219.135.231.205
@@ -5319,7 +5385,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 565|28|🇸🇬 SINGAPORE 1-1B
+  name: 557|28|🇸🇬 SINGAPORE 1-1B
   network: tcp
   port: 28673
   server: svip1.pingboy.top
@@ -5328,7 +5394,7 @@ proxies:
   uuid: b25f5924-3be4-465e-bfdd-90c1333354ab
 - alterId: 0
   cipher: auto
-  name: 565|28|🇸🇬 新加坡NO.2-1B
+  name: 557|28|🇸🇬 新加坡NO.2-1B
   network: tcp
   port: 45055
   server: xdd.dashuai.cyou
@@ -5337,7 +5403,7 @@ proxies:
   uuid: 2a8e240f-7d39-4479-92a5-09d7c30d595b
 - alterId: 0
   cipher: auto
-  name: 565|28|🇸🇬 新加坡03-隧道-1A
+  name: 557|28|🇸🇬 新加坡03-隧道-1A
   network: tcp
   port: 35661
   server: gzdx.newbee8.me
@@ -5346,7 +5412,7 @@ proxies:
   uuid: 76bd1e95-e804-4e92-ae2b-6f9c68145624
 - alterId: 0
   cipher: auto
-  name: 565|28|🇸🇬 新加坡01-1A
+  name: 557|28|🇸🇬 新加坡01-1A
   network: tcp
   port: 22252
   server: hn3x.newbee8.me
@@ -5355,7 +5421,7 @@ proxies:
   uuid: 76bd1e95-e804-4e92-ae2b-6f9c68145624
 - alterId: 0
   cipher: auto
-  name: 565|28|🇸🇬 新加坡NO.1-1C
+  name: 557|28|🇸🇬 新加坡NO.1-1C
   network: tcp
   port: 45054
   server: haa.dashuai.cyou
@@ -5364,7 +5430,20 @@ proxies:
   uuid: dd65959c-2d06-48e6-9423-c16b0fb36e3d
 - alterId: 0
   cipher: auto
-  name: 565,572|🔒 VM-TCP-NA 🇸🇬 SG-91.243.81.19...
+  name: 557|36|🔒 VM-WS-NA 🇸🇬 SG-140.245.62...
+  network: ws
+  port: '23452'
+  server: 140.245.62.110
+  tls: false
+  type: vmess
+  uuid: 6abfbd44-62aa-4ad3-8b5a-aa4ef40466f5
+  ws-opts:
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 557,564|🔒 VM-TCP-NA 🇸🇬 SG-91.243.81.19...
   network: tcp
   port: '45231'
   server: 91.243.81.192
@@ -5373,7 +5452,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: 566|🇸🇬SG-172.105.119.84-028
+  name: 558|🇸🇬SG-172.105.119.84-028
   network: ws
   port: 80
   server: sg1.31vpn.com
@@ -5386,7 +5465,7 @@ proxies:
   ws-path: /fastssh/ppdt/624dde181c76e/
 - alterId: 0
   cipher: auto
-  name: 566|🇸🇬SG-172.105.119.84-029
+  name: 558|🇸🇬SG-172.105.119.84-029
   network: ws
   port: 80
   server: sg1.31vpn.com
@@ -5399,7 +5478,7 @@ proxies:
   ws-path: /fastssh/ccvcxds/6252624d4fda3/
 - alterId: 0
   cipher: auto
-  name: 566|🇸🇬SG-172.105.119.84-043
+  name: 558|🇸🇬SG-172.105.119.84-043
   network: ws
   port: 443
   server: sg1.31vpn.com
@@ -5412,7 +5491,7 @@ proxies:
   ws-path: /fastssh/bddasdf/624e71635ed8e/
 - alterId: 0
   cipher: auto
-  name: 566|🇸🇬SG-172.105.119.84-051
+  name: 558|🇸🇬SG-172.105.119.84-051
   network: ws
   port: 80
   server: sg1.31vpn.com
@@ -5425,7 +5504,7 @@ proxies:
   ws-path: /fastssh/bddasdf/624e71635ed8e/
 - alterId: 32
   cipher: auto
-  name: 566,567|🇸🇬 github.com/freefq - 新加坡OVH ...
+  name: 558,559|🇸🇬 github.com/freefq - 新加坡OVH ...
   network: tcp
   port: '443'
   server: 139.99.91.95
@@ -5438,7 +5517,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 566,567|🇺🇸 github.com/freefq - 美国  44
+  name: 558,559|🇺🇸 github.com/freefq - 美国  44
   network: tcp
   port: '443'
   server: 168.138.171.65
@@ -5451,7 +5530,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 566|🇬SG-140.245.46.53-331
+  name: 558|🇬SG-140.245.46.53-331
   network: ws
   port: 23452
   server: westsg2-ddns.oraclenat.cc
@@ -5464,7 +5543,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 568|新加坡西部
+  name: 560|新加坡西部
   network: ws
   port: '23452'
   server: westsg2-ddns.oraclenat.cc
@@ -5477,7 +5556,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '568|新加坡NO.2 #2'
+  name: '560|新加坡NO.2 #2'
   network: tcp
   port: '45055'
   server: xdd.dashuai.cyou
@@ -5486,7 +5565,7 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '568|新加坡NO.1 #2'
+  name: '560|新加坡NO.1 #2'
   network: tcp
   port: '45054'
   server: haa.dashuai.cyou
@@ -5495,7 +5574,17 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: 569|新加坡01{优化2|V2ray}
+  name: 561|Amazon Singapore _<
+  network: tcp
+  port: '80'
+  server: 945b5a1e-e0bc-428f-9971-1693ff81e5db.castlepeakhospital.moe
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 234813ed-3bf9-4aa3-bd28-4bb4bf24cbed
+- alterId: 0
+  cipher: auto
+  name: 561|新加坡01{优化2|V2ray}
   network: ws
   port: '25245'
   server: sg1.awslcn.info
@@ -5508,7 +5597,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 569|新加坡03{优化2|V2ray}
+  name: 561|新加坡03{优化2|V2ray}
   network: ws
   port: '25221'
   server: sg1.awslcn.info
@@ -5521,7 +5610,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 569|新加坡6-wap
+  name: 561|新加坡6-wap
   network: ws
   port: '25283'
   server: sg1.awslcn.info
@@ -5532,120 +5621,71 @@ proxies:
     headers:
       Host: ''
     path: ''
-- name: 569|新加坡-Trojan①
+- name: 561|新加坡-Trojan①
   password: 5d58b7eb-43c4-448c-90e5-17b2a85ccb3b
   port: 443
   server: sg01.trojanyyds.xyz
   sni: sg01.trojanyyds.xyz
   type: trojan
-- name: 569|新加坡-Trojan②
+- name: 561|新加坡-Trojan②
   password: 5d58b7eb-43c4-448c-90e5-17b2a85ccb3b
   port: 443
   server: sg02.trojanyyds.xyz
   sni: sg02.trojanyyds.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 569|Amazon Singapore _<
-  network: tcp
-  port: '80'
-  server: 945b5a1e-e0bc-428f-9971-1693ff81e5db.castlepeakhospital.moe
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 234813ed-3bf9-4aa3-bd28-4bb4bf24cbed
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-92.243.74.3...
-  network: tcp
-  password: Aimer
-  port: 8443
-  server: 92.243.74.3
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
 - alpn:
+  - h2
   - http/1.1
-  name: 571|🔒 TR-WS-TLS 🇸🇬 SG-206.238.236....
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 206.238.236.8
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560'
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-104.234.233...
+  name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-157.230.37....
   network: tcp
-  password: Aimer
-  port: 35911
-  server: 104.234.233.57
-  sni: agept.ambercc.filegear-sg.me
+  password: rsLPgLFQJ3
+  port: 443
+  server: 157.230.37.164
+  sni: m.viber.com
   type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-206.238.236...
-  network: tcp
-  password: Aimer
-  port: 2096
-  server: 206.238.236.252
-  sni: ngepx.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236....
-  password: Aimer
-  port: 2083
-  server: 206.238.236.216
-  sni: agepy.aimercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-WS-TLS 🇸🇬 SG-92.243.74.23...
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 92.243.74.23
-  sni: epcct.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epcct.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-92.243.75.4...
-  network: tcp
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: true
-  sni: hsdgbuys.pages.dev
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 571|🔒 TR-WS-TLS 🇸🇬 SG-124.156.202....
-  network: ws
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-27.50.49.136...
   password: Aimer
   port: 443
-  server: 124.156.202.172
-  sni: agepn.ambercc.filegear-sg.me
+  server: 27.50.49.136
+  sni: agepy.aimercc.filegear-sg.me
   type: trojan
-  ws-opts:
-    headers:
-      Host: agepn.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - http/1.1
-  name: 571|🔒 TR-WS-TLS 🇸🇬 SG-206.238.237....
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 206.238.237.81
-  sni: agepy.ambercc.filegear-sg.me
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-54.169.111....
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 10002
+  server: 54.169.111.81
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: '%2F%3Fed%3D2560'
-- name: '571|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236.... #1'
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236....
   password: Aimer
   port: 8443
   server: 206.238.236.137
   sni: agept.ambercc.filegear-sg.me
   type: trojan
-- name: 571|🔒 TR-WS-TLS 🇸🇬 SG-27.50.49.251...
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-92.243.74.2:...
+  password: Aimer
+  port: 8443
+  server: 92.243.74.2
+  skip-cert-verify: false
+  sni: agepl.ambercc.filegear-sg.me
+  type: trojan
+- name: '563|🔒 TR-TCP-TLS 🇸🇬 SG-54.169.111.... #1'
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 10003
+  server: 54.169.111.81
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.17...
+  network: tcp
+  password: Aimer
+  port: 2096
+  server: 27.50.49.179
+  sni: ngepx.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-WS-TLS 🇸🇬 SG-27.50.49.251...
   network: ws
   password: Aimer
   port: 2083
@@ -5656,93 +5696,114 @@ proxies:
     headers:
       Host: epcct.ambercc.filegear-sg.me
     path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-129.226.150....
-  password: Aimer
-  port: 443
-  server: 129.226.150.167
-  sni: agepq.ambercc.filegear-sg.me
+- name: '563|🔒 TR-TCP-TLS 🇸🇬 SG-54.169.111.... #2'
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 10004
+  server: 54.169.111.81
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.17...
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-206.238.236...
   network: tcp
   password: Aimer
   port: 2096
-  server: 27.50.49.179
+  server: 206.238.236.252
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-3.0.61.142:...
-  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
-  port: 20230
-  server: 3.0.61.142
-  sni: 421421.xyz
-  type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.48.18...
-  network: tcp
-  password: Aimer
-  port: 2083
-  server: 27.50.48.186
-  sni: ngepx.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-43.156.116.1...
-  password: Aimer
-  port: 443
-  server: 43.156.116.194
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.23...
-  network: tcp
-  password: Aimer
-  port: 2083
-  server: 27.50.49.231
-  sni: ngepy.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-27.50.48.21:...
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-27.50.48.21:...
   password: Aimer
   port: 443
   server: 27.50.48.21
   skip-cert-verify: false
   sni: agepj.ambercc.filegear-sg.me
   type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-27.50.49.136...
-  password: Aimer
-  port: 443
-  server: 27.50.49.136
-  sni: agepy.aimercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-157.245.202...
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-92.243.75.4...
   network: tcp
-  password: guKUnUpJam
-  port: 443
-  server: 157.245.202.237
-  sni: m.facebook.com
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
   type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.48.23...
-  network: tcp
-  password: Aimer
-  port: 8443
-  server: 27.50.48.239
-  sni: ngepy.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-206.238.237....
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-206.238.237....
   password: Aimer
   port: 2087
   server: 206.238.237.86
   skip-cert-verify: true
   sni: agepy.ambercc.filegear-sg.me
   type: trojan
-- name: '571|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236.... #4'
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.37...
+  network: tcp
+  password: Aimer
+  port: 2053
+  server: 27.50.49.37
+  sni: ngepx.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-92.243.74.18...
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-38.180.249.1...
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  type: trojan
+- name: '563|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236.... #3'
+  password: Aimer
+  port: 2083
+  server: 206.238.236.216
+  sni: agepy.aimercc.filegear-sg.me
+  type: trojan
+- name: '563|🔒 TR-TCP-NA 🇸🇬 SG-206.238.236.... #4'
   password: Aimer
   port: 8443
   server: 206.238.236.31
   sni: agept.ambercc.filegear-sg.me
   type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-38.180.249....
+- name: '563|🔒 TR-TCP-TLS 🇸🇬 SG-54.169.111.... #3'
   network: tcp
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  sni: 38.180.249.177
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 10005
+  server: 54.169.111.81
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-27.50.49.188...
+- name: '563|🔒 TR-TCP-NA 🇸🇬 SG-206.238.237.... #2'
+  password: Aimer
+  port: 2083
+  server: 206.238.237.146
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+- name: '563|🔒 TR-TCP-TLS 🇸🇬 SG-206.238.236... #1'
+  network: tcp
+  password: Aimer
+  port: 443
+  server: 206.238.236.16
+  sni: ngepx.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-43.156.116.1...
+  password: Aimer
+  port: 443
+  server: 43.156.116.194
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.23...
+  network: tcp
+  password: Aimer
+  port: 2083
+  server: 27.50.49.231
+  sni: ngepy.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-3.0.61.142:...
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: 3.0.61.142
+  sni: 421421.xyz
+  type: trojan
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-27.50.49.188...
   password: Aimer
   port: 2096
   server: 27.50.49.188
@@ -5750,64 +5811,126 @@ proxies:
   sni: agept.ambercc.filegear-sg.me
   type: trojan
 - alpn:
-  - h2
   - http/1.1
-  name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-157.230.37....
-  network: tcp
-  password: rsLPgLFQJ3
-  port: 443
-  server: 157.230.37.164
-  sni: m.viber.com
-  type: trojan
-- name: 571|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.49.37...
-  network: tcp
+  name: 563|🔒 TR-WS-TLS 🇸🇬 SG-206.238.237....
+  network: ws
   password: Aimer
-  port: 2053
-  server: 27.50.49.37
-  sni: ngepx.ambercc.filegear-sg.me
-  type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-92.243.74.18...
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
+  port: 2087
+  server: 206.238.237.81
   sni: agepy.ambercc.filegear-sg.me
   type: trojan
-- name: 571|🔒 TR-TCP-NA 🇸🇬 SG-92.243.74.2:...
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  name: 563|🔒 TR-WS-TLS 🇸🇬 SG-206.238.236....
+  network: ws
   password: Aimer
-  port: 8443
-  server: 92.243.74.2
-  skip-cert-verify: false
-  sni: agepl.ambercc.filegear-sg.me
-  type: trojan
-- name: '571|🔒 TR-TCP-NA 🇸🇬 SG-206.238.237.... #1'
-  password: Aimer
-  port: 2083
-  server: 206.238.237.146
+  port: 2096
+  server: 206.238.236.8
   sni: agept.ambercc.filegear-sg.me
   type: trojan
-- name: '571|🔒 TR-TCP-TLS 🇸🇬 SG-206.238.236... #1'
+  ws-opts:
+    headers:
+      Host: agept.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-157.245.202...
+  network: tcp
+  password: guKUnUpJam
+  port: 443
+  server: 157.245.202.237
+  sni: m.facebook.com
+  type: trojan
+- name: '563|🔒 TR-TCP-TLS 🇸🇬 SG-54.169.111.... #4'
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 10001
+  server: 54.169.111.81
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.48.23...
   network: tcp
   password: Aimer
+  port: 8443
+  server: 27.50.48.239
+  sni: ngepy.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-92.243.74.3...
+  network: tcp
+  password: Aimer
+  port: 8443
+  server: 92.243.74.3
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-104.234.233...
+  network: tcp
+  password: Aimer
+  port: 35911
+  server: 104.234.233.57
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 563|🔒 TR-WS-TLS 🇸🇬 SG-124.156.202....
+  network: ws
+  password: Aimer
   port: 443
-  server: 206.238.236.16
+  server: 124.156.202.172
+  sni: agepn.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- name: 563|🔒 TR-TCP-NA 🇸🇬 SG-129.226.150....
+  password: Aimer
+  port: 443
+  server: 129.226.150.167
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+- name: 563|🔒 TR-TCP-TLS 🇸🇬 SG-27.50.48.18...
+  network: tcp
+  password: Aimer
+  port: 2083
+  server: 27.50.48.186
   sni: ngepx.ambercc.filegear-sg.me
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 572|🔒 VM-WS-NA 🇸🇬 SG-140.245.46.53...
-  network: ws
-  port: '23452'
-  server: 140.245.46.53
+  name: 564|🔒 VM-TCP-NA 🇸🇬 SG-62.146.233.7...
+  network: tcp
+  port: '44127'
+  server: 62.146.233.79
+  servername: ''
   tls: false
   type: vmess
-  uuid: a66a6287-1f6b-41bb-9509-4f8252b8d47d
-  ws-opts:
-    headers:
-      Host: westsg2-ddns.oraclenat.cc
-    path: /
+  uuid: ae0fa822-58bb-483f-9af5-d417d8c23b21
 - alterId: 0
   cipher: auto
-  name: '575|新加坡NO.1 #3'
+  name: 564|🔒 VM-TCP-NA 🇸🇬 SG-154.26.131.3...
+  network: tcp
+  port: '42654'
+  server: 154.26.131.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e17f46b5-e224-48c9-965f-e24f1dfc2418
+- alterId: 0
+  cipher: auto
+  name: 564|🔒 VM-TCP-NONE 🇸🇬 SG-154.26.134...
+  network: tcp
+  port: '14129'
+  server: 154.26.134.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7798e09-3090-4366-ae80-f18afdaabf4f
+- alterId: 0
+  cipher: auto
+  name: '567|新加坡NO.1 #3'
   network: tcp
   port: '45054'
   server: haa.dashuai.cyou
@@ -5816,7 +5939,7 @@ proxies:
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - alterId: 0
   cipher: auto
-  name: '575|新加坡NO.2 #3'
+  name: '567|新加坡NO.2 #3'
   network: tcp
   port: '45055'
   server: xdd.dashuai.cyou
@@ -5825,7 +5948,7 @@ proxies:
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - alterId: 0
   cipher: auto
-  name: '585|🇸🇬 新加坡1 #3'
+  name: '577|🇸🇬 新加坡1 #2'
   network: ws
   port: 80
   server: bb9fda.383e-b8e0-38c8.cfd
@@ -5841,7 +5964,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '585|🇸🇬 新加坡 #4'
+  name: '577|🇸🇬 新加坡 #4'
   network: ws
   port: 80
   server: bb9fda.383e-b8e0-38c8.cfd
@@ -5857,7 +5980,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 585|🇸🇬 新加坡3
+  name: 577|🇸🇬 新加坡3
   network: ws
   port: 80
   server: bb9fda.383e-b8e0-38c8.cfd
@@ -5873,45 +5996,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '586|🇸🇬 新加坡 #5'
+  name: 577|🇸🇬 新加坡4
   network: ws
   port: 80
   server: bb9fda.383e-b8e0-38c8.cfd
   type: vmess
   udp: true
-  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
-  ws-headers:
-    Host: sg02s.383e-b8e0-38c8.cfd
-  ws-opts:
-    headers:
-      Host: sg02s.383e-b8e0-38c8.cfd
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '586|🇸🇬 新加坡3 #1'
-  network: ws
-  port: 80
-  server: bb9fda.383e-b8e0-38c8.cfd
-  type: vmess
-  udp: true
-  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
-  ws-headers:
-    Host: sg03s.383e-b8e0-38c8.cfd
-  ws-opts:
-    headers:
-      Host: sg03s.383e-b8e0-38c8.cfd
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '586|🇸🇬 新加坡4 #1'
-  network: ws
-  port: 80
-  server: bb9fda.383e-b8e0-38c8.cfd
-  type: vmess
-  udp: true
-  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
+  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
   ws-headers:
     Host: sg04s.383e-b8e0-38c8.cfd
   ws-opts:
@@ -5919,112 +6010,129 @@ proxies:
       Host: sg04s.383e-b8e0-38c8.cfd
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '578|🇸🇬 新加坡3 #1'
+  network: ws
+  port: 80
+  server: bb9fda.383e-b8e0-38c8.cfd
+  type: vmess
+  udp: true
+  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
+  ws-headers:
+    Host: sg03s.383e-b8e0-38c8.cfd
+  ws-opts:
+    headers:
+      Host: sg03s.383e-b8e0-38c8.cfd
+    path: /
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 01
+  name: 600|🇸🇬 SG 01
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49921
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 02
+  name: 600|🇸🇬 SG 02
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49922
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 03
+  name: 600|🇸🇬 SG 03
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49923
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 04
+  name: 600|🇸🇬 SG 04
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49924
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 05
+  name: 600|🇸🇬 SG 05
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49925
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 06
+  name: 600|🇸🇬 SG 06
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49926
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 07
+  name: 600|🇸🇬 SG 07
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49927
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 08
+  name: 600|🇸🇬 SG 08
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49928
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 09
+  name: 600|🇸🇬 SG 09
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49929
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 10
+  name: 600|🇸🇬 SG 10
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49930
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 11
+  name: 600|🇸🇬 SG 11
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49931
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 12
+  name: 600|🇸🇬 SG 12
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49932
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 13
+  name: 600|🇸🇬 SG 13
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49933
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 14
+  name: 600|🇸🇬 SG 14
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49934
   server: node-sg.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 608|🇸🇬 SG 15
+  name: 600|🇸🇬 SG 15
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49935
   server: node-sg.dlg365.com
   type: ss
   udp: true
-- name: '612|新加坡05|流媒体 #14'
+- name: '604|新加坡05|流媒体 #16'
+  network: ws
   password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
   port: 20230
   server: sg005.421421.xyz
@@ -6032,7 +6140,7 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '612|新加坡06|流媒体 #14'
+- name: '604|新加坡06|流媒体 #16'
   network: ws
   password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
   port: 20230
@@ -6041,7 +6149,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '612|新加坡07|流媒体 #14'
+- name: '604|新加坡07|流媒体 #16'
+  network: ws
   password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
   port: 20230
   server: sg007.421421.xyz
@@ -6049,7 +6158,8 @@ proxies:
   sni: www.alibaba.com
   type: trojan
   udp: true
-- name: '612|新加坡08|流媒体 #14'
+- name: '604|新加坡08|流媒体 #16'
+  network: ws
   password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
   port: 20230
   server: sg008.421421.xyz
@@ -6058,28 +6168,28 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '613,614,615,616|🇸🇬 新加坡 01 #3'
+  name: '605,606,607,608|🇸🇬 新加坡 01 #3'
   password: 9c98ec59-231c-4091-ba05-a0c881021335
   port: 44101
   server: p1.bxy-fun1.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '613,614,615,616|🇸🇬 新加坡 02 #3'
+  name: '605,606,607,608|🇸🇬 新加坡 02 #3'
   password: 9c98ec59-231c-4091-ba05-a0c881021335
   port: 24101
   server: p1.bxy-fun2.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '613,614,615,616|🇸🇬 新加坡 03 #3'
+  name: '605,606,607,608|🇸🇬 新加坡 03 #3'
   password: 9c98ec59-231c-4091-ba05-a0c881021335
   port: 24105
   server: p1.bxy-fun3.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '617,618|SGP.新加坡.A | 推荐 #1'
+  name: '609,610|SGP.新加坡.A | 推荐 #5'
   password: a01b5e27-ece5-4675-866f-36b23a65d2a8
   port: 43461
   server: xcsgp.cokecloud.top
@@ -6087,14 +6197,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '617,618|SGP.新加坡.B | 负载均衡 #1'
+  name: '609,610|SGP.新加坡.B | 负载均衡 #5'
   port: 10420
   server: xcsgp.cokecloud.top
   type: vmess
   udp: true
   uuid: a01b5e27-ece5-4675-866f-36b23a65d2a8
 - cipher: chacha20-ietf-poly1305
-  name: '617,618|SGP.新加坡.C | 高速.2x倍率 #1'
+  name: '609,610|SGP.新加坡.C | 高速.2x倍率 #5'
   password: a01b5e27-ece5-4675-866f-36b23a65d2a8
   port: 29611
   server: xcsgp.cokecloud.top
@@ -6102,420 +6212,315 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '617,618|SGP.新加坡.D | 推荐 #1'
+  name: '609,610|SGP.新加坡.D | 推荐 #5'
   port: 25878
   server: xcsgp.cokecloud.top
   type: vmess
   udp: true
   uuid: a01b5e27-ece5-4675-866f-36b23a65d2a8
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG01
+  name: 611|新加坡|SG01
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 34781
   server: bapss6r0ksj2is11odwsuqak1w9e0sk9.08.01.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG02
+  name: 611|新加坡|SG02
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 14556
   server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG03
+  name: 611|新加坡|SG03
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 24219
   server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG04
+  name: 611|新加坡|SG04
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 43885
   server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG05
+  name: 611|新加坡|SG05
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 48641
   server: g3lfv57lbqu5o1i17256wvwx0nv2e74x.08.05.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG06
+  name: 611|新加坡|SG06
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 26515
   server: un3tv0v7z8rha5eqfrnmcobym3msnmpm.08.06.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG07
+  name: 611|新加坡|SG07
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 19310
   server: 9r9jrm2szl2m9lch2s1yhbrk8hse514j.08.07.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG08
+  name: 611|新加坡|SG08
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 35197
   server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 619|新加坡|SG09
+  name: 611|新加坡|SG09
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 47558
   server: z7gfq8utflizatg56x6ghg8pzrr0fio4.08.09.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG01 #1'
+  name: '612|新加坡|SG01 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 34781
   server: bapss6r0ksj2is11odwsuqak1w9e0sk9.08.01.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG02 #1'
+  name: '612|新加坡|SG02 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 14556
   server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG03 #1'
+  name: '612|新加坡|SG03 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 24219
   server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG04 #1'
+  name: '612|新加坡|SG04 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 43885
   server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG05 #1'
+  name: '612|新加坡|SG05 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 48641
   server: g3lfv57lbqu5o1i17256wvwx0nv2e74x.08.05.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG06 #1'
+  name: '612|新加坡|SG06 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 26515
   server: un3tv0v7z8rha5eqfrnmcobym3msnmpm.08.06.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG07 #1'
+  name: '612|新加坡|SG07 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 19310
   server: 9r9jrm2szl2m9lch2s1yhbrk8hse514j.08.07.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG08 #1'
+  name: '612|新加坡|SG08 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 35197
   server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '620|新加坡|SG09 #1'
+  name: '612|新加坡|SG09 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 47558
   server: z7gfq8utflizatg56x6ghg8pzrr0fio4.08.09.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG01 #2'
+  name: '613|新加坡|SG01 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 34781
   server: bapss6r0ksj2is11odwsuqak1w9e0sk9.08.01.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG02 #2'
+  name: '613|新加坡|SG02 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 14556
   server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG03 #2'
+  name: '613|新加坡|SG03 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 24219
   server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG04 #2'
+  name: '613|新加坡|SG04 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 43885
   server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG05 #2'
+  name: '613|新加坡|SG05 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 48641
   server: g3lfv57lbqu5o1i17256wvwx0nv2e74x.08.05.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG06 #2'
+  name: '613|新加坡|SG06 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 26515
   server: un3tv0v7z8rha5eqfrnmcobym3msnmpm.08.06.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG07 #2'
+  name: '613|新加坡|SG07 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 19310
   server: 9r9jrm2szl2m9lch2s1yhbrk8hse514j.08.07.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG08 #2'
+  name: '613|新加坡|SG08 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 35197
   server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '621|新加坡|SG09 #2'
+  name: '613|新加坡|SG09 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 47558
   server: z7gfq8utflizatg56x6ghg8pzrr0fio4.08.09.sg.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 622|🇸🇬新加坡1
+  name: 614|🇸🇬新加坡1
   password: 2177c494-cc50-4378-8df9-fd6a22600d0f
   port: 34043
   server: iost.prprcheng.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 622|🇸🇬新加坡2
+  name: 614|🇸🇬新加坡2
   password: 2177c494-cc50-4378-8df9-fd6a22600d0f
   port: 52490
   server: 1.prprcheng.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '626|🇸🇬 新加坡 01 #4'
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51135
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '626|🇸🇬 新加坡 02 #4'
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51136
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '626|🇸🇬 新加坡 03 #4'
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51137
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '626|🇸🇬 新加坡 04 #4'
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51138
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 05
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51139
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 06
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51140
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 07
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51141
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 08
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51142
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 09
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51143
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 10
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51144
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 11
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51145
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 12
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51146
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 13
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51147
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 14
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51148
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 626|🇸🇬 新加坡 15
-  password: cbb65161-47a3-4989-bea2-19369b7b983e
-  port: 51149
-  server: sg.miaolianyunapp.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 01 #6'
+  name: '618,619|🇸🇬 新加坡 01 #5'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51135
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 02 #6'
+  name: '618,619|🇸🇬 新加坡 02 #5'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51136
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 03 #6'
+  name: '618,619|🇸🇬 新加坡 03 #5'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51137
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 04 #6'
+  name: '618,619|🇸🇬 新加坡 04 #5'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51138
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 05 #2'
+  name: '618,619|🇸🇬 新加坡 05 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51139
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 06 #2'
+  name: '618,619|🇸🇬 新加坡 06 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51140
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 07 #2'
+  name: '618,619|🇸🇬 新加坡 07 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51141
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 08 #2'
+  name: '618,619|🇸🇬 新加坡 08 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51142
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 09 #2'
+  name: '618,619|🇸🇬 新加坡 09 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51143
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 10 #2'
+  name: '618,619|🇸🇬 新加坡 10 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51144
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 11 #2'
+  name: '618,619|🇸🇬 新加坡 11 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51145
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 12 #2'
+  name: '618,619|🇸🇬 新加坡 12 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51146
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 13 #2'
+  name: '618,619|🇸🇬 新加坡 13 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51147
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 14 #2'
+  name: '618,619|🇸🇬 新加坡 14 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51148
   server: sg.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '627,628|🇸🇬 新加坡 15 #2'
+  name: '618,619|🇸🇬 新加坡 15 #1'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51149
   server: sg.miaolianyunapp.com
@@ -6523,41 +6528,41 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '643|新加坡1 #8'
+  name: '628|新加坡1 #2'
   port: 10407
   server: zz5.xmfvpn.com
   type: vmess
   udp: true
   uuid: 9854cb4c-922a-373c-a77d-9792727c83a4
 - cipher: aes-128-gcm
-  name: '675|新加坡1 #9'
+  name: '660|新加坡1 #3'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50005
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '675|新加坡2 #8'
+  name: '660|新加坡2 #2'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50006
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 675|新加坡3
+  name: 660|新加坡3
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50007
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 675|新加坡4
+  name: 660|新加坡4
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50008
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: 675|Trojan-新加坡1 | 低倍率
+- name: 660|Trojan-新加坡1 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 10116
   server: cc.rk1.node-is.green
@@ -6565,43 +6570,43 @@ proxies:
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
-- name: 675|Trojan-新加坡2 | 低倍率
+- name: 660|Trojan-新加坡2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 47780
-  server: 0f02da1a0c5cdbe4d84334a584e8901c.lh.gtm.node-is.green
+  port: 44408
+  server: b6d1e0215edcb048853f3b4c18180c72.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '676|新加坡1 #10'
+  name: '661|新加坡1 #4'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50005
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '676|新加坡2 #9'
+  name: '661|新加坡2 #3'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50006
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '676|新加坡3 #1'
+  name: '661|新加坡3 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50007
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '676|新加坡4 #1'
+  name: '661|新加坡4 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50008
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '676|Trojan-新加坡1 | 低倍率 #1'
+- name: '661|Trojan-新加坡1 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 10116
   server: cc.rk1.node-is.green
@@ -6609,43 +6614,43 @@ proxies:
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
-- name: '676|Trojan-新加坡2 | 低倍率 #1'
+- name: '661|Trojan-新加坡2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 43288
-  server: c74240004fe8eaf811c5c6acc52d8fd3.lh.gtm.node-is.green
+  port: 45425
+  server: 2d305110aeb3efe54f75732c496f9733.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '677|新加坡1 #11'
+  name: '662|新加坡1 #5'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50005
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '677|新加坡2 #10'
+  name: '662|新加坡2 #4'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50006
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '677|新加坡3 #2'
+  name: '662|新加坡3 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50007
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '677|新加坡4 #2'
+  name: '662|新加坡4 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50008
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '677|Trojan-新加坡1 | 低倍率 #2'
+- name: '662|Trojan-新加坡1 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 10116
   server: cc.rk1.node-is.green
@@ -6653,43 +6658,43 @@ proxies:
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
-- name: '677|Trojan-新加坡2 | 低倍率 #2'
+- name: '662|Trojan-新加坡2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 46591
-  server: 7a47b4c8cc4cfced315ea4d582b0e564.lh.gtm.node-is.green
+  port: 43265
+  server: 3e75ee2001ba08a965f13801bfe586c6.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '678|新加坡1 #12'
+  name: '663|新加坡1 #6'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50005
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '678|新加坡2 #11'
+  name: '663|新加坡2 #5'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50006
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '678|新加坡3 #3'
+  name: '663|新加坡3 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50007
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '678|新加坡4 #3'
+  name: '663|新加坡4 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50008
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '678|Trojan-新加坡1 | 低倍率 #3'
+- name: '663|Trojan-新加坡1 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 10116
   server: cc.rk1.node-is.green
@@ -6697,55 +6702,23 @@ proxies:
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
-- name: '678|Trojan-新加坡2 | 低倍率 #3'
+- name: '663|Trojan-新加坡2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 46463
-  server: 6e64c3862a9d6b6cd5d24621c7ab367e.lh.gtm.node-is.green
+  port: 48601
+  server: 16e69296e07aae2d31982a0845d4759c.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcsg1.bilibili.com
   type: trojan
   udp: true
-- name: 680|V1-新加坡-IPv6
+- name: 665|V1-新加坡-IPv6
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 40993
-  server: 4e5df39457987f482733d1e4ce7c598b.v1.cac.node-is.green
+  port: 45938
+  server: 33368f814086c0ea1f0e4f2461df5af6.v1.cac.node-is.green
   skip-cert-verify: true
   sni: sg1.bilibili.com
   type: trojan
   udp: true
-- name: '696,697|Singapore  Pro 5 #2'
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: assured-moose.magpie719.homes
-  skip-cert-verify: false
-  sni: assured-moose.magpie719.homes
-  type: trojan
-  udp: true
-- name: '696,697|Singapore  7 #2'
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: endless-muskrat.magpie719.homes
-  skip-cert-verify: false
-  sni: endless-muskrat.magpie719.homes
-  type: trojan
-  udp: true
-- name: '696,697|Singapore  Pro 4 #2'
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: normal-lark.magpie719.homes
-  skip-cert-verify: false
-  sni: normal-lark.magpie719.homes
-  type: trojan
-  udp: true
-- name: '696,697|Singapore  6 #2'
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: star-bream.magpie719.homes
-  skip-cert-verify: false
-  sni: star-bream.magpie719.homes
-  type: trojan
-  udp: true
-- name: '696,697|Singapore 3 #2'
+- name: '681,682|Singapore 3 #2'
   password: '!!str 3747000103274291200'
   port: 443
   server: apt-bull.magpie719.homes
@@ -6753,15 +6726,15 @@ proxies:
   sni: apt-bull.magpie719.homes
   type: trojan
   udp: true
-- name: '696,697|Singapore Pro 1 #2'
+- name: '681,682|Singapore  7 #2'
   password: '!!str 3747000103274291200'
   port: 443
-  server: amazing-martin.foxhound677.makeup
+  server: endless-muskrat.magpie719.homes
   skip-cert-verify: false
-  sni: amazing-martin.foxhound677.makeup
+  sni: endless-muskrat.magpie719.homes
   type: trojan
   udp: true
-- name: '696,697|Singapore  Pro 2 #2'
+- name: '681,682|Singapore  Pro 2 #2'
   password: '!!str 3747000103274291200'
   port: 443
   server: exotic-louse.foxhound677.makeup
@@ -6769,9 +6742,41 @@ proxies:
   sni: exotic-louse.foxhound677.makeup
   type: trojan
   udp: true
+- name: '681,682|Singapore  Pro 6 #2'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: star-bream.magpie719.homes
+  skip-cert-verify: false
+  sni: star-bream.magpie719.homes
+  type: trojan
+  udp: true
+- name: '681,682|Singapore  5 #2'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: assured-moose.magpie719.homes
+  skip-cert-verify: false
+  sni: assured-moose.magpie719.homes
+  type: trojan
+  udp: true
+- name: '681,682|Singapore Pro 1 #2'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: amazing-martin.foxhound677.makeup
+  skip-cert-verify: false
+  sni: amazing-martin.foxhound677.makeup
+  type: trojan
+  udp: true
+- name: '681,682|Singapore  4 #2'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: normal-lark.magpie719.homes
+  skip-cert-verify: false
+  sni: normal-lark.magpie719.homes
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 701|新加坡
+  name: '686|新加坡 #1'
   port: 27838
   server: ppx1.6128888.xyz
   type: vmess
@@ -6779,14 +6784,14 @@ proxies:
   uuid: 6c710d10-35d0-489e-8a60-71ef0e957b59
 - alterId: 0
   cipher: auto
-  name: '702|新加坡 #1'
+  name: '687|新加坡 #2'
   port: 27838
   server: ppx1.6128888.xyz
   type: vmess
   udp: true
   uuid: bf99664e-b3a8-4bda-bba9-2961852eac6c
 - cipher: aes-128-gcm
-  name: '778,779,780,781|🇸🇬 Singapore 057 #3'
+  name: '761,762,763,764|🇸🇬 Singapore 057 #3'
   password: 4092a0d31011e2046687
   plugin: obfs
   plugin-opts:
@@ -6797,7 +6802,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '778,779,780,781|🇸🇬 Singapore 032 #3'
+  name: '761,762,763,764|🇸🇬 Singapore 032 #3'
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -6808,7 +6813,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '778,779,780,781|🇸🇬 Singapore 078 #3'
+  name: '761,762,763,764|🇸🇬 Singapore 078 #3'
   password: 0722bd4137ff579e6917
   plugin: obfs
   plugin-opts:
@@ -6819,7 +6824,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 787|[v1] 新加坡・01
+  name: 770|[v1] 新加坡・01
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -6830,7 +6835,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 787|[v1] 新加坡・02
+  name: 770|[v1] 新加坡・02
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -6841,7 +6846,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 787|[v1] 新加坡・03
+  name: 770|[v1] 新加坡・03
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -6852,7 +6857,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 787|[v1] 新加坡・04
+  name: 770|[v1] 新加坡・04
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -6863,7 +6868,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 787|[v1] 新加坡・05
+  name: 770|[v1] 新加坡・05
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -6875,7 +6880,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 789|SG | 新加坡 01
+  name: 772|SG | 新加坡 01
   network: ws
   port: 22004
   server: r.runjustfast.com
@@ -6891,7 +6896,7 @@ proxies:
       Host: sg1.runjustfast.com
     path: /2sa6gxdea14c
   ws-path: /2sa6gxdea14c
-- name: 789|SG | 新加坡 Trojan 01
+- name: 772|SG | 新加坡 Trojan 01
   password: e8383f0e-31e7-427c-9df0-36d4dec4aa65
   port: 21018
   server: r.runjustfast.com
@@ -6899,14 +6904,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 797|🇸🇬新加坡05 2X
+  name: 780|🇸🇬新加坡05 2X
   password: 0acc4c22-5428-4b21-870e-c92370bbc8fc
   port: 12186
   server: 117.173.88.171
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 797|🇸🇬新加坡07 2X
+  name: 780|🇸🇬新加坡07 2X
   password: 0acc4c22-5428-4b21-870e-c92370bbc8fc
   port: 12188
   server: 117.173.88.171
@@ -6914,7 +6919,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 812|新加坡CF
+  name: 795|新加坡CF
   network: ws
   port: 80
   server: time.is
@@ -6930,7 +6935,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '813|新加坡CF #1'
+  name: '796|新加坡CF #1'
   network: ws
   port: 80
   server: time.is
@@ -6946,7 +6951,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '814|新加坡CF #2'
+  name: '797|新加坡CF #2'
   network: ws
   port: 80
   server: time.is
@@ -6962,7 +6967,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '815|新加坡CF #3'
+  name: '798|新加坡CF #3'
   network: ws
   port: 80
   server: time.is
@@ -6978,7 +6983,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '816|新加坡CF #4'
+  name: '799|新加坡CF #4'
   network: ws
   port: 80
   server: time.is
@@ -6994,7 +6999,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '817|新加坡CF #5'
+  name: '800|新加坡CF #5'
   network: ws
   port: 80
   server: time.is
@@ -7010,7 +7015,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '818|新加坡CF #6'
+  name: '801|新加坡CF #6'
   network: ws
   port: 80
   server: time.is
@@ -7026,7 +7031,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '819|新加坡CF #7'
+  name: '802|新加坡CF #7'
   network: ws
   port: 80
   server: time.is
@@ -7042,7 +7047,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '820,821|新加坡CF #9'
+  name: '803,804|新加坡CF #9'
   network: ws
   port: 80
   server: time.is
@@ -7058,7 +7063,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '822|新加坡CF #10'
+  name: '805|新加坡CF #10'
   network: ws
   port: 80
   server: time.is
@@ -7074,7 +7079,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '823|新加坡CF #11'
+  name: '806|新加坡CF #11'
   network: ws
   port: 80
   server: time.is
@@ -7090,7 +7095,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '824|新加坡CF #12'
+  name: '807|新加坡CF #12'
   network: ws
   port: 80
   server: time.is
@@ -7106,7 +7111,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '825|新加坡CF #13'
+  name: '808|新加坡CF #13'
   network: ws
   port: 80
   server: time.is
@@ -7122,7 +7127,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '826|新加坡CF #14'
+  name: '809|新加坡CF #14'
   network: ws
   port: 80
   server: time.is
@@ -7137,34 +7142,34 @@ proxies:
     path: /
   ws-path: /
 - cipher: aes-128-gcm
-  name: '845|🇸🇬SG5-江苏移动500M #6'
+  name: '826|🇸🇬SG5-江苏移动500M #6'
   password: 3212aa44-c105-4510-a001-8f4af8b97eab
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '846|🇸🇬SG5-江苏移动500M #7'
+  name: '827|🇸🇬SG5-江苏移动500M #7'
   password: d48765dc-ddf4-4117-80c8-012bcd03b685
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '847|🇸🇬SG5-江苏移动500M #8'
+  name: '828|🇸🇬SG5-江苏移动500M #8'
   password: 913ce75f-a78e-4d3e-8bd9-6f2c0c0ee479
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '848|🇸🇬SG5-江苏移动500M #9'
+  name: '829|🇸🇬SG5-江苏移动500M #9'
   password: f7ea2e58-8dd2-4243-8908-f79e00eafd83
   port: 37689
   server: 180.101.45.31
   type: ss
   udp: true
-- name: '849|「🇸🇬」EMO | 西贡蕉 x3 #2'
+- name: '830|「🇸🇬」EMO | 西贡蕉 x3 #2'
   password: 08b24d8d-10ab-4c5a-990e-4e0e194870af
   port: 8451
   server: t32.emoyes.top
