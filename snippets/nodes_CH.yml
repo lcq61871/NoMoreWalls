@@ -7,38 +7,24 @@ proxies:
   sni: mmbiz11.redapricotcloud.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇨🇭 瑞士-01 x1
-  password: 5e138100-15d0-4f3b-889e-ae83673f13e8
-  port: 27807
-  server: gzother-api.2819v2rhzb56.download
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇨🇭 瑞士-02 x1
-  password: 5e138100-15d0-4f3b-889e-ae83673f13e8
-  port: 27807
-  server: zjother-api.2819v2rhzb56.download
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   delay: 2035
-  name: 70,369,382,539|瑞士 - 苏黎世 - GTHost - 1
+  name: 69,363,377,536|瑞士 - 苏黎世 - GTHost - 1
   port: 22324
   server: 186.190.215.93
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 197|瑞士北部（苏黎世）
+- name: 190|瑞士北部（苏黎世）
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: 198,559|5|瑞士北部（苏黎世）
+- name: 191,556|5|瑞士北部（苏黎世）
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -47,7 +33,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 365|🇨🇭瑞士1 💧 0.6x
+  name: 360|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
@@ -55,65 +41,65 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   country: 🇺🇸 US
-  name: 369,397,398,416,501|🇺🇸 US_286
+  name: 363,392,393,411,498|🇺🇸 US_248
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 369,397,398,416,501|🇸 US_284
+  name: 363,392,393,411,498|🇺🇸 US_246
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 369,398,416,501|🇺🇸 US_288
+  name: 363,393,411,498|🇺🇸 US_245
   password: shadowsocks
   port: 443
   server: 156.146.62.161
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 369,397,398,416,501|🇺🇸 US_285
+  country: 🇺🇸 US
+  name: 363,392,393,411,498|🇺🇸 US_260
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
 - cipher: aes-256-cfb
-  name: 397|🌀29-CH |  12.1MB/s
+  name: 392|🌀29-CH |  12.1MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 416|🇨CH-185.126.116.125-0103
+  name: 411|🇨CH-185.126.116.125-0103
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 416,568|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  name: 411,565|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 416,543|🇨🇭CH-152.67.71.149-3635
+- name: 411,540|🇨🇭CH-152.67.71.149-3635
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 416|🇨CH-156.146.62.160-5238
+  name: 411|🇨CH-156.146.62.160-5238
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 416,543|🇨🇭CH-186.190.215.32-8636
+  name: 411,540|🇨🇭CH-186.190.215.32-8636
   network: ws
   port: 443
   server: 186.190.215.32
@@ -128,7 +114,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 416,543|🇨🇭CH-186.190.215.75-8700
+  name: 411,540|🇨🇭CH-186.190.215.75-8700
   network: ws
   port: 443
   server: 186.190.215.75
@@ -143,7 +129,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 416,543|🇨🇭CH-140.238.212.95-8713
+  name: 411,540|🇨🇭CH-140.238.212.95-8713
   network: ws
   port: 443
   server: 140.238.212.95
@@ -158,7 +144,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 416,543|🇨🇭CH-23.166.88.27-8815
+  name: 411,540|🇨🇭CH-23.166.88.27-8815
   network: ws
   port: 443
   server: 23.166.88.27
@@ -173,7 +159,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 416,543|🇨🇭CH-186.190.215.149-8860
+  name: 411,540|🇨🇭CH-186.190.215.149-8860
   network: ws
   port: 443
   server: 186.190.215.149
@@ -186,81 +172,30 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
-- cipher: aes-128-gcm
-  name: 552|CZECHIA 01 丨1x
-  password: acdeb39b-925f-4e3d-b47c-7dcfaba1733f
-  port: 7582
-  server: bisschaxc.uk
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 552|🇨🇭 联通线路-瑞士01
-  password: 26388b2a-af52-4ca6-86be-cf66df8ef0d8
-  port: 59895
-  server: nnertn.airport.lat
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 552|🇨🇭 直连-瑞士01
-  password: 26388b2a-af52-4ca6-86be-cf66df8ef0d8
-  port: 20640
-  server: ch01.airport.lat
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 552|🇨🇭 瑞士-1B
-  network: ws
-  port: 14962
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a496170e-a0fe-47b0-a0f8-bab9845e20fa
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 552,559|28|🇨🇭 瑞士-1A
-  network: ws
-  port: 14962
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db744715-0ba5-46c3-ae2d-bcd6233f54fd
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 559,566|🔒 VM-TCP-NA 🇨🇭 CH-23.166.88.18...
-  network: tcp
-  port: '22324'
-  server: 23.166.88.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: chacha20-ietf-poly1305
-  name: 601|🇨🇭 CH 瑞士
+  name: 598|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49969
   server: node-a.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '618,619|🇨🇭 瑞士 #3'
+  name: '615,616|🇨🇭 瑞士 #2'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
+- name: '711,815,816,817|🇨🇭 瑞士 #6'
+  password: '!!str 1'
+  port: 10009
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '761,762,763,764|🇨🇭 Switzerland 087 #3'
+  name: '757,758,759,760|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:
