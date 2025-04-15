@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: '237,238|「加入会员解锁流媒体」x3 #1'
+- name: '235,236|「加入会员解锁流媒体」x3 #1'
   password: a78fc14e-4e8b-4fc0-8cab-86fd81c583ca
   port: 43902
   server: t36.emoyes.top
@@ -24,7 +24,7 @@ proxies:
   udp: true
 - allowInsecure: ''
   country: FR
-  name: '321,368,416,513,532,541,556,557,558,559,563,659|🇫🇷 法国 001 #2'
+  name: '317,371,418,516,535,544,559,560,561,562,660|🇫🇷 法国 001 #2'
   network: tcp
   password: utF6JLQd2x
   port: 1935
@@ -35,90 +35,176 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇱🇹LT
-  name: 321,497,499,502|LT_02
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.181
-  type: ss
-- cipher: aes-256-cfb
   country: LT
-  name: 321,416|🇱🇹LT-185.237.185.160-6507
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.237.185.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹LT
-  name: 321,497| |40.76Mb
+  name: 317|netflix_NL
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.157
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: LT
-  name: 321,368,416|🇱🇹LT-45.87.175.69-6503
+  name: 317,418|🇱🇹LT-45.87.175.10-6360
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: LT
+  name: 317,418|🇹LT-45.87.175.35-6356
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: LT
+  name: 317,371,418|🇱🇹LT-45.87.175.69-1122
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.69
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇱🇹LT
-  name: 321,368,416,497,499,502|🇱🇹LT_03
+  name: 317,371,418,502,505|LT_02
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.181
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: LT
-  name: 321,416|🇱🇹LT-45.87.175.10-6506
+  name: 317,418|🇹LT-45.87.175.92-6358
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 45.87.175.10
+  server: 45.87.175.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: LT
+  name: 317,418|🇱🇹LT-45.87.175.58-6359
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.58
+  type: ss
+- cipher: aes-256-cfb
+  country: LT
+  name: 317,418|🇱🇹LT-185.237.185.160-6361
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.237.185.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱 LT
+  name: 317,371,418,502|🇱🇹 LT_198
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹LT
+  name: 317,502,505|🇱🇹LT_05
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.181
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇳🇱 NL
-  name: 321,368,497,499|🇳🇱 NL_213
+  name: 317,371,418,502|🇱 NL_233
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 193.29.139.189
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 321,368,416|🇱PL-217.30.10.18-6510
+  name: 317,371,418|🇵🇱PL-217.30.10.18-1095
   password: Lp27rqyJq72bZsqX
   port: 9045
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 321,416|🇱PL-217.30.10.18-6512
+  name: 317,371,418|🇱PL-217.30.10.18-1107
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 317,418|🇱PL-217.30.10.18-6367
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 317,418,502|_61
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇱PL
+  name: 317,413,418,502|PL_244
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 217.30.10.18
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 317,418|🇱PL-217.30.10.18-6366
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 321,416,499|_03
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: PL
-  name: 321,368,416|🇱PL-217.30.10.18-6509
-  password: KnJGad3FqTvjqbaX
-  port: 9014
+  name: '317|netflix_LT #7'
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
   server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: US
-  name: '321|netflix_NL #6'
+  name: 317,418|🇫🇷FR-45.158.171.60-6370
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: US
+  name: '317|netflix_NL #12'
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.158.171.141
   type: ss
-- name: '830|「加入会员解锁流媒体」x3 #2'
+- country: ZZ
+  name: 317,371,399,418,535|美国 535
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: visa.cn
+  skip-cert-verify: false
+  sni: zamim340.ggff.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zamim340.ggff.net
+    path: /tr?ed=2560
+- country: ZZ
+  name: 317,371,399,418,535|美国 533
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: japan.com
+  skip-cert-verify: false
+  sni: zamim340.ggff.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zamim340.ggff.net
+    path: /tr?ed=2560
+- name: '833|「加入会员解锁流媒体」x3 #2'
   password: 08b24d8d-10ab-4c5a-990e-4e0e194870af
   port: 43902
   server: t36.emoyes.top
