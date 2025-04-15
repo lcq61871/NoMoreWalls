@@ -8,14 +8,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 57|🇨🇭 瑞士-01 x1
+  name: 56|🇨🇭 瑞士-01 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27807
   server: gzother-api.2819v2rhzb56.download
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 57|🇨🇭 瑞士-02 x1
+  name: 56|🇨🇭 瑞士-02 x1
   password: 5e138100-15d0-4f3b-889e-ae83673f13e8
   port: 27807
   server: zjother-api.2819v2rhzb56.download
@@ -24,21 +24,21 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2035
-  name: 71,371,384,540|瑞士 - 苏黎世 - GTHost - 1
+  name: 70,369,382,539|瑞士 - 苏黎世 - GTHost - 1
   port: 22324
   server: 186.190.215.93
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 198|瑞士北部（苏黎世）
+- name: 197|瑞士北部（苏黎世）
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: 199,560|5|瑞士北部（苏黎世）
+- name: 198,559|5|瑞士北部（苏黎世）
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -47,73 +47,73 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 366|🇨🇭瑞士1 💧 0.6x
+  name: 365|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
+  country: 🇺🇸 US
+  name: 369,397,398,416,501|🇺🇸 US_286
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
+  type: ss
+- cipher: aes-128-gcm
   country: 🇸 US
-  name: 371,400,418,502|🇺🇸 US_293
+  name: 369,397,398,416,501|🇸 US_284
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇸 US
+  name: 369,398,416,501|🇺🇸 US_288
   password: shadowsocks
   port: 443
   server: 156.146.62.161
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 371,399,400,418,502|🇺🇸 US_277
+  name: 369,397,398,416,501|🇺🇸 US_285
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
-- cipher: aes-128-gcm
-  country: 🇸 US
-  name: 371,399,400,418,502|🇺🇸 US_295
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸 US
-  name: 371,399,400,418,502|🇺🇸 US_289
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
 - cipher: aes-256-cfb
-  name: 399|🌀29-CH |  12.1MB/s
+  name: 397|🌀29-CH |  12.1MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 399,418|🇷FR-51.15.15.82-0875
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- cipher: aes-256-cfb
-  name: 418|CH-185.126.116.125-0095
+  name: 416|🇨CH-185.126.116.125-0103
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
   type: ss
-- name: 418,544|🇨🇭CH-152.67.71.149-3781
+- cipher: chacha20-ietf-poly1305
+  name: 416,568|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  password: oXGp1+ihlfKg826H
+  port: 1866
+  server: 204.136.10.115
+  type: ss
+- name: 416,543|🇨🇭CH-152.67.71.149-3635
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 418|🇨CH-156.146.62.160-5206
+  name: 416|🇨CH-156.146.62.160-5238
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 418,544|🇨🇭CH-186.190.215.32-8782
+  name: 416,543|🇨🇭CH-186.190.215.32-8636
   network: ws
   port: 443
   server: 186.190.215.32
@@ -128,7 +128,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 418,544|🇨🇭CH-186.190.215.75-8846
+  name: 416,543|🇨🇭CH-186.190.215.75-8700
   network: ws
   port: 443
   server: 186.190.215.75
@@ -143,7 +143,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 418,544|🇨🇭CH-140.238.212.95-8859
+  name: 416,543|🇨🇭CH-140.238.212.95-8713
   network: ws
   port: 443
   server: 140.238.212.95
@@ -158,7 +158,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 418,544|🇨🇭CH-23.166.88.27-8961
+  name: 416,543|🇨🇭CH-23.166.88.27-8815
   network: ws
   port: 443
   server: 23.166.88.27
@@ -173,7 +173,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 418,544|🇨🇭CH-186.190.215.149-9006
+  name: 416,543|🇨🇭CH-186.190.215.149-8860
   network: ws
   port: 443
   server: 186.190.215.149
@@ -186,22 +186,81 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
+- cipher: aes-128-gcm
+  name: 552|CZECHIA 01 丨1x
+  password: acdeb39b-925f-4e3d-b47c-7dcfaba1733f
+  port: 7582
+  server: bisschaxc.uk
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 602|🇨🇭 CH 瑞士
+  name: 552|🇨🇭 联通线路-瑞士01
+  password: 26388b2a-af52-4ca6-86be-cf66df8ef0d8
+  port: 59895
+  server: nnertn.airport.lat
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 552|🇨🇭 直连-瑞士01
+  password: 26388b2a-af52-4ca6-86be-cf66df8ef0d8
+  port: 20640
+  server: ch01.airport.lat
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 552|🇨🇭 瑞士-1B
+  network: ws
+  port: 14962
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a496170e-a0fe-47b0-a0f8-bab9845e20fa
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 552,559|28|🇨🇭 瑞士-1A
+  network: ws
+  port: 14962
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db744715-0ba5-46c3-ae2d-bcd6233f54fd
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 559,566|🔒 VM-TCP-NA 🇨🇭 CH-23.166.88.18...
+  network: tcp
+  port: '22324'
+  server: 23.166.88.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 601|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49969
   server: node-a.dlg365.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '619,620|🇨🇭 瑞士 #3'
+  name: '618,619|🇨🇭 瑞士 #3'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '763,764,765,766|🇨🇭 Switzerland 087 #3'
+  name: '761,762,763,764|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:
@@ -210,12 +269,4 @@ proxies:
   port: 45582
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
-  udp: true
-- name: 815|🇨🇭 瑞士🔒
-  password: 升级订阅解锁全部节点
-  port: 10009
-  server: starlink-fra2.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
   udp: true
