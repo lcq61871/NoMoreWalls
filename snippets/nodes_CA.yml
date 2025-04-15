@@ -27,8 +27,7 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
-  delay: 1071
-  name: 69,377,536|加拿大 - 多伦多 - Tangram Canada Inc...
+  name: '69,371|🇨🇦 加拿大 - 多伦多 - Tangram Canada ... #1'
   port: 58891
   server: 91.194.11.162
   tls: false
@@ -36,7 +35,7 @@ proxies:
   uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
 - alterId: 0
   cipher: auto
-  name: '100,489|🇨🇦 加拿大1 #3'
+  name: '100,484|🇨🇦 加拿大1 #3'
   port: 45064
   server: haa.dashuai.cyou
   tls: false
@@ -45,7 +44,7 @@ proxies:
   uuid: b7518586-64cb-42e9-af4d-fbc89c2c69a3
 - alterId: 0
   cipher: auto
-  name: '100,489|🇨🇦 加拿大2 #3'
+  name: '100,484|🇨🇦 加拿大2 #3'
   port: 45065
   server: xdd.dashuai.cyou
   tls: false
@@ -54,7 +53,7 @@ proxies:
   uuid: b7518586-64cb-42e9-af4d-fbc89c2c69a3
 - alterId: 0
   cipher: auto
-  name: '101,102,493,494|加拿大1-1A #1'
+  name: '101,102,488,489|加拿大1-1A #1'
   port: 45064
   server: haa.dashuai.cyou
   skip-cert-verify: true
@@ -64,7 +63,7 @@ proxies:
   uuid: 48b40bd6-df2a-4d66-913b-69bd363e43c5
 - alterId: 0
   cipher: auto
-  name: '101,102,493,494|加拿大2-1A #1'
+  name: '101,102,488,489|加拿大2-1A #1'
   port: 45065
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -74,7 +73,7 @@ proxies:
   uuid: 48b40bd6-df2a-4d66-913b-69bd363e43c5
 - alterId: 0
   cipher: auto
-  name: '102,494|加拿大1-1B #1'
+  name: '102,489|加拿大1-1B #1'
   port: 45064
   server: haa.dashuai.cyou
   skip-cert-verify: true
@@ -84,7 +83,7 @@ proxies:
   uuid: 2f05dde6-c21e-4b30-b47b-28593f7c4845
 - alterId: 0
   cipher: auto
-  name: '102,494|加拿大2-1B #1'
+  name: '102,489|加拿大2-1B #1'
   port: 45065
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -173,14 +172,7 @@ proxies:
   server: cnamepc03-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 200|🇨🇦加拿大 01 | 1x CA
-  password: 7f6c56da-f8d3-4381-82f7-a998d3051cb8
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: '227,228|「🇨🇦」EMO | 冰糖心 x3 #1'
+- name: '226,227|「🇨🇦」EMO | 冰糖心 x3 #1'
   password: a78fc14e-4e8b-4fc0-8cab-86fd81c583ca
   port: 63106
   server: t35.emoyes.top
@@ -189,35 +181,103 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 231|🇨🇦 CA
+  name: 230|🇨🇦 CA
   password: 463qwerty
   port: 463
   server: 35.92.133.58
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '348|🇨🇦 加拿大 #1'
+  name: '342|🇨🇦 加拿大 #1'
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47503
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '349|🇨🇦 加拿大 #2'
+  name: '343|🇨🇦 加拿大 #2'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47503
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 360|🇨🇦加拿大1 💧 0.6x
+  name: 354|🇨🇦加拿大1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 36067
   server: jp1.qsm1.xyz
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 386|🇨🇦1 |  14.1MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦CA
+  name: 386,405,493|🇦CA_107
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 386|🇨🇦3 |  18.2MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 79.127.233.170
+  type: ss
+- name: 391|SPECAIL|1.5X WIFI
+  password: bf9a43a1-c449-4c77-b712-9265efe3ebc8
+  port: 17739
+  server: jpss.pptv-tv.store
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  type: trojan
+  udp: true
+- name: '391|SPECAIL|1.5X WIFI #1'
+  password: bf9a43a1-c449-4c77-b712-9265efe3ebc8
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 363,411,540|🇨🇦CA-23.162.200.227-0978
+  name: '402|🇨🇦 加拿大1 #2'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52704bc6-015d-4c36-bead-87053a8a9641
+- alterId: 0
+  cipher: auto
+  name: '402|🇨🇦 加拿大2 #2'
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52704bc6-015d-4c36-bead-87053a8a9641
+- alterId: 0
+  cipher: auto
+  name: '405,535,553|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #1'
+  network: ws
+  port: '35845'
+  server: wsclash2.free4444.xyz
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e020b92c-b4ee-11ec-a479-00163c4358f0
+  ws-opts:
+    headers:
+      Host: wsclash2.free4444.xyz
+    path: /x6UiVPhJ/
+- alterId: 0
+  cipher: auto
+  name: 405,535|🇨🇦CA-23.162.200.227-0970
   network: ws
   port: 443
   server: 23.162.200.227
@@ -231,21 +291,14 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 363,411,498|_04
+  name: 405,493|_04
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇦CA
-  name: 363,392,411,498|🇦CA_110
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 363,411,540|🇨🇦CA-134.195.198.147-0976
+  name: 405,535|🇨🇦CA-134.195.198.147-0992
   network: ws
   port: 443
   server: 134.195.198.147
@@ -260,12 +313,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 363,540|🇨🇦CA-51.79.102.253-1109
+  name: 405|🇦CA-51.79.102.253-1133
   network: ws
   port: 80
   server: 51.79.102.253
-  servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
@@ -275,7 +327,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 363,411,540|🇨🇦CA-51.79.102.253-1142
+  name: 405,535|🇨🇦CA-51.79.102.253-1097
   network: ws
   port: 80
   server: 51.79.102.253
@@ -290,12 +342,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 363,540|🇨🇦CA-51.79.103.76-1123
+  name: 405|🇨🇦CA-51.79.103.76-1151
   network: ws
   port: 80
   server: 51.79.103.76
-  servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
@@ -303,188 +354,21 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
-- alterId: 0
-  cipher: auto
-  delay: 1166
-  name: '363,411,519,531,540,555,556,558,656|🇨🇦 加拿大 001 #2'
-  network: ws
-  port: '2052'
-  server: s1.db-link01.top
-  servername: 100-151-164-47.s1.db-link01.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-151-164-47.s1.db-link01.top
-    path: /dabai.in172.67.2.142
-- alterId: 0
-  cipher: auto
-  name: '363,411,531,540,555,556,558,656|🇨🇦 加拿大 002 #2'
-  network: ws
-  port: '8880'
-  server: s4.db-link02.top
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-128-12-180.s4.db-link02.top
-    path: /dabai.in104.25.239.131
-- alterId: 0
-  cipher: auto
-  name: '363,411,531,540,556,558,656|🇨🇦 加拿大 003 #2'
-  network: ws
-  port: '8080'
-  server: 104.16.155.10
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-149-191-2.s5.db-link02.top
-    path: /dabai.in104.20.16.209
-- alterId: 0
-  cipher: auto
-  name: '363,411,531,540,556,558,656|🇨🇦 加拿大 004 #2'
-  network: ws
-  port: '2086'
-  server: s1.cn-db.top
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-47-154-9.s1.cn-db.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '363,411,531,540,556,558,656|🇨🇦 加拿大 006 #2'
-  network: ws
-  port: '443'
-  server: us159.vp1000.net
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
-  ws-opts:
-    headers:
-      Host: us148.vp1000.net
-    path: /cp100vp800kkkdsnx
-- alterId: 0
-  cipher: auto
-  name: '363,411,531,540,555,556,558,656|🇨🇦 加拿大 008 #2'
-  network: ws
-  port: '8080'
-  server: s4.db-link02.top
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-217-184-172.s4.db-link02.top
-    path: /dabai.in104.25.238.226
-- allowInsecure: ''
-  name: '363,411,531,540,556,557,558,562,656|🇨🇦 加拿大 009 #2'
-  network: tcp
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 52492
-  server: 142.171.162.85
-  skip-cert-verify: false
-  sni: t28.qifei.app
-  tls: true
-  type: trojan
-- cipher: aes-128-gcm
-  name: 392|🇨🇦1 |  14.1MB/s
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 392|🇨🇦3 |  18.2MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 79.127.233.170
-  type: ss
-- name: 397|SPECAIL|1.5X WIFI
-  password: bf9a43a1-c449-4c77-b712-9265efe3ebc8
-  port: 17739
-  server: jpss.pptv-tv.store
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  type: trojan
-  udp: true
-- name: '397|SPECAIL|1.5X WIFI #1'
-  password: bf9a43a1-c449-4c77-b712-9265efe3ebc8
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '408|🇨🇦 加拿大1 #2'
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52704bc6-015d-4c36-bead-87053a8a9641
-- alterId: 0
-  cipher: auto
-  name: '408|🇨🇦 加拿大2 #2'
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52704bc6-015d-4c36-bead-87053a8a9641
-- alterId: 0
-  cipher: auto
-  name: '411,540,558|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #1'
-  network: ws
-  port: '35845'
-  server: wsclash2.free4444.xyz
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e020b92c-b4ee-11ec-a479-00163c4358f0
-  ws-opts:
-    headers:
-      Host: wsclash2.free4444.xyz
-    path: /x6UiVPhJ/
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-1176
+  name: 405|🇦CA-134.195.196.149-1176
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.154-1193
+  name: 405|🇦CA-196.247.59.154-1193
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-104.247.81.52-1774
+  name: 405,535|🇨🇦CA-104.247.81.52-1801
   network: ws
   port: 443
   server: uk.xlkjjs.top
@@ -497,14 +381,14 @@ proxies:
     headers:
       Host: uk.xlkjjs.top
     path: /
-- name: 411,540|🇨🇦CA-148.113.141.99-1823
+- name: 405,535|🇨🇦CA-148.113.141.99-1850
   password: HdsUZmsHQW
   port: 443
   server: 148.113.141.99
   skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
-  name: 411,540|8J%2BHqPCfh6ZDQS0xNS4yMjIuMjA1...
+  name: 405,535|8J%2BHqPCfh6ZDQS0xNS4xNTcuNTku...
   obfs: http_simple
   obfs-param: ''
   password: YpX2opBbrfqJzzMs
@@ -515,7 +399,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 411,540,545,555,556|20,21,24|VMESS-加拿大-NF解锁加拿大地区非自...
+  name: 405,535,540,550,551|24|VMESS-加拿大-NF解锁加拿大地区非自制剧-Cha...
   network: ws
   port: 80
   server: 51.79.102.253
@@ -530,7 +414,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '411,540,545,555,556|20,21,24|VMESS-加拿大-NF解锁加拿大地区非自... #1'
+  name: '405,535,540,550,551|24|VMESS-加拿大-NF解锁加拿大地区非自制剧-Cha... #1'
   network: ws
   port: 80
   server: 51.79.103.76
@@ -544,110 +428,110 @@ proxies:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: aes-256-gcm
-  name: 411|🇦CA-198.8.92.84-2260
+  name: 405|🇦CA-198.8.92.84-2277
   password: ugyBkSEFxVEmUYSHyvxmWNj9
   port: 40220
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-138.197.174.245-2282
+  name: 405|🇦CA-138.197.174.245-2299
   password: yuMqkGIx6Ia0
   port: 56443
   server: 138.197.174.245
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-198.8.92.84-2299
+  name: 405|🇨🇦CA-198.8.92.84-2316
   password: J9Y2ncrdPEC38gwydNFFGBna
   port: 35294
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-198.8.92.84-2303
+  name: 405|🇨🇦CA-198.8.92.84-2320
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
   port: 44945
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-198.8.92.84-2315
+  name: 405|🇨🇦CA-198.8.92.84-2332
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-198.8.92.84-2316
+  name: 405|🇨🇦CA-198.8.92.84-2333
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-51.161.118.38-2545
+  name: 405|🇦CA-51.161.118.38-2562
   password: G!yBwPWH3Vao
   port: 801
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-51.161.118.38-2618
+  name: 405|🇦CA-51.161.118.38-2635
   password: G!yBwPWH3Vao
   port: 812
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-51.161.118.38-2619
+  name: 405|🇦CA-51.161.118.38-2636
   password: G!yBwPWH3Vao
   port: 805
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2620
+  name: 405|🇨🇦CA-51.161.118.38-2637
   password: G!yBwPWH3Vao
   port: 808
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2621
+  name: 405|🇨🇦CA-51.161.118.38-2638
   password: G!yBwPWH3Vao
   port: 811
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-51.161.118.38-2622
+  name: 405|🇦CA-51.161.118.38-2639
   password: G!yBwPWH3Vao
   port: 807
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2623
+  name: 405|🇨🇦CA-51.161.118.38-2640
   password: G!yBwPWH3Vao
   port: 802
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2624
+  name: 405|🇨🇦CA-51.161.118.38-2641
   password: G!yBwPWH3Vao
   port: 804
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2625
+  name: 405|🇨🇦CA-51.161.118.38-2642
   password: G!yBwPWH3Vao
   port: 810
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2627
+  name: 405|🇨🇦CA-51.161.118.38-2644
   password: G!yBwPWH3Vao
   port: 803
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-2628
+  name: 405|🇨🇦CA-51.161.118.38-2645
   password: G!yBwPWH3Vao
   port: 800
   server: 51.161.118.38
   type: ss
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-132.145.99.228-2659
+  name: 405,535|🇨🇦CA-132.145.99.228-2680
   network: ws
   port: 13724
   server: 132.145.99.228
@@ -660,7 +544,7 @@ proxies:
     headers:
       Host: ''
     path: /ws-path
-- name: 411,540|🇨🇦CA-35.182.251.60-2711
+- name: 405,535|🇨🇦CA-35.182.251.60-2732
   password: telegram-id-directvpn
   port: 22222
   server: 35.182.251.60
@@ -669,7 +553,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-192.99.8.99-2759
+  name: 405,535|🇨🇦CA-192.99.8.99-2780
   network: ws
   port: 36005
   server: 192.99.8.99
@@ -684,7 +568,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-192.99.8.99-2762
+  name: 405,535|🇨🇦CA-192.99.8.99-2783
   network: ws
   port: 36005
   server: tcas.padra-holding.com
@@ -699,7 +583,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 411,540,556|23|🇨🇦_CA_加拿大
+  name: 405,535,551|23|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -711,26 +595,26 @@ proxies:
   ws-opts:
     path: /linkvws
 - cipher: aes-256-gcm
-  name: 411|🇦CA-198.57.27.218-3243
+  name: 405|🇦CA-198.57.27.218-3245
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 198.57.27.218
   type: ss
-- name: 411,540|🇨🇦CA-51.222.86.136-3214
+- name: 405,535|🇨🇦CA-51.222.86.136-3246
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-72.140.224.195-3360
+  name: 405|🇦CA-72.140.224.195-3362
   password: G!yBwPWH3Vao
   port: 800
   server: 72.140.224.195
   type: ss
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-51.161.130.141-3752
+  name: 405,535|🇨🇦CA-51.161.130.141-3784
   network: ws
   port: 80
   server: 51.161.130.141
@@ -743,21 +627,35 @@ proxies:
     headers:
       Host: ''
     path: /JAGOANSSH/
-- name: 411,540|🇨🇦CA-149.56.141.11-4530
+- name: 405,535|🇨🇦CA-149.56.141.11-4562
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   skip-cert-verify: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.156-5401
+  name: 405|🇦CA-196.247.59.156-5403
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-149.56.95.159-5635
+  name: 405|🇨CA-104.247.81.52-5641
+  network: ws
+  port: 443
+  server: tw.xlkjjs.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0
+  ws-opts:
+    headers:
+      Host: tw.xlkjjs.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 405,535|🇨🇦CA-149.56.95.159-5667
   network: ws
   port: 23784
   server: 149.56.95.159
@@ -772,7 +670,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 411,540|🇨🇦CA-138.197.165.31-5948
+  name: 405,535|🇨🇦CA-138.197.165.31-5980
   network: ws
   port: 8080
   server: 138.197.165.31
@@ -785,7 +683,7 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8
-- name: 411,498,540|🇨🇦CA-178.128.238.42-6164
+- name: 405,493,535|🇨🇦CA-178.128.238.42-6158
   password: acfef609-b3c7-4e52-b292-8921d5fca90d
   port: 443
   server: ca-full.privateip.net
@@ -793,7 +691,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-15.235.83.228-6307
+  name: 405,535|🇨🇦CA-15.235.83.228-6296
   network: ws
   port: 443
   server: 15.235.83.228
@@ -808,7 +706,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-15.235.50.172-6319
+  name: 405,535|🇨🇦CA-15.235.50.172-6302
   network: ws
   port: 443
   server: 15.235.50.172
@@ -823,7 +721,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-15.235.83.227-6312
+  name: 405,535|🇨🇦CA-15.235.83.227-6311
   network: ws
   port: 443
   server: 15.235.83.227
@@ -841,7 +739,7 @@ proxies:
   country: 🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 411,496,540,556,563,565|VMESS--NF解锁加拿大地区非自制剧-ChatGPT-T...
+  name: 405,491,535,551,560|VMESS--NF解锁加拿大地区非自制剧-ChatGPT-T...
   network: ws
   port: 80
   server: 51.79.102.253
@@ -853,224 +751,224 @@ proxies:
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: aes-256-gcm
-  name: 411|🇨CA-134.195.196.149-6598
+  name: 405|🇨CA-134.195.196.149-6600
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-6599
+  name: 405|🇦CA-134.195.196.149-6601
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.154-6605
+  name: 405|🇨🇦CA-196.247.59.154-6607
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-6625
+  name: 405|🇦CA-134.195.196.149-6627
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-6626
+  name: 405|🇦CA-134.195.196.149-6628
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.85-6627
+  name: 405|🇨🇦CA-134.195.196.85-6629
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 134.195.196.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.154-6628
+  name: 405|🇨🇦CA-196.247.59.154-6630
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.154-6630
+  name: 405|🇦CA-196.247.59.154-6632
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.154-6631
+  name: 405|🇨🇦CA-196.247.59.154-6633
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.231-6699
+  name: 405|🇦CA-134.195.196.231-6701
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.230-6700
+  name: 405|🇨🇦CA-134.195.196.230-6702
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.230
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.231-6701
+  name: 405|🇨🇦CA-134.195.196.231-6703
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-38.111.114.246-6801
+  name: 405|🇦CA-38.111.114.246-6803
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-38.111.114.246-6802
+  name: 405|🇨🇦CA-38.111.114.246-6804
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.154-7047
+  name: 405|🇦CA-196.247.59.154-7049
   password: G!yBwPWH3Vao
   port: 805
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.156-7052
+  name: 405|🇦CA-196.247.59.156-7054
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.154-7053
+  name: 405|🇨🇦CA-196.247.59.154-7055
   password: G!yBwPWH3Vao
   port: 802
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.156-7054
+  name: 405|🇨🇦CA-196.247.59.156-7056
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-196.247.59.156-7055
+  name: 405|🇦CA-196.247.59.156-7057
   password: G!yBwPWH3Vao
   port: 808
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.156-7058
+  name: 405|🇨🇦CA-196.247.59.156-7060
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-196.247.59.156-7061
+  name: 405|🇨🇦CA-196.247.59.156-7063
   password: G!yBwPWH3Vao
   port: 804
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-51.161.118.38-7063
+  name: 405|🇨🇦CA-51.161.118.38-7065
   password: G!yBwPWH3Vao
   port: 806
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-7144
+  name: 405|🇦CA-134.195.196.149-7146
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.198.95-7145
+  name: 405|🇦CA-134.195.198.95-7147
   password: faBAoD54k87UJG7
   port: 2376
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-7146
+  name: 405|🇦CA-134.195.196.149-7148
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.198.95-7147
+  name: 405|🇦CA-134.195.198.95-7149
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-7148
+  name: 405|🇦CA-134.195.196.149-7150
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-134.195.196.143-7149
+  name: 405|🇦CA-134.195.196.143-7151
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.107-7150
+  name: 405|🇨🇦CA-134.195.196.107-7152
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 134.195.196.107
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇦CA-134.195.196.178-7151
+  name: 405|🇦CA-134.195.196.178-7153
   password: G!yBwPWH3Vao
   port: 804
   server: 134.195.196.178
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.149-7153
+  name: 405|🇨🇦CA-134.195.196.149-7155
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.196.107-7155
+  name: 405|🇨🇦CA-134.195.196.107-7157
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇨🇦CA-134.195.198.95-7156
+  name: 405|🇨🇦CA-134.195.198.95-7158
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.198.95-7157
+  name: 405|🇦CA-134.195.198.95-7159
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.107-7160
+  name: 405|🇦CA-134.195.196.107-7162
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 411|🇦CA-134.195.196.149-7162
+  name: 405|🇦CA-134.195.196.149-7164
   password: KixLvKzwjekG00rm
   port: 8080
   server: 134.195.196.149
   type: ss
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-137.184.164.233-8283
+  name: 405,535|🇨🇦CA-137.184.164.233-8264
   network: ws
   port: 80
   server: 137.184.164.233
@@ -1085,7 +983,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 411,512,540|🇨🇦CA-15.235.83.227-8329
+  name: 405,507,535|🇨🇦CA-15.235.83.227-8295
   network: ws
   port: 443
   server: 15.235.83.227
@@ -1100,22 +998,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 411,512,540,556|20,21|🇨🇦CA-134.195.198.147-830...
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: inna.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 411,512,540,556|20,21|🇨🇦CA-23.162.200.227-8339...
+  name: 405,507,535,551|20,21|🇨🇦CA-23.162.200.227-8317...
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1130,7 +1013,22 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-15.235.50.172-8337
+  name: 405,507,535,551|20,21|🇨🇦CA-134.195.198.147-830...
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 405,535|🇨🇦CA-15.235.50.172-8323
   network: ws
   port: 443
   server: 15.235.50.172
@@ -1145,7 +1043,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 411,540|🇨🇦CA-23.162.200.94-8578
+  name: 405,535|🇨🇦CA-23.162.200.94-8559
   network: ws
   port: 443
   server: 23.162.200.94
@@ -1160,7 +1058,7 @@ proxies:
     path: /linkvws
 - alterId: 1
   cipher: auto
-  name: 411,540|🇨🇦CA-134.195.198.92-8749
+  name: 405,535|🇨🇦CA-134.195.198.92-8730
   network: ws
   port: 443
   server: 134.195.198.92
@@ -1175,7 +1073,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 411,540|🇨🇦CA-23.162.200.141-8849
+  name: 405,535|🇨🇦CA-23.162.200.141-8830
   network: ws
   port: 443
   server: 23.162.200.141
@@ -1188,14 +1086,14 @@ proxies:
     headers:
       Host: 23.162.200.141
     path: linkvws
-- name: 411,540|🇨🇦CA-35.182.28.167-9581
+- name: 405,535|🇨🇦CA-35.182.28.167-9561
   password: telegram-id-directvpn
   port: 22222
   server: 35.182.28.167
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: 411,540|🇨🇦CA-3.96.217.9-9607
+- name: 405,535|🇨🇦CA-3.96.217.9-9587
   password: telegram-id-directvpn
   port: 22222
   server: 3.96.217.9
@@ -1204,35 +1102,42 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 444|🇨🇦 加拿大|CA1
+  name: 438|🇨🇦 加拿大|CA1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 19915
   server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 458|🇨🇦 加拿大S01
-  password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
-  port: 20059
-  server: yy9cs-g06.ca01-ae5.entry.v50307shvkaa.art
+- cipher: chacha20-ietf-poly1305
+  name: 439|🇨🇦 加拿大 01 | 1x CA
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 460|🇨🇦 碧海☁️ 加拿大-01
-  password: 9e1b75ab-e760-4e77-8d2b-a6361b7c0be4
+- cipher: aes-256-gcm
+  name: 453|🇨🇦 加拿大S01
+  password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
+  port: 20059
+  server: cleit-g06.ca01-ae5.entry.v50307shvkaa.art
+  type: ss
+  udp: true
+- name: 455|🇨🇦 碧海☁️ 加拿大-01
+  password: 0530436a-a445-4fa8-85ce-58fed525d18c
   port: 34016
   server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '461|🇨🇦 碧海☁️ 加拿大-01 #1'
-  password: 4079fb89-6a5d-4eff-bcdb-6c58e7df22c2
+- name: '456|🇨🇦 碧海☁️ 加拿大-01 #1'
+  password: d8537345-db6b-4b50-853e-7f77b44424a1
   port: 34016
   server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '462|🇨🇦 碧海☁️ 加拿大-01 #2'
-  password: 1c581170-3420-479d-b003-af81afbea191
+- name: '457|🇨🇦 碧海☁️ 加拿大-01 #2'
+  password: 86d837fb-05e4-4ed8-8f3f-c61dfb9f87ad
   port: 34016
   server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
@@ -1240,7 +1145,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 469|加拿大-优化
+  name: 464|加拿大-优化
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1256,7 +1161,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 469|加拿大-优化2
+  name: 464|加拿大-优化2
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1272,7 +1177,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 469|加拿大-优化3
+  name: 464|加拿大-优化3
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1288,7 +1193,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '470|加拿大-优化 #1'
+  name: '465|加拿大-优化 #1'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1304,7 +1209,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '470|加拿大-优化2 #1'
+  name: '465|加拿大-优化2 #1'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1320,7 +1225,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '470|加拿大-优化3 #1'
+  name: '465|加拿大-优化3 #1'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1336,7 +1241,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471,472|加拿大-优化 #3'
+  name: '466,467|加拿大-优化 #3'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1352,7 +1257,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471,472|加拿大-优化2 #3'
+  name: '466,467|加拿大-优化2 #3'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1368,7 +1273,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471,472|加拿大-优化3 #3'
+  name: '466,467|加拿大-优化3 #3'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1384,7 +1289,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '475|加拿大-优化 #4'
+  name: '470|加拿大-优化 #4'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1400,7 +1305,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '475|加拿大-优化2 #4'
+  name: '470|加拿大-优化2 #4'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1416,7 +1321,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '475|加拿大-优化3 #4'
+  name: '470|加拿大-优化3 #4'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1431,7 +1336,7 @@ proxies:
     path: /
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 478|🇨🇦Canada 02
+  name: 473|🇨🇦Canada 02
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 50868
   server: 183.236.51.160
@@ -1439,7 +1344,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '481,482,483,484,485,486|加拿大-优化 #10'
+  name: '476,477,478,479,480,481|加拿大-优化 #10'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1455,7 +1360,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '481,482,483,484,485,486|加拿大-优化2 #10'
+  name: '476,477,478,479,480,481|加拿大-优化2 #10'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1471,7 +1376,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '481,482,483,484,485,486|加拿大-优化3 #10'
+  name: '476,477,478,479,480,481|加拿大-优化3 #10'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1487,7 +1392,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 487,556|5|加拿大-优化
+  name: 482,551|5|加拿大-优化
   network: ws
   port: '16641'
   server: yes.mojcn.com
@@ -1504,7 +1409,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 487,556|5|加拿大-优化2
+  name: 482,551|5|加拿大-优化2
   network: ws
   port: '16641'
   server: m.cnmjcn.com
@@ -1521,7 +1426,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 487,556|5|加拿大-优化3
+  name: 482,551|5|加拿大-优化3
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1538,11 +1443,11 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '491,492|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
+  name: '486,487|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
   network: ws
-  port: 2096
-  server: 1744720941.tencentapp.cn
-  servername: 1744720978.speed.fdvb.cccp.freefly.pp.ua
+  port: 2087
+  server: 1744741341.tencentapp.cn
+  servername: 1744741378.speed.fdvb.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1550,9 +1455,9 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744720978.speed.fdvb.cccp.freefly.pp.ua
+      Host: 1744741378.speed.fdvb.cccp.freefly.pp.ua
     path: /
-- name: '513|加拿大_多伦多 #42'
+- name: '508|加拿大_多伦多 #42'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -1562,7 +1467,7 @@ proxies:
     headers:
       Host: tz.ylks.xyz
     path: '%2F'
-- name: '513|加拿大_多伦多 #62'
+- name: '508|加拿大_多伦多 #62'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -1574,7 +1479,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #201'
+  name: '509|加拿大_多伦多 #201'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -1584,7 +1489,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #202'
+  name: '509|加拿大_多伦多 #202'
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -1594,7 +1499,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #203'
+  name: '509|加拿大_多伦多 #203'
   network: ws
   port: 2086
   server: 104.19.45.13
@@ -1604,7 +1509,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #204'
+  name: '509|加拿大_多伦多 #204'
   network: ws
   port: 2086
   server: 104.19.47.22
@@ -1614,7 +1519,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #205'
+  name: '509|加拿大_多伦多 #205'
   network: ws
   port: 2086
   server: 162.159.140.56
@@ -1624,7 +1529,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #206'
+  name: '509|加拿大_多伦多 #206'
   network: ws
   port: 2086
   server: www.visa.com
@@ -1634,7 +1539,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #207'
+  name: '509|加拿大_多伦多 #207'
   network: ws
   port: 2086
   server: 104.19.46.103
@@ -1644,7 +1549,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #208'
+  name: '509|加拿大_多伦多 #208'
   network: ws
   port: 2086
   server: 162.159.140.19
@@ -1654,7 +1559,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #209'
+  name: '509|加拿大_多伦多 #209'
   network: ws
   port: 2086
   server: 104.26.5.113
@@ -1664,7 +1569,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #210'
+  name: '509|加拿大_多伦多 #210'
   network: ws
   port: 2086
   server: 104.26.5.103
@@ -1674,7 +1579,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #213'
+  name: '509|加拿大_多伦多 #213'
   network: ws
   port: 2086
   server: icook.tw
@@ -1684,7 +1589,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #215'
+  name: '509|加拿大_多伦多 #215'
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -1694,7 +1599,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #217'
+  name: '509|加拿大_多伦多 #217'
   network: ws
   port: 2086
   server: 104.19.45.31
@@ -1704,7 +1609,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #218'
+  name: '509|加拿大_多伦多 #218'
   network: ws
   port: 2086
   server: 104.19.45.19
@@ -1714,7 +1619,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #219'
+  name: '509|加拿大_多伦多 #219'
   network: ws
   port: 2086
   server: 104.19.38.12
@@ -1724,7 +1629,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 514,557|🏁RELAY-104.19.32.46-108
+  name: 509,552|🏁RELAY-104.19.32.46-108
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -1738,7 +1643,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #221'
+  name: '509|加拿大_多伦多 #221'
   network: ws
   port: 2086
   server: 162.159.140.91
@@ -1748,7 +1653,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #222'
+  name: '509|加拿大_多伦多 #222'
   network: ws
   port: 2086
   server: 104.19.47.88
@@ -1758,7 +1663,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #223'
+  name: '509|加拿大_多伦多 #223'
   network: ws
   port: 2086
   server: 104.19.21.71
@@ -1768,7 +1673,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 514,557|🏁RELAY-104.19.47.32-008
+  name: 509,552|🏁RELAY-104.19.47.32-008
   network: ws
   port: 2086
   server: 104.19.47.32
@@ -1782,7 +1687,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 514,557|🏁RELAY-104.19.46.39-006
+  name: 509,552|🏁RELAY-104.19.46.39-006
   network: ws
   port: 2086
   server: 104.19.46.39
@@ -1796,7 +1701,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #16'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #16'
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -1806,7 +1711,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #227'
+  name: '509|加拿大_多伦多 #227'
   network: ws
   port: 2086
   server: 104.26.5.67
@@ -1816,7 +1721,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #228'
+  name: '509|加拿大_多伦多 #228'
   network: ws
   port: 2086
   server: 172.67.71.187
@@ -1826,7 +1731,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 514,557|🏁RELAY-104.20.25.146-011
+  name: 509,552|🏁RELAY-104.20.25.146-011
   network: ws
   port: 2086
   server: 104.20.25.146
@@ -1840,7 +1745,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_渥太華 #2'
+  name: '509|加拿大_渥太華 #2'
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -1850,7 +1755,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #230'
+  name: '509|加拿大_多伦多 #230'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -1860,7 +1765,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #231'
+  name: '509|加拿大_多伦多 #231'
   network: ws
   port: 2086
   server: 104.26.5.66
@@ -1870,7 +1775,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #232'
+  name: '509|加拿大_多伦多 #232'
   network: ws
   port: 2086
   server: 104.18.15.19
@@ -1880,7 +1785,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #233'
+  name: '509|加拿大_多伦多 #233'
   network: ws
   port: 2086
   server: 104.19.46.63
@@ -1890,7 +1795,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #234'
+  name: '509|加拿大_多伦多 #234'
   network: ws
   port: 2086
   server: ip.sb
@@ -1900,7 +1805,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #235'
+  name: '509|加拿大_多伦多 #235'
   network: ws
   port: 2086
   server: japan.com
@@ -1910,7 +1815,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #236'
+  name: '509|加拿大_多伦多 #236'
   network: ws
   port: 2086
   server: russia.com
@@ -1920,7 +1825,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_渥太華 #3'
+  name: '509|加拿大_渥太華 #3'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -1933,7 +1838,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_渥太華 #13'
+  name: '509,511|加拿大_渥太華 #13'
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -1946,7 +1851,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_渥太華 #5'
+  name: '509|加拿大_渥太華 #5'
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -1959,7 +1864,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #237'
+  name: '509|加拿大_多伦多 #237'
   network: ws
   port: 443
   server: 188.114.97.2
@@ -1972,7 +1877,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #238'
+  name: '509|加拿大_多伦多 #238'
   network: ws
   port: 443
   server: 188.114.96.2
@@ -1985,7 +1890,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #239'
+  name: '509|加拿大_多伦多 #239'
   network: ws
   port: 2086
   server: 104.26.12.31
@@ -1998,7 +1903,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #240'
+  name: '509|加拿大_多伦多 #240'
   network: ws
   port: 443
   server: 172.67.175.56
@@ -2011,7 +1916,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #241'
+  name: '509|加拿大_多伦多 #241'
   network: ws
   port: 2086
   server: 104.26.10.11
@@ -2024,7 +1929,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #242'
+  name: '509|加拿大_多伦多 #242'
   network: ws
   port: 2086
   server: 104.26.13.31
@@ -2037,7 +1942,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #243'
+  name: '509|加拿大_多伦多 #243'
   network: ws
   port: 443
   server: 172.67.181.241
@@ -2050,7 +1955,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #31'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #31'
   network: ws
   port: 2086
   server: 104.26.8.156
@@ -2063,7 +1968,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #245'
+  name: '509|加拿大_多伦多 #245'
   network: ws
   port: 2086
   server: 104.26.9.156
@@ -2076,7 +1981,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #246'
+  name: '509|加拿大_多伦多 #246'
   network: ws
   port: 2086
   server: 172.67.71.187
@@ -2089,7 +1994,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #363'
+  name: '509,511|加拿大_多伦多 #363'
   network: ws
   port: 2086
   server: 104.26.0.50
@@ -2102,7 +2007,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #248'
+  name: '509|加拿大_多伦多 #248'
   network: ws
   port: 443
   server: capellare.com
@@ -2115,7 +2020,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #353'
+  name: '509,511|加拿大_多伦多 #353'
   network: ws
   port: 2086
   server: 104.26.5.123
@@ -2128,7 +2033,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #358'
+  name: '509,511|加拿大_多伦多 #358'
   network: ws
   port: 2086
   server: 104.26.5.113
@@ -2141,7 +2046,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #251'
+  name: '509|加拿大_多伦多 #251'
   network: ws
   port: 2086
   server: 104.26.5.67
@@ -2154,7 +2059,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #252'
+  name: '509|加拿大_多伦多 #252'
   network: ws
   port: 2086
   server: 172.67.74.112
@@ -2167,7 +2072,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #387'
+  name: '509,511|加拿大_多伦多 #387'
   network: ws
   port: 2086
   server: 104.26.5.112
@@ -2180,7 +2085,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #366'
+  name: '509,511|加拿大_多伦多 #366'
   network: ws
   port: 2086
   server: 104.26.5.103
@@ -2193,7 +2098,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #361'
+  name: '509,511|加拿大_多伦多 #361'
   network: ws
   port: 2086
   server: 104.26.5.145
@@ -2206,7 +2111,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #379'
+  name: '509,511|加拿大_多伦多 #379'
   network: ws
   port: 2086
   server: 104.26.5.90
@@ -2219,7 +2124,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #357'
+  name: '509,511|加拿大_多伦多 #357'
   network: ws
   port: 2086
   server: 104.26.5.66
@@ -2232,7 +2137,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #258'
+  name: '509|加拿大_多伦多 #258'
   network: ws
   port: 2086
   server: 104.26.5.56
@@ -2245,7 +2150,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #259'
+  name: '509|加拿大_多伦多 #259'
   network: ws
   port: 2086
   server: 104.26.5.88
@@ -2258,7 +2163,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516,560|关注电报https://t.me/aifenxiang202... #1'
+  name: '509,511,555|关注电报https://t.me/aifenxiang202... #1'
   network: ws
   port: '2086'
   server: 104.26.0.56
@@ -2272,7 +2177,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #261'
+  name: '509|加拿大_多伦多 #261'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -2285,7 +2190,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,515|加拿大_多伦多 #349'
+  name: '509,510|加拿大_多伦多 #349'
   network: ws
   port: '2086'
   server: russia.com
@@ -2299,7 +2204,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,515,516|加拿大_多伦多 #355'
+  name: '509,510,511|加拿大_多伦多 #355'
   network: ws
   port: 2086
   server: ip.sb
@@ -2313,7 +2218,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,515,516,560|关注电报https://t.me/aifenxiang202... #22'
+  name: '509,510,511,555|关注电报https://t.me/aifenxiang202... #22'
   network: ws
   port: 2086
   server: malaysia.com
@@ -2327,7 +2232,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #14'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #14'
   network: ws
   port: 2086
   server: singapore.com
@@ -2340,7 +2245,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #266'
+  name: '509|加拿大_多伦多 #266'
   network: ws
   port: 2086
   server: japan.com
@@ -2353,7 +2258,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #267'
+  name: '509|加拿大_多伦多 #267'
   network: ws
   port: 2086
   server: 104.19.123.11
@@ -2366,7 +2271,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #268'
+  name: '509|加拿大_多伦多 #268'
   network: ws
   port: 443
   server: 104.21.69.44
@@ -2379,7 +2284,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #25'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #25'
   network: ws
   port: 2086
   server: icook.tw
@@ -2392,7 +2297,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #270'
+  name: '509|加拿大_多伦多 #270'
   network: ws
   port: 2086
   server: www.visa.com
@@ -2405,7 +2310,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #271'
+  name: '509|加拿大_多伦多 #271'
   network: ws
   port: 2086
   server: 104.19.21.71
@@ -2418,7 +2323,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #272'
+  name: '509|加拿大_多伦多 #272'
   network: ws
   port: 2086
   server: 104.19.21.230
@@ -2431,7 +2336,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #34'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #34'
   network: ws
   port: 2086
   server: 104.19.21.63
@@ -2444,7 +2349,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #274'
+  name: '509|加拿大_多伦多 #274'
   network: ws
   port: 2086
   server: 104.20.25.146
@@ -2457,7 +2362,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #275'
+  name: '509|加拿大_多伦多 #275'
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -2470,7 +2375,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,560|关注电报https://t.me/aifenxiang202... #32'
+  name: '509,555|关注电报https://t.me/aifenxiang202... #32'
   network: ws
   port: 2086
   server: 104.22.37.243
@@ -2483,7 +2388,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #277'
+  name: '509|加拿大_多伦多 #277'
   network: ws
   port: 2086
   server: 104.22.36.243
@@ -2496,7 +2401,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #278'
+  name: '509|加拿大_多伦多 #278'
   network: ws
   port: 443
   server: 141.724064.xyz
@@ -2509,7 +2414,7 @@ proxies:
     path: /gmvfvws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #279'
+  name: '509|加拿大_多伦多 #279'
   network: ws
   port: 443
   server: 188.114.97.21
@@ -2522,7 +2427,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #280'
+  name: '509|加拿大_多伦多 #280'
   network: ws
   port: 443
   server: 188.114.96.3
@@ -2535,7 +2440,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #283'
+  name: '509|加拿大_多伦多 #283'
   network: ws
   port: 2086
   server: 162.159.140.33
@@ -2548,7 +2453,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #284'
+  name: '509|加拿大_多伦多 #284'
   network: ws
   port: 443
   server: 104.21.46.121
@@ -2561,7 +2466,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #285'
+  name: '509|加拿大_多伦多 #285'
   network: ws
   port: 443
   server: hms24.ivideos.sbs
@@ -2574,7 +2479,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #286'
+  name: '509|加拿大_多伦多 #286'
   network: ws
   port: 2086
   server: 104.18.15.19
@@ -2587,7 +2492,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #287'
+  name: '509|加拿大_多伦多 #287'
   network: ws
   port: 2086
   server: 104.18.14.19
@@ -2600,7 +2505,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #288'
+  name: '509|加拿大_多伦多 #288'
   network: ws
   port: 443
   server: 188.114.97.8
@@ -2613,7 +2518,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #290'
+  name: '509|加拿大_多伦多 #290'
   network: ws
   port: 443
   server: 104.18.206.97
@@ -2626,7 +2531,7 @@ proxies:
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_渥太華 #6'
+  name: '509|加拿大_渥太華 #6'
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -2639,11 +2544,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 514,540|🏁RELAY-188.114.97.2-1691
+  name: '509|加拿大_多伦多 #292'
   network: ws
   port: 443
   server: 188.114.97.2
-  servername: ''
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
@@ -2653,7 +2557,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #293'
+  name: '509|加拿大_多伦多 #293'
   network: ws
   port: 443
   server: 188.114.96.1
@@ -2666,7 +2570,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #296'
+  name: '509|加拿大_多伦多 #296'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -2679,7 +2583,21 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #299'
+  name: 509,535|🏁RELAY-172.67.196.112-2006
+  network: ws
+  port: 443
+  server: 172.67.196.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '509|加拿大_多伦多 #299'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -2692,7 +2610,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #300'
+  name: '509|加拿大_多伦多 #300'
   network: ws
   port: 2086
   server: 104.26.5.57
@@ -2705,7 +2623,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #301'
+  name: '509|加拿大_多伦多 #301'
   network: ws
   port: 443
   server: 172.67.216.29
@@ -2718,7 +2636,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #303'
+  name: '509|加拿大_多伦多 #303'
   network: ws
   port: 443
   server: 172.67.170.13
@@ -2731,7 +2649,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #305'
+  name: '509|加拿大_多伦多 #305'
   network: ws
   port: 443
   server: 172.67.156.210
@@ -2744,7 +2662,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #306'
+  name: '509|加拿大_多伦多 #306'
   network: ws
   port: 443
   server: 104.21.28.62
@@ -2757,7 +2675,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #307'
+  name: '509|加拿大_多伦多 #307'
   network: ws
   port: 443
   server: 104.21.24.170
@@ -2770,7 +2688,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #309'
+  name: '509|加拿大_多伦多 #309'
   network: ws
   port: 443
   server: glweidf.cfd
@@ -2783,7 +2701,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #310'
+  name: '509|加拿大_多伦多 #310'
   network: ws
   port: 443
   server: 104.21.53.183
@@ -2796,7 +2714,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #311'
+  name: '509|加拿大_多伦多 #311'
   network: ws
   port: 8880
   server: 104.16.68.38
@@ -2809,7 +2727,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #312'
+  name: '509|加拿大_多伦多 #312'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -2822,7 +2740,7 @@ proxies:
     path: /video/orbHPhkP
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #313'
+  name: '509|加拿大_多伦多 #313'
   network: ws
   port: 443
   server: parsvds.com
@@ -2835,7 +2753,7 @@ proxies:
     path: /aveiror.com/linkvws
 - alterId: 0
   cipher: auto
-  name: 514|加拿大_Montreal
+  name: 509|加拿大_Montreal
   network: ws
   port: 443
   server: 158.51.121.36
@@ -2848,7 +2766,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_蒙特利尔 #5'
+  name: '509|加拿大_蒙特利尔 #5'
   network: ws
   port: 443
   server: 145.724064.xyz
@@ -2861,7 +2779,7 @@ proxies:
     path: /zrqrvws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #314'
+  name: '509|加拿大_多伦多 #314'
   network: ws
   port: 443
   server: 172.67.223.119
@@ -2874,7 +2792,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #315'
+  name: '509|加拿大_多伦多 #315'
   network: ws
   port: 443
   server: cdnjs.com
@@ -2887,7 +2805,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #316'
+  name: '509|加拿大_多伦多 #316'
   network: ws
   port: 2086
   server: skk.moe
@@ -2900,7 +2818,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #317'
+  name: '509|加拿大_多伦多 #317'
   network: ws
   port: 443
   server: hms182.glweidf.sbs
@@ -2913,7 +2831,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #318'
+  name: '509|加拿大_多伦多 #318'
   network: ws
   port: 443
   server: 172.66.213.38
@@ -2926,7 +2844,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #319'
+  name: '509|加拿大_多伦多 #319'
   network: ws
   port: 443
   server: 173.245.59.8
@@ -2939,7 +2857,7 @@ proxies:
     path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #321'
+  name: '509|加拿大_多伦多 #321'
   network: ws
   port: 2086
   server: 104.26.12.140
@@ -2952,7 +2870,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #322'
+  name: '509|加拿大_多伦多 #322'
   network: ws
   port: 443
   server: 172.67.219.194
@@ -2965,7 +2883,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #324'
+  name: '509|加拿大_多伦多 #324'
   network: ws
   port: 443
   server: discord.com
@@ -2978,7 +2896,7 @@ proxies:
     path: /gwdef.sbs:443/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #325'
+  name: '509|加拿大_多伦多 #325'
   network: ws
   port: 443
   server: 162.159.1.94
@@ -2991,7 +2909,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #326'
+  name: '509|加拿大_多伦多 #326'
   network: ws
   port: 2095
   server: sdhdffjblkgfh_cdn.hfhfb.homes
@@ -3004,7 +2922,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #330'
+  name: '509|加拿大_多伦多 #330'
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -3017,7 +2935,7 @@ proxies:
     path: /video/bcxQresd
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #331'
+  name: '509|加拿大_多伦多 #331'
   network: ws
   port: 2086
   server: 162.159.140.66
@@ -3030,7 +2948,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #332'
+  name: '509|加拿大_多伦多 #332'
   network: ws
   port: 2086
   server: 162.159.140.91
@@ -3043,7 +2961,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #411'
+  name: '509,511|加拿大_多伦多 #411'
   network: ws
   port: 2086
   server: 162.159.140.19
@@ -3056,7 +2974,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,516|加拿大_多伦多 #404'
+  name: '509,511|加拿大_多伦多 #404'
   network: ws
   port: 2086
   server: 162.159.140.93
@@ -3069,7 +2987,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,515|加拿大_蒙特利尔 #9'
+  name: '509,510|加拿大_蒙特利尔 #9'
   network: ws
   port: '2086'
   server: fbi.gov
@@ -3083,7 +3001,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #337'
+  name: '509|加拿大_多伦多 #337'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -3096,7 +3014,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514,556|8|🇺🇲 美国【付费推荐：https://jdyvip.li... #2'
+  name: '509,551|8|🇺🇲 美国【付费推荐：https://jdyvip.li... #2'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -3109,7 +3027,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '515,516|加拿大_多伦多 #424'
+  name: '510,511|加拿大_多伦多 #424'
   network: ws
   port: 80
   server: russia.com
@@ -3123,7 +3041,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #343'
+  name: '510|加拿大_多伦多 #343'
   network: ws
   port: '2086'
   server: 104.19.46.33
@@ -3137,7 +3055,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #344'
+  name: '510|加拿大_多伦多 #344'
   network: ws
   port: '8880'
   server: russia.com
@@ -3151,7 +3069,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '515,560|关注电报https://t.me/aifenxiang202... #24'
+  name: '510,555|关注电报https://t.me/aifenxiang202... #24'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3165,7 +3083,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,516|加拿大_多伦多 #392'
+  name: '510,511|加拿大_多伦多 #392'
   network: ws
   port: 2052
   server: 104.19.59.99
@@ -3179,7 +3097,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #10'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #10'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3192,7 +3110,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #13'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #13'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3206,7 +3124,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #354'
+  name: '511|加拿大_多伦多 #354'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -3219,7 +3137,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #4'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #4'
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -3233,7 +3151,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_渥太華 #10'
+  name: '511|加拿大_渥太華 #10'
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -3246,7 +3164,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_渥太華 #15'
+  name: '511|加拿大_渥太華 #15'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3259,7 +3177,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_渥太華 #12'
+  name: '511|加拿大_渥太華 #12'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3272,7 +3190,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #360'
+  name: '511|加拿大_多伦多 #360'
   network: ws
   port: 2086
   server: 104.19.46.233
@@ -3285,7 +3203,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #378'
+  name: '511|加拿大_多伦多 #378'
   network: ws
   port: 2086
   server: 104.19.47.122
@@ -3298,7 +3216,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #364'
+  name: '511|加拿大_多伦多 #364'
   network: ws
   port: 2086
   server: 104.19.47.88
@@ -3311,7 +3229,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #365'
+  name: '511|加拿大_多伦多 #365'
   network: ws
   port: 2086
   server: 104.19.45.13
@@ -3324,7 +3242,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #367'
+  name: '511|加拿大_多伦多 #367'
   network: ws
   port: 2086
   server: 104.19.47.36
@@ -3337,7 +3255,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #368'
+  name: '511|加拿大_多伦多 #368'
   network: ws
   port: 2086
   server: 104.19.47.77
@@ -3350,7 +3268,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #20'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #20'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -3364,7 +3282,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #370'
+  name: '511|加拿大_多伦多 #370'
   network: ws
   port: 2086
   server: 104.19.46.36
@@ -3377,7 +3295,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #15'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #15'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3391,7 +3309,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #372'
+  name: '511|加拿大_多伦多 #372'
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -3404,7 +3322,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #373'
+  name: '511|加拿大_多伦多 #373'
   network: ws
   port: 2086
   server: 104.19.47.77
@@ -3417,7 +3335,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #374'
+  name: '511|加拿大_多伦多 #374'
   network: ws
   port: 2086
   server: 104.19.45.31
@@ -3430,7 +3348,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #21'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #21'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -3444,7 +3362,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #376'
+  name: '511|加拿大_多伦多 #376'
   network: ws
   port: 2086
   server: 104.19.45.19
@@ -3457,7 +3375,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #377'
+  name: '511|加拿大_多伦多 #377'
   network: ws
   port: 2086
   server: 104.19.32.216
@@ -3470,7 +3388,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #380'
+  name: '511|加拿大_多伦多 #380'
   network: ws
   port: 2086
   server: 104.19.47.79
@@ -3483,7 +3401,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #12'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #12'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -3497,7 +3415,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #382'
+  name: '511|加拿大_多伦多 #382'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3510,7 +3428,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #7'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #7'
   network: ws
   port: 2086
   server: 104.19.46.233
@@ -3524,7 +3442,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #385'
+  name: '511|加拿大_多伦多 #385'
   network: ws
   port: 2086
   server: 104.19.45.90
@@ -3537,7 +3455,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #386'
+  name: '511|加拿大_多伦多 #386'
   network: ws
   port: 2086
   server: 104.19.59.89
@@ -3550,7 +3468,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #389'
+  name: '511|加拿大_多伦多 #389'
   network: ws
   port: 2052
   server: 104.19.38.22
@@ -3563,7 +3481,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #390'
+  name: '511|加拿大_多伦多 #390'
   network: ws
   port: 2052
   server: 104.19.57.4
@@ -3576,7 +3494,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #391'
+  name: '511|加拿大_多伦多 #391'
   network: ws
   port: 2052
   server: 104.26.7.152
@@ -3589,7 +3507,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #17'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #17'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3603,7 +3521,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #394'
+  name: '511|加拿大_多伦多 #394'
   network: ws
   port: 2052
   server: 104.19.57.24
@@ -3616,7 +3534,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #395'
+  name: '511|加拿大_多伦多 #395'
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -3629,7 +3547,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_渥太華 #17'
+  name: '511|加拿大_渥太華 #17'
   network: ws
   port: 2052
   server: 23.227.38.13
@@ -3642,7 +3560,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #397'
+  name: '511|加拿大_多伦多 #397'
   network: ws
   port: 2052
   server: 104.19.57.24
@@ -3655,7 +3573,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #398'
+  name: '511|加拿大_多伦多 #398'
   network: ws
   port: 2052
   server: 104.26.0.66
@@ -3668,7 +3586,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #399'
+  name: '511|加拿大_多伦多 #399'
   network: ws
   port: 2052
   server: 104.26.0.56
@@ -3681,7 +3599,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #401'
+  name: '511|加拿大_多伦多 #401'
   network: ws
   port: 2052
   server: 104.19.47.75
@@ -3694,7 +3612,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #402'
+  name: '511|加拿大_多伦多 #402'
   network: ws
   port: 2052
   server: 104.19.32.226
@@ -3707,7 +3625,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #403'
+  name: '511|加拿大_多伦多 #403'
   network: ws
   port: 2052
   server: 104.26.7.152
@@ -3720,7 +3638,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #405'
+  name: '511|加拿大_多伦多 #405'
   network: ws
   port: 2086
   server: 104.19.45.11
@@ -3733,7 +3651,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #406'
+  name: '511|加拿大_多伦多 #406'
   network: ws
   port: 2086
   server: 162.159.140.56
@@ -3746,7 +3664,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #408'
+  name: '511|加拿大_多伦多 #408'
   network: ws
   port: 2086
   server: 104.19.38.8
@@ -3759,7 +3677,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #409'
+  name: '511|加拿大_多伦多 #409'
   network: ws
   port: 2086
   server: 162.159.140.77
@@ -3772,7 +3690,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #415'
+  name: '511|加拿大_多伦多 #415'
   network: ws
   port: 2095
   server: 104.19.45.0
@@ -3785,7 +3703,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '516,560|关注电报https://t.me/aifenxiang202... #2'
+  name: '511,555|关注电报https://t.me/aifenxiang202... #2'
   network: ws
   port: 2086
   server: 104.16.148.244
@@ -3799,7 +3717,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #421'
+  name: '511|加拿大_多伦多 #421'
   network: ws
   port: 2095
   server: 104.19.45.83
@@ -3812,7 +3730,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '516|加拿大_多伦多 #423'
+  name: '511|加拿大_多伦多 #423'
   network: ws
   port: 2095
   server: 104.19.45.194
@@ -3825,7 +3743,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 519|加拿大_021805016 M50
+  name: 514|加拿大_021805016 M50
   network: tcp
   port: '14812'
   server: 38.111.114.153
@@ -3833,14 +3751,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
-- name: 519|加拿大_021805018+L30
+- name: 514|加拿大_021805018+L30
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
   server: 15.156.168.85
   sni: dynamic-liger.adder289.quest
   type: trojan
-- name: 519|加拿大_021805066
+- name: 514|加拿大_021805066
   password: '!!str 3778399750324494336'
   port: 443
   server: dynamic-liger.adder289.quest
@@ -3849,7 +3767,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 519|加拿大_021805129 M67
+  name: 514|加拿大_021805129 M67
   network: tcp
   port: '8881'
   server: 159.203.20.140
@@ -3859,70 +3777,438 @@ proxies:
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
-  name: 540|🇨🇦CA-15.235.50.172-2100
-  network: ws
-  port: 443
-  server: 15.235.50.172
-  servername: ''
+  name: 544|🇦 加拿大2-1A
+  port: 45065
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  uuid: c779683b-0d59-4977-87b0-0133603b54d3
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大2-1C
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3bad7f52-e3e4-4d60-8c34-0fc60a891ee5
+- cipher: chacha20-ietf-poly1305
+  name: 544|🇦 加拿大-1A
+  password: 42e87063-a8b2-4486-a926-60ed2d60a0df
+  port: 35031
+  server: diao.arken8379.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 544|CAMBODIA 01 丨1x-1A
+  password: d36822d2-b58e-4288-9055-05f3ca0677b4
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大-1B
+  network: ws
+  port: 23014
+  server: v1-14.nocnet.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7137f958-bc15-4e31-acf3-7770a7a7bebc
   ws-opts:
     headers:
-      Host: ''
+      Host: v1-14.nocnet.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 540|🇨🇦CA-51.79.103.76-2116
-  network: ws
-  port: 80
-  server: 51.79.103.76
-  servername: ''
+  name: 544|🇦 加拿大1-1C
+  port: 45064
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  udp: true
+  uuid: 3bad7f52-e3e4-4d60-8c34-0fc60a891ee5
+- cipher: aes-256-gcm
+  name: 544|🇦 VIP 加拿大1-1B
+  password: df967635-eeac-483d-bc6c-84676e67c16e
+  port: 47071
+  server: ca01.jiasudu.buzz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇨🇦 加拿大-多-1A
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 80c0da5b-913e-4a74-a1a2-090d2100e960
   ws-opts:
     headers:
-      Host: ''
+      Host: www.baidu.com
+    path: /
+- cipher: aes-128-gcm
+  name: 544|🇨🇦 CM 隧道 加拿大 NO1
+  password: b1b5a30b-2ff9-4701-97c4-add74d53973d
+  port: 12558
+  server: sd.needss.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大1-1A
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c779683b-0d59-4977-87b0-0133603b54d3
+- cipher: aes-128-gcm
+  name: 544|CAMBODIA 01 丨1x-1B
+  password: d9f6e154-606e-469c-93a5-b79fac3db74e
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大A
+  port: 30338
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8b6449d7-0c45-4682-ac68-ce16ae087d5d
+- cipher: aes-128-gcm
+  name: '544|CAMBODIA 01 丨1x-1B #1'
+  password: 6877c7ae-a16d-44a1-b0c1-0ea8bfff51ce
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 544|🇨 加拿大-1A
+  password: 7ca046ee-c0d3-4238-8440-47623807bc08
+  port: 35031
+  server: diao.arken8379.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大1-1C #1'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c89cb7a-9009-44ef-a736-0b76824cae40
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大-1B #1'
+  network: ws
+  port: 23014
+  server: v1-14.nocnet.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0c441ba7-8bb7-4c6e-8ec1-c97d3d1c9d4a
+  ws-opts:
+    headers:
+      Host: v1-14.nocnet.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 544|🇦 CM 隧道 加拿大 NO1
+  password: 0c6e5691-d0a2-4e82-9f7f-5c9ed922c7d6
+  port: 12558
+  server: sd.needss.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '544|CAMBODIA 01 丨1x-1A #1'
+  password: 9968d24c-fa38-49cc-bf5a-6566074d0fbd
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大2-1B
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e8ec4951-b14c-4750-8777-2f70ece1122f
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大1-1B
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e8ec4951-b14c-4750-8777-2f70ece1122f
+- alterId: 0
+  cipher: auto
+  name: 544|🇨 加拿大-多-1B
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca792123-92a0-46f9-83d8-0bf17442a1fc
+  ws-opts:
+    headers:
+      Host: www.baidu.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 540|🇨🇦CA-15.235.83.228-2127
-  network: ws
-  port: 443
-  server: 15.235.83.228
-  servername: ''
+  name: '544|🇦 加拿大A #1'
+  port: 30338
+  server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  uuid: 5904a778-7767-408c-99bd-11e423bccace
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大1-1A #1'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3e73325-d5fe-4d06-baad-bd8d3a307c59
+- alterId: 0
+  cipher: auto
+  name: '544|🇨🇦 加拿大 #3'
+  network: ws
+  port: 23014
+  server: v1-14.nocnet.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8f3e0774-38e9-4690-a482-d56492a22ec4
   ws-opts:
     headers:
-      Host: ''
+      Host: v1-14.nocnet.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 540|🇨🇦CA-104.247.81.52-5607
+  name: 544|🇦 加拿大-多-1A
   network: ws
-  port: 443
-  server: tw.xlkjjs.top
-  servername: ''
+  port: 57729
+  server: 183.240.228.220
   tls: false
   type: vmess
-  uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0
+  udp: true
+  uuid: db744715-0ba5-46c3-ae2d-bcd6233f54fd
   ws-opts:
     headers:
-      Host: tw.xlkjjs.top
+      Host: www.baidu.com
     path: /
-- name: 545,555,556|24|🇨🇦 _加拿大
-  password: Aimer
-  port: 2087
-  server: 104.234.239.235
-  skip-cert-verify: false
-  sni: epccu.ambercc.filegear-sg.me
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 555|🇨🇦 [VMess] 🇨🇦 _CA_加拿大
+  name: 544|🇦 加拿大-多伦多-1B
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a496170e-a0fe-47b0-a0f8-bab9845e20fa
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- cipher: aes-128-gcm
+  name: 544|🇦 CM  加拿大 NO1
+  password: fb2bfec8-c59a-45ac-bd8e-603654fe87dc
+  port: 12558
+  server: sd.needss.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 544|CAMBODIA 01 丨1x
+  password: acdeb39b-925f-4e3d-b47c-7dcfaba1733f
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 544|🇦 CM  加拿大 NO1-1B
+  password: 6ae89851-e357-444e-b15b-46fe40eb9044
+  port: 12558
+  server: sd.needss.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大A-1A
+  port: 30338
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 55f6979c-e1f8-4660-a54c-8ccfc05fd987
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大-多-1D
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9970e184-a9a2-4dcf-9df9-56a669908674
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大-多伦多-1A
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 27908b88-e77c-45bb-bb03-98f5e77d09ca
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大2-1A #1'
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aab44545-c209-4d33-bf56-205389c2d4c7
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大1-1A #2'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aab44545-c209-4d33-bf56-205389c2d4c7
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大A-1B
+  port: 30338
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c5274da0-5bdb-44b0-95fc-69a1cfed5eb7
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大-1A #1'
+  network: ws
+  port: 23014
+  server: v1-14.nocnet.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79349cc3-dc7e-46f4-bd68-93e07a159fdb
+  ws-opts:
+    headers:
+      Host: v1-14.nocnet.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: '544|CAMBODIA 01 丨1x-1A #2'
+  password: f8e1fac4-2d21-48ff-ac56-f46d26467132
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 544|🇦 加拿大-多-1C
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0ca68e11-c32a-4137-b55f-9bf048481a82
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- cipher: aes-128-gcm
+  name: 544|CAMBODIA 01 丨1x-1D
+  password: f74827cc-c899-443f-9d40-f0801c765891
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 544|CAMBODIA 01 丨1x-1C
+  password: 68e9cd56-8ea2-48fd-8c57-2ae850afedcd
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '544|CAMBODIA 01 丨1x-1B #2'
+  password: 8216c559-82b8-4f6d-9942-dcfa327c7a76
+  port: 7541
+  server: bisschaxc.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大-1B #2'
+  network: ws
+  port: 23014
+  server: v1-14.nocnet.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ceea2848-9cff-4cfe-b42a-d10480dd3172
+  ws-opts:
+    headers:
+      Host: v1-14.nocnet.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 544|🇦 CM  加拿大 NO1-1A
+  password: 6ee052a8-2ece-47cf-b04c-faa53a324806
+  port: 12558
+  server: sd.needss.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大2-1B #1'
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11ed4e04-f2ba-407e-8513-12a114450e22
+- alterId: 0
+  cipher: auto
+  name: '544|🇦 加拿大1-1B #1'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11ed4e04-f2ba-407e-8513-12a114450e22
+- alterId: 0
+  cipher: auto
+  name: 550|🇨🇦 [VMess] 🇨🇦 _CA_加拿大
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -3933,7 +4219,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 556|8|🇨🇦CA-15.222.64.220-198_1@198
+- name: 551|8|🇨🇦CA-15.222.64.220-198_1@198
   password: xV6yLF0Z69Hm
   port: 16700
   server: 15.222.64.220
@@ -3942,7 +4228,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 003_2@6
+  name: 551|8|加拿大 003_2@6
   network: ws
   port: 2086
   server: 104.21.4.14
@@ -3955,7 +4241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 005_2@9
+  name: 551|8|加拿大 005_2@9
   network: ws
   port: 2052
   server: 104.19.201.135
@@ -3968,7 +4254,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 006_2@10
+  name: 551|8|加拿大 006_2@10
   network: ws
   port: 2082
   server: 104.19.201.135
@@ -3982,7 +4268,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 008_2@29
+  name: 551|8|加拿大 008_2@29
   network: ws
   port: 443
   server: 104.21.44.106
@@ -3995,7 +4281,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 009_2@30
+  name: 551|8|加拿大 009_2@30
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -4008,7 +4294,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 012_2@53
+  name: 551|8|加拿大 012_2@53
   network: ws
   port: 443
   server: 162.159.135.42
@@ -4021,7 +4307,7 @@ proxies:
     path: /IYKLD53M
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 013_2@54
+  name: 551|8|加拿大 013_2@54
   network: ws
   port: 2053
   server: 104.19.163.54
@@ -4035,7 +4321,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 014_2@55
+  name: 551|8|加拿大 014_2@55
   network: ws
   port: 2083
   server: 104.18.121.75
@@ -4049,7 +4335,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 015_2@56
+  name: 551|8|加拿大 015_2@56
   network: ws
   port: 2083
   server: 104.19.58.127
@@ -4063,7 +4349,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 016_2@57
+  name: 551|8|加拿大 016_2@57
   network: ws
   port: 2053
   server: 104.19.169.7
@@ -4077,7 +4363,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 018_2@60
+  name: 551|8|加拿大 018_2@60
   network: ws
   port: 8880
   server: go.snangua.com
@@ -4090,7 +4376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 019_2@61
+  name: 551|8|加拿大 019_2@61
   network: ws
   port: 8880
   server: us-01.snangua.com
@@ -4103,7 +4389,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 020_2@62
+  name: 551|8|加拿大 020_2@62
   network: ws
   port: 8880
   server: jp-01.snangua.com
@@ -4116,7 +4402,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 021_2@63
+  name: 551|8|加拿大 021_2@63
   network: ws
   port: 8880
   server: au-01.snangua.com
@@ -4129,7 +4415,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 022_2@64
+  name: 551|8|加拿大 022_2@64
   network: ws
   port: 8880
   server: fr-01.snangua.com
@@ -4142,7 +4428,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 023_2@66
+  name: 551|8|加拿大 023_2@66
   network: ws
   port: 443
   server: 104.19.225.226
@@ -4156,7 +4442,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 024_2@67
+  name: 551|8|加拿大 024_2@67
   network: ws
   port: 2053
   server: 104.17.164.97
@@ -4170,7 +4456,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 025_2@68
+  name: 551|8|加拿大 025_2@68
   network: ws
   port: 2083
   server: 104.19.13.82
@@ -4184,7 +4470,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 026_2@69
+  name: 551|8|加拿大 026_2@69
   network: ws
   port: 2083
   server: 104.19.133.38
@@ -4198,7 +4484,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 027_2@70
+  name: 551|8|加拿大 027_2@70
   network: ws
   port: 80
   server: 16.namesilo123.top
@@ -4209,7 +4495,7 @@ proxies:
     path: /?ed
 - alterId: 0
   cipher: auto
-  name: 556|8|加拿大 028_2@72
+  name: 551|8|加拿大 028_2@72
   network: ws
   port: 2082
   server: 104.19.244.227
@@ -4222,7 +4508,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|17|加拿大(yudou66.com 玉豆免费节点)
+  name: 551|17|加拿大(yudou66.com 玉豆免费节点)
   network: ws
   port: '2082'
   server: malaysia.com
@@ -4236,24 +4522,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '556,565|VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP... #2'
-  network: ws
-  port: 80
-  server: 51.79.103.76
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 557|🇨CA-104.247.81.50-062
+  name: 552|🇨CA-104.247.81.50-062
   network: ws
   port: 35845
   server: wsclash2.free4444.xyz
@@ -4266,7 +4535,7 @@ proxies:
   ws-path: /x6UiVPhJ/
 - alterId: 1
   cipher: auto
-  name: 558|🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+  name: 553|🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
   network: ws
   port: '50206'
   server: in-v1.sdgdn.com
@@ -4279,7 +4548,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 1
   cipher: auto
-  name: '558|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #9'
+  name: '553|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #9'
   network: ws
   port: '50207'
   server: in-v1.sdgdn.com
@@ -4292,7 +4561,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 1
   cipher: auto
-  name: '558|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #2'
+  name: '553|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #2'
   network: ws
   port: '50701'
   server: in-v1.sdgdn.com
@@ -4305,7 +4574,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 1
   cipher: auto
-  name: '558|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #3'
+  name: '553|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #3'
   network: ws
   port: '50205'
   server: in-v1.sdgdn.com
@@ -4318,7 +4587,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 1
   cipher: auto
-  name: '558|🇯🇵 日本(欢迎订阅Youtube破解资源君) #3'
+  name: '553|🇯🇵 日本(欢迎订阅Youtube破解资源君) #3'
   network: ws
   port: '50301'
   server: in-v1.sdgdn.com
@@ -4331,7 +4600,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '559|加拿大2 #2'
+  name: '554|加拿大2 #2'
   network: tcp
   port: '45065'
   server: xdd.dashuai.cyou
@@ -4340,14 +4609,14 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '559|加拿大1 #4'
+  name: '554|加拿大1 #4'
   network: tcp
   port: '45064'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
-- name: 562|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
+- name: 557|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
   network: tcp
   password: Aimer
   port: 2087
@@ -4356,7 +4625,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '566|加拿大1 #5'
+  name: '561|加拿大1 #5'
   network: tcp
   port: '45064'
   server: haa.dashuai.cyou
@@ -4365,7 +4634,7 @@ proxies:
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - alterId: 0
   cipher: auto
-  name: '566|加拿大2 #3'
+  name: '561|加拿大2 #3'
   network: tcp
   port: '45065'
   server: xdd.dashuai.cyou
@@ -4373,48 +4642,48 @@ proxies:
   type: vmess
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - cipher: chacha20-ietf-poly1305
-  name: 609|加拿大|CA1
+  name: 606|加拿大|CA1
   password: 5231f59f-c196-4094-aea5-4ecaa069ddc5
   port: 19915
   server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '610|加拿大|CA1 #1'
+  name: '607|加拿大|CA1 #1'
   password: fef880e7-87cb-4bea-8e5e-5ae2bba6fbb5
   port: 19915
   server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '611|加拿大|CA1 #2'
+  name: '608|加拿大|CA1 #2'
   password: 6063748c-ca22-4407-8852-f077a90b39e9
   port: 19915
   server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '615,616|🇨🇦 加拿大 #5'
+  name: '612,613|🇨🇦 加拿大 #5'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51176
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '657|加拿大1 #6'
+  name: '651|加拿大1 #6'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '657|加拿大2 #4'
+  name: '651|加拿大2 #4'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50022
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: 657|Trojan-加拿大1 | 低倍率
+- name: 651|Trojan-加拿大1 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 10116
   server: cc.rk1.node-is.green
@@ -4422,29 +4691,29 @@ proxies:
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
-- name: 657|Trojan-加拿大2 | 低倍率
+- name: 651|Trojan-加拿大2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 45714
-  server: f791eda24d1cdbb3ca4f494820db00b4.lh.gtm.node-is.green
+  port: 49393
+  server: f896c2c68649365238b2120f6d7de02d.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '658|加拿大1 #7'
+  name: '652|加拿大1 #7'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '658|加拿大2 #5'
+  name: '652|加拿大2 #5'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50022
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '658|Trojan-加拿大1 | 低倍率 #1'
+- name: '652|Trojan-加拿大1 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 10116
   server: cc.rk1.node-is.green
@@ -4452,29 +4721,29 @@ proxies:
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
-- name: '658|Trojan-加拿大2 | 低倍率 #1'
+- name: '652|Trojan-加拿大2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 42037
-  server: b146e59a155779c69155c7f7a96db04b.lh.gtm.node-is.green
+  port: 44623
+  server: 3d5fce7d909e014fb15f26b995dacfd5.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '659|加拿大1 #8'
+  name: '653|加拿大1 #8'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '659|加拿大2 #6'
+  name: '653|加拿大2 #6'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50022
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '659|Trojan-加拿大1 | 低倍率 #2'
+- name: '653|Trojan-加拿大1 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 10116
   server: cc.rk1.node-is.green
@@ -4482,29 +4751,29 @@ proxies:
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
-- name: '659|Trojan-加拿大2 | 低倍率 #2'
+- name: '653|Trojan-加拿大2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 46302
-  server: d8030fbfd29fb142aac22e2a05119832.lh.gtm.node-is.green
+  port: 48582
+  server: e57bd28d281ff71d49484962aaeb8bd2.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '660|加拿大1 #9'
+  name: '654|加拿大1 #9'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '660|加拿大2 #7'
+  name: '654|加拿大2 #7'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50022
   server: lh2.node-is.green
   type: ss
   udp: true
-- name: '660|Trojan-加拿大1 | 低倍率 #3'
+- name: '654|Trojan-加拿大1 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 10116
   server: cc.rk1.node-is.green
@@ -4512,24 +4781,24 @@ proxies:
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
-- name: '660|Trojan-加拿大2 | 低倍率 #3'
+- name: '654|Trojan-加拿大2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 46738
-  server: ffc2e560000478539dc35fa451f9fc16.lh.gtm.node-is.green
+  port: 41035
+  server: c1d77bf2dee028d95b4893dd3da10801.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
-- name: 662|V1-加拿大-IPv6
+- name: 656|V1-加拿大-IPv6
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 46538
-  server: 5d45e52a9507f4d1632704ead8b01f31.v1.cac.node-is.green
+  port: 44614
+  server: 24fc712b72c550670aa91972dfccb975.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '757,758,759,760|🇨🇦 Canada 070 #3'
+  name: '752,753,754,755|🇨🇦 Canada 070 #3'
   password: 3fb1d360ec0c4c7a5054
   plugin: obfs
   plugin-opts:
@@ -4539,7 +4808,7 @@ proxies:
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
   udp: true
-- name: '830|「🇨🇦」EMO | 冰糖心 x3 #2'
+- name: '824|「🇨🇦」EMO | 冰糖心 x3 #2'
   password: 08b24d8d-10ab-4c5a-990e-4e0e194870af
   port: 63106
   server: t35.emoyes.top
