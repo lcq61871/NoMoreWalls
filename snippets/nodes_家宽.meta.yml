@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 542|🇬  家宽-1G
+  password: ccfc4fcc-ea41-4b0c-8293-d92620b65ba5
+  port: 48854
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 542|🇪  家宽-1B
+  password: 1acdac04-eb7e-421f-b534-669c3bb489a0
+  port: 48854
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 542|🇬  家宽-1F
+  password: 84a28b5b-6552-4d6c-8dc4-0265fe2976c0
+  port: 48854
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 542|🇬 埃及 开罗家宽-1D
+  password: 0f54f44c-5c91-4403-8cad-c5cadb8652ad
+  port: 48854
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 542|🇬 埃及 开罗家宽-1A
+  password: 301a2553-1aaa-4f18-bc5f-dbe7b662393f
+  port: 48854
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
