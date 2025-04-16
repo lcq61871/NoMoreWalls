@@ -1,42 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '100,491|🇲🇾 马来西亚专线NO2 #1'
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f01647c7-7a58-4e77-b194-2870c50cfce3
-- alterId: 0
-  cipher: auto
-  name: '100,491|🇲🇾 马来西亚专线NO1 #1'
+  name: '100,494|🇲🇾 马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: f01647c7-7a58-4e77-b194-2870c50cfce3
+  uuid: a5564e22-c180-412c-90cc-1133394059c0
 - alterId: 0
   cipher: auto
-  name: '101,102,495,496|马来西亚专线NO2-1A #1'
+  name: '100,494|🇲🇾 马来西亚专线NO2 #1'
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a5564e22-c180-412c-90cc-1133394059c0
+- alterId: 0
+  cipher: auto
+  name: '101,102,498,499|马来西亚专线NO2-1A #1'
   port: 45059
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 48b40bd6-df2a-4d66-913b-69bd363e43c5
+  uuid: ed5b6a2b-f204-4ea2-92a0-8dad380f376a
 - alterId: 0
   cipher: auto
-  name: '101,102,495,496|马来西亚专线NO1-1A #1'
+  name: '101,498|马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 48b40bd6-df2a-4d66-913b-69bd363e43c5
+  uuid: ed5b6a2b-f204-4ea2-92a0-8dad380f376a
+- alterId: 0
+  cipher: auto
+  name: '102,499|马来西亚专线NO2-1B #1'
+  port: 45059
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a66cfde-3ca7-4952-ba97-918fbaded686
 - alterId: 0
   cipher: auto
   name: 172|专线|丹麦01倍率5
@@ -103,7 +113,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 172,401|🇨🇱 CL 041 |  17.3MB/s
+  name: 172,403|🇨🇱 CL 041 |  17.3MB/s
   port: 26147
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -257,7 +267,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 172,401|🇨🇳 CN 030 |  18.0MB/s
+  name: 172,403|🇨🇳 CN 030 |  18.0MB/s
   port: 26122
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -267,7 +277,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 172,401|🇦🇪 AE 038 |  19.8MB/s
+  name: 172,403|🇦🇪 AE 038 |  19.8MB/s
   port: 26078
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -317,7 +327,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 172,401|🇦🇺 AU 039 |  26.5MB/s
+  name: 172,403|🇦🇺 AU 039 |  26.5MB/s
   port: 26110
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -375,7 +385,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: '561|马来西亚专线NO1 #2'
+  name: '564|马来西亚专线NO1 #2'
   network: tcp
   port: '45058'
   server: haa.dashuai.cyou
@@ -384,7 +394,7 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '561|马来西亚专线NO2 #2'
+  name: '564|马来西亚专线NO2 #2'
   network: tcp
   port: '45059'
   server: xdd.dashuai.cyou
@@ -392,7 +402,7 @@ proxies:
   type: vmess
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - client-fingerprint: random
-  name: 562|🇧🇷_定制专线：@QS00008
+  name: 565|🇧🇷_定制专线：@QS00008
   network: ws
   port: 8080
   server: 188.114.97.3
@@ -402,7 +412,7 @@ proxies:
   uuid: 0751d920-cc41-4ae6-8a10-cf17efd7e6c3
   ws-opts:
     path: /admin
-- name: 562|🇮🇷_定制专线：@QS00008
+- name: 565|🇮🇷_定制专线：@QS00008
   network: ws
   port: 23297
   server: 37.202.237.107
@@ -411,21 +421,21 @@ proxies:
   uuid: 51e44d01-5fa0-47d3-8ee3-ad1f04d3abcc
   ws-opts:
     path: /
-- name: '562|🇮🇷_定制专线：@QS00008 #1'
+- name: '565|🇮🇷_定制专线：@QS00008 #1'
   network: tcp
   port: 443
   server: 5.78.53.184
   tls: false
   type: vless
   uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
-- name: 562|🏳️_定制专线：@QS00008
+- name: 565|🏳️_定制专线：@QS00008
   network: tcp
   port: 5000
   server: 138.199.229.172
   tls: false
   type: vless
   uuid: 7fd9c29c-1fa7-42b6-8310-2d1024a1d422
-- name: 562|🇮🇪_定制专线：@QS00008
+- name: 565|🇮🇪_定制专线：@QS00008
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -433,7 +443,7 @@ proxies:
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 562|🇱🇹_定制专线：@QS00008
+- name: 565|🇱🇹_定制专线：@QS00008
   network: ws
   port: 8080
   server: 86.38.214.30
@@ -441,7 +451,7 @@ proxies:
   tls: false
   type: vless
   uuid: 0f9f0500-01a2-49a6-b67b-d1b38913ba2c
-- name: '562|🇮🇷_定制专线：@QS00008 #2'
+- name: '565|🇮🇷_定制专线：@QS00008 #2'
   network: tcp
   port: 48046
   server: 188.245.43.225
