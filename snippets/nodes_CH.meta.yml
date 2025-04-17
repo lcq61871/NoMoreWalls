@@ -7,14 +7,14 @@ proxies:
   sni: mmbiz11.redapricotcloud.com
   type: trojan
   udp: true
-- name: 191|🇨🇭瑞士北部（苏黎世）
+- name: 189|🇨🇭瑞士北部（苏黎世）
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: '192|🇨🇭瑞士北部（苏黎世） #1'
+- name: '190|🇨🇭瑞士北部（苏黎世） #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -30,30 +30,30 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 366|1|🇨🇭2 |  4.8MB/s
-  port: 6718
-  server: 37.156.46.65
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   mode: ''
-  name: 366,406,541|2|🇨🇭3 |  5.9MB/s
+  name: 366,406,517,541|2|🇨🇭2 |  2.3MB/s
   network: tcp
   port: 6718
   reality-opts:
     public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
     short-id: d6d54c08fbbf895f
-  server: mehamboz.darkping.net
+  server: 37.156.46.65
   servername: stackoverflow.com
   tls: true
   type: vless
   udp: false
   uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 366,517,523|2|🇨🇭3 |  5.9MB/s
+  port: 6718
+  server: mehamboz.darkping.net
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
 - allowInsecure: ''
-  name: '366,524,548,549,551,555,652|🇨🇭 瑞士 002 #1'
+  name: '366,524,549,551,555,652|🇨🇭 瑞士 002 #1'
   network: tcp
   password: 20bc0771-1fde-45ee-8052-3c26249c43dc
   port: 34865
@@ -64,18 +64,17 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 366,406,517,523,527,541,549|5,40|CH_speednode_0002
+  name: 366,517,523,527,541,549|5,40|CH_speednode_0002
   port: 443
   server: yapc-1.afshin.ir
   servername: yapc-1.afshin.ir
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 366,406,517,523,527,541,549|5,40|CH_speednode_0004
+  name: 366,517,523,527,541,549|5,40|CH_speednode_0004
   network: tcp
   port: 443
   server: 152.67.68.116
@@ -83,25 +82,24 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - cipher: aes-128-gcm
   country: 🇺🇸 US
-  name: 385,386,404,491|🇺🇸 US_247
+  name: 385,386,404,491|🇺🇸 US_294
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 385,386,404,491|🇸 US_242
+  country: 🇺🇸 US
+  name: 385,386,404,491|🇸 US_289
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
-  country: ' US'
-  name: 385,386,404,491|🇺 US_233
+  country: 🇸 US
+  name: 385,386,404,491|🇺🇸 US_295
   password: shadowsocks
   port: 443
   server: 156.146.62.163
@@ -113,7 +111,7 @@ proxies:
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 385,404,491|_84
+  name: 385,404,491|_93
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
@@ -219,20 +217,36 @@ proxies:
       Host: 186.190.215.149
     path: linkvws
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: ''
   mode: ''
-  name: 406,541|2|🇨🇭5 |  5.9MB/s
-  network: tcp
-  port: 6718
-  reality-opts:
-    public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
-    short-id: d6d54c08fbbf895f
-  server: 37.156.46.44
-  servername: stackoverflow.com
+  name: 406|🇨🇭1 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 108.162.196.159
+  servername: cr7777.rayan.dpdns.org
   tls: true
   type: vless
   udp: false
-  uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
+  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  ws-opts:
+    headers:
+      Host: cr7777.rayan.dpdns.org
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 406,527,541|2|🇨🇭3 |  5.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pA_zobcLsGBZ8_VWIT8LxjYpwhSq4m9KO74yjgvC4QI
+    short-id: ''
+  server: 188.213.130.77
+  servername: chess.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 416|🇨🇭瑞士
   network: ws
   port: 2086
@@ -393,13 +407,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '611,612|🇨🇭 瑞士 #3'
+  name: '611,612|🇨🇭 瑞士 #2'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '706,812,813,814|🇨🇭 瑞士 #7'
+- name: '706,812,813,814|🇨🇭 瑞士 #6'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz

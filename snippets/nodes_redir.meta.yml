@@ -1,39 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 9|香港1-中转-3X-IPV6
-  password: 83d7f859-dcb6-4129-9e7c-8e5c2d9487ed
-  port: 41205
-  server: DXsuiji.jiasu.eu
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 9|香港2-中转-3X
-  password: 83d7f859-dcb6-4129-9e7c-8e5c2d9487ed
-  port: 15923
-  server: gzbgp.098999.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 9|香港3-中转-3X
-  password: 83d7f859-dcb6-4129-9e7c-8e5c2d9487ed
-  port: 15924
-  server: gzbgp.098999.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 9|香港4-中转-3X-IPV6
-  password: 83d7f859-dcb6-4129-9e7c-8e5c2d9487ed
-  port: 30583
-  server: DXsuiji.jiasu.eu
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 9|香港5-中转-3X-IPV6
-  password: 83d7f859-dcb6-4129-9e7c-8e5c2d9487ed
-  port: 23471
-  server: DXsuiji.jiasu.eu
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 52|🇸🇬 新加坡中转 02
   password: b103d104-bff0-4cee-b42a-85dad07e2036
@@ -3670,7 +3635,7 @@ proxies:
   server: gstdnb.myfczy168.top
   type: ss
   udp: true
-- name: 176|[trojan]美国1-中转1
+- name: 175|[trojan]美国1-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3683,7 +3648,7 @@ proxies:
     headers:
       Host: 111.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国1-中转2
+- name: 175|[trojan]美国1-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3696,7 +3661,7 @@ proxies:
     headers:
       Host: 111.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国1-中转3
+- name: 175|[trojan]美国1-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3709,7 +3674,7 @@ proxies:
     headers:
       Host: 111.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国1-中转4
+- name: 175|[trojan]美国1-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3722,7 +3687,7 @@ proxies:
     headers:
       Host: 111.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]台湾1-中转1
+- name: 175|[trojan]台湾1-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3735,7 +3700,7 @@ proxies:
     headers:
       Host: 222.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]台湾1-中转2
+- name: 175|[trojan]台湾1-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3748,7 +3713,7 @@ proxies:
     headers:
       Host: 222.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]台湾1-中转3
+- name: 175|[trojan]台湾1-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3761,7 +3726,7 @@ proxies:
     headers:
       Host: 222.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]台湾1-中转4
+- name: 175|[trojan]台湾1-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3774,7 +3739,7 @@ proxies:
     headers:
       Host: 222.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]香港1-中转1
+- name: 175|[trojan]香港1-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3787,7 +3752,7 @@ proxies:
     headers:
       Host: 333.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]香港1-中转2
+- name: 175|[trojan]香港1-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3800,7 +3765,7 @@ proxies:
     headers:
       Host: 333.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]香港1-中转3
+- name: 175|[trojan]香港1-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3813,7 +3778,7 @@ proxies:
     headers:
       Host: 333.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]香港1-中转4
+- name: 175|[trojan]香港1-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3826,7 +3791,7 @@ proxies:
     headers:
       Host: 333.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]澳大利亚1-中转1
+- name: 175|[trojan]澳大利亚1-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3839,7 +3804,7 @@ proxies:
     headers:
       Host: 555.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]澳大利亚1-中转2
+- name: 175|[trojan]澳大利亚1-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3852,7 +3817,7 @@ proxies:
     headers:
       Host: 555.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]澳大利亚1-中转3
+- name: 175|[trojan]澳大利亚1-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3865,7 +3830,7 @@ proxies:
     headers:
       Host: 555.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]澳大利亚1-中转4
+- name: 175|[trojan]澳大利亚1-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3878,7 +3843,7 @@ proxies:
     headers:
       Host: 555.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]新加坡1-中转1
+- name: 175|[trojan]新加坡1-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3891,7 +3856,7 @@ proxies:
     headers:
       Host: 6666.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]新加坡1-中转2
+- name: 175|[trojan]新加坡1-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3904,7 +3869,7 @@ proxies:
     headers:
       Host: 6666.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]新加坡1-中转3
+- name: 175|[trojan]新加坡1-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3917,7 +3882,7 @@ proxies:
     headers:
       Host: 6666.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]新加坡1-中转4
+- name: 175|[trojan]新加坡1-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3930,7 +3895,7 @@ proxies:
     headers:
       Host: 6666.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国2-中转1
+- name: 175|[trojan]美国2-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3943,7 +3908,7 @@ proxies:
     headers:
       Host: 777.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国2-中转2
+- name: 175|[trojan]美国2-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3956,7 +3921,7 @@ proxies:
     headers:
       Host: 777.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国2-中转3
+- name: 175|[trojan]美国2-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3969,7 +3934,7 @@ proxies:
     headers:
       Host: 777.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]美国2-中转4
+- name: 175|[trojan]美国2-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3982,7 +3947,7 @@ proxies:
     headers:
       Host: 777.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]巴西-中转1
+- name: 175|[trojan]巴西-中转1
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -3995,7 +3960,7 @@ proxies:
     headers:
       Host: 8888.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]巴西-中转2
+- name: 175|[trojan]巴西-中转2
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -4008,7 +3973,7 @@ proxies:
     headers:
       Host: 8888.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]巴西-中转3
+- name: 175|[trojan]巴西-中转3
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -4021,7 +3986,7 @@ proxies:
     headers:
       Host: 8888.golinkwuxian.top
     path: /apple
-- name: 176|[trojan]巴西-中转4
+- name: 175|[trojan]巴西-中转4
   network: ws
   password: b392bced-2765-4978-9e4c-cab4cde3b27b
   port: 443
@@ -4746,7 +4711,7 @@ proxies:
     path: /dabai.in104.20.27.115
 - alterId: 0
   cipher: auto
-  name: '512,553|美国 CloudFlare节点 #15'
+  name: '512,553|美国 CloudFlare节点 #16'
   network: ws
   port: '2082'
   server: 104.16.155.10
@@ -4900,7 +4865,7 @@ proxies:
     path: /dabai.in172.67.92.156
 - alterId: 0
   cipher: auto
-  name: 512,548|CF中转_0416104052 L0
+  name: 512,548|CF中转_0416204062 L0
   network: ws
   port: '2095'
   server: 104.17.221.248
@@ -5081,7 +5046,7 @@ proxies:
       Host: lax2.ibgfw.top
     path: /dyajvws
 - name: '535,537|🇸 中转•美国295•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20295
   server: gy.58n.net
   skip-cert-verify: true
@@ -5089,7 +5054,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇺🇸 中转•美国296•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20296
   server: gy.58n.net
   skip-cert-verify: true
@@ -5097,7 +5062,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇺🇸 中转•美国308•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20308
   server: gy.58n.net
   skip-cert-verify: true
@@ -5105,7 +5070,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇺🇸 中转•美国40•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 16895
   server: gy.58n.net
   skip-cert-verify: true
@@ -5113,7 +5078,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇸 中转•美国41•原生 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 21970
   server: gy.58n.net
   skip-cert-verify: true
@@ -5121,7 +5086,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇸 中转•美国61•高速 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 30767
   server: gy.58n.net
   skip-cert-verify: true
@@ -5129,23 +5094,15 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇼 中转•台湾100•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 59021
   server: gy.58n.net
   skip-cert-verify: true
   sni: x100.flybar.work
   type: trojan
   udp: true
-- name: 535,537|🇹🇼 中转•台湾91•原生 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
-  port: 21247
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x91.flybar.work
-  type: trojan
-  udp: true
 - name: '535,537|🇬 中转•新加坡299•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20299
   server: gy.58n.net
   skip-cert-verify: true
@@ -5153,7 +5110,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇸🇬 中转•新加坡65•青铜 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 17806
   server: gy.58n.net
   skip-cert-verify: true
@@ -5161,7 +5118,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇬 中转•新加坡83•高速 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 30712
   server: gy.58n.net
   skip-cert-verify: true
@@ -5169,7 +5126,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇧 中转•英国267•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 25238
   server: gy.58n.net
   skip-cert-verify: true
@@ -5177,7 +5134,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇧 中转•英国268•高速 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 11215
   server: gy.58n.net
   skip-cert-verify: true
@@ -5185,7 +5142,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇪 中转•德国302•GPT - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20302
   server: gy.58n.net
   skip-cert-verify: true
@@ -5193,7 +5150,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇪 中转•德国303•GPT - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20303
   server: gy.58n.net
   skip-cert-verify: true
@@ -5201,7 +5158,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇩🇪 中转•德国304•GPT - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20304
   server: gy.58n.net
   skip-cert-verify: true
@@ -5209,7 +5166,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇩🇪 中转•德国305•GPT - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20305
   server: gy.58n.net
   skip-cert-verify: true
@@ -5217,7 +5174,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇩🇪 中转•德国306•GPT - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20306
   server: gy.58n.net
   skip-cert-verify: true
@@ -5225,7 +5182,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇭🇰 中转•香港102•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 43337
   server: gy.58n.net
   skip-cert-verify: true
@@ -5233,7 +5190,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇭🇰 中转•香港307•高速 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20307
   server: gy.58n.net
   skip-cert-verify: true
@@ -5241,7 +5198,7 @@ proxies:
   type: trojan
   udp: true
 - name: '535,537|🇵 中转•日本298•高速 - 飞翔吧 #1'
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20298
   server: gy.58n.net
   skip-cert-verify: true
@@ -5249,7 +5206,7 @@ proxies:
   type: trojan
   udp: true
 - name: 535,537|🇯🇵 中转•日本300•原生 - 飞翔吧
-  password: 2edeebbb-2f1c-3226-9f36-a6190b25bfe2
+  password: 654a1226-9f17-350a-914a-14328af25e2f
   port: 20300
   server: gy.58n.net
   skip-cert-verify: true
@@ -6679,19 +6636,6 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 547,549|16,30|_CN_->_US_国
-  network: ws
-  port: 30836
-  server: v36.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
   name: 547,549|30|🇨🇳_CN_中国->🇺🇸_US_美国_5
   network: ws
   port: 30824
@@ -6703,7 +6647,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- name: 547,549|12,30|_GB_国->_CH_
+- name: 547,549|30|_GB_国->_CH_
   network: tcp
   password: 20bc0771-1fde-45ee-8052-3c26249c43dc
   port: 34865
@@ -6790,23 +6734,23 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104032 L0
+  name: 548|🇨🇳 _TW_台湾->🇺🇸_US_美国
   network: ws
-  port: '2096'
-  server: 141.101.120.232
-  tls: true
+  port: '80'
+  server: 107.167.182.230
+  tls: false
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     headers:
-      Host: 1743919978.speed.adl.cccp.freefly.pp.ua
-    path: /
+      Host: br.gy.youxuan-1.66688888.xyz
+    path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104038 L7
+  name: 548|CF中转_0416202226 L7
   network: ws
   port: '8443'
-  server: 141.101.120.239
+  server: 141.101.120.43
   tls: true
   type: vmess
   uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
@@ -6816,7 +6760,60 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 548|🇺🇸 [VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国...
+  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: 104.17.18.26
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416208957 L3
+  network: ws
+  port: '2087'
+  server: 104.21.23.210
+  tls: true
+  type: vmess
+  uuid: d2fbbad7-3d1b-4bfb-fe4a-27bd45e25df0
+  ws-opts:
+    headers:
+      Host: rak1-d.932.pp.ua
+    path: /rak1-d.932.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204069 L0
+  network: ws
+  port: '2096'
+  server: 104.21.16.1
+  tls: true
+  type: vmess
+  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
+  ws-opts:
+    headers:
+      Host: de01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548,549,556|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.23....
+  network: ws
+  port: 2096
+  server: 104.21.23.210
+  servername: rak1-d.932.pp.ua
+  tls: true
+  type: vmess
+  uuid: d2fbbad7-3d1b-4bfb-fe4a-27bd45e25df0
+  ws-opts:
+    headers:
+      Host: rak1-d.932.pp.ua
+    path: /rak1-d.932.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇬🇧_GB_英国 4
   network: ws
   port: '80'
   server: ld2.shabijichang.com
@@ -6829,69 +6826,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416108913 L0
+  name: 548|CF中转_0416204060 L0
   network: ws
-  port: '443'
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: ayanjlizi.yiwis32762.workers.dev
-    path: /sgfqkqmltcy.site/rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 548|CF中转_0416102211 L0
-  network: ws
-  port: '2052'
+  port: '8880'
   server: 104.17.221.248
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-151-164-47.s1.db-link01.top
-    path: /dabai.in172.67.2.142
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度 3
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: ws
-  port: '16928'
-  server: vip3.niuniupremium.xyz
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 548|CF中转_0416104042 L7
-  network: ws
-  port: '8443'
-  server: 141.101.121.103
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
 - alterId: 0
   cipher: auto
   name: 548|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
@@ -6907,33 +6852,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度_4
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|CF中转_0416104035 L0
-  network: ws
-  port: '8880'
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-103-58-39.s1.db-link02.top
-    path: /dabai.in104.25.249.215
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 3
   network: ws
   port: '80'
   server: flkf2.shabijichang.com
@@ -6946,146 +6865,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104045 L0
+  name: 548|CF中转_0416204072 L7
   network: ws
   port: '8443'
-  server: 141.101.120.190
+  server: 141.101.120.163
   tls: true
   type: vmess
   uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
     headers:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度 2
-  network: ws
-  port: '80'
-  server: 104.26.8.44
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      Host: a.109420.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇬🇧_GB_英国_1
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|CF中转_0416104028 L0
-  network: ws
-  port: '8880'
-  server: 198.41.209.70
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-103-58-39.s1.db-link02.top
-    path: /dabai.in104.25.249.215
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 2
-  network: ws
-  port: '2052'
-  server: 104.18.19.191
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇨🇳 _TW_台湾->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 107.167.182.230
-  tls: false
-  type: vmess
-  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
-  ws-opts:
-    headers:
-      Host: br.gy.youxuan-1.66688888.xyz
-    path: /tg@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度_1
-  network: ws
-  port: '80'
-  server: 104.17.18.26
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 548|CF中转_0416104043 L0
-  network: ws
-  port: '8443'
-  server: 141.101.121.90
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 3
-  network: ws
-  port: '2052'
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 4
-  network: ws
-  port: '2052'
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
     path: /
 - alterId: 0
   cipher: auto
@@ -7103,10 +6892,23 @@ proxies:
     path: /rak1-d.932.pp.ua
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104047 L7
+  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 3 2
+  network: ws
+  port: '2052'
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204059 L7
   network: ws
   port: '8443'
-  server: 141.101.120.163
+  server: 141.101.121.103
   tls: true
   type: vmess
   uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
@@ -7116,23 +6918,207 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104030 L0
+  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度 3
   network: ws
-  port: '443'
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度 4
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_041620168 L0
+  network: ws
+  port: '2096'
   server: 104.21.80.1
   tls: true
   type: vmess
-  uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+  uuid: 75a0885f-0ca5-42a4-8651-391cf8193154
   ws-opts:
     headers:
-      Host: us7-02.890624.xyz
-    path: /bua2hMcbA8wMzbGFtV
+      Host: de01.sh-cloudflare.sbs
+    path: /
 - alterId: 0
   cipher: auto
-  name: 548|CF中转_0416104031 L7
+  name: 548|🇺🇸 _US_美国->🇬🇧_GB_英国 3
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇮🇳_IN_印度 2
+  network: ws
+  port: '80'
+  server: 104.26.8.44
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '2052'
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204063 L0
+  network: ws
+  port: '8880'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204074 L7
   network: ws
   port: '8443'
   server: 141.101.121.146
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204061 L0
+  network: ws
+  port: '8443'
+  server: 141.101.120.190
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 548,549,556|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.221....
+  network: ws
+  port: 2052
+  server: 104.17.221.248
+  servername: 100-151-164-47.s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416202228 L0
+  network: ws
+  port: '2052'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: ws
+  port: '16928'
+  server: vip3.niuniupremium.xyz
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 548|🇺🇸 _US_美国->🇩🇪_DE_德国 2
+  network: ws
+  port: '2052'
+  server: 104.18.19.191
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548,549,556|🔒 VM-WS-TLS 🏴‍☠️ NA-141.101.12...
+  network: ws
+  port: 8443
+  server: 141.101.120.239
+  servername: 1743919978.speed.laxha.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 548|CF中转_0416204065 L0
+  network: ws
+  port: '8443'
+  server: 141.101.121.90
   tls: true
   type: vmess
   uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
@@ -7733,7 +7719,7 @@ proxies:
   uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     path: /
-- name: '549|13|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+- name: 549|13|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 80
   server: 151.101.2.219
@@ -7915,18 +7901,6 @@ proxies:
     headers:
       Host: Www.speedtest.net.sPeedtest2.sbs.
     path: '%2F-LiV2ry%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6%3Fed%3D2048'
-- name: 553|美国 cf中转
-  network: ws
-  port: 443
-  server: vip6.cloudflare.182682.xyz
-  servername: axszhongzhuan.axsnangedafanonline.top
-  tls: true
-  type: vless
-  uuid: c61f0359-d3bd-47ab-a52c-b54c627741d3
-  ws-opts:
-    headers:
-      Host: axszhongzhuan.axsnangedafanonline.top
-    path: '%2Fadminaaa'
 - name: '573|🇭🇰|香港-中转 02 #1'
   password: 2db71c8f-b7d3-4272-b868-2f7c92b395d1
   port: 9130
@@ -8801,7 +8775,7 @@ proxies:
   udp: true
 - name: 671|🇺🇸 美国BGP 中转 01 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 45811
+  port: 42410
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: api.ucloud.cn
@@ -8809,7 +8783,7 @@ proxies:
   udp: true
 - name: 671|🇺🇸 美国BGP 中转 02 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 46332
+  port: 48328
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: api.ucloud.cn
@@ -8817,7 +8791,7 @@ proxies:
   udp: true
 - name: 671|🇺🇸 美国BGP 中转 03 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 49145
+  port: 45307
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: api.ucloud.cn
@@ -8825,7 +8799,7 @@ proxies:
   udp: true
 - name: 671|🇺🇸 美国BGP 中转 04 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 44943
+  port: 47779
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: api.ucloud.cn
@@ -8833,7 +8807,7 @@ proxies:
   udp: true
 - name: 671|🇨🇳 台湾BGP 中转 01 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 42479
+  port: 41882
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: www.ahu.edu.cn
@@ -8841,7 +8815,7 @@ proxies:
   udp: true
 - name: 671|🇨🇳 台湾BGP 中转 02 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 41901
+  port: 42302
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: www.ahu.edu.cn
@@ -8849,7 +8823,7 @@ proxies:
   udp: true
 - name: 671|🇯🇵 日本BGP 中转 01 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 47784
+  port: 44338
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: passport.ucloud.cn
@@ -8857,7 +8831,7 @@ proxies:
   udp: true
 - name: 671|🇯🇵 日本BGP 中转 02 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 49772
+  port: 49868
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: passport.ucloud.cn
@@ -8865,7 +8839,7 @@ proxies:
   udp: true
 - name: 671|🇸🇬 新加坡BGP 中转 01 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 44151
+  port: 41096
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: www.ucloud.cn
@@ -8873,7 +8847,7 @@ proxies:
   udp: true
 - name: 671|🇸🇬 新加坡BGP 中转 02 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 40765
+  port: 45287
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: www.ucloud.cn
@@ -8881,7 +8855,7 @@ proxies:
   udp: true
 - name: 671|🇭🇰 香港BGP 中转 01 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 47127
+  port: 48560
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: console.ucloud.cn
@@ -8889,7 +8863,7 @@ proxies:
   udp: true
 - name: 671|🇭🇰 香港BGP 中转 02 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 44758
+  port: 40657
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: console.ucloud.cn
@@ -8897,7 +8871,7 @@ proxies:
   udp: true
 - name: 671|🇭🇰 香港BGP 中转 03 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 45686
+  port: 49289
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: console.ucloud.cn
@@ -8905,7 +8879,7 @@ proxies:
   udp: true
 - name: 671|🇭🇰 香港BGP 中转 04 1.5x
   password: f2e8a03e-4874-4620-b82c-0208273db280
-  port: 43719
+  port: 42178
   server: us.node.ljj.lianjianode.xyz
   skip-cert-verify: true
   sni: console.ucloud.cn

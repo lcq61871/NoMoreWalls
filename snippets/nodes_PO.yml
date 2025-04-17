@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 186|波兰
+  name: 184|波兰
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51079
   server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com
@@ -193,8 +193,8 @@ proxies:
   server: 51.77.53.200
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇪 DE
-  name: 385,404,491|🇪 DE_130
+  country: 🇩🇪 DE
+  name: 385,404,491|🇪 DE_134
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 92.118.205.228
@@ -493,13 +493,6 @@ proxies:
   server: ambnds00.dorabbb.top
   type: ss
   udp: true
-- name: 548,555|🔒 TR-TCP-NA 🇺🇸 US-91.149.239.6...
-  password: Aimer
-  port: 443
-  server: 91.149.239.62
-  skip-cert-verify: false
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
 - name: '706,812,813,814|🇵🇱 波兰2 #3'
   password: '!!str 1'
   port: 20181
