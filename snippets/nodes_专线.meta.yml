@@ -1,7 +1,49 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 34|泰国01|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 18848
+  server: xm.miloli.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 34|泰国02|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 23681
+  server: xm.miloli.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 34|墨西哥02|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 48874
+  server: xm.miloli.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 34|巴基斯坦01|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 35545
+  server: xm.miloli.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 34|巴基斯坦02|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 32254
+  server: xm.miloli.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 34|澳大利亚02|⚡高速专线
+  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
+  port: 24428
+  server: xm.miloli.cc
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '99,490|🇲🇾 马来西亚专线NO1 #1'
+  name: '100,494|🇲🇾 马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -10,7 +52,7 @@ proxies:
   uuid: 41d362ad-2da2-4555-b1b3-7f91a7cfdc42
 - alterId: 0
   cipher: auto
-  name: '99,490|🇲🇾 马来西亚专线NO2 #1'
+  name: '100,494|🇲🇾 马来西亚专线NO2 #1'
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -19,7 +61,7 @@ proxies:
   uuid: 41d362ad-2da2-4555-b1b3-7f91a7cfdc42
 - alterId: 0
   cipher: auto
-  name: '100,101,494,495|马来西亚专线NO2-1A #1'
+  name: '101,102,498,499|马来西亚专线NO2-1A #1'
   port: 45059
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -29,7 +71,7 @@ proxies:
   uuid: 3dd80bf5-2a32-4d8f-a56e-a21b28c38720
 - alterId: 0
   cipher: auto
-  name: '100,494|马来西亚专线NO1 #1'
+  name: '101,498|马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   skip-cert-verify: true
@@ -39,7 +81,7 @@ proxies:
   uuid: 3dd80bf5-2a32-4d8f-a56e-a21b28c38720
 - alterId: 0
   cipher: auto
-  name: '101,495|马来西亚专线NO2-1B #1'
+  name: '102,499|马来西亚专线NO2-1B #1'
   port: 45059
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -49,7 +91,7 @@ proxies:
   uuid: 5ad71df3-d9a0-4c85-9bc1-615fb114ccfd
 - alterId: 0
   cipher: auto
-  name: 170|专线|丹麦01倍率5
+  name: 171|专线|丹麦01倍率5
   port: 26149
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -57,7 +99,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|南非01倍率5
+  name: 171|专线|南非01倍率5
   port: 26086
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -65,7 +107,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|印度01倍率5
+  name: 171|专线|印度01倍率5
   port: 26132
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -73,7 +115,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|巴林01倍率5
+  name: 171|专线|巴林01倍率5
   port: 26138
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -81,7 +123,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|巴西01倍率5
+  name: 171|专线|巴西01倍率5
   port: 26134
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -89,7 +131,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|希腊01倍率5
+  name: 171|专线|希腊01倍率5
   port: 26130
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -97,7 +139,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|挪威01倍率5
+  name: 171|专线|挪威01倍率5
   port: 26140
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -105,7 +147,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|捷克01倍率5
+  name: 171|专线|捷克01倍率5
   port: 26100
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -113,7 +155,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170,398|🇨🇱 CL 041 |  17.3MB/s
+  name: 171,403|🇨🇱 CL 041 |  17.3MB/s
   port: 26147
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -123,7 +165,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|泰国01倍率5
+  name: 171|专线|泰国01倍率5
   port: 26108
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -131,7 +173,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|秘鲁01倍率5
+  name: 171|专线|秘鲁01倍率5
   port: 26155
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -139,7 +181,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|芬兰01倍率5
+  name: 171|专线|芬兰01倍率5
   port: 26136
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -147,7 +189,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|荷兰01倍率5
+  name: 171|专线|荷兰01倍率5
   port: 26098
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -155,7 +197,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|越南01倍率5
+  name: 171|专线|越南01倍率5
   port: 26076
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -163,7 +205,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|乌克兰01倍率5
+  name: 171|专线|乌克兰01倍率5
   port: 26106
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -171,7 +213,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|以色列01倍率5
+  name: 171|专线|以色列01倍率5
   port: 26145
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -179,7 +221,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|土耳其01倍率5
+  name: 171|专线|土耳其01倍率5
   port: 26092
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -187,7 +229,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|墨西哥01倍率5
+  name: 171|专线|墨西哥01倍率5
   port: 26148
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -195,7 +237,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|奥地利01倍率5
+  name: 171|专线|奥地利01倍率5
   port: 26128
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -203,7 +245,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|意大利01倍率5
+  name: 171|专线|意大利01倍率5
   port: 26142
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -211,7 +253,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|柬埔寨01倍率5
+  name: 171|专线|柬埔寨01倍率5
   port: 26082
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -219,7 +261,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|比利时01倍率5
+  name: 171|专线|比利时01倍率5
   port: 26150
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -227,7 +269,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|爱尔兰01倍率5
+  name: 171|专线|爱尔兰01倍率5
   port: 26151
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -235,7 +277,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|立陶宛01倍率5
+  name: 171|专线|立陶宛01倍率5
   port: 26153
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -243,7 +285,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|菲律宾01倍率5
+  name: 171|专线|菲律宾01倍率5
   port: 26080
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -251,7 +293,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|葡萄牙01倍率5
+  name: 171|专线|葡萄牙01倍率5
   port: 26154
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -259,7 +301,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|西班牙01倍率5
+  name: 171|专线|西班牙01倍率5
   port: 26126
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -267,7 +309,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170,398|🇨🇳 CN 030 |  18.0MB/s
+  name: 171,403|🇨🇳 CN 030 |  18.0MB/s
   port: 26122
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -277,7 +319,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170,398|🇦🇪 AE 038 |  19.8MB/s
+  name: 171,403|🇦🇪 AE 038 |  19.8MB/s
   port: 26078
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -287,7 +329,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|保加利亚01倍率5
+  name: 171|专线|保加利亚01倍率5
   port: 26094
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -295,7 +337,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|哥伦比亚01倍率5
+  name: 171|专线|哥伦比亚01倍率5
   port: 26124
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -303,7 +345,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|孟加拉国01倍率5
+  name: 171|专线|孟加拉国01倍率5
   port: 26084
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -311,7 +353,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|巴基斯坦01倍率5
+  name: 171|专线|巴基斯坦01倍率5
   port: 26135
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -319,7 +361,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|拉脱维亚01倍率5
+  name: 171|专线|拉脱维亚01倍率5
   port: 26102
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -327,7 +369,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170,398|🇦🇺 AU 039 |  26.5MB/s
+  name: 171,403|🇦🇺 AU 039 |  26.5MB/s
   port: 26110
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -337,7 +379,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|罗马尼亚01倍率5
+  name: 171|专线|罗马尼亚01倍率5
   port: 26146
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -345,7 +387,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|阿塞拜疆01倍率5
+  name: 171|专线|阿塞拜疆01倍率5
   port: 26139
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -353,7 +395,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|马斯喀特01倍率5
+  name: 171|专线|马斯喀特01倍率5
   port: 26133
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -361,7 +403,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|马来西亚01倍率5
+  name: 171|专线|马来西亚01倍率5
   port: 26137
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -369,7 +411,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|印度尼西亚01倍率5
+  name: 171|专线|印度尼西亚01倍率5
   port: 26144
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -377,7 +419,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 170|专线|沙特阿拉伯01倍率5
+  name: 171|专线|沙特阿拉伯01倍率5
   port: 26088
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -385,7 +427,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 550|🇲🇾 马来西亚专线NO1-1A
+  name: 554|🇲🇾 马来西亚专线NO1-1A
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -393,7 +435,7 @@ proxies:
   udp: true
   uuid: 29f35e99-8baa-482b-ab29-37fa1a2db9a9
 - auth: f9ff05ed-fa55-445e-a6d9-6ecfa3e71794
-  name: 550|🇪 联-专线1-1D
+  name: 554|🇪 联-专线1-1D
   password: f9ff05ed-fa55-445e-a6d9-6ecfa3e71794
   port: 45021
   server: db.medicalgpt.online
@@ -402,28 +444,28 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 02-1A
+  name: 554|专 02-1A
   password: 654e342b-60cd-4710-8543-00cfe39a888b
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1C
+  name: 554|专用 01-1C
   password: 24e69275-97ff-4fe1-9971-bde8db13b365
   port: 44701
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 02-1D
+  name: 554|专用 02-1D
   password: e38203ee-c460-4a88-b756-3efdeda16809
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 01-1B
+  name: 554|专 01-1B
   password: f41867fc-8af1-4970-aaf9-69b534a2826d
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -431,7 +473,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 专用-1A
+  name: 554|NETFLIX | 专用-1A
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -440,7 +482,7 @@ proxies:
   uuid: a35dd946-d20e-4ec6-8c0b-5368bfa53c9c
 - alterId: 0
   cipher: auto
-  name: 550|专线--1C
+  name: 554|专线--1C
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -453,7 +495,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 02-1B
+  name: 554|专 02-1B
   password: f41867fc-8af1-4970-aaf9-69b534a2826d
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -461,7 +503,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1C
+  name: 554|🇾 马来西亚专线NO2-1C
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -469,7 +511,7 @@ proxies:
   udp: true
   uuid: abff0fa0-e3b0-4699-90aa-08dc2ef39cac
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1A
+  name: 554|专 03-1A
   password: 654e342b-60cd-4710-8543-00cfe39a888b
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -477,7 +519,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 流媒体专用节点-1B
+  name: 554|NETFLIX | 流媒体专用节点-1B
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -485,7 +527,7 @@ proxies:
   udp: true
   uuid: d954242b-f948-4b47-80c4-3d7f1419e38c
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 03-1B
+  name: 554|专用 03-1B
   password: f41867fc-8af1-4970-aaf9-69b534a2826d
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -493,7 +535,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO1-1C
+  name: 554|🇾 马来西亚专线NO1-1C
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -502,7 +544,7 @@ proxies:
   uuid: abff0fa0-e3b0-4699-90aa-08dc2ef39cac
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线--1A
+  name: 554|🇭 专线--1A
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -515,7 +557,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: 32de4b45-3b96-4ee1-9a2e-f74e9703dba1
-  name: 550|🇦 阿联酋-专线1-1H
+  name: 554|🇦 阿联酋-专线1-1H
   password: 32de4b45-3b96-4ee1-9a2e-f74e9703dba1
   port: 43278
   server: db.medicalgpt.online
@@ -524,21 +566,21 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1C
+  name: 554|专 03-1C
   password: 24e69275-97ff-4fe1-9971-bde8db13b365
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1A
+  name: 554|专用 01-1A
   password: 654e342b-60cd-4710-8543-00cfe39a888b
   port: 44701
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - auth: 32de4b45-3b96-4ee1-9a2e-f74e9703dba1
-  name: 550|🇪 阿联酋-专线1-1G
+  name: 554|🇪 阿联酋-专线1-1G
   password: 32de4b45-3b96-4ee1-9a2e-f74e9703dba1
   port: 11052
   server: st.fastcn.fun
@@ -547,7 +589,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: ae503f98-5045-44a4-b1a4-0a9b82ff1d2b
-  name: 550|🇪 阿联酋-专线1-1F
+  name: 554|🇪 阿联酋-专线1-1F
   password: ae503f98-5045-44a4-b1a4-0a9b82ff1d2b
   port: 39240
   server: db.medicalgpt.online
@@ -557,7 +599,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南非-1A
+  name: 554|🇦 专线-南非-1A
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -570,7 +612,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1D
+  name: 554|专 03-1D
   password: e38203ee-c460-4a88-b756-3efdeda16809
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -578,7 +620,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1B
+  name: 554|🇾 马来西亚专线NO2-1B
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -586,14 +628,14 @@ proxies:
   udp: true
   uuid: dd6fe7b8-26fc-4d2e-8dd4-aa375e167f83
 - cipher: aes-128-gcm
-  name: 550|专-1B
+  name: 554|专-1B
   password: eb31eb66-2bd4-4cbe-b21c-94e6f02106b6
   port: 44325
   server: nc-56112-51122.mofangfree.online
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 02-1E
+  name: 554|专用 02-1E
   password: 484e7801-e8b6-4fe7-9584-43d5b677ec34
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -601,7 +643,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南-1B
+  name: 554|🇦 专线-南-1B
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -615,7 +657,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线--1D
+  name: 554|🇭 专线--1D
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -629,7 +671,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇷 专线-国-1D
+  name: 554|🇷 专线-国-1D
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -643,7 +685,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南非-1D
+  name: 554|🇦 专线-南非-1D
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -657,7 +699,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1A
+  name: 554|🇾 马来西亚专线NO2-1A
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -665,7 +707,7 @@ proxies:
   udp: true
   uuid: 29f35e99-8baa-482b-ab29-37fa1a2db9a9
 - auth: ef8fa9d3-423c-48e8-aec7-96ab76759dcd
-  name: 550|🇪 联-专线1-1B
+  name: 554|🇪 联-专线1-1B
   password: ef8fa9d3-423c-48e8-aec7-96ab76759dcd
   port: 34524
   server: db.medicalgpt.online
@@ -674,14 +716,14 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-128-gcm
-  name: 550|专-1A
+  name: 554|专-1A
   password: aef0e3d3-1fa7-4a21-9e4a-e019fe439802
   port: 44325
   server: nc-56112-51122.mofangfree.online
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 02-1C
+  name: 554|专 02-1C
   password: 24e69275-97ff-4fe1-9971-bde8db13b365
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -689,7 +731,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇷 专线-国-1A
+  name: 554|🇷 专线-国-1A
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -703,7 +745,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线--1B
+  name: 554|🇭 专线--1B
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -716,7 +758,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: ae503f98-5045-44a4-b1a4-0a9b82ff1d2b
-  name: 550|🇦 联-专线1-1E
+  name: 554|🇦 联-专线1-1E
   password: ae503f98-5045-44a4-b1a4-0a9b82ff1d2b
   port: 37678
   server: st.fastcn.fun
@@ -725,7 +767,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: ef8fa9d3-423c-48e8-aec7-96ab76759dcd
-  name: 550|🇪 阿联酋-专线1-1A
+  name: 554|🇪 阿联酋-专线1-1A
   password: ef8fa9d3-423c-48e8-aec7-96ab76759dcd
   port: 41838
   server: st.fastcn.fun
@@ -734,7 +776,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: f9ff05ed-fa55-445e-a6d9-6ecfa3e71794
-  name: 550|🇪 联-专线1-1C
+  name: 554|🇪 联-专线1-1C
   password: f9ff05ed-fa55-445e-a6d9-6ecfa3e71794
   port: 9552
   server: st.fastcn.fun
@@ -743,21 +785,21 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 01-1D
+  name: 554|专 01-1D
   password: e38203ee-c460-4a88-b756-3efdeda16809
   port: 44701
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 03-1E
+  name: 554|专用 03-1E
   password: 484e7801-e8b6-4fe7-9584-43d5b677ec34
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1E
+  name: 554|专用 01-1E
   password: 484e7801-e8b6-4fe7-9584-43d5b677ec34
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -765,7 +807,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线--1C
+  name: 554|🇦 专线--1C
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -779,7 +821,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇰 专线--1G
+  name: 554|🇰 专线--1G
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -792,7 +834,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: 6e4e3950-4162-44d8-be8f-6eb21885f342
-  name: 550|🇪 阿联酋-专线1-1D
+  name: 554|🇪 阿联酋-专线1-1D
   password: 6e4e3950-4162-44d8-be8f-6eb21885f342
   port: 35544
   server: db.medicalgpt.online
@@ -801,7 +843,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 90710f5d-5e35-4d4d-883c-7e7900ed7698
-  name: 550|🇦🇪 阿联酋-专线1-1J
+  name: 554|🇦🇪 阿联酋-专线1-1J
   password: 90710f5d-5e35-4d4d-883c-7e7900ed7698
   port: 45658
   server: db.medicalgpt.online
@@ -810,14 +852,14 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1G
+  name: 554|专 03-1G
   password: ccfc4fcc-ea41-4b0c-8293-d92620b65ba5
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 03-1A
+  name: 554|专用 03-1A
   password: 301a2553-1aaa-4f18-bc5f-dbe7b662393f
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -825,7 +867,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南-1E
+  name: 554|🇦 专线-南-1E
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -838,7 +880,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: 90710f5d-5e35-4d4d-883c-7e7900ed7698
-  name: 550|🇪 联-专线1-1I
+  name: 554|🇪 联-专线1-1I
   password: 90710f5d-5e35-4d4d-883c-7e7900ed7698
   port: 17531
   server: st.fastcn.fun
@@ -848,7 +890,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇷 专线-国-1E
+  name: 554|🇷 专线-国-1E
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -861,21 +903,21 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '550|专 03-1C #1'
+  name: '554|专 03-1C #1'
   password: 483fe3dd-02d1-4d12-9398-0905cf5e2e48
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 550|专用-1C
+  name: 554|专用-1C
   password: faddcecb-24f9-410e-a0b8-3bcd5488ef25
   port: 44325
   server: nc-56112-51122.mofangfree.online
   type: ss
   udp: true
 - auth: 581a280b-576e-4b74-8f29-4441e3749410
-  name: 550|🇪 联-专线1-1N
+  name: 554|🇪 联-专线1-1N
   password: 581a280b-576e-4b74-8f29-4441e3749410
   port: 13873
   server: db.medicalgpt.online
@@ -884,7 +926,7 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1B
+  name: 554|专用 01-1B
   password: 1acdac04-eb7e-421f-b534-669c3bb489a0
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -892,7 +934,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO1-1A
+  name: 554|🇾 马来西亚专线NO1-1A
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -901,7 +943,7 @@ proxies:
   uuid: 41bc3d98-0ac9-4b48-848d-51e1da425e84
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1E
+  name: 554|🇾 马来西亚专线NO2-1E
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -909,7 +951,7 @@ proxies:
   udp: true
   uuid: cc756d64-6b21-4ce1-b0bd-34470407932f
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 03-1D
+  name: 554|专用 03-1D
   password: 0f54f44c-5c91-4403-8cad-c5cadb8652ad
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -917,7 +959,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇰 专线--1B
+  name: 554|🇰 专线--1B
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -931,7 +973,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇷 专线-国-1F
+  name: 554|🇷 专线-国-1F
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -945,7 +987,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '550|🇾 马来西亚专线NO1-1C #1'
+  name: '554|🇾 马来西亚专线NO1-1C #1'
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -953,7 +995,7 @@ proxies:
   udp: true
   uuid: 3fe35be8-0625-4812-bbd9-bc25d2a4e7b4
 - auth: 0dc4773d-77fd-4763-8796-309ca63dece9
-  name: 550|🇪 联-专线1-1P
+  name: 554|🇪 联-专线1-1P
   password: 0dc4773d-77fd-4763-8796-309ca63dece9
   port: 32941
   server: db.medicalgpt.online
@@ -963,7 +1005,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1D
+  name: 554|🇾 马来西亚专线NO2-1D
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -971,7 +1013,7 @@ proxies:
   udp: true
   uuid: 767d535f-ef0b-47c0-90e3-1bfccc80a15a
 - auth: 0dc4773d-77fd-4763-8796-309ca63dece9
-  name: 550|🇪 阿联酋-专线1-1O
+  name: 554|🇪 阿联酋-专线1-1O
   password: 0dc4773d-77fd-4763-8796-309ca63dece9
   port: 36488
   server: st.fastcn.fun
@@ -980,14 +1022,14 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-128-gcm
-  name: '550|专-1B #1'
+  name: '554|专-1B #1'
   password: d62cedab-493d-407e-bf47-86d9e5453ec7
   port: 44325
   server: nc-56112-51122.mofangfree.online
   type: ss
   udp: true
 - auth: de3ea875-fc91-49d2-a7a3-77a94494f9cd
-  name: 550|🇪 联-专线1-1K
+  name: 554|🇪 联-专线1-1K
   password: de3ea875-fc91-49d2-a7a3-77a94494f9cd
   port: 28959
   server: st.fastcn.fun
@@ -996,7 +1038,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 9a65943b-5b2e-4cdd-a2be-24263705cb85
-  name: 550|🇦 阿联酋-专线1-1A
+  name: 554|🇦 阿联酋-专线1-1A
   password: 9a65943b-5b2e-4cdd-a2be-24263705cb85
   port: 10483
   server: st.fastcn.fun
@@ -1005,7 +1047,7 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 02-1F
+  name: 554|专 02-1F
   password: 84a28b5b-6552-4d6c-8dc4-0265fe2976c0
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -1013,7 +1055,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇫 专线-国-1D
+  name: 554|🇫 专线-国-1D
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -1027,7 +1069,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO2-1F
+  name: 554|🇾 马来西亚专线NO2-1F
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -1036,7 +1078,7 @@ proxies:
   uuid: 6437edef-daa9-4a58-9cd5-5e9fbe2e158b
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线-埔寨-1E
+  name: 554|🇭 专线-埔寨-1E
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1050,7 +1092,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线-柬埔寨-1C
+  name: 554|🇭 专线-柬埔寨-1C
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1063,7 +1105,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: de3ea875-fc91-49d2-a7a3-77a94494f9cd
-  name: 550|🇪 联-专线1-1L
+  name: 554|🇪 联-专线1-1L
   password: de3ea875-fc91-49d2-a7a3-77a94494f9cd
   port: 47456
   server: db.medicalgpt.online
@@ -1072,7 +1114,7 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '550|专 02-1C #1'
+  name: '554|专 02-1C #1'
   password: 483fe3dd-02d1-4d12-9398-0905cf5e2e48
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -1080,7 +1122,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线--1H
+  name: 554|🇭 专线--1H
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1094,7 +1136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇷 专线-国-1B
+  name: 554|🇷 专线-国-1B
   network: ws
   port: 45418
   server: 36.150.94.53
@@ -1107,14 +1149,14 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 02-1D #1'
+  name: '554|专用 02-1D #1'
   password: 0f54f44c-5c91-4403-8cad-c5cadb8652ad
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 01-1E #1'
+  name: '554|专用 01-1E #1'
   password: 7c370bb7-568d-4cbc-bc68-045e2c60ef3e
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -1122,7 +1164,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南-1D
+  name: 554|🇦 专线-南-1D
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1136,7 +1178,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南非-1F
+  name: 554|🇦 专线-南非-1F
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1150,7 +1192,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '550|🇾 马来西亚专线NO2-1B #1'
+  name: '554|🇾 马来西亚专线NO2-1B #1'
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -1159,7 +1201,7 @@ proxies:
   uuid: ec567a8c-99fa-4dae-8f32-6ecffeb6d8b8
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO1-1E
+  name: 554|🇾 马来西亚专线NO1-1E
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -1168,7 +1210,7 @@ proxies:
   uuid: cc756d64-6b21-4ce1-b0bd-34470407932f
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南非-1G
+  name: 554|🇦 专线-南非-1G
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1181,7 +1223,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: f55a778a-da30-4481-829e-a14952cd1a58
-  name: 550|🇪 阿联酋-专线1-1H
+  name: 554|🇪 阿联酋-专线1-1H
   password: f55a778a-da30-4481-829e-a14952cd1a58
   port: 49806
   server: db.medicalgpt.online
@@ -1191,7 +1233,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO1-1F
+  name: 554|🇾 马来西亚专线NO1-1F
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -1199,7 +1241,7 @@ proxies:
   udp: true
   uuid: 6437edef-daa9-4a58-9cd5-5e9fbe2e158b
 - auth: 6e4e3950-4162-44d8-be8f-6eb21885f342
-  name: 550|🇪 阿联酋-专线1-1C
+  name: 554|🇪 阿联酋-专线1-1C
   password: 6e4e3950-4162-44d8-be8f-6eb21885f342
   port: 49277
   server: st.fastcn.fun
@@ -1209,7 +1251,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇲🇾 马来西亚专线NO1-1B
+  name: 554|🇲🇾 马来西亚专线NO1-1B
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -1217,14 +1259,14 @@ proxies:
   udp: true
   uuid: ec567a8c-99fa-4dae-8f32-6ecffeb6d8b8
 - cipher: aes-128-gcm
-  name: 550|专-1D
+  name: 554|专-1D
   password: 08392266-3328-45c1-94c5-e73f70e96bdc
   port: 44325
   server: nc-56112-51122.mofangfree.online
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 01-1A #1'
+  name: '554|专用 01-1A #1'
   password: 301a2553-1aaa-4f18-bc5f-dbe7b662393f
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -1232,7 +1274,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '550|🇾 马来西亚专线NO2-1A #1'
+  name: '554|🇾 马来西亚专线NO2-1A #1'
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -1241,7 +1283,7 @@ proxies:
   uuid: 41bc3d98-0ac9-4b48-848d-51e1da425e84
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 媒体专用节点-1C
+  name: 554|NETFLIX | 媒体专用节点-1C
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -1249,21 +1291,21 @@ proxies:
   udp: true
   uuid: e2ffad96-98eb-4b6e-8ad1-af0a1194d866
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 03-1E #1'
+  name: '554|专用 03-1E #1'
   password: 7c370bb7-568d-4cbc-bc68-045e2c60ef3e
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1G
+  name: 554|专用 01-1G
   password: ccfc4fcc-ea41-4b0c-8293-d92620b65ba5
   port: 44701
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 01-1C #1'
+  name: '554|专用 01-1C #1'
   password: 483fe3dd-02d1-4d12-9398-0905cf5e2e48
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -1271,7 +1313,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 媒体专用-1B
+  name: 554|NETFLIX | 媒体专用-1B
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -1279,7 +1321,7 @@ proxies:
   udp: true
   uuid: 487fb1de-65a5-4928-aa15-55b1d9d4745a
 - auth: 9a65943b-5b2e-4cdd-a2be-24263705cb85
-  name: 550|🇪 阿联-专线1-1B
+  name: 554|🇪 阿联-专线1-1B
   password: 9a65943b-5b2e-4cdd-a2be-24263705cb85
   port: 11736
   server: db.medicalgpt.online
@@ -1288,14 +1330,14 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1B
+  name: 554|专 03-1B
   password: 1acdac04-eb7e-421f-b534-669c3bb489a0
   port: 37731
   server: aambx01qt.dorabbb.top
   type: ss
   udp: true
 - auth: 581a280b-576e-4b74-8f29-4441e3749410
-  name: 550|🇦🇪 阿联酋-专线1-1M
+  name: 554|🇦🇪 阿联酋-专线1-1M
   password: 581a280b-576e-4b74-8f29-4441e3749410
   port: 15607
   server: st.fastcn.fun
@@ -1304,7 +1346,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: f55a778a-da30-4481-829e-a14952cd1a58
-  name: '550|🇪 阿联酋-专线1-1G #1'
+  name: '554|🇪 阿联酋-专线1-1G #1'
   password: f55a778a-da30-4481-829e-a14952cd1a58
   port: 36780
   server: st.fastcn.fun
@@ -1313,7 +1355,7 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专 03-1F
+  name: 554|专 03-1F
   password: 84a28b5b-6552-4d6c-8dc4-0265fe2976c0
   port: 37731
   server: aambx01qt.dorabbb.top
@@ -1321,7 +1363,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '550|🇭 专线--1D #1'
+  name: '554|🇭 专线--1D #1'
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1334,7 +1376,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 02-1G
+  name: 554|专用 02-1G
   password: ccfc4fcc-ea41-4b0c-8293-d92620b65ba5
   port: 47728
   server: aambx02qw.dorabbb.top
@@ -1342,7 +1384,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇾 马来西亚专线NO1-1D
+  name: 554|🇾 马来西亚专线NO1-1D
   port: 45058
   server: haa.dashuai.cyou
   tls: false
@@ -1351,7 +1393,7 @@ proxies:
   uuid: 767d535f-ef0b-47c0-90e3-1bfccc80a15a
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 流媒体专节点-1D
+  name: 554|NETFLIX | 流媒体专节点-1D
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -1359,14 +1401,14 @@ proxies:
   udp: true
   uuid: 2c38da4a-6bd8-4e79-a4f1-a84675401f1d
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 02-1A
+  name: 554|专用 02-1A
   password: 301a2553-1aaa-4f18-bc5f-dbe7b662393f
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1D
+  name: 554|专用 01-1D
   password: 0f54f44c-5c91-4403-8cad-c5cadb8652ad
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -1374,7 +1416,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇭 专线-柬埔寨-1F
+  name: 554|🇭 专线-柬埔寨-1F
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1388,7 +1430,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线--1B
+  name: 554|🇦 专线--1B
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1402,7 +1444,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇪 专线-国-1E
+  name: 554|🇪 专线-国-1E
   network: ws
   port: 58610
   server: 183.240.228.220
@@ -1415,7 +1457,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: c8bdf805-06dc-492a-9cb0-54d1681fe44f
-  name: 550|🇦🇪 阿联酋-专线1-1E
+  name: 554|🇦🇪 阿联酋-专线1-1E
   password: c8bdf805-06dc-492a-9cb0-54d1681fe44f
   port: 5139
   server: st.fastcn.fun
@@ -1425,7 +1467,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇲 马来西亚专线NO2-1C
+  name: 554|🇲 马来西亚专线NO2-1C
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -1434,7 +1476,7 @@ proxies:
   uuid: 3fe35be8-0625-4812-bbd9-bc25d2a4e7b4
 - alterId: 0
   cipher: auto
-  name: '550|🇭 专线--1A #1'
+  name: '554|🇭 专线--1A #1'
   network: ws
   port: 59350
   server: 183.240.228.220
@@ -1447,7 +1489,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - auth: c8bdf805-06dc-492a-9cb0-54d1681fe44f
-  name: '550|🇪 阿联酋-专线1-1F #1'
+  name: '554|🇪 阿联酋-专线1-1F #1'
   password: c8bdf805-06dc-492a-9cb0-54d1681fe44f
   port: 9792
   server: db.medicalgpt.online
@@ -1457,7 +1499,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|NETFLIX | 媒体专节点-1A
+  name: 554|NETFLIX | 媒体专节点-1A
   port: 34716
   server: zf.662293.xyz
   tls: false
@@ -1466,7 +1508,7 @@ proxies:
   uuid: d7b7de81-fde0-4501-815f-b6e5272a4dd1
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线--1A
+  name: 554|🇦 专线--1A
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1479,14 +1521,14 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '550|专用 02-1E #1'
+  name: '554|专用 02-1E #1'
   password: 7c370bb7-568d-4cbc-bc68-045e2c60ef3e
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 550|专用-1A
+  name: 554|专用-1A
   password: 6fa6985c-86ec-452b-92d3-67218038fc25
   port: 44325
   server: nc-56112-51122.mofangfree.online
@@ -1494,7 +1536,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 550|🇦 专线-南非-1H
+  name: 554|🇦 专线-南非-1H
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1508,7 +1550,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '550|🇦 专线--1C #1'
+  name: '554|🇦 专线--1C #1'
   network: ws
   port: 53196
   server: 183.240.180.26
@@ -1522,7 +1564,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 550|🇪 专线-国-1A
+  name: 554|🇪 专线-国-1A
   network: ws
   port: 58610
   server: 183.240.228.220
@@ -1535,14 +1577,14 @@ proxies:
       Host: www.baidu.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '550|专 02-1B #1'
+  name: '554|专 02-1B #1'
   password: 1acdac04-eb7e-421f-b534-669c3bb489a0
   port: 47728
   server: aambx02qw.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 550|专用 01-1F
+  name: 554|专用 01-1F
   password: 84a28b5b-6552-4d6c-8dc4-0265fe2976c0
   port: 44701
   server: aambx01qt.dorabbb.top
@@ -1550,7 +1592,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '560|马来西亚专线NO1 #2'
+  name: '564|马来西亚专线NO1 #2'
   network: tcp
   port: '45058'
   server: haa.dashuai.cyou
@@ -1559,7 +1601,7 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '560|马来西亚专线NO2 #2'
+  name: '564|马来西亚专线NO2 #2'
   network: tcp
   port: '45059'
   server: xdd.dashuai.cyou
@@ -1567,7 +1609,7 @@ proxies:
   type: vmess
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - client-fingerprint: random
-  name: 561|🇧🇷_定制专线：@QS00008
+  name: 565|🇧🇷_定制专线：@QS00008
   network: ws
   port: 8080
   server: 188.114.97.3
@@ -1577,7 +1619,7 @@ proxies:
   uuid: 0751d920-cc41-4ae6-8a10-cf17efd7e6c3
   ws-opts:
     path: /admin
-- name: 561|🇮🇷_定制专线：@QS00008
+- name: 565|🇮🇷_定制专线：@QS00008
   network: ws
   port: 23297
   server: 37.202.237.107
@@ -1586,21 +1628,21 @@ proxies:
   uuid: 51e44d01-5fa0-47d3-8ee3-ad1f04d3abcc
   ws-opts:
     path: /
-- name: '561|🇮🇷_定制专线：@QS00008 #1'
+- name: '565|🇮🇷_定制专线：@QS00008 #1'
   network: tcp
   port: 443
   server: 5.78.53.184
   tls: false
   type: vless
   uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
-- name: 561|🏳️_定制专线：@QS00008
+- name: 565|🏳️_定制专线：@QS00008
   network: tcp
   port: 5000
   server: 138.199.229.172
   tls: false
   type: vless
   uuid: 7fd9c29c-1fa7-42b6-8310-2d1024a1d422
-- name: 561|🇮🇪_定制专线：@QS00008
+- name: 565|🇮🇪_定制专线：@QS00008
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -1608,7 +1650,7 @@ proxies:
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 561|🇱🇹_定制专线：@QS00008
+- name: 565|🇱🇹_定制专线：@QS00008
   network: ws
   port: 8080
   server: 86.38.214.30
@@ -1616,7 +1658,7 @@ proxies:
   tls: false
   type: vless
   uuid: 0f9f0500-01a2-49a6-b67b-d1b38913ba2c
-- name: '561|🇮🇷_定制专线：@QS00008 #2'
+- name: '565|🇮🇷_定制专线：@QS00008 #2'
   network: tcp
   port: 48046
   server: 188.245.43.225
