@@ -8,63 +8,63 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 183|瑞典
+  name: 184|瑞典
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51081
   server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '352|🇸🇪 瑞典 #1'
+  name: '349|🇸🇪 瑞典 #1'
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47541
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '353|🇸🇪 瑞典 #2'
+  name: '350|🇸🇪 瑞典 #2'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47541
   server: 01.liantongzf.one
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 410|🇸🇪 Sweden 1 TG:@nodpai
+  name: 406|🇸🇪 Sweden 1 TG:@nodpai
   password: telegram-id-directvpn
   port: 22222
   server: 51.21.57.23
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-13.51.247.95-0268
+- name: 411,541|🇸🇪SE-13.51.247.95-0268
   password: telegram-id-directvpn
   port: 22222
   server: 13.51.247.95
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-13.60.132.40-0269
+- name: 411,541|🇸🇪SE-13.60.132.40-0269
   password: telegram-id-privatevpns
   port: 22222
   server: 13.60.132.40
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-16.171.91.51-0273
+- name: 411,541|🇸🇪SE-16.171.91.51-0273
   password: telegram-id-privatevpns
   port: 22222
   server: 16.171.91.51
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: '415,544|🇸🇪SE-51.21.146.243-0280 #1'
+- name: '411,541|🇸🇪SE-51.21.146.243-0280 #1'
   password: telegram-id-privatevpns
   port: 22222
   server: 51.21.146.243
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-51.21.88.148-0281
+- name: 411,541|🇸🇪SE-51.21.88.148-0281
   password: telegram-id-privatevpns
   port: 22222
   server: 51.21.88.148
@@ -72,30 +72,32 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 415|🇪SE-62.60.152.158-1084
+  country: 🇮🇷 IR
+  name: 411,499|🇷 IR_179
   password: y6fgyC28hscmdwqXj2v0Fm
   port: 37618
   server: 62.60.152.158
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 415,569|SS--NF解锁瑞典地区非自制剧-ChatGPT-TikTo...
+  country: 🇪 SE
+  name: 411,499,566|SS--NF解锁瑞典地区非自制剧-ChatGPT-TikTo...
   password: UDcjYQ6Z6AIWxViZpqyOmO
   port: 44013
   server: 46.246.98.155
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 415|🇪SE-151.236.206.42-1132
+  name: 411|🇪SE-151.236.206.42-1132
   password: zCbrIk12Qlg9YcERdnzjoh
   port: 39649
   server: 151.236.206.42
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 415|🇪SE-151.236.206.42-1149
+  name: 411|🇪SE-151.236.206.42-1149
   password: zCbrIk12Qlg9YcERdnzjoh
   port: 39649
   server: sto2.a.edgeservers.org
   type: ss
-- name: 415,544,560|16|_GB_->🇮_IN_
+- name: 411,541,557|16|_GB_->🇮_IN_
   password: telegram-id-privatevpns
   port: 22222
   server: 51.20.195.143
@@ -103,7 +105,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - delay: 2486
-  name: '415,535,544,560,561,562,662|🇸🇪 瑞典 001 #1'
+  name: '411,532,541,557,558,559,657|🇸🇪 瑞典 001 #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -112,14 +114,14 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 415,544|🇸🇪SE-13.61.44.165-1748
+- name: 411,541|🇸🇪SE-13.61.44.165-1748
   password: telegram-id-privatevpns
   port: 22222
   server: 13.61.44.165
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 415|🇪SE-13.61.250.229-1749
+- name: 411|🇪SE-13.61.250.229-1749
   password: telegram-id-privatevpns
   port: 22222
   server: 13.61.250.229
@@ -127,7 +129,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - cipher: aes-256-cfb
-  name: 415,544|8J%2BHuPCfh6pTRS0xMy40OC4yNC43...
+  name: 411,541|8J%2BHuPCfh6pTRS0xMy40OC4yNC43...
   obfs: http_simple
   obfs-param: ''
   password: YpX2opBbrfqJzzMs
@@ -136,7 +138,7 @@ proxies:
   protocol-param: ''
   server: z0117.security-cloudfront-cdn.com
   type: ssr
-- name: 415,544|🇸🇪SE-13.48.202.26-2750
+- name: 411,541|🇸🇪SE-13.48.202.26-2750
   password: telegram-id-privatevpns
   port: 22222
   server: 13.48.202.26
@@ -145,7 +147,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 415,544|🇸🇪SE-13.50.153.230-3862
+  name: 411,541|🇸🇪SE-13.50.153.230-3862
   network: ws
   port: 25289
   server: 13.50.153.230
@@ -159,71 +161,71 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 415|SE-13.49.241.14-5239
+  name: 411|SE-13.49.241.14-5239
   password: pydQILh06AvJ
   port: 27092
   server: 13.49.241.14
   type: ss
 - cipher: aes-256-cfb
-  name: 415|🇸SE-37.19.222.214-9558
+  name: 411|🇸SE-37.19.222.214-9558
   password: asdKkaskJKfnsa
   port: 443
   server: 37.19.222.214
   type: ss
 - cipher: aes-256-cfb
-  name: 415|🇪SE-37.19.222.213-9559
+  name: 411|🇪SE-37.19.222.213-9559
   password: asdKkaskJKfnsa
   port: 443
   server: 37.19.222.213
   type: ss
 - cipher: aes-256-cfb
-  name: 415|🇸🇪SE-37.19.222.212-9560
+  name: 411|🇸🇪SE-37.19.222.212-9560
   password: asdKkaskJKfnsa
   port: 443
   server: 37.19.222.212
   type: ss
 - cipher: aes-256-cfb
-  name: 415|🇸🇪SE-37.19.222.211-9561
+  name: 411|🇸🇪SE-37.19.222.211-9561
   password: asdKkaskJKfnsa
   port: 443
   server: 37.19.222.211
   type: ss
-- name: 415,544|🇸🇪SE-16.171.58.121-9958
+- name: 411,541|🇸🇪SE-16.171.58.121-9958
   password: telegram-id-privatevpns
   port: 22222
   server: 16.171.58.121
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-13.50.16.231-10113
+- name: 411,541|🇸🇪SE-13.50.16.231-10113
   password: telegram-id-privatevpns
   port: 22222
   server: 13.50.16.231
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: 415,544|🇸🇪SE-13.49.46.49-10114
+- name: 411,541|🇸🇪SE-13.49.46.49-10114
   password: telegram-id-privatevpns
   port: 22222
   server: 13.49.46.49
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: '415,544|🇸🇪SE-13.49.224.224-10118 #1'
+- name: '411,541|🇸🇪SE-13.49.224.224-10118 #1'
   password: telegram-id-directvpn
   port: 22222
   server: 13.49.224.224
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: '415,544|🇸🇪SE-13.48.45.205-10121 #1'
+- name: '411,541|🇸🇪SE-13.48.45.205-10121 #1'
   password: telegram-id-privatevpns
   port: 22222
   server: 13.48.45.205
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: '415,544|🇸🇪SE-13.48.105.114-10127 #1'
+- name: '411,541|🇸🇪SE-13.48.105.114-10127 #1'
   password: telegram-id-directvpn
   port: 22222
   server: 13.48.105.114
@@ -231,18 +233,18 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
 - cipher: aes-256-cfb
-  name: 415|🇸SE-121.127.46.147-10140
+  name: 411|🇸SE-121.127.46.147-10140
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 121.127.46.147
   type: ss
 - alterId: 0
   cipher: auto
-  name: '495,496|瑞典临时公用-共享100Mbps | 0x #1'
+  name: '492,493|瑞典临时公用-共享100Mbps | 0x #1'
   network: ws
-  port: 2083
-  server: 1744871541.tencentapp.cn
-  servername: 1744871578.speed.sccapv.cccp.freefly.pp.ua
+  port: 2096
+  server: 1744893741.tencentapp.cn
+  servername: 1744893778.speed.sccapv.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -250,34 +252,33 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1744871578.speed.sccapv.cccp.freefly.pp.ua
+      Host: 1744893778.speed.sccapv.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  country: ZZ
+  country: 🇪 SE
   h2-opts: {}
   http-opts: {}
-  name: 500|Relay_🏁ZZ-🇸SE_107 |40.51Mb
+  name: 499|🇪 SE_252
   network: ws
   port: 443
-  server: 162.159.153.2
-  servername: xmivideo.cfd
+  server: 185.146.173.95
+  servername: jahfkjha.cfd
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      HOST: xmivideo.cfd
-    path: /linkws
-- name: '516|🇸🇪SE(AzadNet.t.me) #3'
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-headers:
+    HOST: jahfkjha.cfd
+  ws-path: /linkws
+- name: '513|🇸🇪SE(AzadNet.t.me) #3'
   network: tcp
   password: 6455f944-7c07-4ab0-b88f-440e581f41d9
   port: 443
   server: jp2.twincloud.xyz
   skip-cert-verify: true
   type: trojan
-- name: '516|🇸🇪SE(AzadNet.t.me) #6'
+- name: '513|🇸🇪SE(AzadNet.t.me) #6'
   network: tcp
   password: auto
   port: 443
@@ -285,7 +286,7 @@ proxies:
   skip-cert-verify: true
   sni: esetsecuritylicense.bwnsmv.workers.dev
   type: trojan
-- name: 523|瑞典_021805001+L30
+- name: 520|瑞典_021805001+L30
   password: telegram-id-privatevpns
   port: 22222
   server: 13.61.203.191
@@ -293,7 +294,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: 523|瑞典_021805031+L30
+  name: 520|瑞典_021805031+L30
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -301,82 +302,69 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇪 连-瑞典01-1C
+  name: 550|🇪 连-瑞典01-1C
   password: e7ece200-1cee-42fe-bcf0-749f519e865a
   port: 22490
   server: se01.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸 直连-瑞典01-1B
+  name: 550|🇸 直连-瑞典01-1B
   password: 98f03537-0a9c-4d66-8721-291df9d6fe0a
   port: 22490
   server: se01.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸 瑞典 斯-1E
+  name: 550|🇸 瑞典 斯-1E
   password: 484e7801-e8b6-4fe7-9584-43d5b677ec34
   port: 48733
   server: ambnds00.dorabbb.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸🇪 连-瑞典01-1A
+  name: 550|🇸🇪 连-瑞典01-1A
   password: 03da767d-18e7-4238-88fa-d87df28fd952
   port: 22490
   server: se01.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸🇪 联通线路-瑞典01-1B
+  name: 550|🇸🇪 联通线路-瑞典01-1B
   password: 98f03537-0a9c-4d66-8721-291df9d6fe0a
   port: 51492
   server: nnertn.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸🇪 联通线路-典01-1D
+  name: 550|🇸🇪 联通线路-典01-1D
   password: 7afd9421-773e-4237-846b-600e34cd0fbe
   port: 51492
   server: nnertn.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸 联通线路-瑞典01-1B
+  name: 550|🇸 联通线路-瑞典01-1B
   password: 65ea0aa9-172b-4d04-9005-e6ab178fa865
   port: 51492
   server: nnertn.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸 联通线路-瑞典01-1E
+  name: 550|🇸 联通线路-瑞典01-1E
   password: 6cefc479-db80-42e2-89ad-b52c06553ed9
   port: 51492
   server: nnertn.airport.lat
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|🇸 直连-瑞典01-1D
+  name: 550|🇸 直连-瑞典01-1D
   password: 7afd9421-773e-4237-846b-600e34cd0fbe
   port: 22490
   server: se01.airport.lat
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 559|🇸🇪 _瑞典
-  network: ws
-  port: '443'
-  server: 185.146.173.95
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 560|8|🇸🇪SE-95.164.33.62-233_1@232
+- name: 557|8|🇸🇪SE-95.164.33.62-233_1@232
   password: 0b1371aa-649d-41dc-9126-338c87936500
   port: 443
   server: 95.164.33.62
@@ -385,14 +373,21 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 560,567|🔒 VM-TCP-NA 🇸🇪 SE-169.150.208....
+  name: 557,564|🔒 VM-TCP-NA 🇸🇪 SE-169.150.208....
   network: tcp
   port: 18000
   server: 169.150.208.83
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 566|🔒 TR-WS-TLS 🇸🇪 SE-185.146.173....
+- name: 563|🔒 TR-TCP-TLS 🇸🇪 SE-13.53.176.1...
+  network: tcp
+  password: TRY332RCOD4panalyy9nISleFSZDOYFwzXSSNaCCwYelEyDR230cxAZxDqFOTzA3AX68S
+  port: 443
+  server: 13.53.176.184
+  sni: otcele.golfland.club
+  type: trojan
+- name: 563|🔒 TR-WS-TLS 🇸🇪 SE-185.146.173....
   network: ws
   password: auto
   port: 443
@@ -402,26 +397,9 @@ proxies:
   ws-opts:
     headers:
       Host: esetsecuritylicense.bwnsmv.workers.dev
-- alpn:
-  - http/1.1
-  name: 566|🔒 TR-TCP-TLS 🇸🇪 SE-51.21.78.88...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.78.88
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 566|🔒 TR-TCP-TLS 🇸🇪 SE-13.60.145.1...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.60.145.179
-  sni: trojan.burgerip.co.uk
-  type: trojan
+    path: '%2F@v2rayngzendegimamad%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
-  name: '621,622|🇸🇪 瑞典 #4'
+  name: '619,620|🇸🇪 瑞典 #4'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51174
   server: qq.miaolianyunapp.com
