@@ -7,14 +7,14 @@ proxies:
   sni: mmbiz11.redapricotcloud.com
   type: trojan
   udp: true
-- name: 189|🇨🇭瑞士北部（苏黎世）trojan
+- name: 185|🇨🇭瑞士北部（苏黎世）trojan
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: '190|🇨🇭瑞士北部（苏黎世）trojan #1'
+- name: '186|🇨🇭瑞士北部（苏黎世）trojan #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -22,7 +22,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 361|🇨🇭瑞士1 💧 0.6x
+  name: 362|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
@@ -30,21 +30,21 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   country: 🇺🇸 US
-  name: 393,394,412,498|🇺🇸 US_266
+  name: 393,394,412,500|🇺🇸 US_213
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺 US
-  name: 393,394,412,498|🇸 US_278
+  country: 🇸 US
+  name: 393,394,412,500|🇺🇸 US_214
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 393,394,412,498|🇺🇸 US_267
+  name: 393,394,412,500|🇺🇸 US_218
   password: shadowsocks
   port: 443
   server: 156.146.62.163
@@ -68,12 +68,12 @@ proxies:
   server: 185.126.116.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 412,565|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  name: 412,567|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 412,540|🇨🇭CH-152.67.71.149-3667
+- name: 412,542|🇨🇭CH-152.67.71.149-3667
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
@@ -87,7 +87,7 @@ proxies:
   type: ss
 - alterId: 1
   cipher: auto
-  name: 412,540|🇨🇭CH-186.190.215.32-8617
+  name: 412,542|🇨🇭CH-186.190.215.32-8617
   network: ws
   port: 443
   server: 186.190.215.32
@@ -102,7 +102,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 412,540|🇨🇭CH-186.190.215.75-8681
+  name: 412,542|🇨🇭CH-186.190.215.75-8681
   network: ws
   port: 443
   server: 186.190.215.75
@@ -117,7 +117,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 412,540|🇨🇭CH-140.238.212.95-8694
+  name: 412,542|🇨🇭CH-140.238.212.95-8694
   network: ws
   port: 443
   server: 140.238.212.95
@@ -132,7 +132,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 412,540|🇨🇭CH-23.166.88.27-8796
+  name: 412,542|🇨🇭CH-23.166.88.27-8796
   network: ws
   port: 443
   server: 23.166.88.27
@@ -147,7 +147,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 412,540|🇨🇭CH-186.190.215.149-8841
+  name: 412,542|🇨🇭CH-186.190.215.149-8841
   network: ws
   port: 443
   server: 186.190.215.149
@@ -161,13 +161,13 @@ proxies:
       Host: 186.190.215.149
     path: linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 598|🇨🇭 CH 瑞士
+  name: 600|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49969
   server: node-a.dlg365.com
   type: ss
   udp: true
-- name: '603,604|🇨🇭瑞士北部（苏黎世）trojan #3'
+- name: '605,606|🇨🇭瑞士北部（苏黎世）trojan #3'
   password: 20bc0771-1fde-45ee-8052-3c26249c43dc
   port: 34865
   server: 250407.jichang.my
@@ -175,13 +175,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '617,618|🇨🇭 瑞士 #2'
+  name: '619,620|🇨🇭 瑞士 #2'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '709,811,812,813|🇨🇭 瑞士 #6'
+- name: '712,814,816|🇨🇭 瑞士 #5'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -190,7 +190,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '755,756,757,758|🇨🇭 Switzerland 087 #3'
+  name: '758,759,760,761|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:
@@ -199,4 +199,12 @@ proxies:
   port: 45582
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
+  udp: true
+- name: 815|🇨🇭 瑞士🔒
+  password: 升级订阅解锁全部节点
+  port: 10009
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
