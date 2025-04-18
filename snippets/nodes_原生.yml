@@ -19,25 +19,25 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
-  name: '100,494|🇦🇺 澳大利亚原生2 #3'
-  port: 45063
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 41d362ad-2da2-4555-b1b3-7f91a7cfdc42
-- alterId: 0
-  cipher: auto
-  name: '100,494|🇦🇺 澳大利亚原生1 #3'
+  name: '100,495|🇦🇺 澳大利亚原生1 #3'
   port: 45062
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 41d362ad-2da2-4555-b1b3-7f91a7cfdc42
+  uuid: 73eb7dd5-a2b7-4b7d-a89a-fecc90ef913a
 - alterId: 0
   cipher: auto
-  name: '101,498|澳大利亚原生1 #1'
+  name: '100,495|🇦🇺 澳大利亚原生2 #3'
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 73eb7dd5-a2b7-4b7d-a89a-fecc90ef913a
+- alterId: 0
+  cipher: auto
+  name: '101,499|澳大利亚原生1 #1'
   port: 45062
   server: haa.dashuai.cyou
   skip-cert-verify: true
@@ -47,7 +47,7 @@ proxies:
   uuid: 3dd80bf5-2a32-4d8f-a56e-a21b28c38720
 - alterId: 0
   cipher: auto
-  name: '101,102,498,499|澳大利亚原生2-1A #1'
+  name: '101,102,499,500|澳大利亚原生2-1A #1'
   port: 45063
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -57,7 +57,7 @@ proxies:
   uuid: 3dd80bf5-2a32-4d8f-a56e-a21b28c38720
 - alterId: 0
   cipher: auto
-  name: '102,499|澳大利亚原生2-1B #1'
+  name: '102,500|澳大利亚原生2-1B #1'
   port: 45063
   server: xdd.dashuai.cyou
   skip-cert-verify: true
@@ -85,7 +85,7 @@ proxies:
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - alterId: 0
   cipher: auto
-  name: 554|🇺 澳大利亚原生2-1A
+  name: 555|🇺 澳大利亚原生2-1A
   port: 45063
   server: xdd.dashuai.cyou
   tls: false
@@ -94,7 +94,7 @@ proxies:
   uuid: 29f35e99-8baa-482b-ab29-37fa1a2db9a9
 - alterId: 0
   cipher: auto
-  name: 554|🇺 澳大利亚原生1-1B
+  name: 555|🇺 澳大利亚原生1-1B
   port: 45062
   server: haa.dashuai.cyou
   tls: false
@@ -103,7 +103,7 @@ proxies:
   uuid: dd6fe7b8-26fc-4d2e-8dd4-aa375e167f83
 - alterId: 0
   cipher: auto
-  name: 554|🇺 澳大利亚原生2-1C
+  name: 555|🇺 澳大利亚原生2-1C
   port: 45063
   server: xdd.dashuai.cyou
   tls: false
@@ -112,7 +112,7 @@ proxies:
   uuid: abff0fa0-e3b0-4699-90aa-08dc2ef39cac
 - alterId: 0
   cipher: auto
-  name: 554|🇺 澳大利亚原生2-1E
+  name: 555|🇺 澳大利亚原生2-1E
   port: 45063
   server: xdd.dashuai.cyou
   tls: false
@@ -121,7 +121,7 @@ proxies:
   uuid: cc756d64-6b21-4ce1-b0bd-34470407932f
 - alterId: 0
   cipher: auto
-  name: '554|🇺 澳大利亚原生2-1A #1'
+  name: '555|🇺 澳大利亚原生2-1A #1'
   port: 45063
   server: xdd.dashuai.cyou
   tls: false
@@ -130,7 +130,7 @@ proxies:
   uuid: 41bc3d98-0ac9-4b48-848d-51e1da425e84
 - alterId: 0
   cipher: auto
-  name: 554|🇺 澳大利亚原生1-1D
+  name: 555|🇺 澳大利亚原生1-1D
   port: 45062
   server: haa.dashuai.cyou
   tls: false
@@ -139,7 +139,7 @@ proxies:
   uuid: 767d535f-ef0b-47c0-90e3-1bfccc80a15a
 - alterId: 0
   cipher: auto
-  name: '564|澳大利亚原生2 #2'
+  name: '565|澳大利亚原生2 #2'
   network: tcp
   port: '45063'
   server: xdd.dashuai.cyou
@@ -148,7 +148,7 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '564|澳大利亚原生1 #2'
+  name: '565|澳大利亚原生1 #2'
   network: tcp
   port: '45062'
   server: haa.dashuai.cyou
@@ -157,7 +157,7 @@ proxies:
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
 - alterId: 0
   cipher: auto
-  name: '571|澳大利亚原生1 #3'
+  name: '572|澳大利亚原生1 #3'
   network: tcp
   port: '45062'
   server: haa.dashuai.cyou
@@ -166,7 +166,7 @@ proxies:
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - alterId: 0
   cipher: auto
-  name: '571|澳大利亚原生2 #3'
+  name: '572|澳大利亚原生2 #3'
   network: tcp
   port: '45063'
   server: xdd.dashuai.cyou
