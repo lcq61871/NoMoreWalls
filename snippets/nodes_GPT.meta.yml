@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- name: 558|5|[ v2 ] ChatGPT · 01 · 限 30 M...
+  password: 5f1613a4-eefa-4d4d-b734-a86ee3d7327a
+  port: 50054
+  server: gnpid1111.ndycom.com
+  skip-cert-verify: true
+  sni: gnpid1111.ndycom.com
+  type: trojan
+- name: 558|5|[ v2 ] ChatGPT · 02 · 限 30 M...
+  password: 5f1613a4-eefa-4d4d-b734-a86ee3d7327a
+  port: 50055
+  server: gnpid1111.ndycom.com
+  skip-cert-verify: true
+  sni: gnpid1111.ndycom.com
+  type: trojan
+- name: 558|5|[ v2 ] ChatGPT · 04 · 限 30 M...
+  password: 5f1613a4-eefa-4d4d-b734-a86ee3d7327a
+  port: 50057
+  server: gnpid1111.ndycom.com
+  skip-cert-verify: true
+  sni: gnpid1111.ndycom.com
+  type: trojan
+- name: 558|5|[ v2 ] ChatGPT · 03 · 限 30 M...
+  password: 5f1613a4-eefa-4d4d-b734-a86ee3d7327a
+  port: 50056
+  server: gnpid1111.ndycom.com
+  skip-cert-verify: true
+  sni: gpt03.6kk.org
+  type: trojan
