@@ -16,7 +16,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '223,224|「加入会员解锁流媒体」x5 #1'
+  name: '224,225|「加入会员解锁流媒体」x5 #1'
   network: ws
   port: 2053
   server: v2.emoyes.top
@@ -33,15 +33,8 @@ proxies:
       Host: v2.emoyes.top
     path: /
   ws-path: /
-- cipher: aes-256-cfb
-  country: CY
-  name: 315,414|CY-134.255.210.49-6473
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.255.210.49
-  type: ss
 - country: FR
-  name: 315,414,514,542,557,558,564|🔒 TR-TCP-TLS 🇪🇸 ES-141.227.128...
+  name: 314,413,513,541,556,557,563|🔒 TR-TCP-TLS 🇪🇸 ES-141.227.128...
   network: tcp
   password: utF6JLQd2x
   port: 1935
@@ -50,59 +43,96 @@ proxies:
   sni: x1es-ovh.devefun.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: LT
-  name: 315|netflix_NL
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: LT
-  name: '315|netflix_NL #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.69
-  type: ss
+- country: IE
+  name: 314|netflix_IE
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.213.128.155
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: LT
-  name: 315,414|🇹LT-185.237.185.160-6482
+  name: 314,413|🇹LT-185.237.185.160-6482
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.237.185.160
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: LT
-  name: 315,414|🇹LT-45.87.175.65-6235
+  name: 314|netflix_NL
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: LT
+  name: 314,413|🇹LT-45.87.175.65-6235
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.65
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: LT
-  name: 315,414|🇹LT-45.87.175.35-1049
+  name: '314|netflix_NL #2'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: LT
+  name: 314,413|🇹LT-45.87.175.35-1049
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.35
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: NL
-  name: 315,414|🇳🇱NL-193.29.139.189-0991
+  country: MX
+  name: 314,413|MX-147.78.1.27-6485
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 147.78.1.27
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱NL
+  name: 314,413,497|🇱NL_55 |368.26Mb
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 193.29.139.189
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 315,414|🇱PL-217.30.10.18-1153
-  password: QWDDvVE9npNurQfA
-  port: 9026
+  name: 314,413|🇵🇱PL-217.30.10.18-6490
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 314,413|🇱PL-217.30.10.18-1158
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 314,413|🇱PL-217.30.10.18-1152
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 314,413|🇵🇱PL-217.30.10.18-1117
+  password: ueLXVkvh4hckhErQ
+  port: 9060
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: PL
-  name: 315,409,414|🇵🇱PL-217.30.10.18-1140
+  name: 314,408,413|🇵🇱PL-217.30.10.18-1140
   password: UTJA57ypk2XKQpnm
   port: 9033
   server: 217.30.10.18
@@ -110,56 +140,28 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 315,414|🇱PL-217.30.10.18-1158
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: PL
-  name: 315,414|🇱PL-217.30.10.18-6486
+  name: 314,413|🇱PL-217.30.10.18-6486
   password: JdmRK9gMEqFgs8nP
   port: 9003
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   country: PL
-  name: 315,414|🇵🇱PL-217.30.10.18-1117
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: PL
-  name: 315,414|🇱PL-217.30.10.18-1152
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: PL
-  name: 315,414|🇵🇱PL-217.30.10.18-6490
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: PL
-  name: 315,414|🇵🇱PL-217.30.10.18-6491
+  name: 314,413|🇵🇱PL-217.30.10.18-6491
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: US
-  name: 315,414|🇷FR-45.158.171.60-0999
+  name: 314,413|🇷FR-45.158.171.60-0999
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.158.171.60
   type: ss
 - alterId: 0
   cipher: auto
-  name: '828|「加入会员解锁流媒体」x5 #2'
+  name: '827|「加入会员解锁流媒体」x5 #2'
   network: ws
   port: 2053
   server: v2.emoyes.top
