@@ -22,7 +22,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 362|🇨🇭瑞士1 💧 0.6x
+  name: 364|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
@@ -30,16 +30,21 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-  name: 374,526,532,558|5|1|🇨🇭1 |  4.6MB/s
+  name: 376,526,558|5|1|🇨🇭1 |  4.6MB/s
+  network: tcp
   port: 6718
+  reality-opts:
+    public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
+    short-id: d6d54c08fbbf895f
   server: 37.156.46.44
   servername: stackoverflow.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: c7a28fa8-fc43-f6b5-7ae8-6413a746d905
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 374,414,526,532,536,550,558|5,40|CH_speednode_0004
+  name: 376,416,526,532,536,550,558|5,40|CH_speednode_0004
   network: tcp
   port: 443
   server: 152.67.68.116
@@ -51,26 +56,28 @@ proxies:
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-  name: 374,526,558|5|1|🇨🇭3 |  5.7MB/s
+  name: 376,526,558|5|1|🇨🇭3 |  5.7MB/s
   port: 6718
   server: 37.156.46.65
   servername: stackoverflow.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: c7a28fa8-fc43-f6b5-7ae8-6413a746d905
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 374,526,532,536,550,558|5,40|CH_speednode_0002
+  name: 376,416,526,532,536,550,558|5,40|CH_speednode_0002
   port: 443
   server: yapc-1.afshin.ir
   servername: yapc-1.afshin.ir
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 374,526,532,536,550,558|5,40|CH_speednode_0005
+  name: 376,526,532,536,550,558|5,40|CH_speednode_0005
   port: 6718
   server: mehamboz.darkping.net
   servername: stackoverflow.com
@@ -79,65 +86,62 @@ proxies:
   type: vless
   uuid: c7a28fa8-fc43-f6b5-7ae8-6413a746d905
 - cipher: aes-128-gcm
-  country: 🇺🇸 US
-  name: 393,394,412,500|🇺🇸 US_213
+  name: 395,396,414|CH-156.146.62.164-1046
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 393,394,412,500|🇺🇸 US_214
+  name: 395,396,414|🇭CH-156.146.62.162-1048
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 393,394,412,500|🇺🇸 US_218
+  name: 395,396,414|🇭CH-156.146.62.163-1075
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
 - cipher: aes-256-cfb
-  name: 393|🌀29-CH |  12.1MB/s
+  name: 395|🌀29-CH |  12.1MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 393,412|🇷FR-51.15.15.82-0883
+  name: 395,414|🇷FR-51.15.15.82-0883
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
   type: ss
 - cipher: aes-256-cfb
-  name: 412|🇨CH-185.126.116.125-0103
+  name: 414|🇨CH-185.126.116.125-0103
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 412,567|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  name: 414,567|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 412,542|🇨🇭CH-152.67.71.149-3667
+- name: 414,542|🇨🇭CH-152.67.71.149-3667
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 412|🇨CH-156.146.62.160-5240
+  name: 414|🇨CH-156.146.62.160-5240
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 412,542|🇨🇭CH-186.190.215.32-8617
+  name: 414,542|🇨🇭CH-186.190.215.32-8617
   network: ws
   port: 443
   server: 186.190.215.32
@@ -152,7 +156,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 412,542|🇨🇭CH-186.190.215.75-8681
+  name: 414,542|🇨🇭CH-186.190.215.75-8681
   network: ws
   port: 443
   server: 186.190.215.75
@@ -167,7 +171,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 412,542|🇨🇭CH-140.238.212.95-8694
+  name: 414,542|🇨🇭CH-140.238.212.95-8694
   network: ws
   port: 443
   server: 140.238.212.95
@@ -182,7 +186,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 412,542|🇨🇭CH-23.166.88.27-8796
+  name: 414,542|🇨🇭CH-23.166.88.27-8796
   network: ws
   port: 443
   server: 23.166.88.27
@@ -197,7 +201,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 412,542|🇨🇭CH-186.190.215.149-8841
+  name: 414,542|🇨🇭CH-186.190.215.149-8841
   network: ws
   port: 443
   server: 186.190.215.149
@@ -210,7 +214,7 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
-- name: 424|🇨🇭瑞士
+- name: 426|🇨🇭瑞士
   network: ws
   port: 2086
   server: qrzv.youxuan.wiki
@@ -266,6 +270,28 @@ proxies:
   tls: false
   type: vless
   uuid: 7153d030-2373-4163-b4ff-ce849faac372
+- alterId: 0
+  cipher: auto
+  name: 532,547,557,558,559,560,562|巴拿马 V2CROSS.COM
+  network: tcp
+  port: 22324
+  server: 186.190.215.193
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-headers:
+    Host: 186.190.215.193
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 557|🇨🇭 瑞士_041820038 M57
+  network: tcp
+  port: '22324'
+  server: 186.190.215.93
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
   name: 600|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
@@ -287,7 +313,7 @@ proxies:
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '712,814,816|🇨🇭 瑞士 #5'
+- name: '712,814,815,816|🇨🇭 瑞士 #6'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -305,12 +331,4 @@ proxies:
   port: 45582
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
-  udp: true
-- name: 815|🇨🇭 瑞士🔒
-  password: 升级订阅解锁全部节点
-  port: 10009
-  server: starlink-fra2.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
   udp: true
