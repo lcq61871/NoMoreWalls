@@ -1,0 +1,34 @@
+name: VLESS Speed Test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 20 * * *'  # 每天 UTC+8 的 04:00 运行
+
+jobs:
+  vless-speed-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Run VLESS Speed Test
+        run: python vless.py
+
+      - name: Commit and push results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vless.yml vlspeed.txt
+          git commit -m "🔁 Update VLESS测速结果 $(date '+%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
+          git push
