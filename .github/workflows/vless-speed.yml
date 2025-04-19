@@ -1,34 +1,60 @@
 name: VLESS Speed Test
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 20 * * *'  # 每天 UTC+8 的 04:00 运行
+    - cron: '0 */6 * * *'  # 每6小时运行一次
+  workflow_dispatch:       # 允许手动触发
 
 jobs:
-  vless-speed-test:
+  test-vless:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: pip install pyyaml requests
-
-      - name: Run VLESS Speed Test
-        run: python vless.py
-
-      - name: Commit and push results
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add vless.yml vlspeed.txt
-          git commit -m "🔁 Update VLESS测速结果 $(date '+%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
-          git push
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup environment
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          curl \
+          jq \
+          python3 \
+          python3-pip
+        
+        # 安装Xray-core
+        bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
+        
+        # 安装Python依赖
+        pip install pyyaml
+        
+    - name: Run VLESS tester
+      run: |
+        chmod +x vless.py
+        python3 vless.py
+        
+    - name: Verify results
+      run: |
+        echo "=== 生成文件检查 ==="
+        ls -l output/
+        echo "=== vless.yml 前3行 ==="
+        head -n 10 output/vless.yml || echo "文件不存在"
+        echo "=== vlspeed.txt 前5行 ==="
+        head -n 10 output/vlspeed.txt || echo "文件不存在"
+        
+    - name: Upload results
+      uses: actions/upload-artifact@v3
+      with:
+        name: vless-results
+        path: output/
+        
+    - name: Commit results
+      if: always()
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "自动更新VLESS节点测试结果 [skip ci]"
+        file_pattern: |
+          output/vless.yml
+          output/vlspeed.txt
+        branch: main
