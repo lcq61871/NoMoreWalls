@@ -22,66 +22,72 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 362|🇨🇭瑞士1 💧 0.6x
+  name: 360|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 385,386,404,487|🇺🇸 US_423
+  country: 🇺🇸 US
+  name: 384,385,403,488|🇺🇸 US_538
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 385,386,404,487|🇸 US_422
+  name: 384,385,403,488|🇺🇸 US_534
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
-  country: ' US'
-  name: 385,386,404,487|🇺 US_419
+  country: 🇸 US
+  name: 384,385,403,488|🇺🇸 US_539
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
 - cipher: aes-256-cfb
-  name: 385|🌀29-CH |  12.1MB/s
+  name: 384|🌀29-CH |  12.1MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 404|CH-185.126.116.125-0096
+  name: 384,403|🇷FR-51.15.15.82-0876
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.15.82
+  type: ss
+- cipher: aes-256-cfb
+  name: 403|CH-185.126.116.125-0096
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 404,554|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  name: 403,555|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 404,529|🇨🇭CH-152.67.71.149-3691
+- name: 403,530|🇨🇭CH-152.67.71.149-3444
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 404|🇨CH-156.146.62.160-5015
+  name: 403|🇨CH-156.146.62.160-5480
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 404,529|🇨🇭CH-186.190.215.32-8685
+  name: 403,530|🇨🇭CH-186.190.215.32-9655
   network: ws
   port: 443
   server: 186.190.215.32
@@ -96,7 +102,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 404,529|🇨🇭CH-186.190.215.75-8749
+  name: 403,530|🇨🇭CH-186.190.215.75-9719
   network: ws
   port: 443
   server: 186.190.215.75
@@ -111,7 +117,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 404,529|🇨🇭CH-140.238.212.95-8762
+  name: 403,530|🇨🇭CH-140.238.212.95-9732
   network: ws
   port: 443
   server: 140.238.212.95
@@ -126,7 +132,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 404,529|🇨🇭CH-23.166.88.27-8864
+  name: 403,530|🇨🇭CH-23.166.88.27-9834
   network: ws
   port: 443
   server: 23.166.88.27
@@ -141,7 +147,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 404,529|🇨🇭CH-186.190.215.149-8909
+  name: 403,530|🇨🇭CH-186.190.215.149-9879
   network: ws
   port: 443
   server: 186.190.215.149
@@ -155,13 +161,13 @@ proxies:
       Host: 186.190.215.149
     path: linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 588|🇨🇭 CH 瑞士
+  name: 589|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49969
   server: node-a.dlg365.com
   type: ss
   udp: true
-- name: '593,594|🇨🇭瑞士北部（苏黎世）trojan #3'
+- name: '594,595|🇨🇭瑞士北部（苏黎世）trojan #3'
   password: 20bc0771-1fde-45ee-8052-3c26249c43dc
   port: 34865
   server: 250407.jichang.my
@@ -169,13 +175,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '607,608|🇨🇭 瑞士 #2'
+  name: '608,609|🇨🇭 瑞士 #2'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '700,802,803,804|🇨🇭 瑞士 #6'
+- name: '701,802,804|🇨🇭 瑞士 #5'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -184,7 +190,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '746,747,748,749|🇨🇭 Switzerland 087 #3'
+  name: '747,748,749,750|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:
@@ -193,4 +199,20 @@ proxies:
   port: 45582
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
+  udp: true
+- name: 803|🇨🇭 瑞士1🔒
+  password: 升级订阅解锁全部节点
+  port: 10009
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 803|🇨🇭 瑞士2🔒
+  password: 升级订阅解锁全部节点
+  port: 10014
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
