@@ -211,11 +211,10 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 92,400,528|🇯🇵JP-91.200.242.187-1417
+  name: 92|🇭🇰 No.397_SG_x1.50_皖港->GR_新加坡[...
   network: ws
   port: 14954
   server: 91.200.242.187
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -4718,7 +4717,7 @@ proxies:
     path: /dabai.in104.20.27.115
 - alterId: 0
   cipher: auto
-  name: '507,548|美国 CloudFlare节点 #11'
+  name: '507,548|美国 CloudFlare节点 #16'
   network: ws
   port: '2082'
   server: 104.16.155.10
@@ -4872,7 +4871,7 @@ proxies:
     path: /dabai.in172.67.92.156
 - alterId: 0
   cipher: auto
-  name: 507,543|CF中转_0419104163 L0
+  name: 507,543|CF中转_0419204184 L0
   network: ws
   port: '2095'
   server: 104.17.221.248
@@ -4886,7 +4885,7 @@ proxies:
     path: /dabai.in172.67.93.174
 - alterId: 0
   cipher: auto
-  name: 507,543|CF中转_0419104179 L0
+  name: 507,543|CF中转_0419204196 L0
   network: ws
   port: '2052'
   server: 104.19.48.236
@@ -5026,7 +5025,7 @@ proxies:
     path: /dabai.in104.24.89.11
 - alterId: 0
   cipher: auto
-  name: 507,543|CF中转_041910072 L7
+  name: 507|CF中转_0218052522 L7
   network: ws
   port: '443'
   server: 172.67.213.110
@@ -5052,3595 +5051,181 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /dyajvws
-- name: 532|🇭🇰 中转•香港102•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 532|🇭🇰 中转•香港307•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 532|🇼 中转•台湾100•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 59021
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x100.flybar.work
-  type: trojan
-  udp: true
-- name: 532|🇹🇼 中转•台湾91•原生 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 21247
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x91.flybar.work
-  type: trojan
-  udp: true
-- name: 532|🇸 中转•美国295•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇸 中转•美国295•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20295
   server: gy.58n.net
   skip-cert-verify: true
   sni: z295.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇺🇸 中转•美国296•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇺🇸 中转•美国296•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20296
   server: gy.58n.net
   skip-cert-verify: true
   sni: z296.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇺🇸 中转•美国308•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇺🇸 中转•美国308•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20308
   server: gy.58n.net
   skip-cert-verify: true
   sni: z308.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇺🇸 中转•美国40•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇺🇸 中转•美国40•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 16895
   server: gy.58n.net
   skip-cert-verify: true
   sni: x40.flybar.work
   type: trojan
   udp: true
-- name: 532|🇸 中转•美国41•原生 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇸 中转•美国41•原生 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 21970
   server: gy.58n.net
   skip-cert-verify: true
   sni: x41.flybar.work
   type: trojan
   udp: true
-- name: 532|🇸 中转•美国61•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇸 中转•美国61•高速 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 30767
   server: gy.58n.net
   skip-cert-verify: true
   sni: z61.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇵 中转•日本298•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 20298
+- name: '530,532|🇼 中转•台湾100•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 59021
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z298.hongkongnode.top
+  sni: x100.flybar.work
   type: trojan
   udp: true
-- name: 532|🇯🇵 中转•日本300•原生 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
-  port: 20300
+- name: 530,532|🇹🇼 中转•台湾91•原生 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 21247
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z300.hongkongnode.top
+  sni: x91.flybar.work
   type: trojan
   udp: true
-- name: 532|🇬 中转•新加坡299•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇬 中转•新加坡299•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20299
   server: gy.58n.net
   skip-cert-verify: true
   sni: x299.flybar.work
   type: trojan
   udp: true
-- name: 532|🇸🇬 中转•新加坡65•青铜 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇸🇬 中转•新加坡65•青铜 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 17806
   server: gy.58n.net
   skip-cert-verify: true
   sni: x65.flybar.work
   type: trojan
   udp: true
-- name: 532|🇬 中转•新加坡83•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇬 中转•新加坡83•高速 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 30712
   server: gy.58n.net
   skip-cert-verify: true
   sni: x83.flybar.work
   type: trojan
   udp: true
-- name: 532|🇧 中转•英国267•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇧 中转•英国267•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 25238
   server: gy.58n.net
   skip-cert-verify: true
   sni: z267.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇧 中转•英国268•高速 - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇧 中转•英国268•高速 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 11215
   server: gy.58n.net
   skip-cert-verify: true
   sni: z268.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇪 中转•德国302•GPT - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇪 中转•德国302•GPT - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20302
   server: gy.58n.net
   skip-cert-verify: true
   sni: z302.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇪 中转•德国303•GPT - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇪 中转•德国303•GPT - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20303
   server: gy.58n.net
   skip-cert-verify: true
   sni: z303.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇩🇪 中转•德国304•GPT - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇩🇪 中转•德国304•GPT - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20304
   server: gy.58n.net
   skip-cert-verify: true
   sni: z304.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇩🇪 中转•德国305•GPT - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: 530,532|🇩🇪 中转•德国305•GPT - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20305
   server: gy.58n.net
   skip-cert-verify: true
   sni: z305.hongkongnode.top
   type: trojan
   udp: true
-- name: 532|🇩🇪 中转•德国306•GPT - 飞翔吧
-  password: 348daae7-eb6d-3a89-b5ba-3cd96318780f
+- name: '530,532|🇩🇪 中转•德国306•GPT - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
   port: 20306
   server: gy.58n.net
   skip-cert-verify: true
   sni: z306.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国7无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本6无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1B
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转2-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本11无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国7无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡2无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转6-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转3-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本6无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡2无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- name: 537|🇵 日本03中转-1A
-  password: 4e275a9f-5679-4e76-806c-72a79a22f304
-  port: 64420
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+- name: '530,532|🇭🇰 中转•香港102•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 43337
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z102.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- name: 537|🇯🇵 日本03中转1-1A
-  password: 4e275a9f-5679-4e76-806c-72a79a22f304
-  port: 38327
-  server: twjpzz2.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+- name: 530,532|🇭🇰 中转•香港307•高速 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 2无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1R
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国7无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡2无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国3无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国5无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国7无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1B
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|SS-中转-1C
-  password: abd971fc-db8c-4c80-944b-fd6caafcdaee
-  port: 43277
-  server: 163.177.58.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转5-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转2-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇻🇳 越南2无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本2无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国6无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国10无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本8无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转4-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国3无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转4-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- name: 537|🇵 日本03中转1-1B
-  password: d618fabf-aaaa-4bb4-924e-9e3e37e01608
-  port: 38327
-  server: twjpzz2.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+- name: '530,532|🇵 中转•日本298•高速 - 飞翔吧 #1'
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 20298
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z298.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转6-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国3无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺 俄罗斯 中转-1B
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本4无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国7无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转6-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1L
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本11无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转2-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国11无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国2无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本11无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇻🇳 越南3无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转4-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国9无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国5无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转1-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1F
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转2-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国8无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡2无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国8无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- name: 537|🇵 日本03中转-1C
-  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
-  port: 64420
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+- name: 530,532|🇯🇵 中转•日本300•原生 - 飞翔吧
+  password: a61ca4c8-7e9c-38d0-a4f1-ab555d554730
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国1无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本5无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本6无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国 中转-1C
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转1-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国2无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- name: 537|🇬 新加坡05中转-1D
-  password: 55483be5-0f49-4429-96c8-764d4e619954
-  port: 35828
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本11无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1D
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- name: 537|🇯🇵 日本03中转1-1C
-  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
-  port: 38327
-  server: twjpzz2.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国8无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本6无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺 俄罗斯 中转-1F
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转4-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本8无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国2无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转3-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转2-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国7无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本3无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转1-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国12无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转1-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转4-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本11无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1O
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国5无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺 俄罗斯 中转-1D
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国3无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转2-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转8-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国5无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转3-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本2无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本6无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国11无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡2无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1K
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国13无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1A
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国7无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本11无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本1无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国13无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国8无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国5无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国8无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转5-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1C
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本11无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1C
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- name: 537|🇸🇬 新加坡05中转-1B
-  password: d618fabf-aaaa-4bb4-924e-9e3e37e01608
-  port: 35828
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲 马来西亚无中转7-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国5无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国6无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1G
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转5-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国3无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本6无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国 中转-1D
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转2-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转9-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1F
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1J
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转1-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡2无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国 中转-1B
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇰 深中转-IEPL专线-US-1-1A
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a17833a6-2f25-425b-a2d7-7e87f3f54f6b
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国13无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国5无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇻🇳 越南4无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺 俄罗斯 中转-1C
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转6-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国3无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国8无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1E
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转4-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- name: 537|🇯🇵 日本03中转-1B
-  password: d618fabf-aaaa-4bb4-924e-9e3e37e01608
-  port: 64420
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转4-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1I
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 36214
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡2无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本11无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转2-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|SS-中转-1D
-  password: 5aa0dcb9-7731-437e-8a97-6085f29a7efa
-  port: 43277
-  server: 163.177.58.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本3无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1P
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本3无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转2-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转2-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本7无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本4无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本3无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国3无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转1-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本10无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国5无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1H
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本7无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转6-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|SS-中转-1E
-  password: d6570062-a321-4655-933a-74f0e40540e2
-  port: 43277
-  server: 163.177.58.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转3-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国1无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转1-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转4-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转7-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国 中转-1F
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本7无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本3无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美洲|中转美国-1B
-  password: 8ce04614-0e79-4794-ac21-56d7db7e9c2a
-  port: 19208
-  server: gd.qlrk0.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本2无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇰 港中转-IEPL专线-US-1-1G
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 80268739-12c3-4f02-91f5-90e8961eca63
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美洲|中转美国-1C
-  password: e09f85e5-a417-43b1-955b-272bd6615261
-  port: 19208
-  server: gd.qlrk0.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本1无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- name: 537,544|28|🇵 日本03中转-1D
-  password: 55483be5-0f49-4429-96c8-764d4e619954
-  port: 64420
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国5无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转3-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转6-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本8无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1E
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转1-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇭🇰 深港中转-IEPL专线-US-1-1E
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7b47adca-e3b3-40cf-b8c0-e59c7f079d41
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 537|🇭🇰 深港中转-IEPL专线-US-1-1D
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8d8535b1-0fda-4eba-9827-5127a72384c7
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国6无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国3无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1N
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1C
-  password: 2da9a491-9842-464b-8b42-4807c17f7fd6
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转1-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国4无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本3无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国 中转-1A
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转2-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转6-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转4-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转9-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本4无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转4-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国13无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转1-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国13无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本3无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转5-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国4无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本5无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国7无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转2-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南3无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 176.221.19.170
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇬 新加坡2无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转1-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1A
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国13无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国2无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺  中转-1E
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国1无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇻🇳 越南3无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国12无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国2无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 108.165.171.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国8无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国9无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国13无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转5-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇭🇰 深港中转-IEPL专线-US-1-1I
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8947dc7d-848e-4d58-a49f-aa09f6926472
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国6无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国9无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1Q
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国13无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本2无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 103.134.35.217
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本10无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国8无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转1-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.115.109.65
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本5无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国13无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转2-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1B
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 36511
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转6-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转2-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国 中转-1F
-  password: 4c3dccae-1a4c-46a7-8831-c03c130bf221
-  port: 55997
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转3-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国1无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 154.91.200.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国2无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.197
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国8无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 62.112.143.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转3-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转2-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转2-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本8无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.238
-  type: ss
-  udp: true
-- name: 537|🇸🇬 新加坡05中转-1C
-  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
-  port: 35828
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转2-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 188.64.106.231
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转9-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 188.64.106.92
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国12无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本3无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本10无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转4-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转8-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1E
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国1无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转2-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.115.108.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本6无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭🇰 香港 中转-1D
-  password: ea5c986b-81d7-494e-b10d-7d3ee6beb15c
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾无中转3-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南4无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 185.126.134.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸 美国1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 38.182.100.129
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|SS-中转-1A
-  password: fa37e7d0-f412-4f7e-bb14-a979c1e2f407
-  port: 43277
-  server: 163.177.58.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国4无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- name: 537,544|28|🇬 新加坡05中转-1A
-  password: 4e275a9f-5679-4e76-806c-72a79a22f304
-  port: 35828
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|SS-中转-1B
-  password: 6e35ee90-2363-4b95-9789-412356b2025f
-  port: 43277
-  server: 163.177.58.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷 巴西 中转-1D
-  password: 60d6e676-bf91-4123-bd44-ea6210927be4
-  port: 30752
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾无中转3-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本6无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本10无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本4无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇸🇬 新加坡2无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本11无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 2无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇲🇾 马来西亚无中转3-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南2无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 185.126.134.43
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇪 德国1无中转-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 10050
-  server: 181.214.205.123
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本1无中转-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇺🇸 美国 中转-1E
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 17941
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇷🇺 俄罗斯 中转-1A
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 23499
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国4无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 62.112.143.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转6-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇳 越南1无中转-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 185.126.134.76
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转4-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 10050
-  server: 103.115.108.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 泰国3无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.130
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国10无中转-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 62.112.143.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1A
-  password: f7dbcb1d-a5bc-4a3c-9983-9a4e941c8b63
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国11无中转-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 10050
-  server: 62.112.143.157
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国7无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转1-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 188.64.106.252
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇭 泰国12无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 62.112.143.111
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本5无中转-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 10050
-  server: 103.134.35.124
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转5-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.115.109.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.173
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转4-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 10050
-  server: 188.64.106.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇰 香港 中转-1M
-  password: d17bb282-f04d-4d18-9a61-aa7535c42f12
-  port: 65519
-  server: vip.baima360.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本7无中转-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 10050
-  server: 103.134.35.247
-  type: ss
-  udp: true
-- name: 537,544|28|🇯🇵 日本03中转1-1D
-  password: 55483be5-0f49-4429-96c8-764d4e619954
-  port: 38327
-  server: twjpzz2.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇾 马来西亚无中转7-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 10050
-  server: 188.64.106.85
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾无中转3-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.115.109.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇯🇵 日本6无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.219
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇰 深中转-IEPL专线-US-1-1B
-  network: ws
-  port: 8006
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4e38435c-2d94-4960-bfd3-9c429c026914
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇵 日本3无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 103.134.35.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 泰国1无中转-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 10050
-  server: 154.91.200.232
-  type: ss
   udp: true
 - alterId: 2
   cipher: auto
@@ -8665,6 +5250,26 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 542|12|🇷 法国|@ripaojiedian
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41068
+  server: zz5.fgmcx.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 542,543,544|5,12,16,27,30|2|🇺🇸1 |  5.1MB/s
+  network: tcp
+  port: 5228
+  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+  ws-headers:
+    Host: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  ws-path: /
 - alterId: 2
   cipher: auto
   name: 542,544|30|🇨🇳_CN_中国->🇺🇸_US_美国_5
@@ -8687,7 +5292,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '542,543,544,548|🇨🇳_定制专线：@QS00008 #3'
+  name: '542,544,548|🇨🇳_定制专线：@QS00008 #3'
   network: tcp
   port: 17235
   server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
@@ -8735,19 +5340,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 542,544|30|🇸_US_美国->🇨🇷_CR_哥斯达黎加_1
-  network: ws
-  port: 80
-  server: 172.67.75.172
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: vmess
-  uuid: 0c5e59d4-2ab3-4dc7-8b56-4ee355551162
-  ws-opts:
-    path: /s15.html
-- alterId: 0
-  cipher: auto
   name: 542,544|30|🇸_US_美国->🇨🇷_CR_哥斯达黎加_2
   network: ws
   port: 80
@@ -8772,6 +5364,19 @@ proxies:
   ws-headers:
     Host: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 542,544|16,30|🇸_US_美国->🇨🇷_CR_哥斯达黎加_3
+  network: ws
+  port: 80
+  server: 104.21.23.72
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: vmess
+  uuid: 812eb086-8442-4799-9d92-112fd1a225af
+  ws-opts:
+    path: /s15.html
 - alterId: 2
   cipher: auto
   name: 542,544|16,30|🇨🇳_CN_中国->_CA_加
@@ -8797,7 +5402,7 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - alterId: 0
   cipher: auto
-  name: 543|CF中转_0419104176 L0
+  name: 543|CF中转_0419204178 L0
   network: ws
   port: '8443'
   server: 141.101.121.121
@@ -8810,29 +5415,68 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 543|🇺🇸 _US_美国->🇩🇪_DE_德国 3
+  name: 543|CF中转_0419204190 L0
   network: ws
   port: '2052'
-  server: 104.19.250.15
+  server: 104.17.221.248
   tls: false
   type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
 - alterId: 0
   cipher: auto
-  name: 543|CF中转_0419104174 L0
+  name: 543|CF中转_0419203059 L7
+  network: ws
+  port: '443'
+  server: 104.17.137.127
+  tls: true
+  type: vmess
+  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
+  ws-opts:
+    headers:
+      Host: tw.niskakowski.ggff.net
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204192 L7
   network: ws
   port: '8443'
-  server: 141.101.120.190
+  server: 141.101.120.163
   tls: true
   type: vmess
   uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
     headers:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543,544,551|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.213....
+  network: ws
+  port: '2082'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-6-81-226.s1.db-link02.top
+    path: /dabai.in104.20.8.162
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度 4
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -8849,7 +5493,254 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 543|🇺🇸 [VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度...
+  name: 543|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: ws
+  port: '16928'
+  server: vip3.niuniupremium.xyz
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204185 L7
+  network: ws
+  port: '8443'
+  server: 141.101.121.103
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 543|🇨🇳 _TW_台湾->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 107.167.182.230
+  tls: false
+  type: vmess
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  ws-opts:
+    headers:
+      Host: br.gy.youxuan-1.66688888.xyz
+    path: /tg@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: 104.17.18.26
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419203601 L0
+  network: ws
+  port: '8443'
+  server: 141.101.120.190
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度 2
+  network: ws
+  port: '80'
+  server: 104.26.8.44
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇩🇪_DE_德国 2
+  network: ws
+  port: '2052'
+  server: 104.18.19.191
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204187 L0
+  network: ws
+  port: '8443'
+  server: 141.101.121.90
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204195 L0
+  network: ws
+  port: '8880'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇩🇪_DE_德国 3
+  network: ws
+  port: '80'
+  server: flkf2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204194 L7
+  network: ws
+  port: '8443'
+  server: 141.101.121.146
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204193 L0
+  network: ws
+  port: '8880'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇬🇧_GB_英国 3
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204186 L7
+  network: ws
+  port: '8443'
+  server: 141.101.120.5
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419202166 L0
+  network: ws
+  port: '2052'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 543|CF中转_0419204198 L0
+  network: ws
+  port: '2052'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
+  network: ws
+  port: '80'
+  server: jd3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: jd3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇩🇪_DE_德国 3 2
+  network: ws
+  port: '2052'
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度 3
   network: ws
   port: '80'
   server: mm2.shabijichang.com
@@ -8873,371 +5764,6 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: ws
-  port: '16928'
-  server: vip3.niuniupremium.xyz
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 [VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '80'
-  server: flkf2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度_1
-  network: ws
-  port: '80'
-  server: 104.17.18.26
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419102165 L0
-  network: ws
-  port: '2096'
-  server: 104.21.32.1
-  tls: true
-  type: vmess
-  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 _US_美国->🇮🇳_IN_印度 4
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104177 L7
-  network: ws
-  port: '8443'
-  server: 141.101.121.103
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 543|🇺🇸 [VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419103389 L0
-  network: ws
-  port: '2096'
-  server: 104.21.112.1
-  tls: true
-  type: vmess
-  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104164 L0
-  network: ws
-  port: '8443'
-  server: 141.101.121.90
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 _US_美国->🇬🇧_GB_英国 3
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104169 L6
-  network: ws
-  port: '2096'
-  server: 104.21.48.1
-  tls: true
-  type: vmess
-  uuid: 75a0885f-0ca5-42a4-8651-391cf8193154
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543,544,551|🔒 VM-WS-TLS 🏴‍☠️ NA-141.101.12...
-  network: ws
-  port: 8443
-  server: 141.101.120.239
-  servername: 1743919978.speed.laxha.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '543,544|5|美国 CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: 104.21.64.1
-  tls: false
-  type: vmess
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  ws-opts:
-    headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 [VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特...
-  network: ws
-  port: '80'
-  server: jd3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: jd3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543,544,551|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.213....
-  network: ws
-  port: '2082'
-  server: 104.17.213.241
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-6-81-226.s1.db-link02.top
-    path: /dabai.in104.20.8.162
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419103550 L0
-  network: ws
-  port: '2096'
-  server: 104.21.96.1
-  tls: true
-  type: vmess
-  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '543|🇺🇸 [VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度... #1'
-  network: ws
-  port: '80'
-  server: 104.26.8.44
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104161 L0
-  network: ws
-  port: '2052'
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-151-164-47.s1.db-link01.top
-    path: /dabai.in172.67.2.142
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104171 L7
-  network: ws
-  port: '443'
-  server: 104.17.137.127
-  tls: true
-  type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-  ws-opts:
-    headers:
-      Host: hk.niskakowski.ggff.net
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104180 L7
-  network: ws
-  port: '8443'
-  server: 141.101.120.163
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104165 L0
-  network: ws
-  port: '8880'
-  server: 198.41.209.70
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-103-58-39.s1.db-link02.top
-    path: /dabai.in104.25.249.215
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104172 L7
-  network: ws
-  port: '8443'
-  server: 141.101.121.146
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419104167 L0
-  network: ws
-  port: '8880'
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-103-58-39.s1.db-link02.top
-    path: /dabai.in104.25.249.215
-- alterId: 0
-  cipher: auto
-  name: 543|🇨🇳 _TW_台湾->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 107.167.182.230
-  tls: false
-  type: vmess
-  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /tg@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419103959 L0
-  network: ws
-  port: '443'
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: ayanjlizi.yiwis32762.workers.dev
-    path: /sgfqkqmltcy.site/rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419102167 L0
-  network: ws
-  port: '2052'
-  server: 198.41.209.70
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-151-164-47.s1.db-link01.top
-    path: /dabai.in172.67.2.142
-- alterId: 0
-  cipher: auto
-  name: 543|🇺🇸 _US_美国->🇩🇪_DE_德国 2 2
-  network: ws
-  port: '2052'
-  server: 104.18.19.191
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 543|CF中转_0419103045 L0
-  network: ws
-  port: '2052'
-  server: 104.17.213.241
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-151-164-47.s1.db-link01.top
-    path: /dabai.in172.67.2.142
 - alterId: 0
   cipher: auto
   name: 544|8|🇺🇸_US_美国->🇩🇪_DE_德国_1_0@0
@@ -9831,40 +6357,6 @@ proxies:
   uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '544|12|🇨🇳_CN_中国->🇫🇷_FR_法国 #2'
-  network: tcp
-  port: '17235'
-  server: 79e892f2-sv2sg0-t6eg6k-1pckg.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: '544|12|🇨🇳_CN_中国->🇫🇷_FR_法国 #3'
-  network: tcp
-  port: '17235'
-  server: 375c832f-sux8g0-t1ppk8-1i3g8.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: '544|12|🇨🇳_CN_中国->🇫🇷_FR_法国 #4'
-  network: tcp
-  port: 17235
-  server: 694bbf56-sv2sg0-t6g8gl-ch5c.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
-- name: '544|12|🇩🇪_DE_德国->🇺🇸_US_美国 #1'
-  port: 24917
-  server: 144.76.231.24
-  tls: false
-  type: vless
-  uuid: 31d1b5d7-67ad-4416-9656-eefe69d679aa
 - name: '544|13|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: 80
@@ -9965,6 +6457,13 @@ proxies:
   ws-opts:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v05.feadlenetwork19922h.net
+- name: 544|16|_GB_->🇮_IN_
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.20.195.143
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 544|16|🇳_CN_中国->🇨🇦_CA_加拿大_1
@@ -9987,6 +6486,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 544|16|🇺🇸_US_美国->🇨_CR_斯加
+  network: ws
+  port: 80
+  server: 172.67.21.251
+  tls: false
+  type: vmess
+  uuid: 22474cc4-22a9-4c74-bae8-43f08a1c6ed4
+  ws-opts:
+    path: /s15.html
 - alterId: 0
   cipher: auto
   name: '544|23|🇨🇳_CN_中国->🇺🇸_US_美国_1 #1'
@@ -10012,6 +6522,40 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 544|28|🇰 深中转-IEPL专线-US-1-1B
+  network: ws
+  port: 8006
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: 4e38435c-2d94-4960-bfd3-9c429c026914
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- name: 544|28|🇵 日本03中转-1D
+  password: 55483be5-0f49-4429-96c8-764d4e619954
+  port: 64420
+  server: twjpzznew.376897.xyz
+  skip-cert-verify: false
+  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+  type: trojan
+- name: 544|28|🇯🇵 日本03中转1-1D
+  password: 55483be5-0f49-4429-96c8-764d4e619954
+  port: 38327
+  server: twjpzz2.376897.xyz
+  skip-cert-verify: false
+  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
+  type: trojan
+- name: 544|28|🇬 新加坡05中转-1A
+  password: 4e275a9f-5679-4e76-806c-72a79a22f304
+  port: 35828
+  server: twjpzznew.376897.xyz
+  skip-cert-verify: false
+  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: '546|🇺🇸 _US_美国->🇧🇷_BR_巴西 #1'
   network: ws
   port: '2052'
@@ -10023,6 +6567,18 @@ proxies:
     headers:
       Host: p3.v2raybrasil.cloud
     path: /
+- name: 548|美国 cf中转
+  network: ws
+  port: 443
+  server: vip6.cloudflare.182682.xyz
+  servername: axszhongzhuan.axsnangedafanonline.top
+  tls: true
+  type: vless
+  uuid: c61f0359-d3bd-47ab-a52c-b54c627741d3
+  ws-opts:
+    headers:
+      Host: axszhongzhuan.axsnangedafanonline.top
+    path: '%2Fadminaaa'
 - name: 548|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 80

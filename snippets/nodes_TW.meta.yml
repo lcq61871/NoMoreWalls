@@ -1,27 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '1,19,75,76,179,183,403,404,515,516,540|🇹🇼 台湾|@ripaojiedian #1'
-  port: 45078
-  server: haa.dashuai.cyou
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
-- client-fingerprint: chrome
-  name: '1,19,75,76,179,183,362,403,404,515,516,518,522,533,536,540,541,543,544,545,546|🇨🇳
-    11,12|台湾2|@ripaojiedian #4'
-  network: tcp
-  password: d5826953-96a0-4e2e-ad04-638668222256
-  port: 27201
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 52|🇹🇼 台湾 1-1B
   password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
@@ -175,7 +152,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1091a6fc-9791-4a39-b3a2-5837b8bd928d
+  uuid: f6eb854a-05b1-4113-9074-0161ec1ad0f7
 - alterId: 0
   cipher: auto
   name: '96,477|🇹🇼 台湾2 #3'
@@ -184,7 +161,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1091a6fc-9791-4a39-b3a2-5837b8bd928d
+  uuid: f6eb854a-05b1-4113-9074-0161ec1ad0f7
 - alterId: 0
   cipher: auto
   name: '97,98,481,482|台湾2-1A-GPT #1'
@@ -283,8 +260,29 @@ proxies:
   server: cnamepc03-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 196|🇹🇼台湾 01 | 1x TW
+  password: 4430cc10-aa2d-44f4-afec-29d9da1f79f7
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 196|🇹🇼台湾 02 | 1x TW
+  password: 4430cc10-aa2d-44f4-afec-29d9da1f79f7
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 196|🇹🇼台湾 03 | 1x TW
+  password: 4430cc10-aa2d-44f4-afec-29d9da1f79f7
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - down: 1000
-  name: 258|🇹🇼 台湾 8
+  name: 257|🇹🇼 台湾 8
   password: 99b49302-eef2-41f7-b612-63042ced0471
   port: 8443
   server: 82.152.90.200
@@ -293,7 +291,7 @@ proxies:
   type: hysteria2
   up: 1000
 - down: 1000
-  name: '259|🇹🇼 台湾 8 #1'
+  name: '258|🇹🇼 台湾 8 #1'
   password: f9134608-4bb8-43d5-b99e-4b4369fff5f6
   port: 8443
   server: 82.152.90.200
@@ -301,6 +299,27 @@ proxies:
   sni: tw.bailian.uk
   type: hysteria2
   up: 1000
+- cipher: chacha20-ietf-poly1305
+  name: 280|🇹🇼 台湾 01 | 1x TW
+  password: 00cff741-08bb-4ecd-999a-f04e7b8f575e
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 280|🇹🇼 台湾 02 | 1x TW
+  password: 00cff741-08bb-4ecd-999a-f04e7b8f575e
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 280|🇹🇼 台湾 03 | 1x TW
+  password: 00cff741-08bb-4ecd-999a-f04e7b8f575e
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 302|Taiwan_Banqiao_reality_3
@@ -534,8 +553,11 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-  name: 362,512,518,544|5|0|🇹🇼1 |  1.4MB/s
+  name: 362,402,536,544|5|0|🇹🇼1 |  1.4MB/s
+  network: tcp
   port: 15700
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
   servername: www.nvidia.com
   tls: true
@@ -778,7 +800,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 381,400|🇹TW-185.189.160.98-1126
+  name: 381,400|TW-185.189.160.98-1064
   password: qwerREWQ@@
   port: 64759
   server: 185.189.160.98
@@ -875,7 +897,7 @@ proxies:
   udp: true
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - cipher: aes-256-cfb
-  name: 400,486|_66
+  name: 400,486|_99
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
@@ -887,7 +909,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 400,528|🇹🇼TW-45.121.51.103-1933
+  name: 400,528|🇹🇼TW-45.121.51.103-1963
   network: http
   port: 20715
   server: 45.121.51.103
@@ -898,7 +920,7 @@ proxies:
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - alterId: 0
   cipher: auto
-  name: '400,528,543|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #120'
+  name: '400,528,543|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #62'
   network: ws
   port: '80'
   server: 165.154.246.71
@@ -913,7 +935,7 @@ proxies:
     path: ?ed=2048
 - alterId: 1
   cipher: auto
-  name: 400,528|🇹🇼TW-1.161.186.146-2658
+  name: '400,528|🇹🇼TW-1.161.186.146-2709 #1'
   network: ws
   port: 64443
   server: 1.161.186.146
@@ -928,7 +950,7 @@ proxies:
     path: /clientarea
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-111.250.119.13-2864
+  name: 400,528|🇹🇼TW-111.250.119.13-2915
   network: ws
   port: 45215
   server: 012.AP.POP.node-for-smallairport.win
@@ -954,91 +976,91 @@ proxies:
   uuid: e55cd182-01b0-4fb7-a510-363701a491c5
   ws-opts:
     path: /
-- name: 400,528|🇹🇼TW-211.72.35.155-3637
+- name: 400,528|🇹🇼TW-211.72.35.155-3661
   password: b09d2aaa443af97a
   port: 3389
   server: 211.72.35.155
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.125-3666
+- name: 400,528|🇹🇼TW-60.249.3.125-3690
   password: 3febb05ea76a940f
   port: 3389
   server: 60.249.3.125
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.157-4767
+- name: '400,528|🇹🇼TW-211.72.35.157-4791 #1'
   password: 8b475d9e868e43e0
   port: 3389
   server: 211.72.35.157
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.152-4753
+- name: 400,528|🇹🇼TW-211.72.35.152-4777
   password: b84d16a244460e09
   port: 3389
   server: 211.72.35.152
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.158-3720
+- name: 400,528|🇹🇼TW-211.72.35.158-3744
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.158
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.227-3743
+- name: '400,528|🇹🇼TW-60.249.3.227-3767 #1'
   password: 7ac49a893e0bd10c
   port: 3389
   server: 60.249.3.227
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.231-3763
+- name: '400,528|🇹🇼TW-60.249.3.231-3787 #1'
   password: 0cc6b4268dea0ba8
   port: 3389
   server: 60.249.3.231
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.230-3845
+- name: '400,528|🇹🇼TW-60.249.3.230-3869 #1'
   password: 182228812d1e0f23
   port: 3389
   server: 60.249.3.230
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.154-3859
+- name: 400,528|🇹🇼TW-211.72.35.154-3883
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.154
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.226-3871
+- name: 400,528|🇹🇼TW-60.249.3.226-3895
   password: 7ac49a893e0bd10c
   port: 3389
   server: 60.249.3.226
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.228-3876
+- name: 400,528|🇹🇼TW-60.249.3.228-3900
   password: 7ac49a893e0bd10c
   port: 3389
   server: 60.249.3.228
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-60.249.3.229-3902
+- name: 400,528|🇹🇼TW-60.249.3.229-3926
   password: 182228812d1e0f23
   port: 3389
   server: 60.249.3.229
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.153-3938
+- name: 400,528|🇹🇼TW-211.72.35.153-3962
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.153
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.156-3952
+- name: 400,528|🇹🇼TW-211.72.35.156-3976
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.156
   skip-cert-verify: false
   type: trojan
-- name: 400,528|🇹🇼TW-211.72.35.152-4721
+- name: 400,528|🇹🇼TW-211.72.35.152-4745
   password: 7b06d22a8a7c764f
   port: 3389
   server: 211.72.35.152
@@ -1046,7 +1068,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-211.72.35.110-5430
+  name: 400,528|🇹🇼TW-211.72.35.110-5454
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1061,7 +1083,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-211.72.35.110-5431
+  name: '400,528|🇹🇼TW-211.72.35.110-5455 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1076,7 +1098,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-211.72.35.110-5432
+  name: '400,528|🇹🇼TW-211.72.35.110-5456 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1091,7 +1113,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '400,528|🇹🇼TW-211.72.35.110-5433 #1'
+  name: '400,528|🇹🇼TW-211.72.35.110-5457 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1106,7 +1128,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '400,528|🇹🇼TW-211.72.35.110-5434 #1'
+  name: '400,528|🇹🇼TW-211.72.35.110-5458 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1119,7 +1141,7 @@ proxies:
     headers:
       Host: woidenca1.jsworld.eu.org
     path: /nishikata3
-- name: 400,528|🇹🇼TW-2.58.242.43-5620
+- name: 400,528|🇹🇼TW-2.58.242.43-5644
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   port: 443
   server: 2.58.242.43
@@ -1127,7 +1149,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-220.130.80.179-5627
+  name: 400,528|🇹🇼TW-220.130.80.179-5651
   network: ws
   port: 443
   server: 220.130.80.179
@@ -1142,7 +1164,7 @@ proxies:
     path: /howdy
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-165.154.226.45-5629
+  name: 400,528|🇹🇼TW-165.154.226.45-5653
   network: ws
   port: 80
   server: 165.154.226.45
@@ -1157,7 +1179,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-211.72.35.110-5630
+  name: 400,528|🇹🇼TW-211.72.35.110-5654
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1172,7 +1194,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-165.154.253.35-5632
+  name: '400,528|🇹🇼TW-165.154.253.35-5656 #1'
   network: ws
   port: 443
   server: tw-1.qwqjsq.top
@@ -1187,7 +1209,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 400,528|🇹🇼TW-61.216.85.68-5637
+  name: '400,528|🇹🇼TW-61.216.85.68-5661 #1'
   network: ws
   port: 443
   server: 61.216.85.68
@@ -1202,7 +1224,7 @@ proxies:
     path: /path/243535322906
 - alterId: 2
   cipher: auto
-  name: 400,528|🇹🇼TW-114.37.209.177-5638
+  name: 400,528|🇹🇼TW-114.37.209.177-5662
   network: ws
   port: 10001
   server: ddns2.airtcp.vip
@@ -1217,7 +1239,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-165.154.246.107-5640
+  name: '400,528|🇹🇼TW-165.154.246.107-5664 #1'
   network: ws
   port: 80
   server: 165.154.246.107
@@ -1232,7 +1254,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-122.118.140.228-5647
+  name: '400,528|🇹🇼TW-122.118.152.47-5671 #1'
   network: ws
   port: 11463
   server: tw4.594888.xyz
@@ -1247,7 +1269,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-122.118.148.201-5648
+  name: '400,528|🇹🇼TW-61.224.96.91-5672 #1'
   network: ws
   port: 25551
   server: tw3.594888.xyz
@@ -1260,7 +1282,14 @@ proxies:
     headers:
       Host: tw3.594888.xyz
     path: /v2ray
-- name: 400,528|🇹🇼TW-114.37.225.159-6929
+- cipher: aes-128-gcm
+  country: 🇼 TW
+  name: 400,486| TW_472
+  password: 79739832-b888-415a-a454-8b53911c944a
+  port: 30332
+  server: vps.200566.xyz
+  type: ss
+- name: 400,528|🇹🇼TW-114.37.225.159-6994
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   port: 20261
   server: tw01.balala2016.xyz
@@ -1275,7 +1304,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 400,528|🇹🇼TW-118.167.3.110-8572
+  name: 400,528|🇹🇼TW-118.167.5.64-8640
   network: http
   port: 1443
   server: tw2.sdklkd.org
@@ -1286,7 +1315,7 @@ proxies:
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - alterId: 64
   cipher: auto
-  name: 400,528|🇹🇼TW-103.177.33.19-8845
+  name: 400,528|🇹🇼TW-103.177.33.19-8913
   network: ws
   port: 30013
   server: 103.177.33.19
@@ -1301,7 +1330,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 400,528|🇹🇼TW-103.159.206.35-8925
+  name: 400,528|🇹🇼TW-103.159.206.35-8993
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -1315,14 +1344,28 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 400|TW-61.220.130.70-9433
+  name: 400|TW-61.220.130.70-9496
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
   type: ss
+- name: 402|🇹🇼5 |  3.3MB/s
+  network: ws
+  port: 443
+  server: 162.247.5.91
+  servername: tw.qhahd.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94fadaf3-ccd8-4734-b372-8772c9bfd147
+  ws-opts:
+    headers:
+      Host: tw.qhahd.shop
+    path: /bing
 - alterId: 0
   cipher: auto
-  client-fingerprint: qq
+  client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 412,492|🇹🇼台湾 1
   network: tcp
@@ -1338,7 +1381,7 @@ proxies:
   uuid: 7c147a1d-b576-422e-88c6-f0f45e0a3a7d
 - alterId: 0
   cipher: auto
-  client-fingerprint: qq
+  client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 412,492|🇹🇼台湾 2
   network: tcp
@@ -1354,7 +1397,7 @@ proxies:
   uuid: 7c147a1d-b576-422e-88c6-f0f45e0a3a7d
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 412,492|🇹🇼台湾 3
   network: tcp
@@ -1473,7 +1516,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   name: 450|🇹🇼 台湾_明懂砖线_丽莎的星穹
-  password: 150ad9cb-585b-4f91-ac39-932b4d9cc9ba
+  password: 81c95856-7e31-4411-88f6-0ecae1cead2b
   port: 27201
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1481,7 +1524,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇹🇼 台湾_明懂砖线_菲米尼的星穹
-  password: beeb484f-f290-45bc-b20d-a903c1031c8e
+  password: 15b2858a-d450-4ebc-875a-a5e54fd73b61
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1489,7 +1532,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇹🇼 台湾_明懂砖线_那维莱特的屎
-  password: 7b1fc1b9-7e47-4845-9226-e41c5e895760
+  password: 9a12f453-71e7-4778-a9ad-fb057fb70bff
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1497,7 +1540,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇹🇼 台湾_明懂砖线_林尼的原石
-  password: 24a996ed-baa6-43fa-bc28-13963a1a9ec6
+  password: 0d86b377-3348-4628-9ace-fd38f18b3a31
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1505,7 +1548,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇹🇼 台湾_明懂砖线_丽莎的星穹 #1'
-  password: 8b4f32ad-618b-449c-96b6-7a3f04c6cb70
+  password: 4313878c-880c-46e3-a620-64197e5ef80c
   port: 27201
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1513,7 +1556,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇹🇼 台湾_明懂砖线_菲米尼的星穹 #1'
-  password: d15cd341-5196-473f-a425-21e2282faf5f
+  password: 77702d3a-f011-4dcf-8a6f-1af13dab30fc
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1521,7 +1564,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇹🇼 台湾_明懂砖线_那维莱特的屎 #1'
-  password: d2c8d80f-807c-4f5b-8ec8-1108deee4c10
+  password: 4ea54e79-5573-452e-bb32-d305173f910c
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1529,7 +1572,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇹🇼 台湾_明懂砖线_林尼的原石 #1'
-  password: e6d0ca37-bb7f-4c93-9795-cedc995443cd
+  password: 5867353a-d623-4640-a2af-a6bbb70b1991
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1537,7 +1580,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇹🇼 台湾_明懂砖线_丽莎的星穹 #2'
-  password: e04a92ac-d86d-4652-bcc6-bad4cf208d45
+  password: 0a2d4e77-c3b8-4660-81fd-f17c7178c461
   port: 27201
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1545,7 +1588,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇹🇼 台湾_明懂砖线_菲米尼的星穹 #2'
-  password: 81fc1ae9-2028-4d59-9c25-7580f318937b
+  password: 1edbb997-d4db-41c6-bdf1-c1b178b73c90
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1553,7 +1596,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇹🇼 台湾_明懂砖线_那维莱特的屎 #2'
-  password: f6a8afe6-ecef-4030-a7f5-8d63c0c8a973
+  password: d874d95a-e55d-449e-86ed-4dfe39b4aee8
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1561,7 +1604,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇹🇼 台湾_明懂砖线_林尼的原石 #2'
-  password: 042ab605-c7dc-497e-bbe1-ae13f9f8bfb2
+  password: 6d610149-eb1d-4a28-9b15-84289c391326
   port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -1774,13 +1817,6 @@ proxies:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
   ws-path: /
-- cipher: aes-128-gcm
-  country: 🇼 TW
-  name: 486| TW_204
-  password: 79739832-b888-415a-a454-8b53911c944a
-  port: 30332
-  server: vps.200566.xyz
-  type: ss
 - alterId: 0
   cipher: auto
   name: 492|🇹🇼台湾 4
@@ -1814,7 +1850,7 @@ proxies:
   uuid: 444b4959-8578-4e41-aa49-d4c6ea692c8e
 - alterId: 0
   cipher: auto
-  client-fingerprint: edge
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '493|🇹🇼台湾 2 #1'
   port: 14062
@@ -1829,7 +1865,7 @@ proxies:
   uuid: 444b4959-8578-4e41-aa49-d4c6ea692c8e
 - alterId: 0
   cipher: auto
-  client-fingerprint: ios
+  client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '493|🇹🇼台湾 3 #1'
   port: 23929
@@ -1858,1612 +1894,26 @@ proxies:
       Host: tw3c.youxuan.wiki
     path: /youxuan
   ws-path: /youxuan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 518,544|5|0|🇹🇼3 |  6.2MB/s
-  port: 47531
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇹🇼 台湾-5-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 19842
-  server: twf3.426624.xyz
-  skip-cert-verify: false
-  sni: twf3.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 537|🇹🇼 台湾高-1A
-  password: a29063d6-0545-4b07-83db-f7df5366535e
-  port: 443
-  server: 103.137.63.77
+- alterId: 0
+  cipher: auto
+  name: 530|🇼 台湾 1 动画疯 - 西瓜皮是真的皮
+  port: 19821
+  server: xgcma.dx002.top
   skip-cert-verify: true
-  sni: node1.yuntongclouds.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾2-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹🇼 台湾-中5-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 18202
-  server: tw6.426624.xyz
+  uuid: 075c16e6-67cb-3599-aa5a-025b478db156
+- alterId: 0
+  cipher: auto
+  name: 530|🇼 台湾 2 动画疯 - 西瓜皮是真的皮
+  port: 19822
+  server: xgcta.dx002.top
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 537|🇹🇼 台湾直连-TROJAN-1C
-  password: 4c7929b7-281f-4d86-ad24-d766904482e6
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇹🇼 台湾-6-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 19842
-  server: twf4.426624.xyz
-  skip-cert-verify: false
-  sni: twf4.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾.1
-  password: d6690648-0bb6-4cc6-a5a6-982128e354ff
-  port: 62601
-  server: hzcm.316999.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾-1B
-  port: 27830
-  server: ppx1.6128888.xyz
   tls: false
   type: vmess
   udp: true
-  uuid: 97e07b5f-1019-4cbb-b03e-db54d6008bb8
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇼 台湾-中1-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 20880
-  server: tw5.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾3-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇼 台湾-5-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 19842
-  server: twf3.426624.xyz
-  skip-cert-verify: false
-  sni: twf3.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 07-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47793
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾 02-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47789
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇹 台湾-中3-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 16102
-  server: tw.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 537|🇼 台湾02直连-1C
-  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
-  port: 2324
-  server: tw1.376897.xyz
-  skip-cert-verify: false
-  sni: tw1.376897.xyz
-  type: trojan
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇼 台湾-5-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 19842
-  server: twf3.426624.xyz
-  skip-cert-verify: false
-  sni: twf3.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾 07-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47793
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- name: 537|🇼 台湾直连-TROJAN-1F
-  password: f8a9ffeb-5fe7-4fdc-ad3f-c7b3d09b6b38
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹 台湾 AK NAT4动-1A
-  network: ws
-  port: 22100
-  server: twnat4.gangko.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d357821-88a4-4e7b-8cfc-ea0b16e6e29d
-  ws-opts:
-    headers:
-      Host: twnat4.gangko.cc
-    path: /
-- name: 537|🇼 台湾01直连-1I
-  password: 55483be5-0f49-4429-96c8-764d4e619954
-  port: 2324
-  server: tw7.376897.xyz
-  skip-cert-verify: false
-  sni: tw7.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 07-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47793
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- name: 537|🇹🇼 台湾01直连-1A
-  password: 27da9a5c-000e-4e36-8f0b-ce379ccc33c6
-  port: 23342
-  server: 2gzdx21.376897.xyz
-  skip-cert-verify: false
-  sni: 2gzdx21.376897.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 V1 | 台湾1-1A
-  password: 3641aeed-7e85-4012-bf37-c762173ff64a
-  port: 49021
-  server: tw91.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾2-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾1-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇹🇼 台湾-中家4-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 21962
-  server: tw3.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇼 台湾 02-1E
-  network: ws
-  port: 23008
-  server: v1-8.nocnet.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4aa59884-83db-4e7b-9e63-d0c907e55ded
-  ws-opts:
-    headers:
-      Host: v1-8.nocnet.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 537|🇹 台湾 AK NAT4-1C
-  network: ws
-  port: 22100
-  server: twnat4.gangko.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a9fe5195-1dd9-474c-a370-235faa9d88b9
-  ws-opts:
-    headers:
-      Host: twnat4.gangko.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 07-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47793
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 亚洲|台湾02-1B
-  password: 8ce04614-0e79-4794-ac21-56d7db7e9c2a
-  port: 13821
-  server: ah.qlrk0.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾4-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: afccdd6e-183b-40b4-a9c0-333eda30c29d
-  name: 537|🇹🇼 台湾A
-  password: afccdd6e-183b-40b4-a9c0-333eda30c29d
-  port: 3031
-  server: 114.37.203.27
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾4-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾3-YTB-1B
-  port: 12213
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5575462-1423-4420-ae3f-f08a65e630ee
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇼 台湾-4-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 19842
-  server: twf2.426624.xyz
-  skip-cert-verify: false
-  sni: twf2.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾5-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇹🇼 台湾-5-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 19842
-  server: twf3.426624.xyz
-  skip-cert-verify: false
-  sni: twf3.426624.xyz
-  type: hysteria2
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇹 台湾-3-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 19842
-  server: twf1.426624.xyz
-  skip-cert-verify: false
-  sni: twf1.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 537|🇹🇼 台湾01直连-1F
-  password: 4e275a9f-5679-4e76-806c-72a79a22f304
-  port: 2324
-  server: tw7.376897.xyz
-  skip-cert-verify: false
-  sni: tw7.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾3-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇼 台湾-中1-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 20880
-  server: tw5.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾 01-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 45503
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾01-1A
-  password: aa866e73-64ed-413c-a6ea-c35fda637d48
-  port: 21110
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- name: 537|🇼 台湾直连-TROJAN-1A
-  password: a17833a6-2f25-425b-a2d7-7e87f3f54f6b
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 05-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47711
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇼 台湾-2-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 19842
-  server: tw8.426624.xyz
-  skip-cert-verify: false
-  sni: tw8.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾-02
-  password: fe586451-9780-47f7-b7a0-5842c25563a2
-  port: 54819
-  server: gtm-md-bvv45ilp70b.gym0boy.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾2-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾直连-TROJAN-1I
-  password: 8947dc7d-848e-4d58-a49f-aa09f6926472
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 V1 | 台湾1-1B
-  password: 957cb6d0-396c-48e3-8d27-92790a13e630
-  port: 49021
-  server: tw91.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾2-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾3-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹🇼 台湾-3-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 19842
-  server: twf1.426624.xyz
-  skip-cert-verify: false
-  sni: twf1.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-128-gcm
-  name: 537|🇹🇼 台湾-1A
-  password: e64aedef-74f3-4d49-a141-70c8efb15557
-  port: 30628
-  server: 01.kjahbg.info
-  type: ss
-  udp: true
-- name: 537|🇼 台湾01直连-1E
-  password: 1ba9b857-c6ad-4dcc-a3bf-1a1909aacefc
-  port: 23342
-  server: 2gzdx21.376897.xyz
-  skip-cert-verify: false
-  sni: 2gzdx21.376897.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 V1 | 台湾2-1B
-  password: 957cb6d0-396c-48e3-8d27-92790a13e630
-  port: 49022
-  server: tw92.cctv14.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾 03-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47790
-  server: aambx99.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾2-1L
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e55024a-6f66-4c55-ab4c-9107b2edbe49
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇼 台湾-4-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 19842
-  server: twf2.426624.xyz
-  skip-cert-verify: false
-  sni: twf2.426624.xyz
-  type: hysteria2
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹 台湾-5-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 19842
-  server: twf3.426624.xyz
-  skip-cert-verify: false
-  sni: twf3.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾3-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾1-1J
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e55024a-6f66-4c55-ab4c-9107b2edbe49
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 台湾2-1N
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3534bc6c-b688-46ff-9e93-e3aec3871007
-- cipher: aes-256-gcm
-  name: 537|🇼 -台湾07
-  password: 4a78e50d-cb19-4c48-8f39-01627ae78d8d
-  port: 21191
-  server: 117.173.88.171
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 湾|隧道2
-  port: 27831
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7ce49840-59cf-442c-a23e-da3564ba870c
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾03-用-1B
-  password: fafb6c50-8d7c-48b1-813e-a023e5111152
-  port: 11135
-  server: qqa813.198139.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 05-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47711
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- name: 537|🇼 台湾01直连-1C
-  password: 9870996d-9262-4b1c-8878-0c48a293dd6a
-  port: 23342
-  server: 2gzdx21.376897.xyz
-  skip-cert-verify: false
-  sni: 2gzdx21.376897.xyz
-  type: trojan
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇼 台湾-中家3-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 16102
-  server: tw.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾-03
-  password: fe586451-9780-47f7-b7a0-5842c25563a2
-  port: 36201
-  server: gtm-sg-acm44szjs05.gym0boy.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 01-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 45503
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾5-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 亚洲|台湾01-1C
-  password: e09f85e5-a417-43b1-955b-272bd6615261
-  port: 22556
-  server: gd.qlrk0.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾4-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾2-1M
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 03-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47790
-  server: aambx99.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾2-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹 台湾-2-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 19842
-  server: tw8.426624.xyz
-  skip-cert-verify: false
-  sni: tw8.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾1-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹 台湾1-1L
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3534bc6c-b688-46ff-9e93-e3aec3871007
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇹🇼 台湾-中家3-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 16102
-  server: tw.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 台湾2-1I
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 628389a9-89f8-4a28-870f-8e5e143d6915
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾1-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹🇼 台湾-4-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 19842
-  server: twf2.426624.xyz
-  skip-cert-verify: false
-  sni: twf2.426624.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 台湾|隧道3
-  port: 27831
-  server: zf2.xinzhanduijie.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7ce49840-59cf-442c-a23e-da3564ba870c
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 台湾3-YTB-1A
-  port: 12213
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4912cc1-f045-49f7-ac00-6a8bbd0b250f
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾1-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾2-1K
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾3-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾3-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇼 台湾-中1-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 20880
-  server: tw5.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇼 台湾-6-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 19842
-  server: twf4.426624.xyz
-  skip-cert-verify: false
-  sni: twf4.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾02-1A
-  password: aa866e73-64ed-413c-a6ea-c35fda637d48
-  port: 21111
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾4-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾4-网页-1A
-  port: 12214
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4912cc1-f045-49f7-ac00-6a8bbd0b250f
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾-01
-  password: fe586451-9780-47f7-b7a0-5842c25563a2
-  port: 30533
-  server: jg647hf446ghvw.gym0boy.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇼 台湾 01-1E
-  network: ws
-  port: 23007
-  server: v1-7.nocnet.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4aa59884-83db-4e7b-9e63-d0c907e55ded
-  ws-opts:
-    headers:
-      Host: v1-7.nocnet.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾3-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾03直连-1C
-  password: 9870996d-9262-4b1c-8878-0c48a293dd6a
-  port: 23342
-  server: tw5.376897.xyz
-  skip-cert-verify: false
-  sni: tw5.376897.xyz
-  type: trojan
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇹 台湾-6-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 19842
-  server: twf4.426624.xyz
-  skip-cert-verify: false
-  sni: twf4.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾 02-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47789
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 陆-湾05
-  password: 4a78e50d-cb19-4c48-8f39-01627ae78d8d
-  port: 59598
-  server: 183.236.51.166
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 亚洲|台湾01-1B
-  password: 8ce04614-0e79-4794-ac21-56d7db7e9c2a
-  port: 22556
-  server: gd.qlrk0.cc
-  type: ss
-  udp: true
-- name: 537|🇼 台湾节点2-1A
-  password: a29063d6-0545-4b07-83db-f7df5366535e
-  port: 443
-  server: 118.232.199.29
-  skip-cert-verify: true
-  sni: node2.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾-04
-  password: fe586451-9780-47f7-b7a0-5842c25563a2
-  port: 25571
-  server: rgwre.vxzjv.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹🇼 台湾2-1H
-  port: 12212
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4912cc1-f045-49f7-ac00-6a8bbd0b250f
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾1-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537,544|28|🇼 台湾高速节点2-1B
-  password: 2844f12e-78a5-457d-aae2-4c960a6f0b75
-  port: 443
-  server: 118.232.199.29
-  skip-cert-verify: true
-  sni: node2.yuntongclouds.com
-  type: trojan
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇹🇼 台湾-3-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 19842
-  server: twf1.426624.xyz
-  skip-cert-verify: false
-  sni: twf1.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾02-1B
-  password: 3b730c37-1d24-4e0b-8d7e-495983c88c2c
-  port: 21111
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 03-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47790
-  server: aambx99.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾.2
-  password: d6690648-0bb6-4cc6-a5a6-982128e354ff
-  port: 62602
-  server: gdcmc.316999.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 05-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47711
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾2-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾4-1E
-  password: a4d04f18-ff8e-44a2-bc28-42daa98a460b
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾03直连-1E
-  password: 1ba9b857-c6ad-4dcc-a3bf-1a1909aacefc
-  port: 23342
-  server: tw5.376897.xyz
-  skip-cert-verify: false
-  sni: tw5.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾01-1B
-  password: 3b730c37-1d24-4e0b-8d7e-495983c88c2c
-  port: 21110
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 537|🇼 台湾二-1B
-  password: b6f7fe5d-fa67-4f20-9470-46d8051cea64
-  port: 30629
-  server: 02.kjahbg.info
-  type: ss
-  udp: true
-- name: 537|🇼 台湾直连-TROJAN-1G
-  password: 80268739-12c3-4f02-91f5-90e8961eca63
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 06-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47791
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾04--1A
-  password: 5c8d5e0d-094d-417c-a9b2-0a14a9c4b382
-  port: 11148
-  server: qqa813.198139.xyz
-  type: ss
-  udp: true
-- name: 537|🇼 台湾01直连-1G
-  password: d618fabf-aaaa-4bb4-924e-9e3e37e01608
-  port: 2324
-  server: tw7.376897.xyz
-  skip-cert-verify: false
-  sni: tw7.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 06-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47791
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 -台湾06
-  password: 4a78e50d-cb19-4c48-8f39-01627ae78d8d
-  port: 46301
-  server: 183.236.51.167
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾1-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾高3-1B
-  password: 2844f12e-78a5-457d-aae2-4c960a6f0b75
-  port: 443
-  server: 118.232.199.14
-  skip-cert-verify: true
-  sni: node3.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 01-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 45503
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾4-1A
-  password: 27dcb212-75a6-4848-988b-935111815c01
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇹🇼 台湾-中2-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 20842
-  server: tw2.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 537|🇼 台湾03直连-1A
-  password: 27da9a5c-000e-4e36-8f0b-ce379ccc33c6
-  port: 23342
-  server: tw5.376897.xyz
-  skip-cert-verify: false
-  sni: tw5.376897.xyz
-  type: trojan
-  udp: true
-- auth: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  name: 537|🇼 台湾-6-1E
-  password: 7a5c5590-4bf6-4810-a2da-8afd5b253114
-  port: 19842
-  server: twf4.426624.xyz
-  skip-cert-verify: false
-  sni: twf4.426624.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾1-1H
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 628389a9-89f8-4a28-870f-8e5e143d6915
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾2-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 24449
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 TW-1
-  password: 4a78e50d-cb19-4c48-8f39-01627ae78d8d
-  port: 56001
-  server: 83.147.14.233
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾4-1H
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 亚洲|台湾02-1C
-  password: e09f85e5-a417-43b1-955b-272bd6615261
-  port: 13821
-  server: ah.qlrk0.cc
-  type: ss
-  udp: true
-- name: 537|🇹 台湾01直连-1D
-  password: 56f8c8dd-ef2b-45e6-8ae7-f3760f3a1e31
-  port: 23342
-  server: 2gzdx21.376897.xyz
-  skip-cert-verify: false
-  sni: 2gzdx21.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾1-1B
-  password: 39f05758-21b2-457a-a4c6-2b95db974010
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇹🇼 台湾-中宽3-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 16102
-  server: tw.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 537,544|28|🇼 台湾高速-1B
-  password: 2844f12e-78a5-457d-aae2-4c960a6f0b75
-  port: 443
-  server: 103.137.63.77
-  skip-cert-verify: true
-  sni: node1.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 亚洲|台湾02-1A
-  password: e99906f6-12a2-439f-93a2-19085dce20e9
-  port: 13821
-  server: ah.qlrk0.cc
-  type: ss
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇼 台湾-2-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 19842
-  server: tw8.426624.xyz
-  skip-cert-verify: false
-  sni: tw8.426624.xyz
-  type: hysteria2
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇹🇼 台湾-3-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 19842
-  server: twf1.426624.xyz
-  skip-cert-verify: false
-  sni: twf1.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-128-gcm
-  name: '537|🇼 台湾-1B #1'
-  password: b6f7fe5d-fa67-4f20-9470-46d8051cea64
-  port: 30628
-  server: 01.kjahbg.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 02-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47789
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇹🇼 台湾-中5-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 18202
-  server: tw6.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 537,543|🇨🇳 台湾_041910067
-  password: 4e38435c-2d94-4960-bfd3-9c429c026914
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾3-1I
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾02直连-1B
-  password: d618fabf-aaaa-4bb4-924e-9e3e37e01608
-  port: 2324
-  server: tw1.376897.xyz
-  skip-cert-verify: false
-  sni: tw1.376897.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇹🇼 VIP 台湾1-1B
-  password: 81d64627-54c3-40ed-80ef-151ed2ff2ed7
-  port: 47021
-  server: tw01.jiasudu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾 01-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 45503
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇼 台湾-4-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 19842
-  server: twf2.426624.xyz
-  skip-cert-verify: false
-  sni: twf2.426624.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '537|🇹🇼 台湾-1A #1'
-  port: 27830
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7535d1d2-bae9-4a9d-855f-3b5f3b803f33
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1C
-  password: f2874ad6-1e1c-45c4-a3f4-565864dad6aa
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 03-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47790
-  server: aambx99.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾 06-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47791
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾1-1I
-  password: 6094c026-1cde-481b-a86a-ea8e457a08e8
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇼 台湾02直连-1A
-  password: 4e275a9f-5679-4e76-806c-72a79a22f304
-  port: 2324
-  server: tw1.376897.xyz
-  skip-cert-verify: false
-  sni: tw1.376897.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾-1C
-  port: 27830
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3d819c37-bb05-4597-a0db-1b3b72a53e1c
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾4-1D
-  password: a0ea4641-c848-4a14-9ae2-496e2102dc4d
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 537|🇹🇼 台湾直连-TROJAN-1E
-  password: 7b47adca-e3b3-40cf-b8c0-e59c7f079d41
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- name: 537,544|28|🇹🇼 台湾01直连-1B
-  password: a322aaf4-7935-42af-9bee-174c76cc4d74
-  port: 23342
-  server: 2gzdx21.376897.xyz
-  skip-cert-verify: false
-  sni: 2gzdx21.376897.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇹 台湾1-NF-1A
-  port: 12211
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4912cc1-f045-49f7-ac00-6a8bbd0b250f
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 亚洲|台湾01-1A
-  password: e99906f6-12a2-439f-93a2-19085dce20e9
-  port: 22556
-  server: gd.qlrk0.cc
-  type: ss
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇹 台湾-中家3-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 16102
-  server: tw.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 湾 05-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47711
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾03-1A
-  password: aa866e73-64ed-413c-a6ea-c35fda637d48
-  port: 21112
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- auth: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  name: 537|🇹🇼 台湾-2-1C
-  password: 9fd25b5c-006a-452a-ac04-710a17a6b59d
-  port: 19842
-  server: tw8.426624.xyz
-  skip-cert-verify: false
-  sni: tw8.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 537|🇹🇼 台湾直连-TROJAN-1D
-  password: 8d8535b1-0fda-4eba-9827-5127a72384c7
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇹🇼 台湾-6-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 19842
-  server: twf4.426624.xyz
-  skip-cert-verify: false
-  sni: twf4.426624.xyz
-  type: hysteria2
-  udp: true
-- name: 537,544|28|🇹🇼 台湾01直连-1H
-  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
-  port: 2324
-  server: tw7.376897.xyz
-  skip-cert-verify: false
-  sni: tw7.376897.xyz
-  type: trojan
-  udp: true
-- auth: f624abbe-548c-4aad-8b0b-933647712ea1
-  name: 537|🇼 台湾-3-1B
-  password: f624abbe-548c-4aad-8b0b-933647712ea1
-  port: 19842
-  server: twf1.426624.xyz
-  skip-cert-verify: false
-  sni: twf1.426624.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾3-1G
-  password: d9a4f42d-d98d-424a-a212-edca1a60f6c6
-  port: 24450
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 02-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47789
-  server: aambx01tw.dorabbb.top
-  type: ss
-  udp: true
-- auth: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  name: 537|🇹🇼 台湾-中家4-1D
-  password: 977a0719-3cf9-431b-a83a-3790c2af5d91
-  port: 21962
-  server: tw3.426624.xyz
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-128-gcm
-  name: '537|🇹🇼 台湾-1A #2'
-  password: e64aedef-74f3-4d49-a141-70c8efb15557
-  port: 30629
-  server: 02.kjahbg.info
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾03-备用-1A
-  password: 5c8d5e0d-094d-417c-a9b2-0a14a9c4b382
-  port: 11138
-  server: qqa813.198139.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇹🇼 台湾 AK NAT4-1B
-  network: ws
-  port: 22100
-  server: twnat4.gangko.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 686119dd-ee3b-4503-bacd-9e7f2e35b93d
-  ws-opts:
-    headers:
-      Host: twnat4.gangko.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾1-1K
-  password: 6e840c6c-3e27-4b20-b30c-726e9d622f0d
-  port: 34320
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 TW
-  password: 790dc9f1-c640-4e70-82c3-a6247c91aa33
-  port: 55111
-  server: tw.1.ss.tjss.me
-  type: ss
-  udp: true
-- name: 537,544|28|🇹🇼 台湾02直连-1D
-  password: 55483be5-0f49-4429-96c8-764d4e619954
-  port: 2324
-  server: tw1.376897.xyz
-  skip-cert-verify: false
-  sni: tw1.376897.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾2-1J
-  port: 12212
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5575462-1423-4420-ae3f-f08a65e630ee
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾5-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 24455
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇼 V1 | 台湾2-1A
-  password: 3641aeed-7e85-4012-bf37-c762173ff64a
-  port: 49022
-  server: tw92.cctv14.xyz
-  type: ss
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇼 台湾-2-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 19842
-  server: tw8.426624.xyz
-  skip-cert-verify: false
-  sni: tw8.426624.xyz
-  type: hysteria2
-  udp: true
-- name: '537,544|28|🇼 台湾3-1A #1'
-  password: a29063d6-0545-4b07-83db-f7df5366535e
-  port: 443
-  server: 118.232.199.14
-  skip-cert-verify: true
-  sni: node3.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾03-1B
-  password: 3b730c37-1d24-4e0b-8d7e-495983c88c2c
-  port: 21112
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾|隧道1
-  port: 27831
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7ce49840-59cf-442c-a23e-da3564ba870c
-- name: 537|🇼 台湾03直连-1B
-  password: a322aaf4-7935-42af-9bee-174c76cc4d74
-  port: 23342
-  server: tw5.376897.xyz
-  skip-cert-verify: false
-  sni: tw5.376897.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹 台湾4-1F
-  password: 42bebf35-16ec-4f8a-a031-59324238fde2
-  port: 24454
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾 06-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47791
-  server: aambx02tw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇼 台湾02-
-  password: fafb6c50-8d7c-48b1-813e-a023e5111152
-  port: 11125
-  server: qqa813.198139.xyz
-  type: ss
-  udp: true
-- name: 537,544|28|🇹🇼 台湾直连-TROJAN-1H
-  password: 3fbdc480-2d65-475d-a06e-a1b11629c1bc
-  port: 443
-  server: v3.nmcf.me
-  skip-cert-verify: false
-  sni: v3.nmcf.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇹🇼 台湾04-备用-1B
-  password: fafb6c50-8d7c-48b1-813e-a023e5111152
-  port: 11145
-  server: qqa813.198139.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇼 台湾4--1B
-  port: 12214
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5575462-1423-4420-ae3f-f08a65e630ee
-- name: 537,544|28|🇹 台湾03直连-1D
-  password: 56f8c8dd-ef2b-45e6-8ae7-f3760f3a1e31
-  port: 23342
-  server: tw5.376897.xyz
-  skip-cert-verify: false
-  sni: tw5.376897.xyz
-  type: trojan
-  udp: true
-- auth: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  name: 537|🇹🇼 台湾-4-1A
-  password: 6f4ede66-18de-402a-b5bd-346ef5d97185
-  port: 19842
-  server: twf2.426624.xyz
-  skip-cert-verify: false
-  sni: twf2.426624.xyz
-  type: hysteria2
-  udp: true
+  uuid: 075c16e6-67cb-3599-aa5a-025b478db156
 - cipher: chacha20-ietf-poly1305
   name: 542|0| 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -3520,20 +1970,21 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: 543,550|🔒 TR-TCP-NA 🇹🇼 TW-188.253.6.21...
-  password: Aimer
-  port: 443
-  server: 188.253.6.210
+- alterId: 0
+  cipher: auto
+  name: '542,544|30|12|🇼 台湾|@ripaojiedian #1'
+  network: ws
+  port: 46005
+  server: fadawtawd.zhangwei.li
   skip-cert-verify: false
-  sni: ngepz.ambercc.filegear-sg.me
-  type: trojan
-- name: 543|2|🇹🇼6 |  6.1MB/s
-  password: 64f346fb-617e-49df-a9dc-b962a1c0d136
-  port: 27202
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: fadawtawd.zhangwei.li
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 544|9,11,27,28|🇼 台湾1-1H
@@ -3552,6 +2003,20 @@ proxies:
   tls: false
   type: vmess
   uuid: f4912cc1-f045-49f7-ac00-6a8bbd0b250f
+- name: 544|28|🇼 台湾高速-1B
+  password: 2844f12e-78a5-457d-aae2-4c960a6f0b75
+  port: 443
+  server: 103.137.63.77
+  skip-cert-verify: true
+  sni: node1.yuntongclouds.com
+  type: trojan
+- name: 544|28|🇹🇼 台湾直连-TROJAN-1H
+  password: 3fbdc480-2d65-475d-a06e-a1b11629c1bc
+  port: 443
+  server: v3.nmcf.me
+  skip-cert-verify: false
+  sni: v3.nmcf.me
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 544|28|🇼 台湾-1C
@@ -3561,6 +2026,53 @@ proxies:
   tls: false
   type: vmess
   uuid: 3d819c37-bb05-4597-a0db-1b3b72a53e1c
+- name: 544|28|🇹🇼 台湾02直连-1D
+  password: 55483be5-0f49-4429-96c8-764d4e619954
+  port: 2324
+  server: tw1.376897.xyz
+  skip-cert-verify: false
+  sni: tw1.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 544|28|🇹🇼 台湾 AK NAT4-1B
+  network: ws
+  port: 22100
+  server: twnat4.gangko.cc
+  tls: false
+  type: vmess
+  uuid: 686119dd-ee3b-4503-bacd-9e7f2e35b93d
+  ws-opts:
+    headers:
+      Host: twnat4.gangko.cc
+    path: /
+- name: 544|28|🇹🇼 台湾01直连-1H
+  password: 8c3e160f-3c56-4a65-ae9f-eaa75a219c17
+  port: 2324
+  server: tw7.376897.xyz
+  skip-cert-verify: false
+  sni: tw7.376897.xyz
+  type: trojan
+- name: 544|28|🇹🇼 台湾01直连-1B
+  password: a322aaf4-7935-42af-9bee-174c76cc4d74
+  port: 23342
+  server: 2gzdx21.376897.xyz
+  skip-cert-verify: false
+  sni: 2gzdx21.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 544|28|🇼 台湾 02-1E
+  network: ws
+  port: 23008
+  server: v1-8.nocnet.xyz
+  tls: false
+  type: vmess
+  uuid: 4aa59884-83db-4e7b-9e63-d0c907e55ded
+  ws-opts:
+    headers:
+      Host: v1-8.nocnet.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 544|28|🇹🇼 台湾3-YTB-1A
@@ -3608,6 +2120,33 @@ proxies:
   uuid: d5575462-1423-4420-ae3f-f08a65e630ee
 - alterId: 0
   cipher: auto
+  name: 544|28|🇼 台湾 01-1E
+  network: ws
+  port: 23007
+  server: v1-7.nocnet.xyz
+  tls: false
+  type: vmess
+  uuid: 4aa59884-83db-4e7b-9e63-d0c907e55ded
+  ws-opts:
+    headers:
+      Host: v1-7.nocnet.xyz
+    path: /
+- name: 544|28|🇹 台湾03直连-1D
+  password: 56f8c8dd-ef2b-45e6-8ae7-f3760f3a1e31
+  port: 23342
+  server: tw5.376897.xyz
+  skip-cert-verify: false
+  sni: tw5.376897.xyz
+  type: trojan
+- name: 544|28|🇼 台湾高速节点2-1B
+  password: 2844f12e-78a5-457d-aae2-4c960a6f0b75
+  port: 443
+  server: 118.232.199.29
+  skip-cert-verify: true
+  sni: node2.yuntongclouds.com
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: 544|28|🇼 台湾2-1J
   network: tcp
   port: 12212
@@ -3615,6 +2154,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d5575462-1423-4420-ae3f-f08a65e630ee
+- name: '544|28|🇼 台湾3-1A #1'
+  password: a29063d6-0545-4b07-83db-f7df5366535e
+  port: 443
+  server: 118.232.199.14
+  skip-cert-verify: true
+  sni: node3.yuntongclouds.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 544|28|🇼 台湾|隧道1
@@ -3642,13 +2188,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 5eb8a504-4855-4011-a6bb-6d9488dbcb22
-- name: 550|🔒 TR-GRPC-TLS 🇹🇼 TW-60.249.28....
-  network: grpc
-  password: 67eb147db1c0f8c5
-  port: 443
-  server: 60.249.28.59
-  sni: 007.com
-  type: trojan
 - name: 550|🔒 TR-WS-TLS 🇹🇼 TW-166.0.198.68...
   network: ws
   password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
@@ -3661,6 +2200,19 @@ proxies:
     headers:
       Host: 222.golinkwuxian.top
     path: '%2Fapple'
+- name: 550|🔒 TR-TCP-NA 🇹🇼 TW-188.253.6.21...
+  password: Aimer
+  port: 443
+  server: 188.253.6.210
+  sni: ngepz.ambercc.filegear-sg.me
+  type: trojan
+- name: 550|🔒 TR-GRPC-TLS 🇹🇼 TW-60.249.28....
+  network: grpc
+  password: 67eb147db1c0f8c5
+  port: 443
+  server: 60.249.28.59
+  sni: 007.com
+  type: trojan
 - name: '569|🇹🇼|台湾-进阶 01 #1'
   password: fe0b59ec-6af0-45db-9509-4c66b464af2e
   port: 9300
@@ -3920,8 +2472,8 @@ proxies:
   udp: true
 - name: 648|Trojan-台湾2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 48610
-  server: c3189123cdc2dc4244f349034b8c9297.lh.gtm.node-is.green
+  port: 46521
+  server: 86b0821ab4e58072ded125252c73baf0.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tctw1.bilibili.com
   type: trojan
@@ -3964,8 +2516,8 @@ proxies:
   udp: true
 - name: '649|Trojan-台湾2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 43168
-  server: c9c7557dd3f15a74795d1b3dd0681efa.lh.gtm.node-is.green
+  port: 43573
+  server: 230d2f2fafab94cb505cfb1a3212ef0e.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tctw1.bilibili.com
   type: trojan
@@ -4008,8 +2560,8 @@ proxies:
   udp: true
 - name: '650|Trojan-台湾2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 47376
-  server: 09468e575b73b6194bc02343039d3dec.lh.gtm.node-is.green
+  port: 47236
+  server: 92a1bb5553214a60e3efc8cebb33d080.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tctw1.bilibili.com
   type: trojan
@@ -4052,16 +2604,16 @@ proxies:
   udp: true
 - name: '651|Trojan-台湾2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 45798
-  server: b6cfba69e76f68e7d9fdd5bb341fbef9.lh.gtm.node-is.green
+  port: 43556
+  server: 1373ff7cb4de170853181f2f41a68628.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tctw1.bilibili.com
   type: trojan
   udp: true
 - name: 653|V1-台湾-IPv6
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 40043
-  server: 6007fd40e8919af174ff4a137b9aeb1a.v1.cac.node-is.green
+  port: 48667
+  server: 31e4c00da7638620ece8fec09c98d77b.v1.cac.node-is.green
   skip-cert-verify: true
   sni: tw1.bilibili.com
   type: trojan
@@ -4227,3 +2779,21 @@ proxies:
   server: yd-02.paofunlink.com
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 757|TW | 台湾 01
+  network: ws
+  port: 21003
+  server: r.runjustfast.com
+  servername: tw1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e8383f0e-31e7-427c-9df0-36d4dec4aa65
+  ws-headers:
+    Host: tw1.runjustfast.com
+  ws-opts:
+    headers:
+      Host: tw1.runjustfast.com
+    path: /t1a64wdea01c
+  ws-path: /t1a64wdea01c

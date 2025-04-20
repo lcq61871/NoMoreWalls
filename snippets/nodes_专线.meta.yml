@@ -43,22 +43,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '96,477|🇲🇾 马来西亚专线NO2 #1'
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1091a6fc-9791-4a39-b3a2-5837b8bd928d
-- alterId: 0
-  cipher: auto
   name: '96,477|🇲🇾 马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 1091a6fc-9791-4a39-b3a2-5837b8bd928d
+  uuid: f6eb854a-05b1-4113-9074-0161ec1ad0f7
+- alterId: 0
+  cipher: auto
+  name: '96,477|🇲🇾 马来西亚专线NO2 #1'
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6eb854a-05b1-4113-9074-0161ec1ad0f7
 - alterId: 0
   cipher: auto
   name: '97,98,481,482|马来西亚专线NO2-1A #1'
@@ -417,7 +417,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - client-fingerprint: chrome
   name: 450|🇲🇾 马来西亚_优刻得专线_碧海云_早柚的连体袜
-  password: 4ba09142-2121-48b0-b41d-ce15057c2046
+  password: 30bd039c-95a7-4302-807e-53f1f00d10fe
   port: 43393
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -425,7 +425,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇲🇾 马来西亚_崩铁专线_碧海云_老王的小脚
-  password: 7336c062-b757-4363-bd2a-600a3b5a18e2
+  password: 16a1a447-9ed8-4d4a-9daf-88e20374346f
   port: 43383
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -433,7 +433,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇪🇸 西班牙_优刻得专线_碧海云_坎蒂丝的火箭筒
-  password: bf9cd033-65fe-47d8-adf2-cf956d747b0b
+  password: 7c5ce89b-69af-49a3-adb0-d6fd8d993aa4
   port: 46926
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -441,7 +441,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇮🇳 印度_阿里云专线_碧海云_罗莎莉亚的避孕套
-  password: df3ab545-acbb-45f7-85d1-f4465f3cf1c6
+  password: cc6751e9-c768-46a5-9a7e-bc6f6f00c08f
   port: 42882
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -449,7 +449,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇵🇰 巴基斯坦_原神专线_碧海云_丽莎的鸡吧
-  password: 56b7c43f-389f-486c-984d-28cea27af4ba
+  password: 4c87a959-e651-4f08-a467-ef834c7036b8
   port: 42883
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -457,7 +457,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇻🇳 越南_华为云专线_碧海云_宵宫的尾巴
-  password: a7660068-e5f3-4516-9457-35120c8d6a31
+  password: 11394445-f276-4e36-99c3-9fae320d4ca0
   port: 43396
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -465,7 +465,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇲🇽 墨西哥_优刻得专线_碧海云_达达利亚的螺旋陀螺快准狠粉...
-  password: e604616e-645e-41d0-96e6-c6dd7a03cba5
+  password: 3d3361ce-70c9-45de-b2b8-e1a4cb7f7850
   port: 43592
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -473,7 +473,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇳🇱 荷兰_阿里云专线_碧海云_那维莱特的麻花辫
-  password: 31c3be75-b7b5-41b2-a8d4-8de36f1ae16e
+  password: 9c305c36-32c8-48d4-8575-a01a73e17a3b
   port: 43591
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -481,7 +481,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇮🇹 意大利_IPLC专线_碧海云_丽莎的飞机杯
-  password: 6cefdf76-fa95-41d3-8318-8b9714d60600
+  password: fdcee0a7-06ef-4a0a-993e-28a88b312ec4
   port: 46927
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -489,7 +489,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇦🇺 澳大利亚_青云专线_碧海云_派蒙的连体袜
-  password: c4cef414-f77d-40f4-b118-c59176ad6f81
+  password: 4ebf0e22-3b74-4b7c-aeb0-f8ede1147b8a
   port: 34017
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -497,7 +497,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇧🇷 巴西_优刻得专线_碧海云_林尼的白丝
-  password: 451b854c-6ee1-443c-b316-b454188dd401
+  password: 061982ee-dc71-4055-80bd-79157a8fe567
   port: 43586
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -505,7 +505,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇵🇭 菲律宾_青云专线_碧海云_娜维娅的星穹
-  password: 8faaaa01-1fc4-4caa-856f-add0c02dcc33
+  password: 20cb380a-aa98-47a9-bec3-24154170fd59
   port: 27408
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -513,7 +513,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇦🇪 迪拜_腾讯云专线_碧海云_宵宫的肛塞
-  password: 63eb517b-1455-4845-bc3f-97cb20bc0787
+  password: d601e4dc-540d-44e3-881f-6f6c77063c8a
   port: 43497
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -521,7 +521,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇮🇩 印尼_阿里云专线_碧海云_达达利亚的连体袜
-  password: 95e68bea-3fd6-4de5-b20a-6e13e673d8cd
+  password: 7700f527-f10c-494e-bfc6-847b259467a9
   port: 43394
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -529,7 +529,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 450|🇫🇮 芬兰_阿里云专线_碧海云_米卡的龟头
-  password: 4e5be7a4-cc9d-4495-8b89-2d39581d40aa
+  password: fdf4be68-e2d4-4325-8120-dba95a482402
   port: 43499
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -537,7 +537,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇲🇾 马来西亚_优刻得专线_碧海云_早柚的连体袜 #1'
-  password: 696cbf2b-82ec-480c-902b-95fecf1c921a
+  password: 9a47869d-b1cb-4fde-baa3-3efcbc14bbd1
   port: 43393
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -545,7 +545,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇲🇾 马来西亚_崩铁专线_碧海云_老王的小脚 #1'
-  password: f8470c80-4d60-41d6-8f5f-035b741b254e
+  password: 6db36cb6-5794-4981-ad26-d822fb0be179
   port: 43383
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -553,7 +553,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇪🇸 西班牙_优刻得专线_碧海云_坎蒂丝的火箭筒 #1'
-  password: 54304915-d135-4dcc-84d4-177ef992002e
+  password: 1bf8d807-6055-492d-ad99-9768e824e837
   port: 46926
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -561,7 +561,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇮🇳 印度_阿里云专线_碧海云_罗莎莉亚的避孕套 #1'
-  password: 535cd3b2-1608-4c8c-b51b-dfbabcd85933
+  password: c60bf887-232e-4520-a498-173f57a0535a
   port: 42882
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -569,7 +569,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇵🇰 巴基斯坦_原神专线_碧海云_丽莎的鸡吧 #1'
-  password: 53a1e690-afc2-4ab5-a09e-f7194c01fb7a
+  password: 2b22d927-35e1-4258-b3a0-352db0b326c7
   port: 42883
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -577,7 +577,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇻🇳 越南_华为云专线_碧海云_宵宫的尾巴 #1'
-  password: 02eda0c4-069a-4776-bf0a-6b5d916c8f7f
+  password: dec18ac5-1eda-4e00-b246-d217d69feb84
   port: 43396
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -585,7 +585,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇲🇽 墨西哥_优刻得专线_碧海云_达达利亚的螺旋陀螺快准狠粉... #1'
-  password: 23e9007e-6b96-4ad3-87de-de23d7913b1d
+  password: 083a22f7-ac3c-4145-927d-1bcca8976b27
   port: 43592
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -593,7 +593,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇳🇱 荷兰_阿里云专线_碧海云_那维莱特的麻花辫 #1'
-  password: 78f083c7-39f1-4c97-a348-d320df9363fa
+  password: b20edfae-091b-4484-bb6f-40cbe0cfff70
   port: 43591
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -601,7 +601,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇮🇹 意大利_IPLC专线_碧海云_丽莎的飞机杯 #1'
-  password: dce06444-c666-4805-ba08-b066ca77da26
+  password: 50b6ead0-3e9c-489a-a7d3-55d36894c07f
   port: 46927
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -609,7 +609,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇦🇺 澳大利亚_青云专线_碧海云_派蒙的连体袜 #1'
-  password: 1d5f9fd8-c89a-424d-a740-425efa21301c
+  password: 05fb27ec-a61a-488d-8673-0762b4c04490
   port: 34017
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -617,7 +617,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇧🇷 巴西_优刻得专线_碧海云_林尼的白丝 #1'
-  password: 5f0e4c97-2ee7-4824-a98e-c2d0e7984def
+  password: fb78f0de-5d1c-4b7c-95b5-045c594a71db
   port: 43586
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -625,7 +625,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇵🇭 菲律宾_青云专线_碧海云_娜维娅的星穹 #1'
-  password: 603210e4-5e1f-4ae8-94d9-f62ad3f6d98c
+  password: d0c468a9-6f9f-450a-ac5e-bbf2ec456ca7
   port: 27408
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -633,7 +633,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇦🇪 迪拜_腾讯云专线_碧海云_宵宫的肛塞 #1'
-  password: 4a32b332-ae2e-4436-8598-6919f6a7af45
+  password: e2a9f1f5-49aa-43b6-9365-3ecdb7347185
   port: 43497
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -641,7 +641,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇮🇩 印尼_阿里云专线_碧海云_达达利亚的连体袜 #1'
-  password: 2d9a0d5b-f267-4de9-91a1-4b627ad41a0e
+  password: 62960213-3112-45fb-b0d8-2d27a0dab947
   port: 43394
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -649,7 +649,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '451|🇫🇮 芬兰_阿里云专线_碧海云_米卡的龟头 #1'
-  password: 281bcd4a-56a1-4003-ae2d-e9216559f50b
+  password: cea69d0e-4dee-4b8a-a07f-93e581c84a3e
   port: 43499
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -657,7 +657,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇲🇾 马来西亚_优刻得专线_碧海云_早柚的连体袜 #2'
-  password: bb6c8bda-2441-4d4e-8c6e-002be275a1af
+  password: 9802b97a-15a9-483e-91cd-861a7bcbb170
   port: 43393
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -665,7 +665,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇲🇾 马来西亚_崩铁专线_碧海云_老王的小脚 #2'
-  password: 2b299701-07e7-4332-844a-d5fe7b3d937f
+  password: 4bd6b931-6511-4c4f-87b1-4732f3c72536
   port: 43383
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -673,7 +673,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇪🇸 西班牙_优刻得专线_碧海云_坎蒂丝的火箭筒 #2'
-  password: a96c47e5-0375-4a5b-b54e-a52de4726467
+  password: a4db5e1d-1152-47d6-a9cc-c2b3c6f1c4b1
   port: 46926
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -681,7 +681,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇮🇳 印度_阿里云专线_碧海云_罗莎莉亚的避孕套 #2'
-  password: ab91f0ba-5c69-4d7a-9e60-e701287e06c6
+  password: 0546e9c4-e2cf-4d28-8f14-2063b3a5e626
   port: 42882
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -689,7 +689,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇵🇰 巴基斯坦_原神专线_碧海云_丽莎的鸡吧 #2'
-  password: f608aa8b-0427-4849-82b9-6a2232c2a720
+  password: bcb927f7-6b4a-46c3-ba20-b4c155ea6102
   port: 42883
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -697,7 +697,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇻🇳 越南_华为云专线_碧海云_宵宫的尾巴 #2'
-  password: 03d2f9d0-181d-4c3f-b187-adf69ac65753
+  password: e4d2a84a-5352-441c-b3bb-438744f9c018
   port: 43396
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -705,7 +705,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇲🇽 墨西哥_优刻得专线_碧海云_达达利亚的螺旋陀螺快准狠粉... #2'
-  password: ef7f903a-9815-4dcc-8462-dfdac8dedff9
+  password: 9108af79-2725-49f4-8e64-1daba3a77d26
   port: 43592
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -713,7 +713,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇳🇱 荷兰_阿里云专线_碧海云_那维莱特的麻花辫 #2'
-  password: 5b270419-8de7-4fc8-a303-727d055a943c
+  password: 7bdb0d06-768e-4244-97ea-9cb76b70dcd7
   port: 43591
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -721,7 +721,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇮🇹 意大利_IPLC专线_碧海云_丽莎的飞机杯 #2'
-  password: 62328a44-2fb2-4f72-845d-8d0109fac244
+  password: 50e024e7-d4c2-463f-8593-e3d9d8fa5693
   port: 46927
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -729,7 +729,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇦🇺 澳大利亚_青云专线_碧海云_派蒙的连体袜 #2'
-  password: 05d63428-0089-4814-82d5-964507db44d1
+  password: 77702d3a-f011-4dcf-8a6f-1af13dab30fc
   port: 34017
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -737,7 +737,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇧🇷 巴西_优刻得专线_碧海云_林尼的白丝 #2'
-  password: 546c0a17-b3f0-4444-8425-a0c5c1737df5
+  password: 9f09cdf5-ccf6-4495-9449-45f9bc0a01b6
   port: 43586
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -745,7 +745,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇵🇭 菲律宾_青云专线_碧海云_娜维娅的星穹 #2'
-  password: 556d5e49-4310-4c18-a275-62ac3cc62b3a
+  password: 9eb3f887-53e2-4cbe-a240-bc082610ebbd
   port: 27408
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -753,7 +753,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇦🇪 迪拜_腾讯云专线_碧海云_宵宫的肛塞 #2'
-  password: 81120dc9-e96b-4f99-b1bf-0ee2159295db
+  password: 1e505705-edcc-47ab-9f5a-c96a94d73425
   port: 43497
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -761,7 +761,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇮🇩 印尼_阿里云专线_碧海云_达达利亚的连体袜 #2'
-  password: 0546e9c4-e2cf-4d28-8f14-2063b3a5e626
+  password: abbd0483-62a5-4d43-8126-a7a9c35c51b7
   port: 43394
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -769,7 +769,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '452|🇫🇮 芬兰_阿里云专线_碧海云_米卡的龟头 #2'
-  password: cd68de30-310f-4c5f-95a4-eec9faed6e83
+  password: 6312df2b-39a4-41c3-94b4-3760b8d7fa0d
   port: 43499
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -795,126 +795,12 @@ proxies:
   uuid: a04bdcd0-5839-43e5-a1ad-e9be9e414242
 - alterId: 0
   cipher: auto
-  name: 537|🇰 专线--1B
+  name: 544|28|🇭 专线-柬埔寨-1D
   network: ws
   port: 59350
   server: 183.240.228.220
   tls: false
   type: vmess
-  udp: true
-  uuid: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- auth: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  name: 537|🇦 阿联-专线1-1E
-  password: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  port: 5145
-  server: st.fastcn.fun
-  skip-cert-verify: false
-  sni: st.fastcn.fun
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇷 专线-国-1A
-  network: ws
-  port: 45418
-  server: 36.150.94.53
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 537|🇭 专线-柬埔寨-1C
-  network: ws
-  port: 59350
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- auth: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
-  name: 537|🇪 阿联酋-专线1-1G
-  password: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
-  port: 6287
-  server: st.fastcn.fun
-  skip-cert-verify: false
-  sni: st.fastcn.fun
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇲🇾 马来西亚专线NO2-1A
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 628389a9-89f8-4a28-870f-8e5e143d6915
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 01-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 44701
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专用 03-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 37731
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 537|专用-1B
-  password: 733b88f4-2f78-4c98-bc64-5bfda22a4b37
-  port: 44325
-  server: nc-56112-51122.mofangfree.online
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专用 02-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 47728
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专用 02-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 47728
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- auth: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  name: 537|🇪 阿联酋-专线1-1B
-  password: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  port: 10202
-  server: db.medicalgpt.online
-  skip-cert-verify: false
-  sni: db.medicalgpt.online
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 专线--1D
-  network: ws
-  port: 53196
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
   uuid: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
   ws-opts:
     headers:
@@ -922,255 +808,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 537|🇾 马来西亚专线NO2-1B
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e55024a-6f66-4c55-ab4c-9107b2edbe49
-- alterId: 0
-  cipher: auto
-  name: 537|🇭 专线--1A
-  network: ws
-  port: 59350
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇭 专线-柬埔寨-1D
-  network: ws
-  port: 59350
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 03-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 37731
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- auth: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
-  name: 537|🇦 阿联-专线1-1H
-  password: d0a3daef-4eb7-4ece-9f4a-271581b69dd6
-  port: 6269
-  server: db.medicalgpt.online
-  skip-cert-verify: false
-  sni: db.medicalgpt.online
-  type: hysteria2
-  udp: true
-- auth: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  name: 537|🇪 联-专线1-1C
-  password: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  port: 35682
-  server: st.fastcn.fun
-  skip-cert-verify: false
-  sni: st.fastcn.fun
-  type: hysteria2
-  udp: true
-- cipher: aes-128-gcm
-  name: 537|专-1A
-  password: be1190c3-882b-4e98-9bbb-2da93309cf82
-  port: 44325
-  server: nc-56112-51122.mofangfree.online
-  type: ss
-  udp: true
-- auth: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  name: 537|🇪 阿联酋-专线1-1F
-  password: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  port: 32233
-  server: db.medicalgpt.online
-  skip-cert-verify: false
-  sni: db.medicalgpt.online
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇾 马来西亚专线NO2-1C
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3534bc6c-b688-46ff-9e93-e3aec3871007
-- alterId: 0
-  cipher: auto
-  name: 537|NETFLIX | 媒体专节点-1B
-  port: 34716
-  server: zf.662293.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5e96dcc-300a-4c61-a2b8-0f6ebda796e1
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 02-1A
-  password: e5101d75-c9ae-40b3-ac55-b8d8c4bc26f6
-  port: 47728
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇲🇾 马来西亚专线NO1-1A
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 628389a9-89f8-4a28-870f-8e5e143d6915
-- auth: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  name: 537|🇪 阿联-专线1-1A
-  password: c307d1ba-f325-49a4-9f1b-735b87b6e295
-  port: 49127
-  server: st.fastcn.fun
-  skip-cert-verify: false
-  sni: st.fastcn.fun
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 03-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 37731
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 03-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 37731
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇾 马来西亚专线NO1-1B
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1e55024a-6f66-4c55-ab4c-9107b2edbe49
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 专线--1B
-  network: ws
-  port: 53196
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 01-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 44701
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 02-1C
-  password: 2c297285-2163-47a4-a3e4-6a9c3135b490
-  port: 47728
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|NETFLIX | 媒体专用-1A
-  port: 34716
-  server: zf.662293.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 43928fbd-5210-4f35-8390-52539ea162bb
-- auth: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  name: 537|🇦 联-专线1-1D
-  password: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  port: 44866
-  server: db.medicalgpt.online
-  skip-cert-verify: false
-  sni: db.medicalgpt.online
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇾 马来西亚专线NO1-1C
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3534bc6c-b688-46ff-9e93-e3aec3871007
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 01-1D
-  password: eb69015b-748b-409e-a332-88293e0ca16b
-  port: 44701
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 专线-非-1C
-  network: ws
-  port: 53196
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|专 01-1B
-  password: 5f8e1875-7a25-4cbe-91c2-daf7bc17567a
-  port: 44701
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇷 专线-国-1C
+  name: 544|28|🇷 专线-国-1C
   network: ws
   port: 45418
   server: 36.150.94.53
   tls: false
   type: vmess
-  udp: true
   uuid: 23ff2269-9d58-439e-9e61-8cba3b92e75b
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|专线--1A
-  network: ws
-  port: 53196
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c307d1ba-f325-49a4-9f1b-735b87b6e295
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -1184,6 +828,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 3534bc6c-b688-46ff-9e93-e3aec3871007
+- alterId: 0
+  cipher: auto
+  name: 544|28|专线--1A
+  network: ws
+  port: 53196
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  uuid: c307d1ba-f325-49a4-9f1b-735b87b6e295
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 544|28|NETFLIX | 媒体专用-1A

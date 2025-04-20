@@ -29,22 +29,22 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  country: 🇺🇸 US
-  name: 381,382,400,486|🇺🇸 US_217
+  country: ' US'
+  name: 381,382,400,486|🇺 US_476
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 381,382,400,486|🇺 US_215
+  name: 381,382,400,486|🇺 US_477
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
   country: 🇸 US
-  name: 381,382,400,486|🇺🇸 US_212
+  name: 381,382,400,486|🇺🇸 US_478
   password: shadowsocks
   port: 443
   server: 156.146.62.163
@@ -56,13 +56,14 @@ proxies:
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 381,400|🇷FR-51.15.15.82-0883
+  name: 381,400,486|_04
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 400|🇨CH-185.126.116.125-0103
+  name: 400|CH-185.126.116.125-0096
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
@@ -73,21 +74,21 @@ proxies:
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 400,528|🇨🇭CH-152.67.71.149-3667
+- name: 400,528|🇨🇭CH-152.67.71.149-3691
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 400|🇨CH-156.146.62.160-5240
+  name: 400|🇨CH-156.146.62.160-5262
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 400,528|🇨🇭CH-186.190.215.32-8617
+  name: 400,528|🇨🇭CH-186.190.215.32-8685
   network: ws
   port: 443
   server: 186.190.215.32
@@ -102,7 +103,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 400,528|🇨🇭CH-186.190.215.75-8681
+  name: 400,528|🇨🇭CH-186.190.215.75-8749
   network: ws
   port: 443
   server: 186.190.215.75
@@ -117,7 +118,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 400,528|🇨🇭CH-140.238.212.95-8694
+  name: 400,528|🇨🇭CH-140.238.212.95-8762
   network: ws
   port: 443
   server: 140.238.212.95
@@ -132,7 +133,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 400,528|🇨🇭CH-23.166.88.27-8796
+  name: 400,528|🇨🇭CH-23.166.88.27-8864
   network: ws
   port: 443
   server: 23.166.88.27
@@ -147,7 +148,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 400,528|🇨🇭CH-186.190.215.149-8841
+  name: '400,528|🇨🇭CH-186.190.215.149-8909 #1'
   network: ws
   port: 443
   server: 186.190.215.149
@@ -160,41 +161,6 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 537|🇭 瑞士-1B
-  network: ws
-  port: 14962
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e8567a4-e41d-45a3-a9fb-21f0e72e45a7
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇨🇭 联通线路-瑞士01-1B
-  password: c6c914ce-b596-4b4c-9b75-3d8768e6e900
-  port: 59895
-  server: nnertn.airport.lat
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇨 直连-瑞士01-1C
-  password: c1691679-2344-4ca4-8cbc-ba11b4c817a6
-  port: 20640
-  server: ch01.airport.lat
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇭 直连-瑞士01-1A
-  password: ff9ebdc9-1c51-49f3-99a6-ef7555382205
-  port: 20640
-  server: ch01.airport.lat
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 587|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
@@ -216,7 +182,7 @@ proxies:
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '700,802,803,804|🇨🇭 瑞士 #6'
+- name: '700,802,804|🇨🇭 瑞士 #5'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -234,4 +200,12 @@ proxies:
   port: 45582
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
+  udp: true
+- name: 803|🇨🇭 瑞士2🔒
+  password: 升级订阅解锁全部节点
+  port: 10009
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
