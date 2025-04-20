@@ -203,7 +203,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇪 DE
-  name: 385,404,490|🇪 DE_139
+  name: 385,404,487|🇪 DE_128
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 92.118.205.228
@@ -215,7 +215,7 @@ proxies:
   port: 40030
   server: pr.fastsoonlink.com
   type: ss
-- name: 404,532|🇵🇱PL-51.83.186.142-5017
+- name: 404,529|🇵🇱PL-51.83.186.142-5017
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142
@@ -265,7 +265,14 @@ proxies:
   server: 217.30.10.63
   type: ss
 - cipher: aes-256-cfb
-  name: 404|🇵🇱PL-217.30.10.18-6894
+  name: 404|🇵🇱PL-217.30.10.18-6415
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  country: PL
+  name: 404,485| | 4.80Mb
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 217.30.10.18
@@ -367,7 +374,7 @@ proxies:
   server: 217.30.10.68
   type: ss
 - down: 1000
-  name: 480|[Hy2]波兰1
+  name: 477|[Hy2]波兰1
   password: cbd1d425-5379-4c44-82fc-5765d1d34dc9
   port: 32237
   server: pl1.xn--04q43rwxe.eu.org
@@ -376,7 +383,7 @@ proxies:
   type: hysteria2
   up: 1000
 - down: 1000
-  name: 480|[Hy2]波兰2
+  name: 477|[Hy2]波兰2
   password: cbd1d425-5379-4c44-82fc-5765d1d34dc9
   port: 22215
   server: pl2.xn--04q43rwxe.eu.org
@@ -385,7 +392,7 @@ proxies:
   type: hysteria2
   up: 1000
 - down: 1000
-  name: 480|[Hy2]波兰3
+  name: 477|[Hy2]波兰3
   password: cbd1d425-5379-4c44-82fc-5765d1d34dc9
   port: 27142
   server: pl3.xn--04q43rwxe.eu.org
@@ -394,7 +401,7 @@ proxies:
   type: hysteria2
   up: 1000
 - down: 1000
-  name: 480|[Hy2]波兰4
+  name: 477|[Hy2]波兰4
   password: cbd1d425-5379-4c44-82fc-5765d1d34dc9
   port: 21081
   server: pl4.xn--04q43rwxe.eu.org
@@ -404,7 +411,7 @@ proxies:
   up: 1000
 - alterId: 0
   cipher: auto
-  name: 480|[vmess]波兰5-CDN
+  name: 477|[vmess]波兰5-CDN
   network: ws
   port: 2053
   server: cfip.xxxxxxxx.tk
@@ -422,7 +429,7 @@ proxies:
   ws-path: /pl5vmess
 - alterId: 0
   cipher: auto
-  name: 480|[vmess]波兰6-CDN
+  name: 477|[vmess]波兰6-CDN
   network: ws
   port: 2053
   server: cfip.xxxxxxxx.tk
@@ -440,7 +447,7 @@ proxies:
   ws-path: /pl6vmess
 - alterId: 0
   cipher: auto
-  name: 480|[vmess]波兰7-CDN
+  name: 477|[vmess]波兰7-CDN
   network: ws
   port: 2053
   server: cfip.xxxxxxxx.tk
@@ -456,7 +463,7 @@ proxies:
       Host: pl7.xn--04q43rwxe.eu.org
     path: /pl7vmess
   ws-path: /pl7vmess
-- name: '506|波兰_华沙 #2'
+- name: '503|波兰_华沙 #2'
   network: ws
   port: 80
   server: 141.101.121.110
@@ -466,7 +473,7 @@ proxies:
   uuid: f2a72ad0-d23f-4eed-96cb-7d970b1e784d
 - alterId: 0
   cipher: auto
-  name: 511|波兰_021805014 L0
+  name: 508|波兰_021805014 L0
   network: ws
   port: '80'
   server: 45.144.48.128
@@ -480,7 +487,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 511|波兰_021805052
+  name: 508|波兰_021805052
   network: ws
   port: '80'
   server: 3h-poland1.09vpn.com
@@ -492,53 +499,9 @@ proxies:
     headers:
       Host: 3h-poland1.09vpn.com
     path: /vmess/
-- cipher: aes-256-gcm
-  name: 541|🇱 VIP 波兰1-1A
-  password: 5f01b553-548c-4fdb-a186-09321cabcd2e
-  port: 47085
-  server: pl01.jiasudu.buzz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 541|🇱 波兰A
-  port: 30342
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8bd1de3a-c848-4205-b95f-704b608f7424
-- cipher: chacha20-ietf-poly1305
-  name: 541|🇱 波兰 罗-1C
-  password: 63e27294-7fd9-4f69-a66e-c0997e19d79b
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 541|🇱 波兰 罗-1D
-  password: 6f5bda68-5203-48c9-bc71-d881d9393e9d
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 541|🇱 波兰 弗罗茨瓦夫-1A
-  password: 29e9030c-63e2-4a2c-abde-aa208aaeeb8e
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 541|🇱 波兰 弗罗茨瓦夫-1B
-  password: 2d5b3c2a-c29b-4b49-a2f0-2d1e4d17c905
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 547|🇵🇱 波兰_041920010 L33
+  name: 544|🇵🇱 波兰_042010007 L33
   network: ws
   port: '443'
   server: 57.128.193.117
@@ -549,7 +512,7 @@ proxies:
     headers:
       Host: kapelleng.com
     path: /linkvws#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- name: 548|备用🍖@xkmfjd_🇵🇱
+- name: 545|备用🍖@xkmfjd_🇵🇱
   password: f0ae7bec-c14c-4447-91e5-d636265092d4
   port: 31651
   server: 213.189.54.126
@@ -557,14 +520,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 554|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1...
+- name: '551|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1... #1'
   network: tcp
   password: 2959e4f7-7589-4a40-9b96-1be750ac7845
   port: 80
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: '704,804,805,806|🇵🇱 波兰1 #3'
+- name: '700,802,803,804|🇵🇱 波兰1 #3'
   password: '!!str 1'
   port: 20185
   server: 212.127.78.119
@@ -572,7 +535,7 @@ proxies:
   sni: www.cloudflare.com
   type: hysteria2
   udp: true
-- name: '704,804,805,806|🇵🇱 波兰2 #3'
+- name: '700,802,803,804|🇵🇱 波兰2 #3'
   password: '!!str 1'
   port: 20181
   server: 212.127.78.119
