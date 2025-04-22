@@ -7,14 +7,14 @@ proxies:
   sni: mmbiz11.redapricotcloud.com
   type: trojan
   udp: true
-- name: 183|🇨🇭瑞士北部（苏黎世）trojan
+- name: 185|🇨🇭瑞士北部（苏黎世）trojan
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: '184|🇨🇭瑞士北部（苏黎世）trojan #1'
+- name: '186|🇨🇭瑞士北部（苏黎世）trojan #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -22,7 +22,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 359|🇨🇭瑞士1 💧 0.6x
+  name: 356|🇨🇭瑞士1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 40180
   server: oz.qsm1.xyz
@@ -30,7 +30,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 363,403,512,518,522,536,544|5,40|CH_speednode_0005
+  name: 360,401,510,516,520,534,542|5,40|CH_speednode_0005
   network: tcp
   port: 443
   server: 152.67.68.116
@@ -42,7 +42,7 @@ proxies:
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 363,403,512,518,522,536,544|5,40|CH_speednode_0003
+  name: 360,401,510,516,520,534,542|5,40|CH_speednode_0003
   network: tcp
   port: 443
   server: yapc-1.afshin.ir
@@ -50,64 +50,69 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - cipher: aes-128-gcm
-  name: 382,383,401|🇭CH-156.146.62.164-1066
+  country: 🇺🇸 US
+  name: 380,381,399,484|🇺🇸 US_791
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
-  name: 382,383,401|🇭CH-156.146.62.162-1064
+  country: 🇺🇸 US
+  name: 380,381,399,484|🇺 US_782
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
-  name: 382,383,401|🇨🇭CH-156.146.62.163-1069
+  country: 🇸 US
+  name: 380,381,399,484|🇺🇸 US_793
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
 - cipher: aes-256-cfb
-  name: 382|🌀29-CH |  12.1MB/s
+  name: 380|🌀29-CH |  12.1MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 382,401|🇷FR-51.15.15.82-0899
+  name: 380,399,484|_86
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 401|🇨CH-185.126.116.125-0119
+  name: 399|🇨CH-185.126.116.125-0102
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 185.126.116.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,553|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
+  name: 399,551|SS-国-NF解锁制剧-ChatGPT-TikTok-You...
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 204.136.10.115
   type: ss
-- name: 401,528|🇨🇭CH-152.67.71.149-3351
+- name: 399,526|🇨🇭CH-152.67.71.149-3625
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   port: 18818
   server: ch12.yukiss.eu.org
   skip-cert-verify: false
   type: trojan
 - cipher: aes-128-cfb
-  name: 401|🇨CH-156.146.62.160-5242
+  name: 399|🇨CH-156.146.62.160-5196
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
 - alterId: 1
   cipher: auto
-  name: 401,528|🇨🇭CH-186.190.215.32-9952
+  name: 399,526|🇨🇭CH-186.190.215.32-10072
   network: ws
   port: 443
   server: 186.190.215.32
@@ -122,7 +127,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 401,528|🇨🇭CH-186.190.215.75-10016
+  name: 399,526|🇨🇭CH-186.190.215.75-10136
   network: ws
   port: 443
   server: 186.190.215.75
@@ -137,7 +142,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 401,528|🇨🇭CH-140.238.212.95-10029
+  name: 399,526|🇨🇭CH-140.238.212.95-10149
   network: ws
   port: 443
   server: 140.238.212.95
@@ -152,7 +157,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 401,528|🇨🇭CH-23.166.88.27-10131
+  name: 399,526|🇨🇭CH-23.166.88.27-10251
   network: ws
   port: 443
   server: 23.166.88.27
@@ -167,7 +172,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 401,528|🇨🇭CH-186.190.215.149-10176
+  name: '399,526|🇨🇭CH-186.190.215.149-10296 #1'
   network: ws
   port: 443
   server: 186.190.215.149
@@ -180,7 +185,7 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
-- name: 413|🇨🇭瑞士
+- name: 411|🇨🇭瑞士
   network: ws
   port: 2086
   server: qrzv.youxuan.wiki
@@ -193,7 +198,7 @@ proxies:
     path: '%2Fyouxuan'
 - alterId: 0
   cipher: auto
-  name: '492|🇨🇭瑞士 #1'
+  name: '490|🇨🇭瑞士 #1'
   network: ws
   port: 2086
   server: qrzv.youxuan.wiki
@@ -209,7 +214,7 @@ proxies:
   ws-path: /youxuan
 - alterId: 0
   cipher: auto
-  name: '493|🇨🇭瑞士 #2'
+  name: '491|🇨🇭瑞士 #2'
   network: ws
   port: 2086
   server: qrzv.youxuan.wiki
@@ -225,7 +230,7 @@ proxies:
   ws-path: /youxuan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 500|🇨🇭CH(AzadNet.t.me)_6
+  name: 498|🇨🇭CH(AzadNet.t.me)_6
   network: grpc
   port: 443
   reality-opts:
@@ -236,27 +241,9 @@ proxies:
   tls: false
   type: vless
   uuid: 7153d030-2373-4163-b4ff-ce849faac372
-- alterId: 0
-  cipher: auto
-  name: 543|🇨🇭 瑞士_042120036 M57
-  network: tcp
-  port: '22324'
-  server: 186.190.215.93
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 543|🇨🇭 瑞士_042120087 H71
-  network: tcp
-  port: '22324'
-  server: 186.190.215.193
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-  name: 544|5|2,14|CH_speednode_0004
+  name: 542|5|2,14|CH_speednode_0004
   port: 6718
   server: 37.156.46.65
   servername: stackoverflow.com
@@ -265,13 +252,13 @@ proxies:
   type: vless
   uuid: 7026bbec-b5af-13a4-0b00-e3f5f94c6e5f
 - cipher: chacha20-ietf-poly1305
-  name: 586|🇨🇭 CH 瑞士
+  name: 583|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
   port: 49969
   server: node-a.dlg365.com
   type: ss
   udp: true
-- name: '591,592|🇨🇭瑞士北部（苏黎世）trojan #3'
+- name: '588,589|🇨🇭瑞士北部（苏黎世）trojan #3'
   password: 20bc0771-1fde-45ee-8052-3c26249c43dc
   port: 34865
   server: 250407.jichang.my
@@ -279,13 +266,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '605,606|🇨🇭 瑞士 #2'
+  name: '602,603|🇨🇭 瑞士 #2'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51172
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '700,798,799,800|🇨🇭 瑞士 #6'
+- name: '696,796,797,798|🇨🇭 瑞士 #6'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -294,7 +281,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '744,745,746,747|🇨🇭 Switzerland 087 #3'
+  name: '742,743,744,745|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:
