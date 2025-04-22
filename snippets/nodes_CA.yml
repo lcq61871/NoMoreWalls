@@ -27,7 +27,7 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - cipher: rc4-md5
   delay: 70
-  name: 69,258,367,401,524,545|🇨🇳CN-118.184.136.48-210
+  name: 69,258,367,401,524|加拿大 - 渥太華 - Prime Security Cor...
   password: 5czcr84s0ab
   port: 7780
   server: 118.184.136.48
@@ -35,7 +35,7 @@ proxies:
   udp: true
 - cipher: rc4-md5
   delay: 74
-  name: 69,258,367,401,524,545|🇨🇳CN-118.184.136.53-225
+  name: '69,258,367,401,524|加拿大 - 渥太華 - Prime Security Cor... #1'
   password: 5czcr84s0ab
   port: 7780
   server: 118.184.136.53
@@ -49,7 +49,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec6c1ae0-1a43-442f-907b-c94b43ddf545
+  uuid: 8dd1bd8a-4c53-4e86-a491-078fbd25b377
 - alterId: 0
   cipher: auto
   name: '96,477|🇨🇦 加拿大2 #3'
@@ -58,7 +58,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec6c1ae0-1a43-442f-907b-c94b43ddf545
+  uuid: 8dd1bd8a-4c53-4e86-a491-078fbd25b377
 - alterId: 0
   cipher: auto
   name: '97,98,481,482|加拿大2-1A #1'
@@ -122,57 +122,15 @@ proxies:
     path: /
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 01
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
+  name: 190|🇨🇦 加拿大 01 | 1x CA
+  password: 754f7012-d3ba-414e-8b86-34b73cadd379
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 03
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cname03b-ncpbbyhazxjnwkrx.bestluausa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 02
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cname03a-ncpbbyhazxjnwkrx.222schweinshaxe.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 04
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cname03c-ncpbbyhazxjnwkrx.bestluausa.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 05 [0.5x]
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cnamepc01-d2zdrzg6ilecsynk.besttarik.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 06 [0.5x]
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cnamepc02-d2zdrzg6ilecsynk.besttarik.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 178|加拿大 07 [0.5x]
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51091
-  server: cnamepc03-d2zdrzg6ilecsynk.besttarik.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 191|🇨🇦加拿大 01 | 1x CA
-  password: 46801799-9f4c-4056-a76e-4870296afa3e
+  name: 192|🇨🇦加拿大 01 | 1x CA
+  password: 6d706909-ff18-4817-bd44-6a2419893702
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
@@ -213,7 +171,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: '363,401,508,509,528,533,543,544,546|2|🇨🇦3 |  5.4MB/s #3'
+  name: '363,401,528,533,543,544,546|🇨🇳 吉林省 移动(全省通用) #2'
   network: ws
   port: '30825'
   server: v25.heduian.link
@@ -279,187 +237,187 @@ proxies:
   udp: true
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - cipher: aes-256-gcm
-  name: 401,545|🇨CA-134.195.196.68-050
+  name: 401|CA-134.195.196.68-0022
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨CA-134.195.196.149-067
+  name: 401|🇨🇦CA-134.195.196.149-0039
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.196.149-068
+  name: 401|🇨🇦CA-134.195.196.149-0040
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.196.221-069
+  name: 401|🇦CA-134.195.196.221-0041
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.221
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.196.60-070
+  name: 401|🇦CA-134.195.196.60-0042
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.60
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.196.68-071
+  name: 401|🇦CA-134.195.196.68-0043
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.196.68-072
+  name: 401|🇦CA-134.195.196.68-0044
   password: zDNVedRFPQexG9v
   port: 6379
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-134.195.196.68-073
+  name: 401|🇨🇦CA-134.195.196.68-0045
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-134.195.198.252-074
+  name: 401|🇦CA-134.195.198.252-0046
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.252
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.218-078
+  name: 401|🇦CA-198.57.27.218-0050
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.218-079
+  name: 401|🇨🇦CA-198.57.27.218-0051
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.218-080
+  name: 401|🇨🇦CA-198.57.27.218-0052
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.218-081
+  name: 401|🇨🇦CA-198.57.27.218-0053
   password: XKFKl2rULjIp74
   port: 8009
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-198.57.27.218-082
+  name: 401|🇦CA-198.57.27.218-0054
   password: pKEW8JPByTVTLtM
   port: 443
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-198.57.27.218-083
+  name: 401|🇦CA-198.57.27.218-0055
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-198.57.27.218-084
+  name: 401|🇦CA-198.57.27.218-0056
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-198.57.27.218-085
+  name: 401|🇦CA-198.57.27.218-0057
   password: KixLvKzwjekG00rm
   port: 8000
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇦CA-198.57.27.233-086
+  name: 401|🇦CA-198.57.27.233-0058
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 198.57.27.233
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.233-087
+  name: 401|🇨🇦CA-198.57.27.233-0059
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 198.57.27.233
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.233-088
+  name: 401|🇨🇦CA-198.57.27.233-0060
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 198.57.27.233
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.233-089
+  name: 401|🇨🇦CA-198.57.27.233-0061
   password: faBAoD54k87UJG7
   port: 2376
   server: 198.57.27.233
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.233-090
+  name: 401|🇨🇦CA-198.57.27.233-0062
   password: faBAoD54k87UJG7
   port: 2375
   server: 198.57.27.233
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.243-091
+  name: 401|🇨🇦CA-198.57.27.243-0063
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 198.57.27.243
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.243-092
+  name: 401|🇨🇦CA-198.57.27.243-0064
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 198.57.27.243
   type: ss
 - cipher: aes-256-gcm
-  name: 401,545|🇨🇦CA-198.57.27.243-093
+  name: 401|🇨🇦CA-198.57.27.243-0065
   password: faBAoD54k87UJG7
   port: 2375
   server: 198.57.27.243
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇨CA-51.161.118.38-095
+  name: 401|🇨🇦CA-51.161.118.38-0067
   password: G!yBwPWH3Vao
   port: 800
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇦CA-51.161.118.38-096
+  name: 401|🇦CA-51.161.118.38-0068
   password: G!yBwPWH3Vao
   port: 801
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇦CA-51.161.118.38-097
+  name: 401|🇦CA-51.161.118.38-0069
   password: G!yBwPWH3Vao
   port: 808
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇦CA-51.161.118.38-098
+  name: 401|🇦CA-51.161.118.38-0070
   password: G!yBwPWH3Vao
   port: 811
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇨🇦CA-51.161.118.38-099
+  name: 401|🇨🇦CA-51.161.118.38-0071
   password: G!yBwPWH3Vao
   port: 805
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 401,545|🇦CA-51.161.118.38-100
+  name: 401|🇦CA-51.161.118.38-0072
   password: G!yBwPWH3Vao
   port: 812
   server: 51.161.118.38
@@ -560,7 +518,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '401,528,533,543,544|24|VMESS-加拿大-NF解锁加拿大地区非自制剧-Cha... #1'
+  name: 401,528|🇨🇦CA-51.79.103.76-1737
   network: ws
   port: 80
   server: 51.79.103.76
@@ -1067,7 +1025,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 401,500,528,544|3,20,21|🇨🇦CA-23.162.200.227-96...
+  name: 401,500,528,544|20,21|🇨🇦CA-23.162.200.227-9624...
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1198,7 +1156,7 @@ proxies:
   name: 449|🇨🇦 加拿大S01
   password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
   port: 20059
-  server: r0if4-g06.ca01-ae5.entry.v50307shvkaa.art
+  server: bejyx-g06.ca01-ae5.entry.v50307shvkaa.art
   type: ss
   udp: true
 - alterId: 0
@@ -1456,8 +1414,8 @@ proxies:
   name: '479,480|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
   network: ws
   port: 2083
-  server: 1745260341.tencentapp.cn
-  servername: 1745259778.speed.fdvb.cccp.freefly.pp.ua
+  server: 1745286741.tencentapp.cn
+  servername: 1745286778.speed.fdvb.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1465,7 +1423,7 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1745259778.speed.fdvb.cccp.freefly.pp.ua
+      Host: 1745286778.speed.fdvb.cccp.freefly.pp.ua
     path: /
 - name: '501|加拿大_多伦多 #42'
   network: ws
@@ -1639,7 +1597,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 502,545|🏁RELAY-104.19.32.46-111
+  name: 502,545|🏁RELAY-104.19.32.46-098
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -1965,7 +1923,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '502,548|关注电报https://t.me/aifenxiang202... #31'
+  name: '502|加拿大_多伦多 #244'
   network: ws
   port: 2086
   server: 104.26.8.156
@@ -2173,7 +2131,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,504,548|关注电报https://t.me/aifenxiang202... #1'
+  name: '502,504,548|关注电报https://t.me/aifenxiang202... #9'
   network: ws
   port: '2086'
   server: 104.26.0.56
@@ -2214,7 +2172,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,503,504|加拿大_多伦多 #355'
+  name: '502,503,504,548|关注电报https://t.me/aifenxiang202... #21'
   network: ws
   port: 2086
   server: ip.sb
@@ -2228,7 +2186,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,503,504,548|关注电报https://t.me/aifenxiang202... #22'
+  name: '502,503,504|加拿大_多伦多 #384'
   network: ws
   port: 2086
   server: malaysia.com
@@ -2242,7 +2200,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,548|关注电报https://t.me/aifenxiang202... #14'
+  name: '502,548|关注电报https://t.me/aifenxiang202... #6'
   network: ws
   port: 2086
   server: singapore.com
@@ -2255,7 +2213,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502|加拿大_多伦多 #266'
+  name: '502,548|关注电报https://t.me/aifenxiang202... #24'
   network: ws
   port: 2086
   server: japan.com
@@ -2294,7 +2252,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '502,548|关注电报https://t.me/aifenxiang202... #25'
+  name: '502|加拿大_多伦多 #269'
   network: ws
   port: 2086
   server: icook.tw
@@ -2346,7 +2304,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,548|关注电报https://t.me/aifenxiang202... #34'
+  name: '502|加拿大_多伦多 #273'
   network: ws
   port: 2086
   server: 104.19.21.63
@@ -2385,7 +2343,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '502,548|关注电报https://t.me/aifenxiang202... #32'
+  name: '502|加拿大_多伦多 #276'
   network: ws
   port: 2086
   server: 104.22.37.243
@@ -2567,9 +2525,9 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '502|加拿大_多伦多 #292'
+  name: 502,543|CF中转_0421208540 L6
   network: ws
-  port: 443
+  port: '443'
   server: 188.114.97.2
   tls: true
   type: vmess
@@ -3130,7 +3088,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '503,548|关注电报https://t.me/aifenxiang202... #24'
+  name: '503,548|关注电报https://t.me/aifenxiang202... #7'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3172,7 +3130,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #10'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #14'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3185,7 +3143,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #13'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #22'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3212,7 +3170,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #4'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #20'
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -3239,10 +3197,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504|加拿大_渥太華 #15'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #23'
   network: ws
   port: 2086
   server: 23.227.38.6
+  servername: ip006.3196772.xyz
   tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
@@ -3343,7 +3302,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #20'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #19'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -3370,7 +3329,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #15'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #32'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3423,7 +3382,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #21'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #18'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -3476,7 +3435,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #12'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #2'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -3503,7 +3462,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #7'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #4'
   network: ws
   port: 2086
   server: 104.19.46.233
@@ -3582,7 +3541,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #17'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #3'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -3778,7 +3737,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '504,548|关注电报https://t.me/aifenxiang202... #2'
+  name: '504,548|关注电报https://t.me/aifenxiang202... #17'
   network: ws
   port: 2086
   server: 104.16.148.244
@@ -3866,205 +3825,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 537|🇨 加拿大-多-1C
+  name: '533,543,544|24|🇨🇦 _加拿大 #5'
   network: ws
-  port: 57729
-  server: 183.240.228.220
+  port: '80'
+  server: 51.79.103.76
   tls: false
   type: vmess
-  udp: true
-  uuid: 5bd174e5-1a38-4357-800f-d4d9033c67da
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 01-1E
-  password: af5704e1-bf62-4645-a036-eec4ff042b10
-  port: 48801
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大A
-  port: 30338
-  server: 36.151.194.33
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9121a7a0-8856-48de-aa84-777b5dbc3774
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 02-1B
-  password: 3f08a9af-191f-4a6c-bef5-e35dcc3b1149
-  port: 48871
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇨🇦 VIP 加拿大1-1B
-  password: 0e8f0cec-dfd7-4172-811e-6de52fe2b149
-  port: 47071
-  server: ca01.jiasudu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大-1B
-  password: 272dbf8e-1721-4d2b-98ed-5b1bc7ea61a6
-  port: 62528
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大2-1A
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c54f0c57-4d0f-420c-ba8f-10851a1b797d
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 02-1D
-  password: a08fea76-11c1-4f8a-9bc6-676c3a44de94
-  port: 48871
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大2-1C
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e569353-42db-443a-a412-2c9b0ac08163
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 01-1C
-  password: cd7a9d4b-29a4-49eb-a2a3-3a445f992269
-  port: 48801
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 01-1B
-  password: 3f08a9af-191f-4a6c-bef5-e35dcc3b1149
-  port: 48801
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大-多-1B
-  network: ws
-  port: 57729
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 82e6e56e-83c1-4159-8d82-6c83a3dd66d1
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '537|🇨🇦 加拿大-1A #1'
-  password: 272dbf8e-1721-4d2b-98ed-5b1bc7ea61a6
-  port: 62527
-  server: hry01.2228333.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大1-1B
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63f135df-c32d-4f5f-b12e-e47fd27167cd
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大-多-1A
-  network: ws
-  port: 57729
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f6462ed0-ba80-4da0-982d-5df76fb7efc0
-  ws-opts:
-    headers:
-      Host: www.baidu.com
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 537|🇦 加拿大2-1B
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63f135df-c32d-4f5f-b12e-e47fd27167cd
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 01-1D
-  password: a08fea76-11c1-4f8a-9bc6-676c3a44de94
-  port: 48801
-  server: aambx01qt.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 537|🇦 VIP 加拿大1-1D
-  password: 20d2dffe-ca3a-431d-aa00-d5c9ffbc24b1
-  port: 47071
-  server: ca01.jiasudu.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 537|🇦 加拿大1-1C
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e569353-42db-443a-a412-2c9b0ac08163
-- alterId: 0
-  cipher: auto
-  name: 537,544|28|🇦 加拿大-多-1D
+  name: '533,544|24|🇨🇦 _加拿大 #4'
   network: ws
-  port: 57729
-  server: 183.240.228.220
+  port: '80'
+  server: 51.79.102.253
   tls: false
   type: vmess
-  udp: true
-  uuid: 660d5282-f39b-40ce-b56f-846a1a2b2175
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: www.baidu.com
+      Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 02-1C
-  password: cd7a9d4b-29a4-49eb-a2a3-3a445f992269
-  port: 48871
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇦 加拿大 02-1A
-  password: 47912793-4096-4df1-9edb-e4d52e10810d
-  port: 48871
-  server: aambx02qw.dorabbb.top
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 537|🇦 CM 隧道 加拿大 NO1
-  password: 3f2135df-83d3-458d-8c67-41ecb2ac386f
-  port: 12558
-  server: sd.needss.top
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 542|0|🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -4090,21 +3874,8 @@ proxies:
   uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ''
+      Host: teams.microsoft.com
     path: /
-- alterId: 1
-  cipher: auto
-  name: 543|🇨🇦 加拿大_042110070 L0
-  network: ws
-  port: '443'
-  server: 15.235.83.228
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kapelleng.com
-    path: /linkvws
 - name: 544|8|🇨🇦CA-15.222.64.220-198_1@198
   password: xV6yLF0Z69Hm
   port: 16700
@@ -4422,6 +4193,19 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: 544|28|🇦 加拿大-多-1D
+  network: ws
+  port: 57729
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: 660d5282-f39b-40ce-b56f-846a1a2b2175
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 544|28|🇦 加拿大A
   network: tcp
   port: 30338
@@ -4438,19 +4222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 63f135df-c32d-4f5f-b12e-e47fd27167cd
-- alterId: 2
-  cipher: auto
-  name: '546|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #27'
-  network: ws
-  port: '443'
-  server: 330hk02.fans8.xyz
-  tls: true
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  ws-opts:
-    headers:
-      Host: 330hk02.fans8.xyz
-    path: /ray
 - alterId: 0
   cipher: auto
   name: '547|加拿大2 #3'
@@ -4459,7 +4230,7 @@ proxies:
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: eefbcc97-0262-420d-bae9-cad2b91c4419
+  uuid: a94bedd6-1297-4102-b3fb-f498a385269e
 - alterId: 0
   cipher: auto
   name: '547|加拿大1 #4'
@@ -4468,7 +4239,21 @@ proxies:
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: eefbcc97-0262-420d-bae9-cad2b91c4419
+  uuid: a94bedd6-1297-4102-b3fb-f498a385269e
+- alterId: 0
+  cipher: auto
+  name: 548|👉🆔@v2ray_configs_pool📡🇨🇦®️Cana...
+  network: ws
+  port: 443
+  server: 172.67.154.84
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - name: 550|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
   network: tcp
   password: Aimer
@@ -4546,8 +4331,8 @@ proxies:
   udp: true
 - name: 648|Trojan-加拿大2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 46241
-  server: f99e0d7c36210ea406812ad65a006e0c.lh.gtm.node-is.green
+  port: 49435
+  server: e9153f6847c1d076b2faab59f553d961.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4576,8 +4361,8 @@ proxies:
   udp: true
 - name: '649|Trojan-加拿大2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 45552
-  server: 51d70f8e49bc88bfbc4643c994e4beaf.lh.gtm.node-is.green
+  port: 44322
+  server: d4ea4145fcc01130bd1a1883f80eb3aa.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4606,8 +4391,8 @@ proxies:
   udp: true
 - name: '650|Trojan-加拿大2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 43141
-  server: a93ca62dd6013ac5a485569cb44064d1.lh.gtm.node-is.green
+  port: 43145
+  server: 0e98a7f5e0b2fb7443a4c823fc8750f1.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4636,16 +4421,16 @@ proxies:
   udp: true
 - name: '651|Trojan-加拿大2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 49257
-  server: 23f0862ef951c3e5bad2042cb9731609.lh.gtm.node-is.green
+  port: 43597
+  server: b2a79fde3a6414413bee5c467e236824.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - name: 653|V1-加拿大-IPv6
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 49661
-  server: fefdd430fab4ef44ebf3f307f47e45ec.v1.cac.node-is.green
+  port: 49201
+  server: cd0244e0196fc45b6ac5f8c5f4bf5ffa.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan

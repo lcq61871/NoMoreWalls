@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 178|波兰
-  password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
-  port: 51079
-  server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 382,401|🇱PL-51.77.53.200-8560
   password: faBAoD54k87UJG7
@@ -255,14 +248,7 @@ proxies:
   server: 217.30.10.63
   type: ss
 - cipher: aes-256-cfb
-  name: 401|🇵🇱PL-217.30.10.18-6834
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇵🇱PL
-  name: 401,484|🇵🇱PL_910 | 7.84Mb
+  name: 401|🇵🇱PL-217.30.10.18-7503
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 217.30.10.18
@@ -451,44 +437,9 @@ proxies:
     headers:
       Host: 3h-poland1.09vpn.com
     path: /vmess/
-- cipher: aes-256-gcm
-  name: 537|🇱 VIP 波兰1-1B
-  password: 0e8f0cec-dfd7-4172-811e-6de52fe2b149
-  port: 47085
-  server: pl01.jiasudu.buzz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇱 波兰 弗罗茨瓦夫-1A
-  password: 47912793-4096-4df1-9edb-e4d52e10810d
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇱 波兰 -1D
-  password: a08fea76-11c1-4f8a-9bc6-676c3a44de94
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇱 波兰 罗-1B
-  password: 3f08a9af-191f-4a6c-bef5-e35dcc3b1149
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 537|🇱 波兰 -1E
-  password: af5704e1-bf62-4645-a036-eec4ff042b10
-  port: 48876
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 543|🇵🇱 波兰_042110007 L33
+  name: 543|🇵🇱 波兰_042120007 L33
   network: ws
   port: '443'
   server: 57.128.193.117
