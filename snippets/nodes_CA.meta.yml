@@ -1,5 +1,5 @@
 proxies:
-- name: 6|🇨🇦 加拿大
+- name: 7|🇨🇦 加拿大
   password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
   port: 50121
   server: lm.kaiqsz.com
@@ -9,7 +9,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 53|🇨🇦 加拿大2
+  name: 54|🇨🇦 加拿大2
   port: 45065
   server: xdd.dashuai.cyou
   tls: false
@@ -18,14 +18,14 @@ proxies:
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
 - alterId: 0
   cipher: auto
-  name: 53|🇨🇦 加拿大1
+  name: 54|🇨🇦 加拿大1
   port: 45064
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
   uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- name: 53|🇨🇦 加拿大-1A
+- name: 54|🇨🇦 加拿大-1A
   network: ws
   port: 2086
   server: ccy.colacloud.free.hr
@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: caaa.colacloud.free.hr
     path: /xxxzzz
-- name: 53|🇨🇦 加拿大-1B
+- name: 54|🇨🇦 加拿大-1B
   network: ws
   port: 2086
   server: ccy.colacloud.free.hr
@@ -51,7 +51,7 @@ proxies:
     path: /xxxzzz
 - auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
   delay: 1771
-  name: 70,378,535|加拿大 - 旺市 - Cloudflare, Inc. - ...
+  name: 71,378,534|加拿大 - 旺市 - Cloudflare, Inc. - ...
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 155.248.219.28
@@ -61,36 +61,53 @@ proxies:
   udp: true
 - cipher: rc4-md5
   delay: 70
-  name: 70,378,535|加拿大 - 渥太華 - Prime Security Cor...
+  name: 71,378,534|加拿大 - 渥太華 - Prime Security Cor...
   password: 5czcr84s0ab
   port: 7780
   server: 118.184.136.48
   type: ss
 - cipher: rc4-md5
   delay: 74
-  name: '70,378,535|加拿大 - 渥太華 - Prime Security Cor... #1'
+  name: '71,378,534|加拿大 - 渥太華 - Prime Security Cor... #1'
   password: 5czcr84s0ab
   port: 7780
   server: 118.184.136.53
   type: ss
 - cipher: aes-256-gcm
-  name: 71|ᴄᴀ 加拿大
+  name: 72|ᴄᴀ 加拿大
   password: e0372a5e-4884-49ba-85aa-1938733e7041
   port: 35013
   server: 35013.fishportnode.top
   type: ss
   udp: true
+- auth: 6f5b7b5b-b777-4bf2-a34d-eee6f8f70032
+  name: '100,487|🇨🇦 加拿大-1B #2'
+  password: 6f5b7b5b-b777-4bf2-a34d-eee6f8f70032
+  port: 8080
+  server: ca.sinqin.net
+  skip-cert-verify: false
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '99,488|🇨🇦 加拿大2 #3'
+  name: '100,487|🇨🇦 加拿大2 #3'
   port: 45065
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: ca2c536a-9158-461c-9fd9-07050ba2c3b5
+  uuid: e441506f-8409-4ce3-be4f-1a497b5f3db1
+- alterId: 0
+  cipher: auto
+  name: '100,487|🇨🇦 加拿大1 #3'
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e441506f-8409-4ce3-be4f-1a497b5f3db1
 - auth: 2d7e4f4a-632a-4369-9846-2d8ba3236522
-  name: '99,488|🇨🇦 加拿大 #4'
+  name: '100,487|🇨🇦 加拿大-1A #2'
   password: 2d7e4f4a-632a-4369-9846-2d8ba3236522
   port: 8080
   server: ca.sinqin.net
@@ -99,33 +116,34 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '99,488|🇨🇦 加拿大1 #3'
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca2c536a-9158-461c-9fd9-07050ba2c3b5
-- alterId: 0
-  cipher: auto
-  name: '100,101,492,493|加拿大2-1A #1'
+  name: '101,102,491,492|加拿大2-1A #1'
   port: 45065
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 24081f1c-a034-4345-9cbb-e416c73be780
+  uuid: 921214d1-9b68-4aaa-84d5-d8bef12926c6
 - alterId: 0
   cipher: auto
-  name: '100,101,492,493|加拿大1-1A #1'
+  name: '101,491|加拿大1 #3'
   port: 45064
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 24081f1c-a034-4345-9cbb-e416c73be780
+  uuid: 921214d1-9b68-4aaa-84d5-d8bef12926c6
+- alterId: 0
+  cipher: auto
+  name: '102,492|加拿大2-1B #1'
+  port: 45065
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6f455520-a2e9-47a2-9692-10fd80ac29ff
 - down: 0
   name: 165|🇨🇦 加拿大1 | x0.01
   password: 32d3795c-7e38-425a-8a8c-9d195d1cb351
@@ -313,7 +331,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1ebeff0a-6b43-4585-9fab-97859991f1f7
-- name: 226|CAN 加拿大 01
+- name: 225|CAN 加拿大 01
   password: 2DA74574-AF08-3B41-CDF5-1E446CD90BCC
   port: 8612
   server: bldsh.linkcubecloud.org
@@ -321,9 +339,9 @@ proxies:
   sni: cos.ap-guangzhou.myqcloud.com
   type: trojan
 - down: 1000
-  name: '247|🇨🇦加拿大02 #1'
+  name: '246|🇨🇦加拿大02 #1'
   password: e558f60d-96be-447e-aaa8-21a9c9caf7a8
-  port: 20729
+  port: 20762
   ports: 20701-20799
   server: au.1e6af9be69cbae59cba.tech
   skip-cert-verify: false
@@ -331,52 +349,49 @@ proxies:
   type: hysteria2
   up: 1000
 - down: 1000
-  name: '248|🇨🇦加拿大02 #2'
+  name: '247|🇨🇦加拿大02 #2'
   password: 41fb3188-ebdf-43a8-9168-015df84ba376
-  port: 20779
+  port: 20737
   ports: 20701-20799
   server: au.1e6af9be69cbae59cba.tech
   skip-cert-verify: false
   sni: au.1e6af9be69cbae59cba.tech
   type: hysteria2
   up: 1000
-- name: '278,463|🇨🇦 加拿大-碧海云 2 #3'
-  password: 37941eb0-1a5d-4863-987d-06dd4d6976cb
+- name: 277|🇨🇦 加拿大-碧海云
+  password: a1aa0ee5-bec0-4a8b-80d5-2e3be2298b21
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 278|🇨🇦 加拿大-碧海云 2
-  password: cd22b96b-9332-4df7-b2fa-def3cf9b9093
+- name: 277|🇨🇦 加拿大-碧海云 2
+  password: c6b1191e-d728-426a-9267-8ee85cf0fa6f
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇨🇦 加拿大-碧海云 #1'
-  password: f8c2a2c5-decd-4070-88c0-ac5a4cfa6130
+- name: '278|🇨🇦 加拿大-碧海云 #1'
+  password: 29cb178c-41b9-44fd-a851-8eab9538ddd6
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇨🇦 加拿大-碧海云 2 #1'
-  password: d38825b2-8aa4-48dd-81dc-9ace863448b0
+- name: '278|🇨🇦 加拿大-碧海云 2 #1'
+  password: 682239b2-4134-49cc-b6f5-5858eb717a45
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- down: 1000
-  name: '320|🇨🇦加拿大02 #3'
-  password: c5ff9416-15f6-4919-a928-dc94a8290086
-  port: 20726
-  ports: 20701-20799
-  server: au.1e6af9be69cbae59cba.tech
-  skip-cert-verify: false
-  sni: au.1e6af9be69cbae59cba.tech
-  type: hysteria2
-  up: 1000
+- cipher: chacha20-ietf-poly1305
+  name: 279|🇨🇦加拿大 01 | 1x CA
+  password: 5a31e39f-0b44-4baa-94c9-c6a34d8ff5d8
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 332|🇨🇦 CA加拿大多伦多x1直连
+  name: 331|🇨🇦 CA加拿大多伦多x1直连
   port: 23258
   reality-opts:
     public-key: p-g7A0RMBXZOUey2V-HjWsI-5j-EpNITj_JVqx_9OnI
@@ -395,7 +410,7 @@ proxies:
   server: haa.dashuai.cyou
   type: vmess
   udp: true
-  uuid: b57c42f7-1b18-4267-ba07-981034f54ca6
+  uuid: 3a72836e-e879-4218-9a14-a34feda36c2d
 - alterId: 0
   cipher: auto
   name: '353|加拿大2 #1'
@@ -403,16 +418,16 @@ proxies:
   server: xdd.dashuai.cyou
   type: vmess
   udp: true
-  uuid: b57c42f7-1b18-4267-ba07-981034f54ca6
+  uuid: 3a72836e-e879-4218-9a14-a34feda36c2d
 - cipher: chacha20-ietf-poly1305
-  name: '357|🇨🇦 加拿大 #2'
+  name: '357|🇨🇦 加拿大 #1'
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47503
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '358|🇨🇦 加拿大 #3'
+  name: '358|🇨🇦 加拿大 #2'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47503
   server: 01.liantongzf.one
@@ -427,7 +442,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '374,555,677|🇨🇦 加拿大 #7'
+  name: '374,554,677|🇨🇦 加拿大 #5'
   network: tcp
   port: 16011
   reality-opts:
@@ -439,9 +454,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 374,414,547,555|1|🇨🇦3 |  2.3MB/s
+- name: 374,528,532,554|2|🇨🇦3 |  2.3MB/s
   obfs: ''
   obfs-password: ''
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
@@ -454,7 +467,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-  name: 374,523,555|5|14|CA_speednode_0001
+  name: 374,522,554|5|14|CA_speednode_0001
   port: 42557
   server: 155.248.219.28
   servername: www.yahoo.com
@@ -470,14 +483,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇦CA
-  name: 393,412,497|🇦CA_128
+  name: 393,412,496|🇦CA_122
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇨 CZ
-  name: 393,412,497,564|SS-拿大-NF解锁加拿大地区非自制剧-ChatGPT-Ti...
+  country: 🇿 CZ
+  name: 393,412,496,563|SS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-T...
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 79.127.233.170
@@ -517,80 +530,80 @@ proxies:
   udp: true
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
 - cipher: aes-256-gcm
-  name: 412,556|CA-134.195.196.68-065
+  name: 412,555|CA-134.195.196.68-065
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-066
+  name: 412,555|🇨🇦CA-134.195.196.68-066
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-067
+  name: 412,555|🇨🇦CA-134.195.196.68-067
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-068
+  name: 412,555|🇨🇦CA-134.195.196.68-068
   password: XKFKl2rULjIp74
   port: 8008
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-069
+  name: 412,555|🇨🇦CA-134.195.196.68-069
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-070
+  name: 412,555|🇨🇦CA-134.195.196.68-070
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-071
+  name: 412,555|🇨🇦CA-134.195.196.68-071
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-072
+  name: 412,555|🇨🇦CA-134.195.196.68-072
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇦CA-134.195.196.68-073
+  name: 412,555|🇦CA-134.195.196.68-073
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-074
+  name: 412,555|🇨🇦CA-134.195.196.68-074
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-075
+  name: 412,555|🇨🇦CA-134.195.196.68-075
   password: e4FCWrgpkji3QY
   port: 9101
   server: 134.195.196.68
   type: ss
 - cipher: aes-256-gcm
-  name: 412,556|🇨🇦CA-134.195.196.68-076
+  name: 412,555|🇨🇦CA-134.195.196.68-076
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 134.195.196.68
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-23.162.200.227-0981
+  name: 412,538|🇨🇦CA-23.162.200.227-0981
   network: ws
   port: 443
   server: 23.162.200.227
@@ -605,7 +618,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-134.195.198.147-0990
+  name: 412,538|🇨🇦CA-134.195.198.147-0990
   network: ws
   port: 443
   server: 134.195.198.147
@@ -619,7 +632,7 @@ proxies:
       Host: inna.cfd
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 412,497|_04
+  name: 412,496|_04
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
@@ -638,7 +651,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-104.247.81.52-1598
+  name: 412,538|🇨🇦CA-104.247.81.52-1598
   network: ws
   port: 443
   server: uk.xlkjjs.top
@@ -651,14 +664,14 @@ proxies:
     headers:
       Host: uk.xlkjjs.top
     path: /
-- name: 412,539|🇨🇦CA-148.113.141.99-1647
+- name: 412,538|🇨🇦CA-148.113.141.99-1647
   password: HdsUZmsHQW
   port: 443
   server: 148.113.141.99
   skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
-  name: 412,539|8J%2BHqPCfh6ZDQS0zLjk4LjUzLjc4...
+  name: 412,538|8J%2BHqPCfh6ZDQS0zLjk4LjUzLjc4...
   obfs: http_simple
   obfs-param: ''
   password: YpX2opBbrfqJzzMs
@@ -669,7 +682,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 412,539,544,554,555|24|VMESS-加拿大-NF解锁加拿大地区非自制剧-Cha...
+  name: 412,538,543,553,554|24|VMESS-加拿大-NF解锁加拿大地区非自制剧-Cha...
   network: ws
   port: 80
   server: 51.79.102.253
@@ -786,7 +799,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-132.145.99.228-2449
+  name: 412,538|🇨🇦CA-132.145.99.228-2449
   network: ws
   port: 13724
   server: 132.145.99.228
@@ -799,7 +812,7 @@ proxies:
     headers:
       Host: ''
     path: /ws-path
-- name: 412,539|🇨🇦CA-35.182.251.60-2501
+- name: 412,538|🇨🇦CA-35.182.251.60-2501
   password: telegram-id-directvpn
   port: 22222
   server: 35.182.251.60
@@ -808,7 +821,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-192.99.8.99-2549
+  name: 412,538|🇨🇦CA-192.99.8.99-2549
   network: ws
   port: 36005
   server: 192.99.8.99
@@ -821,7 +834,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 412,539|🇨🇦CA-159.203.13.11-2550
+- name: 412,538|🇨🇦CA-159.203.13.11-2550
   password: 286d5fae-eb42-4cd2-96c5-c7dfaaae67ac
   port: 1258
   server: t5.583181.xyz
@@ -830,7 +843,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-192.99.8.99-2552
+  name: 412,538|🇨🇦CA-192.99.8.99-2552
   network: ws
   port: 36005
   server: tcas.padra-holding.com
@@ -845,7 +858,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 412,539,555|23|🇨🇦_CA_加拿大
+  name: 412,538,554|23|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -862,7 +875,7 @@ proxies:
   port: 5004
   server: 198.57.27.218
   type: ss
-- name: 412,539|🇨🇦CA-51.222.86.136-3018
+- name: 412,538|🇨🇦CA-51.222.86.136-3018
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
@@ -876,7 +889,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-51.161.130.141-3556
+  name: 412,538|🇨🇦CA-51.161.130.141-3556
   network: ws
   port: 80
   server: 51.161.130.141
@@ -889,7 +902,7 @@ proxies:
     headers:
       Host: ''
     path: /JAGOANSSH/
-- name: 412,539|🇨🇦CA-149.56.141.11-4334
+- name: 412,538|🇨🇦CA-149.56.141.11-4334
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
@@ -903,7 +916,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-104.247.81.52-5411
+  name: 412,538|🇨🇦CA-104.247.81.52-5411
   network: ws
   port: 443
   server: tw.xlkjjs.top
@@ -918,7 +931,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-149.56.95.159-5439
+  name: 412,538|🇨🇦CA-149.56.95.159-5439
   network: ws
   port: 23784
   server: 149.56.95.159
@@ -933,7 +946,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 412,539|🇨🇦CA-138.197.165.31-5752
+  name: 412,538|🇨🇦CA-138.197.165.31-5752
   network: ws
   port: 8080
   server: 138.197.165.31
@@ -946,7 +959,7 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8
-- name: 412,497,539|🇨🇦CA-178.128.238.42-5946
+- name: 412,496,538|🇨🇦CA-178.128.238.42-5946
   password: acfef609-b3c7-4e52-b292-8921d5fca90d
   port: 443
   server: ca-full.privateip.net
@@ -954,7 +967,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-15.235.83.228-6514
+  name: 412,538|🇨🇦CA-15.235.83.228-6514
   network: ws
   port: 443
   server: 15.235.83.228
@@ -969,7 +982,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-15.235.83.227-6534
+  name: 412,538|🇨🇦CA-15.235.83.227-6534
   network: ws
   port: 443
   server: 15.235.83.227
@@ -984,7 +997,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-15.235.50.172-6549
+  name: 412,538|🇨🇦CA-15.235.50.172-6549
   network: ws
   port: 443
   server: 15.235.50.172
@@ -1215,7 +1228,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-137.184.164.233-9530
+  name: 412,538|🇨🇦CA-137.184.164.233-9530
   network: ws
   port: 80
   server: 137.184.164.233
@@ -1230,7 +1243,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 412,511,539|🇨🇦CA-15.235.83.227-9551
+  name: 412,510,538,554,561|🔒 VM-WS-TLS 🇨🇦 CA-15.235.83.22...
   network: ws
   port: 443
   server: 15.235.83.227
@@ -1245,7 +1258,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 412,511,539,555|3,20,21|🇨🇦CA-23.162.200.227-95...
+  name: 412,510,538,554|3,20,21|🇨🇦CA-23.162.200.227-95...
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1260,7 +1273,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-15.235.50.172-9555
+  name: 412,538|🇨🇦CA-15.235.50.172-9555
   network: ws
   port: 443
   server: 15.235.50.172
@@ -1275,7 +1288,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 412,539,555|20,21|🇨🇦CA-134.195.198.147-958...
+  name: 412,538,554|20,21|🇨🇦CA-134.195.198.147-958...
   network: ws
   port: 443
   server: 134.195.198.147
@@ -1290,7 +1303,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 412,539|🇨🇦CA-23.162.200.94-9828
+  name: 412,538|🇨🇦CA-23.162.200.94-9828
   network: ws
   port: 443
   server: 23.162.200.94
@@ -1305,7 +1318,7 @@ proxies:
     path: /linkvws
 - alterId: 1
   cipher: auto
-  name: 412,539|🇨🇦CA-134.195.198.92-9999
+  name: 412,538|🇨🇦CA-134.195.198.92-9999
   network: ws
   port: 443
   server: 134.195.198.92
@@ -1320,7 +1333,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 412,539|🇨🇦CA-23.162.200.141-10099
+  name: 412,538|🇨🇦CA-23.162.200.141-10099
   network: ws
   port: 443
   server: 23.162.200.141
@@ -1333,14 +1346,14 @@ proxies:
     headers:
       Host: 23.162.200.141
     path: linkvws
-- name: 412,539|🇨🇦CA-35.182.28.167-10828
+- name: 412,538|🇨🇦CA-35.182.28.167-10828
   password: telegram-id-directvpn
   port: 22222
   server: 35.182.28.167
   skip-cert-verify: false
   sni: trj.rollingnext.co.uk
   type: trojan
-- name: 412,539|🇨🇦CA-3.96.217.9-10854
+- name: 412,538|🇨🇦CA-3.96.217.9-10854
   password: telegram-id-directvpn
   port: 22222
   server: 3.96.217.9
@@ -1350,7 +1363,7 @@ proxies:
 - down: null
   name: '422|加拿大1 #2'
   password: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1
-  port: 21222
+  port: 25595
   ports: 21000-26000
   server: jnd1.gywanglug.xyz
   skip-cert-verify: true
@@ -1359,52 +1372,58 @@ proxies:
   up: null
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 446|🇨🇦 加拿大|CA1
+  name: 445|🇨🇦 加拿大|CA1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 19915
   server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 460|🇨🇦 加拿大S01
+  name: 459|🇨🇦 加拿大S01
   password: f276a3e8-b5ea-3f01-95ba-acf0a5ac6503
   port: 20059
-  server: z24t7-g06.ca01-ae5.entry.v50307shvkaa.art
+  server: t9jby-g06.ca01-ae5.entry.v50307shvkaa.art
   type: ss
   udp: true
-- name: '462|🇨🇦 加拿大-碧海云 #2'
-  password: baad56e0-0c2b-4d8e-91e5-30c626dc3a3e
+- name: '461|🇨🇦 加拿大-碧海云 #2'
+  password: 427e4e48-c029-4b33-a912-8d9d8c0ad9a3
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '462|🇨🇦 加拿大-碧海云 2 #2'
-  password: d435990e-04b1-434b-9703-bfa15bb303cc
+- name: '461|🇨🇦 加拿大-碧海云 2 #2'
+  password: b2f0ae42-6287-4c7a-92c1-3b7afbb6a429
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '463|🇨🇦 加拿大-碧海云 #3'
-  password: 13a7e9aa-d25d-4d17-ab35-58b7215ba918
+- name: '462|🇨🇦 加拿大-碧海云 #3'
+  password: 01a9f810-1949-4564-a9a8-71d1f8d35939
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '464|🇨🇦 加拿大-碧海云 #4'
-  password: 9aa97386-3e68-4873-a188-421cdadcbbc7
+- name: '462|🇨🇦 加拿大-碧海云 2 #3'
+  password: 0fcaedb9-e6c1-4db2-844d-ce1834640cb0
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '464|🇨🇦 加拿大-碧海云 2 #4'
-  password: e463ab31-cb74-44aa-aa17-dd02302cbb95
+- name: '463|🇨🇦 加拿大-碧海云 #4'
+  password: 1259b7c4-11a4-4cfc-ba8c-b78d611650d1
+  port: 34016
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: '463|🇨🇦 加拿大-碧海云 2 #4'
+  password: 6b7ad66a-aef8-4cb4-aaa0-347ffcbb3218
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 470|加拿大-优化
+  name: 469|加拿大-优化
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1420,7 +1439,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 470|加拿大-优化2
+  name: 469|加拿大-优化2
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1436,7 +1455,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 470|加拿大-优化3
+  name: 469|加拿大-优化3
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1452,7 +1471,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471|加拿大-优化 #1'
+  name: '470|加拿大-优化 #1'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1468,7 +1487,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471|加拿大-优化2 #1'
+  name: '470|加拿大-优化2 #1'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1484,7 +1503,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '471|加拿大-优化3 #1'
+  name: '470|加拿大-优化3 #1'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1500,7 +1519,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '472,473|加拿大-优化 #3'
+  name: '471,472|加拿大-优化 #3'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1516,7 +1535,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '472,473|加拿大-优化2 #3'
+  name: '471,472|加拿大-优化2 #3'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1532,7 +1551,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '472,473|加拿大-优化3 #3'
+  name: '471,472|加拿大-优化3 #3'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1547,7 +1566,7 @@ proxies:
     path: /
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 478|🇨🇦Canada 02
+  name: 477|🇨🇦Canada 02
   password: ee802256-9a25-41aa-a368-72042786bcff
   port: 25234
   server: ore.zenovz.xyz
@@ -1555,7 +1574,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '480,481,482,483,484,485|加拿大-优化 #9'
+  name: '479,480,481,482,483,484|加拿大-优化 #9'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1571,7 +1590,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '480,481,482,483,484,485|加拿大-优化2 #9'
+  name: '479,480,481,482,483,484|加拿大-优化2 #9'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1587,7 +1606,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '480,481,482,483,484,485|加拿大-优化3 #9'
+  name: '479,480,481,482,483,484|加拿大-优化3 #9'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1603,7 +1622,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '486|加拿大-优化 #10'
+  name: '485|加拿大-优化 #10'
   network: ws
   port: 16641
   server: yes.mojcn.com
@@ -1619,7 +1638,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '486|加拿大-优化2 #10'
+  name: '485|加拿大-优化2 #10'
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -1635,7 +1654,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '486|加拿大-优化3 #10'
+  name: '485|加拿大-优化3 #10'
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -1651,11 +1670,11 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '490,491|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
+  name: '489,490|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
   network: ws
-  port: 2096
-  server: 1745389941.tencentapp.cn
-  servername: 1745389978.speed.fdvb.cccp.freefly.pp.ua
+  port: 2053
+  server: 1745412141.tencentapp.cn
+  servername: 1745412178.speed.fdvb.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1663,9 +1682,9 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1745389978.speed.fdvb.cccp.freefly.pp.ua
+      Host: 1745412178.speed.fdvb.cccp.freefly.pp.ua
     path: /
-- name: 512|加拿大_多伦多
+- name: 511|加拿大_多伦多
   network: ws
   port: 443
   server: malaysia.com
@@ -1677,7 +1696,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #1'
+- name: '511|加拿大_多伦多 #1'
   network: ws
   port: 8080
   server: hz.ylks.xyz
@@ -1686,7 +1705,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #2'
+- name: '511|加拿大_多伦多 #2'
   network: ws
   port: 2082
   server: hz.ylks.xyz
@@ -1695,7 +1714,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #3'
+- name: '511|加拿大_多伦多 #3'
   network: ws
   port: 2096
   server: hz.ylks.xyz
@@ -1707,7 +1726,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #4'
+- name: '511|加拿大_多伦多 #4'
   network: ws
   port: 443
   server: singapore.com
@@ -1719,7 +1738,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #5'
+- name: '511|加拿大_多伦多 #5'
   network: ws
   port: 8443
   server: singapore.com
@@ -1731,7 +1750,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #6'
+- name: '511|加拿大_多伦多 #6'
   network: ws
   port: 443
   server: singapore.com
@@ -1743,7 +1762,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #7'
+- name: '511|加拿大_多伦多 #7'
   network: ws
   port: 443
   server: singapore.com
@@ -1755,7 +1774,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #8'
+- name: '511|加拿大_多伦多 #8'
   network: ws
   port: 443
   server: time.is
@@ -1767,7 +1786,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #9'
+- name: '511|加拿大_多伦多 #9'
   network: ws
   port: 443
   server: singapore.com
@@ -1779,7 +1798,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #10'
+- name: '511|加拿大_多伦多 #10'
   network: ws
   port: 8443
   server: time.is
@@ -1791,7 +1810,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #11'
+- name: '511|加拿大_多伦多 #11'
   network: ws
   port: 443
   server: time.is
@@ -1803,7 +1822,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #12'
+- name: '511|加拿大_多伦多 #12'
   network: ws
   port: 443
   server: time.is
@@ -1815,7 +1834,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #13'
+- name: '511|加拿大_多伦多 #13'
   network: ws
   port: 443
   server: singapore.com
@@ -1827,7 +1846,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #14'
+- name: '511|加拿大_多伦多 #14'
   network: ws
   port: 443
   server: time.is
@@ -1839,7 +1858,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #15'
+- name: '511|加拿大_多伦多 #15'
   network: ws
   port: 443
   server: singapore.com
@@ -1851,7 +1870,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #16'
+- name: '511|加拿大_多伦多 #16'
   network: ws
   port: 2095
   server: hz.ylks.xyz
@@ -1860,7 +1879,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #17'
+- name: '511|加拿大_多伦多 #17'
   network: ws
   port: 2053
   server: hz.ylks.xyz
@@ -1872,7 +1891,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #18'
+- name: '511|加拿大_多伦多 #18'
   network: ws
   port: 2096
   server: www.gco.gov.qa
@@ -1884,7 +1903,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #19'
+- name: '511|加拿大_多伦多 #19'
   network: ws
   port: 2052
   server: hz.ylks.xyz
@@ -1893,7 +1912,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #20'
+- name: '511|加拿大_多伦多 #20'
   network: ws
   port: 8880
   server: hz.ylks.xyz
@@ -1902,7 +1921,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #21'
+- name: '511|加拿大_多伦多 #21'
   network: ws
   port: 2086
   server: hz.ylks.xyz
@@ -1911,7 +1930,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #22'
+- name: '511|加拿大_多伦多 #22'
   network: ws
   port: 443
   server: hz.ylks.xyz
@@ -1923,7 +1942,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #23'
+- name: '511|加拿大_多伦多 #23'
   network: ws
   port: 2083
   server: hz.ylks.xyz
@@ -1935,7 +1954,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #24'
+- name: '511|加拿大_多伦多 #24'
   network: ws
   port: 2053
   server: www.gov.ua
@@ -1947,7 +1966,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #25'
+- name: '511|加拿大_多伦多 #25'
   network: ws
   port: 2053
   server: www.gco.gov.qa
@@ -1959,7 +1978,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #26'
+- name: '511|加拿大_多伦多 #26'
   network: ws
   port: 8443
   server: www.gco.gov.qa
@@ -1971,7 +1990,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #27'
+- name: '511|加拿大_多伦多 #27'
   network: ws
   port: 8443
   server: hz.ylks.xyz
@@ -1983,7 +2002,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #28'
+- name: '511|加拿大_多伦多 #28'
   network: ws
   port: 80
   server: hz.ylks.xyz
@@ -1992,7 +2011,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #29'
+- name: '511|加拿大_多伦多 #29'
   network: ws
   port: 8443
   server: www.gov.se
@@ -2004,7 +2023,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #30'
+- name: '511|加拿大_多伦多 #30'
   network: ws
   port: 8443
   server: www.gov.ua
@@ -2016,7 +2035,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #31'
+- name: '511|加拿大_多伦多 #31'
   network: ws
   port: 443
   server: xn--b6gac.eu.org
@@ -2028,7 +2047,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #32'
+- name: '511|加拿大_多伦多 #32'
   network: ws
   port: 80
   server: hz.ylks.xyz
@@ -2037,7 +2056,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: '%2F'
-- name: '512|加拿大_多伦多 #33'
+- name: '511|加拿大_多伦多 #33'
   network: ws
   port: 443
   server: time.is
@@ -2049,7 +2068,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #34'
+- name: '511|加拿大_多伦多 #34'
   network: ws
   port: 8443
   server: russia.com
@@ -2061,7 +2080,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #35'
+- name: '511|加拿大_多伦多 #35'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2073,7 +2092,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #36'
+- name: '511|加拿大_多伦多 #36'
   network: ws
   port: 443
   server: www.gco.gov.qa
@@ -2085,7 +2104,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #37'
+- name: '511|加拿大_多伦多 #37'
   network: ws
   port: 2096
   server: www.gov.se
@@ -2097,7 +2116,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: 512|加拿大_蒙特利尔
+- name: 511|加拿大_蒙特利尔
   network: ws
   port: 443
   server: www.udemy.com
@@ -2109,7 +2128,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #38'
+- name: '511|加拿大_多伦多 #38'
   network: ws
   port: 2083
   server: russia.com
@@ -2121,7 +2140,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #39'
+- name: '511|加拿大_多伦多 #39'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2133,7 +2152,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #40'
+- name: '511|加拿大_多伦多 #40'
   network: ws
   port: 2096
   server: www.baipiao.eu.org
@@ -2145,7 +2164,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #41'
+- name: '511|加拿大_多伦多 #41'
   network: ws
   port: 443
   server: 192.18.148.248
@@ -2157,7 +2176,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #42'
+- name: '511|加拿大_多伦多 #42'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -2167,7 +2186,7 @@ proxies:
     headers:
       Host: tz.ylks.xyz
     path: '%2F'
-- name: '512|加拿大_蒙特利尔 #1'
+- name: '511|加拿大_蒙特利尔 #1'
   network: ws
   port: 2083
   server: www.gov.se
@@ -2179,7 +2198,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_蒙特利尔 #2'
+- name: '511|加拿大_蒙特利尔 #2'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2191,7 +2210,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #43'
+- name: '511|加拿大_多伦多 #43'
   network: ws
   port: 2087
   server: hz.ylks.xyz
@@ -2203,7 +2222,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '512|加拿大_多伦多 #44'
+- name: '511|加拿大_多伦多 #44'
   network: ws
   port: 8443
   server: russia.com
@@ -2215,7 +2234,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #45'
+- name: '511|加拿大_多伦多 #45'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2227,7 +2246,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #46'
+- name: '511|加拿大_多伦多 #46'
   network: ws
   port: 8443
   server: russia.com
@@ -2239,7 +2258,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #47'
+- name: '511|加拿大_多伦多 #47'
   network: ws
   port: 443
   server: 140.238.158.238
@@ -2251,7 +2270,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #48'
+- name: '511|加拿大_多伦多 #48'
   network: ws
   port: 2096
   server: vz.ylks.xyz
@@ -2263,7 +2282,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fwhgmwa8w1baeecgl%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #49'
+- name: '511|加拿大_多伦多 #49'
   network: ws
   port: 2053
   server: www.hugedomains.com
@@ -2275,7 +2294,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #50'
+- name: '511|加拿大_多伦多 #50'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2287,7 +2306,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #51'
+- name: '511|加拿大_多伦多 #51'
   network: ws
   port: 2096
   server: www.hugedomains.com
@@ -2299,7 +2318,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #52'
+- name: '511|加拿大_多伦多 #52'
   network: ws
   port: 2087
   server: vz.ylks.xyz
@@ -2311,7 +2330,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Foytxracjgshnl3al%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #53'
+- name: '511|加拿大_多伦多 #53'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2323,7 +2342,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_蒙特利尔 #3'
+- name: '511|加拿大_蒙特利尔 #3'
   network: ws
   port: 443
   server: 168.138.71.220
@@ -2335,7 +2354,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #54'
+- name: '511|加拿大_多伦多 #54'
   network: ws
   port: 80
   server: xn--b6gac.eu.org
@@ -2347,7 +2366,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #55'
+- name: '511|加拿大_多伦多 #55'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2359,7 +2378,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #56'
+- name: '511|加拿大_多伦多 #56'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -2371,7 +2390,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2F9ws2guozwys3100b%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #57'
+- name: '511|加拿大_多伦多 #57'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2383,7 +2402,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #58'
+- name: '511|加拿大_多伦多 #58'
   network: ws
   port: 8443
   server: xn--b6gac.eu.org
@@ -2395,7 +2414,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #59'
+- name: '511|加拿大_多伦多 #59'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2407,7 +2426,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #60'
+- name: '511|加拿大_多伦多 #60'
   network: ws
   port: 8443
   server: www.whatismyip.com
@@ -2419,7 +2438,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #61'
+- name: '511|加拿大_多伦多 #61'
   network: ws
   port: 2096
   server: vz.ylks.xyz
@@ -2431,7 +2450,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fzioswbs3akqq8sak%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #62'
+- name: '511|加拿大_多伦多 #62'
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -2441,7 +2460,7 @@ proxies:
     headers:
       Host: tz.ylks.xyz
     path: '%2F'
-- name: '512|加拿大_多伦多 #63'
+- name: '511|加拿大_多伦多 #63'
   network: ws
   port: 2096
   server: vz.ylks.xyz
@@ -2453,7 +2472,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fhg1cpsv9aotzgioe%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #64'
+- name: '511|加拿大_多伦多 #64'
   network: ws
   port: 2083
   server: vz.ylks.xyz
@@ -2465,7 +2484,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fgm3ibcltutyk2zh7%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #65'
+- name: '511|加拿大_多伦多 #65'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -2477,7 +2496,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fh7rsq4fvhgrcqo2t%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #66'
+- name: '511|加拿大_多伦多 #66'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2489,7 +2508,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #67'
+- name: '511|加拿大_多伦多 #67'
   network: ws
   port: 443
   server: japan.com
@@ -2501,7 +2520,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #68'
+- name: '511|加拿大_多伦多 #68'
   network: ws
   port: 443
   server: japan.com
@@ -2513,7 +2532,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #69'
+- name: '511|加拿大_多伦多 #69'
   network: ws
   port: 443
   server: japan.com
@@ -2525,7 +2544,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #70'
+- name: '511|加拿大_多伦多 #70'
   network: ws
   port: 2087
   server: japan.com
@@ -2537,7 +2556,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #71'
+- name: '511|加拿大_多伦多 #71'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -2549,7 +2568,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fdkdtbgya2f4h35lj%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #72'
+- name: '511|加拿大_多伦多 #72'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -2561,7 +2580,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fqlgixz1zurkueyfa%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #73'
+- name: '511|加拿大_多伦多 #73'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2573,7 +2592,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #74'
+- name: '511|加拿大_多伦多 #74'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2585,7 +2604,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #75'
+- name: '511|加拿大_多伦多 #75'
   network: ws
   port: 443
   server: malaysia.com
@@ -2597,7 +2616,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #76'
+- name: '511|加拿大_多伦多 #76'
   network: ws
   port: 443
   server: japan.com
@@ -2609,7 +2628,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #77'
+- name: '511|加拿大_多伦多 #77'
   network: ws
   port: 2096
   server: vz.ylks.xyz
@@ -2621,7 +2640,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fnc5ow1h3xnaktqfs%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #78'
+- name: '511|加拿大_多伦多 #78'
   network: ws
   port: 8443
   server: vz.ylks.xyz
@@ -2633,7 +2652,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Ft8su3vgdlzganzsi%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #79'
+- name: '511|加拿大_多伦多 #79'
   network: ws
   port: 2083
   server: vz.ylks.xyz
@@ -2645,7 +2664,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fhqet8836llqf2p1j%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #80'
+- name: '511|加拿大_多伦多 #80'
   network: ws
   port: 443
   server: zz.linghang.buzz
@@ -2657,7 +2676,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #81'
+- name: '511|加拿大_多伦多 #81'
   network: ws
   port: 2083
   server: www.hugedomains.com
@@ -2669,7 +2688,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #82'
+- name: '511|加拿大_多伦多 #82'
   network: ws
   port: 2053
   server: vz.ylks.xyz
@@ -2681,7 +2700,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #83'
+- name: '511|加拿大_多伦多 #83'
   network: ws
   port: 443
   server: japan.com
@@ -2693,7 +2712,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #84'
+- name: '511|加拿大_多伦多 #84'
   network: ws
   port: 443
   server: malaysia.com
@@ -2705,7 +2724,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #85'
+- name: '511|加拿大_多伦多 #85'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2717,7 +2736,7 @@ proxies:
     headers:
       Host: vz.ylkszy.eu.org
     path: '%2F%3Fed%3D2048'
-- name: '512|加拿大_多伦多 #86'
+- name: '511|加拿大_多伦多 #86'
   network: ws
   port: 2087
   server: ip.sb
@@ -2729,7 +2748,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #87'
+- name: '511|加拿大_多伦多 #87'
   network: ws
   port: 443
   server: japan.com
@@ -2741,7 +2760,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #88'
+- name: '511|加拿大_多伦多 #88'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2753,7 +2772,7 @@ proxies:
     headers:
       Host: xz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #89'
+- name: '511|加拿大_多伦多 #89'
   network: ws
   port: 8443
   server: www.hugedomains.com
@@ -2765,7 +2784,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #90'
+- name: '511|加拿大_多伦多 #90'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2777,7 +2796,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #91'
+- name: '511|加拿大_多伦多 #91'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2789,7 +2808,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #92'
+- name: '511|加拿大_多伦多 #92'
   network: ws
   port: 2083
   server: vz.ylks.xyz
@@ -2801,7 +2820,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fca0kjvkbbej2ib6w%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #93'
+- name: '511|加拿大_多伦多 #93'
   network: ws
   port: 2087
   server: icook.tw
@@ -2813,7 +2832,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #94'
+- name: '511|加拿大_多伦多 #94'
   network: ws
   port: 2053
   server: vz.ylks.xyz
@@ -2825,7 +2844,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fksy1ej1lcpxomrdk%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #95'
+- name: '511|加拿大_多伦多 #95'
   network: ws
   port: 2083
   server: ip.sb
@@ -2837,7 +2856,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #96'
+- name: '511|加拿大_多伦多 #96'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2849,7 +2868,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #97'
+- name: '511|加拿大_多伦多 #97'
   network: ws
   port: 443
   server: icook.tw
@@ -2861,7 +2880,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #98'
+- name: '511|加拿大_多伦多 #98'
   network: ws
   port: 8443
   server: vz.ylks.xyz
@@ -2873,7 +2892,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fauoiktdjdwj7eeds%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #99'
+- name: '511|加拿大_多伦多 #99'
   network: ws
   port: 2053
   server: icook.tw
@@ -2885,7 +2904,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #100'
+- name: '511|加拿大_多伦多 #100'
   network: ws
   port: 2096
   server: icook.tw
@@ -2897,7 +2916,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_蒙特利尔 #4'
+- name: '511|加拿大_蒙特利尔 #4'
   network: ws
   port: 443
   server: www.digitalocean.com
@@ -2909,7 +2928,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #101'
+- name: '511|加拿大_多伦多 #101'
   network: ws
   port: 2096
   server: xn--b6gac.eu.org
@@ -2921,7 +2940,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #102'
+- name: '511|加拿大_多伦多 #102'
   network: ws
   port: 2096
   server: russia.com
@@ -2933,7 +2952,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #103'
+- name: '511|加拿大_多伦多 #103'
   network: ws
   port: 2053
   server: vz.ylks.xyz
@@ -2945,7 +2964,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fm4mswr3ugtq5bkuc%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #104'
+- name: '511|加拿大_多伦多 #104'
   network: ws
   port: 2087
   server: russia.com
@@ -2957,7 +2976,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #105'
+- name: '511|加拿大_多伦多 #105'
   network: ws
   port: 8443
   server: russia.com
@@ -2969,7 +2988,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #106'
+- name: '511|加拿大_多伦多 #106'
   network: ws
   port: 8443
   server: russia.com
@@ -2981,7 +3000,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #107'
+- name: '511|加拿大_多伦多 #107'
   network: ws
   port: 2053
   server: xn--b6gac.eu.org
@@ -2993,7 +3012,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #108'
+- name: '511|加拿大_多伦多 #108'
   network: ws
   port: 8443
   server: russia.com
@@ -3005,7 +3024,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #109'
+- name: '511|加拿大_多伦多 #109'
   network: ws
   port: 443
   server: malaysia.com
@@ -3017,7 +3036,7 @@ proxies:
     headers:
       Host: hz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #110'
+- name: '511|加拿大_多伦多 #110'
   network: ws
   port: 8443
   server: vz.ylks.xyz
@@ -3029,7 +3048,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fwgekwnd9qschpufe%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #111'
+- name: '511|加拿大_多伦多 #111'
   network: ws
   port: 2053
   server: vz.ylks.xyz
@@ -3041,7 +3060,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fzck2gv1tu3bhp7tt%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #112'
+- name: '511|加拿大_多伦多 #112'
   network: ws
   port: 2087
   server: vz.ylks.xyz
@@ -3053,7 +3072,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fomsh9vsqmwuqzn5i%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #113'
+- name: '511|加拿大_多伦多 #113'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -3065,7 +3084,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fpai6buclahf9cxx3%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #114'
+- name: '511|加拿大_多伦多 #114'
   network: ws
   port: 2087
   server: vz.ylks.xyz
@@ -3077,7 +3096,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Ff1do6ef8xuyqgkb2%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #115'
+- name: '511|加拿大_多伦多 #115'
   network: ws
   port: 443
   server: malaysia.com
@@ -3089,7 +3108,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #116'
+- name: '511|加拿大_多伦多 #116'
   network: ws
   port: 443
   server: malaysia.com
@@ -3101,7 +3120,7 @@ proxies:
     headers:
       Host: zz.linghang.buzz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #117'
+- name: '511|加拿大_多伦多 #117'
   network: ws
   port: 2087
   server: www.whatismyip.com
@@ -3113,7 +3132,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #118'
+- name: '511|加拿大_多伦多 #118'
   network: ws
   port: 2087
   server: malaysia.com
@@ -3125,7 +3144,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #119'
+- name: '511|加拿大_多伦多 #119'
   network: ws
   port: 2087
   server: vz.ylks.xyz
@@ -3137,7 +3156,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fssfi64cbq2src6fv%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #120'
+- name: '511|加拿大_多伦多 #120'
   network: ws
   port: 443
   server: solid.footballlovernews.com
@@ -3149,7 +3168,7 @@ proxies:
     headers:
       Host: solid.footballlovernews.com
     path: '%2Fsolid'
-- name: '512|加拿大_多伦多 #121'
+- name: '511|加拿大_多伦多 #121'
   network: ws
   port: 443
   server: divide.footballlovernews.com
@@ -3161,7 +3180,7 @@ proxies:
     headers:
       Host: divide.footballlovernews.com
     path: '%2Fdivide'
-- name: '512,514|加拿大_多伦多 #351'
+- name: '511,513|加拿大_多伦多 #351'
   network: ws
   port: 443
   server: steel.footballlovernews.com
@@ -3173,7 +3192,7 @@ proxies:
     headers:
       Host: steel.footballlovernews.com
     path: '%2Fsteel'
-- name: '512|加拿大_多伦多 #123'
+- name: '511|加拿大_多伦多 #123'
   network: ws
   port: 443
   server: time.is
@@ -3185,7 +3204,7 @@ proxies:
     headers:
       Host: kz.ylks.xyz
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #124'
+- name: '511|加拿大_多伦多 #124'
   network: ws
   port: 8443
   server: icook.tw
@@ -3197,7 +3216,7 @@ proxies:
     headers:
       Host: jz.ylks01.eu.org
     path: '%2Fblue'
-- name: '512|加拿大_多伦多 #125'
+- name: '511|加拿大_多伦多 #125'
   network: ws
   port: 8443
   server: vz.ylks.xyz
@@ -3209,7 +3228,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fcy1umrusegciyhjp%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #126'
+- name: '511|加拿大_多伦多 #126'
   network: ws
   port: 2083
   server: vz.ylks.xyz
@@ -3221,7 +3240,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Futlohu4efmsvc3bs%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #127'
+- name: '511|加拿大_多伦多 #127'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -3233,7 +3252,7 @@ proxies:
     headers:
       Host: vz.ylks.xyz
     path: '%2Fpkms9hrhvbpq1ikg%3Fed%3D2560'
-- name: '512|加拿大_多伦多 #128'
+- name: '511|加拿大_多伦多 #128'
   network: ws
   port: 2096
   server: ip.sb
@@ -3247,7 +3266,7 @@ proxies:
     path: '%2Fblue'
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #201'
+  name: '512|加拿大_多伦多 #201'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -3257,7 +3276,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #202'
+  name: '512|加拿大_多伦多 #202'
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -3267,7 +3286,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #203'
+  name: '512|加拿大_多伦多 #203'
   network: ws
   port: 2086
   server: 104.19.45.13
@@ -3277,7 +3296,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #204'
+  name: '512|加拿大_多伦多 #204'
   network: ws
   port: 2086
   server: 104.19.47.22
@@ -3287,7 +3306,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #205'
+  name: '512|加拿大_多伦多 #205'
   network: ws
   port: 2086
   server: 162.159.140.56
@@ -3297,7 +3316,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #206'
+  name: '512|加拿大_多伦多 #206'
   network: ws
   port: 2086
   server: www.visa.com
@@ -3307,7 +3326,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #207'
+  name: '512|加拿大_多伦多 #207'
   network: ws
   port: 2086
   server: 104.19.46.103
@@ -3317,7 +3336,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #208'
+  name: '512|加拿大_多伦多 #208'
   network: ws
   port: 2086
   server: 162.159.140.19
@@ -3327,7 +3346,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #209'
+  name: '512|加拿大_多伦多 #209'
   network: ws
   port: 2086
   server: 104.26.5.113
@@ -3337,7 +3356,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #210'
+  name: '512|加拿大_多伦多 #210'
   network: ws
   port: 2086
   server: 104.26.5.103
@@ -3345,14 +3364,14 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- name: '513|加拿大_多伦多 #211'
+- name: '512|加拿大_多伦多 #211'
   network: ws
   port: 80
   server: 172.67.192.49
   tls: false
   type: vless
   uuid: 4808e2ce-14f4-4f5e-b8f4-59fb92fffa09
-- name: '513|加拿大_多伦多 #212'
+- name: '512|加拿大_多伦多 #212'
   network: ws
   port: 80
   server: 172.67.36.30
@@ -3362,7 +3381,7 @@ proxies:
   uuid: e59be95e-7539-4a31-9b2d-a03a8f072ff3
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #213'
+  name: '512|加拿大_多伦多 #213'
   network: ws
   port: 2086
   server: icook.tw
@@ -3370,7 +3389,7 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- name: '513|加拿大_多伦多 #214'
+- name: '512|加拿大_多伦多 #214'
   network: ws
   port: 80
   server: 104.17.71.153
@@ -3379,7 +3398,7 @@ proxies:
   uuid: e04791a5-ccf8-5e56-a4fb-dc48c673008d
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #215'
+  name: '512|加拿大_多伦多 #215'
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -3387,7 +3406,7 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- name: '513|加拿大_多伦多 #216'
+- name: '512|加拿大_多伦多 #216'
   network: ws
   port: 2052
   server: 104.26.13.8
@@ -3396,7 +3415,7 @@ proxies:
   uuid: 6247d8e0-3b38-54e7-ae86-de8bd6c10111
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #217'
+  name: '512|加拿大_多伦多 #217'
   network: ws
   port: 2086
   server: 104.19.45.31
@@ -3406,7 +3425,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #218'
+  name: '512|加拿大_多伦多 #218'
   network: ws
   port: 2086
   server: 104.19.45.19
@@ -3416,7 +3435,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #219'
+  name: '512|加拿大_多伦多 #219'
   network: ws
   port: 2086
   server: 104.19.38.12
@@ -3426,7 +3445,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 513,556|🏁RELAY-104.19.32.46-089
+  name: 512,555|🏁RELAY-104.19.32.46-089
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -3440,7 +3459,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #221'
+  name: '512|加拿大_多伦多 #221'
   network: ws
   port: 2086
   server: 162.159.140.91
@@ -3450,7 +3469,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #222'
+  name: '512|加拿大_多伦多 #222'
   network: ws
   port: 2086
   server: 104.19.47.88
@@ -3460,7 +3479,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #223'
+  name: '512|加拿大_多伦多 #223'
   network: ws
   port: 2086
   server: 104.19.21.71
@@ -3470,7 +3489,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 513,556|🏁RELAY-104.19.47.32-008
+  name: 512,555|🏁RELAY-104.19.47.32-008
   network: ws
   port: 2086
   server: 104.19.47.32
@@ -3484,7 +3503,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 513,556|🏁RELAY-104.19.46.39-006
+  name: 512,555|🏁RELAY-104.19.46.39-006
   network: ws
   port: 2086
   server: 104.19.46.39
@@ -3498,7 +3517,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '513,559|关注电报https://t.me/aifenxiang202... #16'
+  name: '512,558|关注电报https://t.me/aifenxiang202... #16'
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -3508,7 +3527,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #227'
+  name: '512|加拿大_多伦多 #227'
   network: ws
   port: 2086
   server: 104.26.5.67
@@ -3518,7 +3537,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #228'
+  name: '512|加拿大_多伦多 #228'
   network: ws
   port: 2086
   server: 172.67.71.187
@@ -3528,7 +3547,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 513,556|🏁RELAY-104.20.25.146-011
+  name: 512,555|🏁RELAY-104.20.25.146-011
   network: ws
   port: 2086
   server: 104.20.25.146
@@ -3542,7 +3561,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_渥太華 #2'
+  name: '512|加拿大_渥太華 #2'
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -3552,7 +3571,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #230'
+  name: '512|加拿大_多伦多 #230'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -3562,7 +3581,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #231'
+  name: '512|加拿大_多伦多 #231'
   network: ws
   port: 2086
   server: 104.26.5.66
@@ -3572,7 +3591,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #232'
+  name: '512|加拿大_多伦多 #232'
   network: ws
   port: 2086
   server: 104.18.15.19
@@ -3582,7 +3601,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #233'
+  name: '512|加拿大_多伦多 #233'
   network: ws
   port: 2086
   server: 104.19.46.63
@@ -3592,7 +3611,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #234'
+  name: '512|加拿大_多伦多 #234'
   network: ws
   port: 2086
   server: ip.sb
@@ -3602,7 +3621,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #235'
+  name: '512|加拿大_多伦多 #235'
   network: ws
   port: 2086
   server: japan.com
@@ -3612,7 +3631,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #236'
+  name: '512|加拿大_多伦多 #236'
   network: ws
   port: 2086
   server: russia.com
@@ -3622,7 +3641,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_渥太華 #3'
+  name: '512|加拿大_渥太華 #3'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -3635,7 +3654,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_渥太華 #13'
+  name: '512,514|加拿大_渥太華 #13'
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -3648,7 +3667,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_渥太華 #5'
+  name: '512|加拿大_渥太華 #5'
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -3661,7 +3680,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #237'
+  name: '512|加拿大_多伦多 #237'
   network: ws
   port: 443
   server: 188.114.97.2
@@ -3674,7 +3693,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #238'
+  name: '512|加拿大_多伦多 #238'
   network: ws
   port: 443
   server: 188.114.96.2
@@ -3687,7 +3706,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #239'
+  name: '512|加拿大_多伦多 #239'
   network: ws
   port: 2086
   server: 104.26.12.31
@@ -3700,7 +3719,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #240'
+  name: '512|加拿大_多伦多 #240'
   network: ws
   port: 443
   server: 172.67.175.56
@@ -3713,7 +3732,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #241'
+  name: '512|加拿大_多伦多 #241'
   network: ws
   port: 2086
   server: 104.26.10.11
@@ -3726,7 +3745,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #242'
+  name: '512|加拿大_多伦多 #242'
   network: ws
   port: 2086
   server: 104.26.13.31
@@ -3739,7 +3758,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #243'
+  name: '512|加拿大_多伦多 #243'
   network: ws
   port: 443
   server: 172.67.181.241
@@ -3752,7 +3771,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #244'
+  name: '512|加拿大_多伦多 #244'
   network: ws
   port: 2086
   server: 104.26.8.156
@@ -3765,7 +3784,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #245'
+  name: '512|加拿大_多伦多 #245'
   network: ws
   port: 2086
   server: 104.26.9.156
@@ -3778,7 +3797,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #246'
+  name: '512|加拿大_多伦多 #246'
   network: ws
   port: 2086
   server: 172.67.71.187
@@ -3791,7 +3810,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #363'
+  name: '512,514|加拿大_多伦多 #363'
   network: ws
   port: 2086
   server: 104.26.0.50
@@ -3804,7 +3823,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #248'
+  name: '512|加拿大_多伦多 #248'
   network: ws
   port: 443
   server: capellare.com
@@ -3817,7 +3836,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #353'
+  name: '512,514|加拿大_多伦多 #353'
   network: ws
   port: 2086
   server: 104.26.5.123
@@ -3830,7 +3849,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #358'
+  name: '512,514|加拿大_多伦多 #358'
   network: ws
   port: 2086
   server: 104.26.5.113
@@ -3843,7 +3862,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #251'
+  name: '512|加拿大_多伦多 #251'
   network: ws
   port: 2086
   server: 104.26.5.67
@@ -3856,7 +3875,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #252'
+  name: '512|加拿大_多伦多 #252'
   network: ws
   port: 2086
   server: 172.67.74.112
@@ -3869,7 +3888,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #387'
+  name: '512,514|加拿大_多伦多 #387'
   network: ws
   port: 2086
   server: 104.26.5.112
@@ -3882,7 +3901,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #366'
+  name: '512,514|加拿大_多伦多 #366'
   network: ws
   port: 2086
   server: 104.26.5.103
@@ -3895,7 +3914,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #361'
+  name: '512,514|加拿大_多伦多 #361'
   network: ws
   port: 2086
   server: 104.26.5.145
@@ -3908,7 +3927,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #379'
+  name: '512,514|加拿大_多伦多 #379'
   network: ws
   port: 2086
   server: 104.26.5.90
@@ -3921,7 +3940,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #357'
+  name: '512,514|加拿大_多伦多 #357'
   network: ws
   port: 2086
   server: 104.26.5.66
@@ -3934,7 +3953,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #258'
+  name: '512|加拿大_多伦多 #258'
   network: ws
   port: 2086
   server: 104.26.5.56
@@ -3947,7 +3966,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #259'
+  name: '512|加拿大_多伦多 #259'
   network: ws
   port: 2086
   server: 104.26.5.88
@@ -3960,7 +3979,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515,559|关注电报https://t.me/aifenxiang202... #9'
+  name: '512,514,558|关注电报https://t.me/aifenxiang202... #9'
   network: ws
   port: '2086'
   server: 104.26.0.56
@@ -3974,7 +3993,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #261'
+  name: '512|加拿大_多伦多 #261'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -3987,7 +4006,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,514|加拿大_多伦多 #349'
+  name: '512,513|加拿大_多伦多 #349'
   network: ws
   port: '2086'
   server: russia.com
@@ -4001,7 +4020,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,514,515,559|关注电报https://t.me/aifenxiang202... #21'
+  name: '512,513,514,558|关注电报https://t.me/aifenxiang202... #21'
   network: ws
   port: 2086
   server: ip.sb
@@ -4015,7 +4034,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,514,515|加拿大_多伦多 #384'
+  name: '512,513,514|加拿大_多伦多 #384'
   network: ws
   port: 2086
   server: malaysia.com
@@ -4029,7 +4048,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,559|关注电报https://t.me/aifenxiang202... #6'
+  name: '512,558|关注电报https://t.me/aifenxiang202... #6'
   network: ws
   port: 2086
   server: singapore.com
@@ -4042,7 +4061,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,559|关注电报https://t.me/aifenxiang202... #24'
+  name: '512,558|关注电报https://t.me/aifenxiang202... #24'
   network: ws
   port: 2086
   server: japan.com
@@ -4055,7 +4074,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #267'
+  name: '512|加拿大_多伦多 #267'
   network: ws
   port: 2086
   server: 104.19.123.11
@@ -4068,7 +4087,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #268'
+  name: '512|加拿大_多伦多 #268'
   network: ws
   port: 443
   server: 104.21.69.44
@@ -4081,7 +4100,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #269'
+  name: '512|加拿大_多伦多 #269'
   network: ws
   port: 2086
   server: icook.tw
@@ -4094,7 +4113,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #270'
+  name: '512|加拿大_多伦多 #270'
   network: ws
   port: 2086
   server: www.visa.com
@@ -4107,7 +4126,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #271'
+  name: '512|加拿大_多伦多 #271'
   network: ws
   port: 2086
   server: 104.19.21.71
@@ -4120,7 +4139,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #272'
+  name: '512|加拿大_多伦多 #272'
   network: ws
   port: 2086
   server: 104.19.21.230
@@ -4133,7 +4152,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #273'
+  name: '512|加拿大_多伦多 #273'
   network: ws
   port: 2086
   server: 104.19.21.63
@@ -4146,7 +4165,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #274'
+  name: '512|加拿大_多伦多 #274'
   network: ws
   port: 2086
   server: 104.20.25.146
@@ -4159,7 +4178,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #275'
+  name: '512|加拿大_多伦多 #275'
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -4172,7 +4191,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #276'
+  name: '512|加拿大_多伦多 #276'
   network: ws
   port: 2086
   server: 104.22.37.243
@@ -4185,7 +4204,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #277'
+  name: '512|加拿大_多伦多 #277'
   network: ws
   port: 2086
   server: 104.22.36.243
@@ -4198,7 +4217,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #278'
+  name: '512|加拿大_多伦多 #278'
   network: ws
   port: 443
   server: 141.724064.xyz
@@ -4211,7 +4230,7 @@ proxies:
     path: /gmvfvws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #279'
+  name: '512|加拿大_多伦多 #279'
   network: ws
   port: 443
   server: 188.114.97.21
@@ -4224,7 +4243,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #280'
+  name: '512|加拿大_多伦多 #280'
   network: ws
   port: 443
   server: 188.114.96.3
@@ -4237,7 +4256,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #283'
+  name: '512|加拿大_多伦多 #283'
   network: ws
   port: 2086
   server: 162.159.140.33
@@ -4250,7 +4269,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #284'
+  name: '512|加拿大_多伦多 #284'
   network: ws
   port: 443
   server: 104.21.46.121
@@ -4263,7 +4282,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #285'
+  name: '512|加拿大_多伦多 #285'
   network: ws
   port: 443
   server: hms24.ivideos.sbs
@@ -4276,7 +4295,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #286'
+  name: '512|加拿大_多伦多 #286'
   network: ws
   port: 2086
   server: 104.18.15.19
@@ -4289,7 +4308,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #287'
+  name: '512|加拿大_多伦多 #287'
   network: ws
   port: 2086
   server: 104.18.14.19
@@ -4302,7 +4321,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #288'
+  name: '512|加拿大_多伦多 #288'
   network: ws
   port: 443
   server: 188.114.97.8
@@ -4315,7 +4334,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #290'
+  name: '512|加拿大_多伦多 #290'
   network: ws
   port: 443
   server: 104.18.206.97
@@ -4328,7 +4347,7 @@ proxies:
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_渥太華 #6'
+  name: '512|加拿大_渥太華 #6'
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -4341,7 +4360,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 513,539,555|20,21|🏁RELAY-188.114.96.3-1572...
+  name: 512,538,553,554|20,21|🏁RELAY-188.114.96.3-1572...
   network: ws
   port: 443
   server: 188.114.96.3
@@ -4355,9 +4374,9 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #292'
+  name: 512,553|CF中转_0423107995 L6
   network: ws
-  port: 443
+  port: '443'
   server: 188.114.97.2
   tls: true
   type: vmess
@@ -4368,7 +4387,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #293'
+  name: '512|加拿大_多伦多 #293'
   network: ws
   port: 443
   server: 188.114.96.1
@@ -4381,7 +4400,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #296'
+  name: '512|加拿大_多伦多 #296'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -4394,7 +4413,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #298'
+  name: '512|加拿大_多伦多 #298'
   network: ws
   port: 443
   server: 172.67.196.112
@@ -4407,7 +4426,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #299'
+  name: '512|加拿大_多伦多 #299'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -4420,7 +4439,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #300'
+  name: '512|加拿大_多伦多 #300'
   network: ws
   port: 2086
   server: 104.26.5.57
@@ -4433,7 +4452,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #301'
+  name: '512|加拿大_多伦多 #301'
   network: ws
   port: 443
   server: 172.67.216.29
@@ -4446,7 +4465,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #303'
+  name: '512|加拿大_多伦多 #303'
   network: ws
   port: 443
   server: 172.67.170.13
@@ -4459,7 +4478,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #305'
+  name: '512|加拿大_多伦多 #305'
   network: ws
   port: 443
   server: 172.67.156.210
@@ -4472,7 +4491,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #306'
+  name: '512|加拿大_多伦多 #306'
   network: ws
   port: 443
   server: 104.21.28.62
@@ -4485,7 +4504,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #307'
+  name: '512|加拿大_多伦多 #307'
   network: ws
   port: 443
   server: 104.21.24.170
@@ -4498,7 +4517,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #308'
+  name: '512|加拿大_多伦多 #308'
   network: ws
   port: 443
   server: linde06.indiavideo.sbs
@@ -4511,7 +4530,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #309'
+  name: '512|加拿大_多伦多 #309'
   network: ws
   port: 443
   server: glweidf.cfd
@@ -4524,7 +4543,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #310'
+  name: '512|加拿大_多伦多 #310'
   network: ws
   port: 443
   server: 104.21.53.183
@@ -4537,7 +4556,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #311'
+  name: '512|加拿大_多伦多 #311'
   network: ws
   port: 8880
   server: 104.16.68.38
@@ -4550,7 +4569,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #312'
+  name: '512|加拿大_多伦多 #312'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -4563,7 +4582,7 @@ proxies:
     path: /video/orbHPhkP
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #313'
+  name: '512|加拿大_多伦多 #313'
   network: ws
   port: 443
   server: parsvds.com
@@ -4576,7 +4595,7 @@ proxies:
     path: /aveiror.com/linkvws
 - alterId: 0
   cipher: auto
-  name: 513|加拿大_Montreal
+  name: 512|加拿大_Montreal
   network: ws
   port: 443
   server: 158.51.121.36
@@ -4589,7 +4608,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_蒙特利尔 #5'
+  name: '512|加拿大_蒙特利尔 #5'
   network: ws
   port: 443
   server: 145.724064.xyz
@@ -4602,7 +4621,7 @@ proxies:
     path: /zrqrvws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #314'
+  name: '512|加拿大_多伦多 #314'
   network: ws
   port: 443
   server: 172.67.223.119
@@ -4615,7 +4634,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #315'
+  name: '512|加拿大_多伦多 #315'
   network: ws
   port: 443
   server: cdnjs.com
@@ -4628,7 +4647,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #316'
+  name: '512|加拿大_多伦多 #316'
   network: ws
   port: 2086
   server: skk.moe
@@ -4641,7 +4660,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #317'
+  name: '512|加拿大_多伦多 #317'
   network: ws
   port: 443
   server: hms182.glweidf.sbs
@@ -4654,7 +4673,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #318'
+  name: '512|加拿大_多伦多 #318'
   network: ws
   port: 443
   server: 172.66.213.38
@@ -4667,7 +4686,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #319'
+  name: '512|加拿大_多伦多 #319'
   network: ws
   port: 443
   server: 173.245.59.8
@@ -4680,7 +4699,7 @@ proxies:
     path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #320'
+  name: '512|加拿大_多伦多 #320'
   network: ws
   port: 443
   server: 172.67.136.233
@@ -4693,7 +4712,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #321'
+  name: '512|加拿大_多伦多 #321'
   network: ws
   port: 2086
   server: 104.26.12.140
@@ -4706,7 +4725,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #322'
+  name: '512|加拿大_多伦多 #322'
   network: ws
   port: 443
   server: 172.67.219.194
@@ -4719,7 +4738,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #323'
+  name: '512|加拿大_多伦多 #323'
   network: ws
   port: 443
   server: ParsVds.ir
@@ -4732,7 +4751,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #324'
+  name: '512|加拿大_多伦多 #324'
   network: ws
   port: 443
   server: discord.com
@@ -4745,7 +4764,7 @@ proxies:
     path: /gwdef.sbs:443/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #325'
+  name: '512|加拿大_多伦多 #325'
   network: ws
   port: 443
   server: 162.159.1.94
@@ -4758,7 +4777,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #326'
+  name: '512|加拿大_多伦多 #326'
   network: ws
   port: 2095
   server: sdhdffjblkgfh_cdn.hfhfb.homes
@@ -4771,7 +4790,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #327'
+  name: '512|加拿大_多伦多 #327'
   network: ws
   port: 443
   server: 162.159.8.120
@@ -4784,7 +4803,7 @@ proxies:
     path: /LINKWS
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #330'
+  name: '512|加拿大_多伦多 #330'
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -4797,7 +4816,7 @@ proxies:
     path: /video/bcxQresd
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #331'
+  name: '512|加拿大_多伦多 #331'
   network: ws
   port: 2086
   server: 162.159.140.66
@@ -4810,7 +4829,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #332'
+  name: '512|加拿大_多伦多 #332'
   network: ws
   port: 2086
   server: 162.159.140.91
@@ -4823,7 +4842,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #411'
+  name: '512,514|加拿大_多伦多 #411'
   network: ws
   port: 2086
   server: 162.159.140.19
@@ -4836,7 +4855,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,515|加拿大_多伦多 #404'
+  name: '512,514|加拿大_多伦多 #404'
   network: ws
   port: 2086
   server: 162.159.140.93
@@ -4849,7 +4868,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,514|加拿大_蒙特利尔 #9'
+  name: '512,513|加拿大_蒙特利尔 #9'
   network: ws
   port: '2086'
   server: fbi.gov
@@ -4863,7 +4882,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513|加拿大_多伦多 #337'
+  name: '512|加拿大_多伦多 #337'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -4876,7 +4895,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '513,555|8|🇺🇲 美国【付费推荐：https://jdyvip.li... #2'
+  name: '512,554|8|🇺🇲 美国【付费推荐：https://jdyvip.li... #2'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -4887,7 +4906,7 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- name: '514|加拿大_多伦多 #339'
+- name: '513|加拿大_多伦多 #339'
   network: ws
   port: 443
   server: 172.66.45.4
@@ -4899,7 +4918,7 @@ proxies:
     headers:
       Host: 94391e80.uvPN-OrG.PAGes.Dev
     path: '%2F'
-- name: '514|加拿大_多伦多 #340'
+- name: '513|加拿大_多伦多 #340'
   network: ws
   port: 2096
   server: 14.102.228.210
@@ -4911,7 +4930,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2F%3Fed%3D2048security%3Dtls'
-- name: '514|加拿大_蒙特利尔 #6'
+- name: '513|加拿大_蒙特利尔 #6'
   network: ws
   port: 2096
   server: bpb-xiaoer886.pages.dev
@@ -4923,7 +4942,7 @@ proxies:
     headers:
       Host: BPB-XiaOer886.paGeS.dEv
     path: '%2F'
-- name: '514|加拿大_蒙特利尔 #7'
+- name: '513|加拿大_蒙特利尔 #7'
   network: ws
   port: 443
   server: bpfav2.pages.dev
@@ -4935,7 +4954,7 @@ proxies:
     headers:
       Host: bPfaV2.PAgeS.DEv
     path: '%2F'
-- name: '514|加拿大_蒙特利尔 #8'
+- name: '513|加拿大_蒙特利尔 #8'
   network: ws
   port: 2083
   server: bpb-xiaoer886.pages.dev
@@ -4949,7 +4968,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '514,515|加拿大_多伦多 #424'
+  name: '513,514|加拿大_多伦多 #424'
   network: ws
   port: 80
   server: russia.com
@@ -4961,7 +4980,7 @@ proxies:
     headers:
       Host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- name: '514|加拿大_多伦多 #342'
+- name: '513|加拿大_多伦多 #342'
   network: ws
   port: 80
   server: 104.18.63.2
@@ -4974,7 +4993,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #343'
+  name: '513|加拿大_多伦多 #343'
   network: ws
   port: '2086'
   server: 104.19.46.33
@@ -4988,7 +5007,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #344'
+  name: '513|加拿大_多伦多 #344'
   network: ws
   port: '8880'
   server: russia.com
@@ -5002,7 +5021,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '514,559|关注电报https://t.me/aifenxiang202... #7'
+  name: '513,558|关注电报https://t.me/aifenxiang202... #7'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -5016,7 +5035,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '514|加拿大_多伦多 #348'
+  name: '513|加拿大_多伦多 #348'
   network: ws
   port: '80'
   server: www.zula.ir
@@ -5030,7 +5049,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '514,515|加拿大_多伦多 #392'
+  name: '513,514|加拿大_多伦多 #392'
   network: ws
   port: 2052
   server: 104.19.59.99
@@ -5042,7 +5061,7 @@ proxies:
     headers:
       Host: cdn3.freegradely.xyz
     path: github.com/Alvin9999
-- name: '514|加拿大_多伦多 #352'
+- name: '513|加拿大_多伦多 #352'
   network: ws
   port: 443
   server: rmgy.pages.dev
@@ -5054,7 +5073,7 @@ proxies:
     path: '%2F%3Fed%3D2048'
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #14'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #14'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -5067,7 +5086,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #22'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #22'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -5081,7 +5100,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #354'
+  name: '514|加拿大_多伦多 #354'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -5094,7 +5113,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #20'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #20'
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -5108,7 +5127,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_渥太華 #10'
+  name: '514|加拿大_渥太華 #10'
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -5121,7 +5140,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #23'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #23'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -5135,7 +5154,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_渥太華 #12'
+  name: '514|加拿大_渥太華 #12'
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -5148,7 +5167,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #360'
+  name: '514|加拿大_多伦多 #360'
   network: ws
   port: 2086
   server: 104.19.46.233
@@ -5161,7 +5180,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #378'
+  name: '514|加拿大_多伦多 #378'
   network: ws
   port: 2086
   server: 104.19.47.122
@@ -5174,7 +5193,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #364'
+  name: '514|加拿大_多伦多 #364'
   network: ws
   port: 2086
   server: 104.19.47.88
@@ -5187,7 +5206,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #365'
+  name: '514|加拿大_多伦多 #365'
   network: ws
   port: 2086
   server: 104.19.45.13
@@ -5200,7 +5219,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #367'
+  name: '514|加拿大_多伦多 #367'
   network: ws
   port: 2086
   server: 104.19.47.36
@@ -5213,7 +5232,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #368'
+  name: '514|加拿大_多伦多 #368'
   network: ws
   port: 2086
   server: 104.19.47.77
@@ -5226,7 +5245,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #19'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #19'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -5240,7 +5259,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #370'
+  name: '514|加拿大_多伦多 #370'
   network: ws
   port: 2086
   server: 104.19.46.36
@@ -5253,7 +5272,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #32'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #32'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -5267,7 +5286,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #372'
+  name: '514|加拿大_多伦多 #372'
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -5280,7 +5299,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #373'
+  name: '514|加拿大_多伦多 #373'
   network: ws
   port: 2086
   server: 104.19.47.77
@@ -5293,7 +5312,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #374'
+  name: '514|加拿大_多伦多 #374'
   network: ws
   port: 2086
   server: 104.19.45.31
@@ -5306,7 +5325,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #18'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #18'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -5320,7 +5339,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #376'
+  name: '514|加拿大_多伦多 #376'
   network: ws
   port: 2086
   server: 104.19.45.19
@@ -5333,7 +5352,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #377'
+  name: '514|加拿大_多伦多 #377'
   network: ws
   port: 2086
   server: 104.19.32.216
@@ -5346,7 +5365,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #380'
+  name: '514|加拿大_多伦多 #380'
   network: ws
   port: 2086
   server: 104.19.47.79
@@ -5359,7 +5378,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #2'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #2'
   network: ws
   port: 2086
   server: 104.19.51.232
@@ -5373,7 +5392,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #382'
+  name: '514|加拿大_多伦多 #382'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -5386,7 +5405,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #4'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #4'
   network: ws
   port: 2086
   server: 104.19.46.233
@@ -5400,7 +5419,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #385'
+  name: '514|加拿大_多伦多 #385'
   network: ws
   port: 2086
   server: 104.19.45.90
@@ -5413,7 +5432,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #386'
+  name: '514|加拿大_多伦多 #386'
   network: ws
   port: 2086
   server: 104.19.59.89
@@ -5426,7 +5445,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #389'
+  name: '514|加拿大_多伦多 #389'
   network: ws
   port: 2052
   server: 104.19.38.22
@@ -5439,7 +5458,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #390'
+  name: '514|加拿大_多伦多 #390'
   network: ws
   port: 2052
   server: 104.19.57.4
@@ -5452,7 +5471,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #391'
+  name: '514|加拿大_多伦多 #391'
   network: ws
   port: 2052
   server: 104.26.7.152
@@ -5465,7 +5484,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #3'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #3'
   network: ws
   port: 2086
   server: 104.19.38.62
@@ -5479,7 +5498,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #394'
+  name: '514|加拿大_多伦多 #394'
   network: ws
   port: 2052
   server: 104.19.57.24
@@ -5492,7 +5511,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #395'
+  name: '514|加拿大_多伦多 #395'
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -5505,7 +5524,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_渥太華 #17'
+  name: '514|加拿大_渥太華 #17'
   network: ws
   port: 2052
   server: 23.227.38.13
@@ -5518,7 +5537,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #397'
+  name: '514|加拿大_多伦多 #397'
   network: ws
   port: 2052
   server: 104.19.57.24
@@ -5531,7 +5550,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #398'
+  name: '514|加拿大_多伦多 #398'
   network: ws
   port: 2052
   server: 104.26.0.66
@@ -5544,7 +5563,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #399'
+  name: '514|加拿大_多伦多 #399'
   network: ws
   port: 2052
   server: 104.26.0.56
@@ -5557,7 +5576,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #401'
+  name: '514|加拿大_多伦多 #401'
   network: ws
   port: 2052
   server: 104.19.47.75
@@ -5570,7 +5589,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #402'
+  name: '514|加拿大_多伦多 #402'
   network: ws
   port: 2052
   server: 104.19.32.226
@@ -5583,7 +5602,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #403'
+  name: '514|加拿大_多伦多 #403'
   network: ws
   port: 2052
   server: 104.26.7.152
@@ -5596,7 +5615,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #405'
+  name: '514|加拿大_多伦多 #405'
   network: ws
   port: 2086
   server: 104.19.45.11
@@ -5609,7 +5628,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #406'
+  name: '514|加拿大_多伦多 #406'
   network: ws
   port: 2086
   server: 162.159.140.56
@@ -5622,7 +5641,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #408'
+  name: '514|加拿大_多伦多 #408'
   network: ws
   port: 2086
   server: 104.19.38.8
@@ -5635,7 +5654,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #409'
+  name: '514|加拿大_多伦多 #409'
   network: ws
   port: 2086
   server: 162.159.140.77
@@ -5646,7 +5665,7 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- name: '515|加拿大_多伦多 #410'
+- name: '514|加拿大_多伦多 #410'
   network: ws
   port: 443
   server: 188.114.97.141
@@ -5656,7 +5675,7 @@ proxies:
   uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
   ws-opts:
     path: /
-- name: '515|加拿大_多伦多 #412'
+- name: '514|加拿大_多伦多 #412'
   network: ws
   port: 443
   server: 198.41.221.49
@@ -5666,7 +5685,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
   ws-opts:
     path: /YnqGMcAt/
-- name: '515|加拿大_多伦多 #413'
+- name: '514|加拿大_多伦多 #413'
   network: ws
   port: 80
   server: 104.18.10.7
@@ -5676,7 +5695,7 @@ proxies:
   uuid: de20645d-cb33-436c-8d62-d0cf0fec9e4e
   ws-opts:
     path: /G4NZN6OLPTpT73ku2QWhZZL9Q
-- name: '515|加拿大_多伦多 #414'
+- name: '514|加拿大_多伦多 #414'
   network: ws
   port: 443
   server: 172.67.173.212
@@ -5688,7 +5707,7 @@ proxies:
     path: /YnqGMcAt/
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #415'
+  name: '514|加拿大_多伦多 #415'
   network: ws
   port: 2095
   server: 104.19.45.0
@@ -5699,7 +5718,7 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: '515|加拿大_多伦多 #416'
+- name: '514|加拿大_多伦多 #416'
   network: ws
   port: 443
   server: 172.67.74.117
@@ -5709,7 +5728,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
   ws-opts:
     path: /YnqGMcAt/
-- name: '515|加拿大_多伦多 #417'
+- name: '514|加拿大_多伦多 #417'
   network: ws
   port: 443
   server: 162.159.136.81
@@ -5719,7 +5738,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
   ws-opts:
     path: /YnqGMcAt/
-- name: '515|加拿大_多伦多 #418'
+- name: '514|加拿大_多伦多 #418'
   network: ws
   port: 443
   server: 172.67.172.221
@@ -5731,7 +5750,7 @@ proxies:
     path: /YnqGMcAt/
 - alterId: 0
   cipher: auto
-  name: '515,559|关注电报https://t.me/aifenxiang202... #17'
+  name: '514,558|关注电报https://t.me/aifenxiang202... #17'
   network: ws
   port: 2086
   server: 104.16.148.244
@@ -5743,7 +5762,7 @@ proxies:
     headers:
       Host: ip006.freegradely.xyz
     path: github.com/Alvin9999
-- name: '515|加拿大_多伦多 #420'
+- name: '514|加拿大_多伦多 #420'
   network: ws
   port: 80
   server: 104.26.14.16
@@ -5755,7 +5774,7 @@ proxies:
     path: /Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #421'
+  name: '514|加拿大_多伦多 #421'
   network: ws
   port: 2095
   server: 104.19.45.83
@@ -5766,7 +5785,7 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: '515|加拿大_多伦多 #422'
+- name: '514|加拿大_多伦多 #422'
   network: ws
   port: 2052
   server: 172.67.171.49
@@ -5778,7 +5797,7 @@ proxies:
     path: /vless
 - alterId: 0
   cipher: auto
-  name: '515|加拿大_多伦多 #423'
+  name: '514|加拿大_多伦多 #423'
   network: ws
   port: 2095
   server: 104.19.45.194
@@ -5791,7 +5810,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 518|加拿大_021805016 M50
+  name: 517|加拿大_021805016 M50
   network: tcp
   port: '14812'
   server: 38.111.114.153
@@ -5799,14 +5818,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
-- name: 518|加拿大_021805018+L30
+- name: 517|加拿大_021805018+L30
   network: tcp
   password: '!!str 3747000103274291200'
   port: 443
   server: 15.156.168.85
   sni: dynamic-liger.adder289.quest
   type: trojan
-- name: 518|加拿大_021805066
+- name: 517|加拿大_021805066
   password: '!!str 3778399750324494336'
   port: 443
   server: dynamic-liger.adder289.quest
@@ -5815,7 +5834,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 518|加拿大_021805129 M67
+  name: 517|加拿大_021805129 M67
   network: tcp
   port: '8881'
   server: 159.203.20.140
@@ -5824,7 +5843,7 @@ proxies:
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - delay: 1303
-  name: 530|加拿大 005
+  name: 529|加拿大 005
   network: ws
   port: 443
   server: 140.238.158.238
@@ -5839,22 +5858,55 @@ proxies:
       Host: c01.ylkszy.eu.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 553|0|🇦加拿大 01 | 1x CA
+  name: 552|0|🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 553|1|🇦 加拿大 01 | 1x CA
+  name: 552|1|🇦 加拿大 01 | 1x CA
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 553|🇨🇦 加拿大_042310103 L31
+  network: ws
+  port: '80'
+  server: 51.79.103.76
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 553|🇨🇦 [VMess] 🇨🇦 _CA_加拿大
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 553|🇨🇦 加拿大_042310082
+  password: e0c583d9-0cca-3779-8c23-d2268e7b655e
+  port: 20019
+  server: canvu2trojan.cloudbb.loan
+  skip-cert-verify: false
+  sni: canvu2trojan.cloudbb.loan
+  type: trojan
 - alterId: 1
   cipher: auto
-  name: 554|🇨🇦 加拿大_042220015 L0
+  name: 553|🇨🇦 加拿大_042310016 L0
   network: ws
   port: '443'
   server: 15.235.83.228
@@ -5865,20 +5917,7 @@ proxies:
     headers:
       Host: kapelleng.com
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 554|🇨🇦 _CA_加拿大
-  network: ws
-  port: '80'
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /
-- name: 555|8|🇨🇦CA-15.222.64.220-198_1@198
+- name: 554|8|🇨🇦CA-15.222.64.220-198_1@198
   password: xV6yLF0Z69Hm
   port: 16700
   server: 15.222.64.220
@@ -5887,7 +5926,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 003_2@6
+  name: 554|8|加拿大 003_2@6
   network: ws
   port: 2086
   server: 104.21.4.14
@@ -5900,7 +5939,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 005_2@9
+  name: 554|8|加拿大 005_2@9
   network: ws
   port: 2052
   server: 104.19.201.135
@@ -5913,7 +5952,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 006_2@10
+  name: 554|8|加拿大 006_2@10
   network: ws
   port: 2082
   server: 104.19.201.135
@@ -5927,7 +5966,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 008_2@29
+  name: 554|8|加拿大 008_2@29
   network: ws
   port: 443
   server: 104.21.44.106
@@ -5940,7 +5979,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 009_2@30
+  name: 554|8|加拿大 009_2@30
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -5953,7 +5992,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 012_2@53
+  name: 554|8|加拿大 012_2@53
   network: ws
   port: 443
   server: 162.159.135.42
@@ -5966,7 +6005,7 @@ proxies:
     path: /IYKLD53M
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 013_2@54
+  name: 554|8|加拿大 013_2@54
   network: ws
   port: 2053
   server: 104.19.163.54
@@ -5980,7 +6019,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 014_2@55
+  name: 554|8|加拿大 014_2@55
   network: ws
   port: 2083
   server: 104.18.121.75
@@ -5994,7 +6033,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 015_2@56
+  name: 554|8|加拿大 015_2@56
   network: ws
   port: 2083
   server: 104.19.58.127
@@ -6008,7 +6047,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 016_2@57
+  name: 554|8|加拿大 016_2@57
   network: ws
   port: 2053
   server: 104.19.169.7
@@ -6022,7 +6061,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 018_2@60
+  name: 554|8|加拿大 018_2@60
   network: ws
   port: 8880
   server: go.snangua.com
@@ -6035,7 +6074,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 019_2@61
+  name: 554|8|加拿大 019_2@61
   network: ws
   port: 8880
   server: us-01.snangua.com
@@ -6048,7 +6087,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 020_2@62
+  name: 554|8|加拿大 020_2@62
   network: ws
   port: 8880
   server: jp-01.snangua.com
@@ -6061,7 +6100,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 021_2@63
+  name: 554|8|加拿大 021_2@63
   network: ws
   port: 8880
   server: au-01.snangua.com
@@ -6074,7 +6113,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 022_2@64
+  name: 554|8|加拿大 022_2@64
   network: ws
   port: 8880
   server: fr-01.snangua.com
@@ -6087,7 +6126,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 023_2@66
+  name: 554|8|加拿大 023_2@66
   network: ws
   port: 443
   server: 104.19.225.226
@@ -6101,7 +6140,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 024_2@67
+  name: 554|8|加拿大 024_2@67
   network: ws
   port: 2053
   server: 104.17.164.97
@@ -6115,7 +6154,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 025_2@68
+  name: 554|8|加拿大 025_2@68
   network: ws
   port: 2083
   server: 104.19.13.82
@@ -6129,7 +6168,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 026_2@69
+  name: 554|8|加拿大 026_2@69
   network: ws
   port: 2083
   server: 104.19.133.38
@@ -6143,7 +6182,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 027_2@70
+  name: 554|8|加拿大 027_2@70
   network: ws
   port: 80
   server: 16.namesilo123.top
@@ -6154,7 +6193,7 @@ proxies:
     path: /?ed
 - alterId: 0
   cipher: auto
-  name: 555|8|加拿大 028_2@72
+  name: 554|8|加拿大 028_2@72
   network: ws
   port: 2082
   server: 104.19.244.227
@@ -6167,7 +6206,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 555|17|加拿大(yudou66.com 玉豆免费节点)
+  name: 554|17|加拿大(yudou66.com 玉豆免费节点)
   network: ws
   port: '2082'
   server: malaysia.com
@@ -6183,7 +6222,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 555,564|VMESS--NF解锁加拿大地区非自制剧-ChatGPT-T...
+  name: 554,563|VMESS--NF解锁加拿大地区非自制剧-ChatGPT-T...
   network: ws
   port: 80
   server: 51.79.102.253
@@ -6195,7 +6234,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 555,562|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.16...
+  name: 554,561|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.16...
   network: tcp
   port: '58891'
   server: 91.194.11.162
@@ -6205,15 +6244,33 @@ proxies:
   uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
 - alterId: 0
   cipher: auto
-  name: 555,562|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.11...
+  name: 554,561|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.17...
   network: tcp
-  port: '27699'
-  server: 91.194.11.118
+  port: '28984'
+  server: 91.194.11.178
   servername: ''
   tls: false
   type: vmess
-  uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- name: '559|Canada 5 🇨🇦 #1'
+  uuid: 9b2335af-f24c-4810-9c34-95568ebd579d
+- alterId: 0
+  cipher: auto
+  name: '557|加拿大1 #4'
+  network: tcp
+  port: '45064'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 89195053-93cb-43d5-8dd1-9c1b3ee75c33
+- alterId: 0
+  cipher: auto
+  name: '557|加拿大2 #3'
+  network: tcp
+  port: '45065'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 89195053-93cb-43d5-8dd1-9c1b3ee75c33
+- name: '558|Canada 5 🇨🇦 #1'
   network: httpupgrade
   port: 2052
   server: ns.cloudflare.com
@@ -6224,7 +6281,7 @@ proxies:
     headers:
       Host: Ser2.serrjioo.ir
     path: '%2FGoodLuck%3Fed%3D2560'
-- name: 561|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
+- name: 560|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
   network: tcp
   password: Aimer
   port: 2087
@@ -6233,7 +6290,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '565|加拿大1 #4'
+  name: '564|加拿大1 #5'
   network: tcp
   port: '45064'
   server: haa.dashuai.cyou
@@ -6242,7 +6299,7 @@ proxies:
   uuid: 070f662b-3c75-4e7f-8381-287d6d8f45b2
 - alterId: 0
   cipher: auto
-  name: '565|加拿大2 #3'
+  name: '564|加拿大2 #4'
   network: tcp
   port: '45065'
   server: xdd.dashuai.cyou
@@ -6315,21 +6372,21 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '612,613|🇨🇦 加拿大 #6'
+  name: '612,613|🇨🇦 加拿大 #4'
   password: a81dd416-d6dc-4268-b088-57ca0447b448
   port: 51176
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '654|加拿大1 #5'
+  name: '654|加拿大1 #6'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '654|加拿大2 #4'
+  name: '654|加拿大2 #5'
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
   port: 50022
   server: lh2.node-is.green
@@ -6345,21 +6402,21 @@ proxies:
   udp: true
 - name: 654|Trojan-加拿大2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 46719
-  server: 73acc31956a3c52093a4ff8392eee620.lh.gtm.node-is.green
+  port: 47338
+  server: 82f3e1c24ecfe9907ecd29c8caabbf4a.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '655|加拿大1 #6'
+  name: '655|加拿大1 #7'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '655|加拿大2 #5'
+  name: '655|加拿大2 #6'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
   port: 50022
   server: lh2.node-is.green
@@ -6375,21 +6432,21 @@ proxies:
   udp: true
 - name: '655|Trojan-加拿大2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 41864
-  server: c857250d2ef07ff7a62ba119621d32b1.lh.gtm.node-is.green
+  port: 42613
+  server: c6b4c17fabab00145819fdcecb5c1f48.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '656|加拿大1 #7'
+  name: '656|加拿大1 #8'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '656|加拿大2 #6'
+  name: '656|加拿大2 #7'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
   port: 50022
   server: lh2.node-is.green
@@ -6405,21 +6462,21 @@ proxies:
   udp: true
 - name: '656|Trojan-加拿大2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 41062
-  server: 43020166342b5cab7c61f62bc32478d8.lh.gtm.node-is.green
+  port: 42420
+  server: 263deb2ac49d121fd41c45452a78e3a6.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: '657|加拿大1 #8'
+  name: '657|加拿大1 #9'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50021
   server: lh2.node-is.green
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '657|加拿大2 #7'
+  name: '657|加拿大2 #8'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
   port: 50022
   server: lh2.node-is.green
@@ -6435,24 +6492,24 @@ proxies:
   udp: true
 - name: '657|Trojan-加拿大2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 48930
-  server: d19162884f2d878321361567a6c177f3.lh.gtm.node-is.green
+  port: 40968
+  server: 7b583843bdd33e12cbc764435094e264.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - name: 658|V1-加拿大-IPv6
   password: b3d566e4-e177-48fa-b09c-45bc5e58bc58
-  port: 42501
-  server: 63c87d4495a382e06a5ce217aa5551aa.v1.cac.node-is.green
+  port: 45827
+  server: afe3bca6111659a4519f76769546e71b.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan
   udp: true
 - name: '660|V1-加拿大-IPv6 #1'
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 46826
-  server: b5278cf91ccc0b4dc0c2835bf2cf71df.v1.cac.node-is.green
+  port: 45926
+  server: ce530991f3c23207f5c38323761416d9.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan

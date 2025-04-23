@@ -37,11 +37,12 @@ proxies:
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: 393|🇵🇱6 |  1.1MB/s
+  name: 393,547|POLAND 12-1A
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 51.77.53.200
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 393,412|🇱PL-51.77.53.200-3104
   password: Y6R9pAtvxxzmGC
@@ -194,18 +195,10 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇪 DE
-  name: 393,412,497| DE_136
+  name: 393,412,496|🇪 DE_131
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 92.118.205.228
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 407|🇵🇱 Poland 1 TG:@nodpai
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  server: 217.30.10.18
-  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇵🇱PL
@@ -214,7 +207,7 @@ proxies:
   port: 40030
   server: pr.fastsoonlink.com
   type: ss
-- name: 412,539|🇵🇱PL-51.83.186.142-4765
+- name: 412,538|🇵🇱PL-51.83.186.142-4765
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142
@@ -373,7 +366,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 518|波兰_021805014 L0
+  name: 517|波兰_021805014 L0
   network: ws
   port: '80'
   server: 45.144.48.128
@@ -387,7 +380,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 518|波兰_021805052
+  name: 517|波兰_021805052
   network: ws
   port: '80'
   server: 3h-poland1.09vpn.com
@@ -401,7 +394,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 554|🇵🇱 波兰_042220001 L33
+  name: 553|🇵🇱 波兰_042310002 L33
   network: ws
   port: '443'
   server: 57.128.193.117
@@ -414,15 +407,14 @@ proxies:
     path: /linkvws#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
 - alterId: 0
   cipher: auto
-  name: 554,555,562|🔒 VM-TCP-NA 🇵🇱 PL-2.56.125.101...
+  name: 553,554,561|🔒 VM-TCP-NA 🇵🇱 PL-2.56.125.101...
   network: tcp
   port: '38088'
   server: 2.56.125.101
-  servername: ''
   tls: false
   type: vmess
   uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
-- name: '561|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1... #1'
+- name: '560|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1... #1'
   network: tcp
   password: 2959e4f7-7589-4a40-9b96-1be750ac7845
   port: 80
