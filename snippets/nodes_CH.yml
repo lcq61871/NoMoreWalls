@@ -7,14 +7,14 @@ proxies:
   sni: mmbiz11.redapricotcloud.com
   type: trojan
   udp: true
-- name: 189|🇨🇭瑞士北部（苏黎世）trojan
+- name: 190|🇨🇭瑞士北部（苏黎世）trojan
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 34865
   server: 250407.jichang.my
   sni: zurich.678789.xyz
   type: trojan
   udp: true
-- name: '190|🇨🇭瑞士北部（苏黎世）trojan #1'
+- name: '191|🇨🇭瑞士北部（苏黎世）trojan #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 34865
   server: 250407.jichang.my
@@ -29,22 +29,19 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 379,380,398,483|🇸 US_479
+  name: 379,380,398|🇨🇭CH-156.146.62.164-1095
   password: shadowsocks
   port: 443
   server: 156.146.62.164
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸 US
-  name: 379,380,398,483|🇺🇸 US_483
+  name: 379,380,398|🇭CH-156.146.62.162-1061
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸 US
-  name: 379,380,398,483|🇺 US_478
+  name: 379,380,398|🇨CH-156.146.62.163-1056
   password: shadowsocks
   port: 443
   server: 156.146.62.163
@@ -56,12 +53,11 @@ proxies:
   server: 84.17.53.160
   type: ss
 - cipher: aes-256-cfb
-  name: 379,398,483|_79
+  name: 379,398|🇷FR-51.15.15.82-0882
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 398|🇨CH-185.126.116.125-0102
   password: aLpQtfEZe445QyHk
@@ -161,6 +157,25 @@ proxies:
     headers:
       Host: 186.190.215.149
     path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 540|🇨🇭 瑞士_042220014 H71
+  network: tcp
+  port: '22324'
+  server: 186.190.215.193
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 540,541,548|🔒 VM-TCP-NA 🇨🇭 CH-186.190.215....
+  network: tcp
+  port: '22324'
+  server: 186.190.215.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
   name: 580|🇨🇭 CH 瑞士
   password: c031c57e-21e2-4a60-9af0-289ca27c0cb7
@@ -182,7 +197,7 @@ proxies:
   server: qq.miaolianyunapp.com
   type: ss
   udp: true
-- name: '695,795,796,797|🇨🇭 瑞士 #6'
+- name: '695,796,797,798|🇨🇭 瑞士 #6'
   password: '!!str 1'
   port: 10009
   server: starlink-fra2.2513142.xyz
@@ -191,7 +206,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '741,742,743,744|🇨🇭 Switzerland 087 #3'
+  name: '742,743,744,745|🇨🇭 Switzerland 087 #3'
   password: c9fa2bcffa379937679e
   plugin: obfs
   plugin-opts:

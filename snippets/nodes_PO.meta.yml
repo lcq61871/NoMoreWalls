@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 184|波兰
+  name: 185|波兰
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51079
   server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com
@@ -202,11 +202,18 @@ proxies:
   server: 51.77.53.200
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇪 DE
-  name: 379,398,483| DE_120
+  name: 379,398|🇱PL-92.118.205.228-5974
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 92.118.205.228
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 393,398|🇱PL-217.30.10.18-6464
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 217.30.10.18
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇵🇱PL
@@ -416,7 +423,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 540|🇵🇱 波兰_042210004 L33
+  name: 540|🇵🇱 波兰_042220001 L33
   network: ws
   port: '443'
   server: 57.128.193.117
@@ -433,11 +440,10 @@ proxies:
   network: tcp
   port: '38088'
   server: 2.56.125.101
-  servername: ''
   tls: false
   type: vmess
   uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
-- name: '547|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1... #1'
+- name: 547|🔒 TR-TCP-TLS 🇵🇱 PL-51.83.186.1...
   network: tcp
   password: 2959e4f7-7589-4a40-9b96-1be750ac7845
   port: 80
@@ -452,21 +458,7 @@ proxies:
   skip-cert-verify: true
   sni: pl0-irminsul.nahida.im
   type: hysteria2
-- name: 664|🇵🇱 PL-OVHcloud
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: pl.eooce.ggff.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: cfa8c36c-9652-484a-89e1-34dcc98faac3
-  ws-opts:
-    headers:
-      Host: pl.eooce.ggff.net
-    path: /vless?ed=2048
-- name: '695,795,796,797|🇵🇱 波兰1 #3'
+- name: '695,796,797,798|🇵🇱 波兰1 #3'
   password: '!!str 1'
   port: 20185
   server: 212.127.78.119
@@ -474,7 +466,7 @@ proxies:
   sni: www.cloudflare.com
   type: hysteria2
   udp: true
-- name: '695,795,796,797|🇵🇱 波兰2 #3'
+- name: '695,796,797,798|🇵🇱 波兰2 #3'
   password: '!!str 1'
   port: 20181
   server: 212.127.78.119
