@@ -1,14 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: 🇷 RU
-  name: 389,469|🇷 RU_283
+  name: 411|EE-147.45.60.33-1090
   password: LqlPI19oqnunGNSLMvdXyB
   port: 16356
   server: 147.45.60.33
   type: ss
 - alterId: 0
   cipher: auto
-  name: 389,511,529|🇪🇪 github.com/freefq - 爱沙尼亚  2...
+  name: 411,531,549|🇪🇪 github.com/freefq - 爱沙尼亚  2...
   network: ws
   port: '80'
   server: 176.112.146.190
@@ -22,21 +21,14 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 389|🇪EE-37.252.5.234-5179
+  name: 411|🇪EE-37.252.5.234-4972
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.252.5.234
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 520|🇪 爱沙尼亚 塔林-1A
-  password: 35165264-d6f9-47dd-b304-5e2b31faaabe
-  port: 49105
-  server: ambnds00.dorabbb.top
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '529|🇪🇪 github.com/freefq - 爱沙尼亚  2... #1'
+  name: '549|🇪🇪 github.com/freefq - 爱沙尼亚  2... #1'
   network: ws
   port: '80'
   server: ee.oppo.quest
