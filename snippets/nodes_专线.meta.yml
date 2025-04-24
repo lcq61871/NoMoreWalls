@@ -1,41 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 36|泰国01|⚡高速专线
+  name: 37|泰国01|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 18848
   server: xm.miloli.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 36|泰国02|⚡高速专线
+  name: 37|泰国02|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 23681
   server: xm.miloli.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 36|墨西哥02|⚡高速专线
+  name: 37|墨西哥02|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 48874
   server: xm.miloli.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 36|巴基斯坦01|⚡高速专线
+  name: 37|巴基斯坦01|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 35545
   server: xm.miloli.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 36|巴基斯坦02|⚡高速专线
+  name: 37|巴基斯坦02|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 32254
   server: xm.miloli.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 36|澳大利亚02|⚡高速专线
+  name: 37|澳大利亚02|⚡高速专线
   password: ee72abce-19c9-49c8-aa55-76ae40d71e71
   port: 24428
   server: xm.miloli.cc
@@ -43,55 +43,65 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '99,474|🇲🇾 马来西亚专线NO1 #1'
+  name: '101,460|🇲🇾 马来西亚专线NO1 #1'
   port: 45058
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 1b4ea1ac-24cc-4767-9b48-8b414c9a3a59
+  uuid: e096dcc5-223b-4dd8-8fb6-b09657563017
 - alterId: 0
   cipher: auto
-  name: '99,474|🇲🇾 马来西亚专线NO2 #1'
+  name: '101,460|🇲🇾 马来西亚专线NO2 #1'
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 1b4ea1ac-24cc-4767-9b48-8b414c9a3a59
+  uuid: e096dcc5-223b-4dd8-8fb6-b09657563017
 - alterId: 0
   cipher: auto
-  name: '100,478|马来西亚专线NO1 #1'
+  name: '102,103,464,465|马来西亚专线NO1-1A #1'
   port: 45058
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 921214d1-9b68-4aaa-84d5-d8bef12926c6
+  uuid: 04321ef8-a1f6-4d4f-8fb2-4bd535a7993d
 - alterId: 0
   cipher: auto
-  name: '100,101,478,479|马来西亚专线NO2-1A #1'
+  name: '102,103,464,465|马来西亚专线NO2-1A #1'
   port: 45059
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 921214d1-9b68-4aaa-84d5-d8bef12926c6
+  uuid: 04321ef8-a1f6-4d4f-8fb2-4bd535a7993d
 - alterId: 0
   cipher: auto
-  name: '101,479|马来西亚专线NO2-1B #1'
+  name: '103,465|马来西亚专线NO1-1B #1'
+  port: 45058
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6a1e670b-73c4-47f7-9105-9bab9d4ecfdf
+- alterId: 0
+  cipher: auto
+  name: '103,465|马来西亚专线NO2-1B #1'
   port: 45059
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 6f455520-a2e9-47a2-9692-10fd80ac29ff
+  uuid: 6a1e670b-73c4-47f7-9105-9bab9d4ecfdf
 - alterId: 0
   cipher: auto
-  name: 171|专线|丹麦01倍率5
+  name: 173|专线|丹麦01倍率5
   port: 26149
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -99,7 +109,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|南非01倍率5
+  name: 173|专线|南非01倍率5
   port: 26086
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -107,7 +117,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|印度01倍率5
+  name: 173|专线|印度01倍率5
   port: 26132
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -115,7 +125,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|巴林01倍率5
+  name: 173|专线|巴林01倍率5
   port: 26138
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -123,7 +133,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|巴西01倍率5
+  name: 173|专线|巴西01倍率5
   port: 26134
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -131,7 +141,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|希腊01倍率5
+  name: 173|专线|希腊01倍率5
   port: 26130
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -139,7 +149,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|挪威01倍率5
+  name: 173|专线|挪威01倍率5
   port: 26140
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -147,7 +157,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|捷克01倍率5
+  name: 173|专线|捷克01倍率5
   port: 26100
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -155,7 +165,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171,389|🇨🇱 CL 041 |  17.3MB/s
+  name: 173,376|🇨🇱 CL 041 |  17.3MB/s
   port: 26147
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -165,7 +175,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|泰国01倍率5
+  name: 173|专线|泰国01倍率5
   port: 26108
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -173,7 +183,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|秘鲁01倍率5
+  name: 173|专线|秘鲁01倍率5
   port: 26155
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -181,7 +191,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|芬兰01倍率5
+  name: 173|专线|芬兰01倍率5
   port: 26136
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -189,7 +199,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|荷兰01倍率5
+  name: 173|专线|荷兰01倍率5
   port: 26098
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -197,7 +207,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|越南01倍率5
+  name: 173|专线|越南01倍率5
   port: 26076
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -205,7 +215,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|乌克兰01倍率5
+  name: 173|专线|乌克兰01倍率5
   port: 26106
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -213,7 +223,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|以色列01倍率5
+  name: 173|专线|以色列01倍率5
   port: 26145
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -221,7 +231,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|土耳其01倍率5
+  name: 173|专线|土耳其01倍率5
   port: 26092
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -229,7 +239,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|墨西哥01倍率5
+  name: 173|专线|墨西哥01倍率5
   port: 26148
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -237,7 +247,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|奥地利01倍率5
+  name: 173|专线|奥地利01倍率5
   port: 26128
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -245,7 +255,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|意大利01倍率5
+  name: 173|专线|意大利01倍率5
   port: 26142
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -253,7 +263,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|柬埔寨01倍率5
+  name: 173|专线|柬埔寨01倍率5
   port: 26082
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -261,7 +271,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|比利时01倍率5
+  name: 173|专线|比利时01倍率5
   port: 26150
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -269,7 +279,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|爱尔兰01倍率5
+  name: 173|专线|爱尔兰01倍率5
   port: 26151
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -277,7 +287,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|立陶宛01倍率5
+  name: 173|专线|立陶宛01倍率5
   port: 26153
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -285,7 +295,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|菲律宾01倍率5
+  name: 173|专线|菲律宾01倍率5
   port: 26080
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -293,7 +303,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|葡萄牙01倍率5
+  name: 173|专线|葡萄牙01倍率5
   port: 26154
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -301,7 +311,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|西班牙01倍率5
+  name: 173|专线|西班牙01倍率5
   port: 26126
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -309,7 +319,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171,389|🇨🇳 CN 030 |  18.0MB/s
+  name: 173,376|🇨🇳 CN 030 |  18.0MB/s
   port: 26122
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -319,7 +329,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171,389|🇦🇪 AE 038 |  19.8MB/s
+  name: 173,376|🇦🇪 AE 038 |  19.8MB/s
   port: 26078
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -329,7 +339,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|保加利亚01倍率5
+  name: 173|专线|保加利亚01倍率5
   port: 26094
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -337,7 +347,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|哥伦比亚01倍率5
+  name: 173|专线|哥伦比亚01倍率5
   port: 26124
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -345,7 +355,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|孟加拉国01倍率5
+  name: 173|专线|孟加拉国01倍率5
   port: 26084
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -353,7 +363,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|巴基斯坦01倍率5
+  name: 173|专线|巴基斯坦01倍率5
   port: 26135
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -361,7 +371,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|拉脱维亚01倍率5
+  name: 173|专线|拉脱维亚01倍率5
   port: 26102
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -369,7 +379,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171,389|🇦🇺 AU 039 |  26.5MB/s
+  name: 173,376|🇦🇺 AU 039 |  26.5MB/s
   port: 26110
   server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
@@ -379,7 +389,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|罗马尼亚01倍率5
+  name: 173|专线|罗马尼亚01倍率5
   port: 26146
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -387,7 +397,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|阿塞拜疆01倍率5
+  name: 173|专线|阿塞拜疆01倍率5
   port: 26139
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -395,7 +405,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|马斯喀特01倍率5
+  name: 173|专线|马斯喀特01倍率5
   port: 26133
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -403,7 +413,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|马来西亚01倍率5
+  name: 173|专线|马来西亚01倍率5
   port: 26137
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -411,7 +421,7 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|印度尼西亚01倍率5
+  name: 173|专线|印度尼西亚01倍率5
   port: 26144
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
@@ -419,31 +429,37 @@ proxies:
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - alterId: 0
   cipher: auto
-  name: 171|专线|沙特阿拉伯01倍率5
+  name: 173|专线|沙特阿拉伯01倍率5
   port: 26088
   server: ppy-boardv2.02ijp4uos1.download
   type: vmess
   udp: true
   uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- name: 321|🇦🇺 AU流媒体专用3x1
+  port: 54969
+  server: cshgz1.fuckcdn.top
+  type: vless
+  udp: true
+  uuid: d516b33d-86ee-49e8-9af7-4eb7405e5cfe
 - alterId: 0
   cipher: auto
-  name: 343|[3X]马来西亚专线NO1
+  name: 330|[3X]马来西亚专线NO1
   port: 45058
   server: haa.dashuai.cyou
   type: vmess
   udp: true
-  uuid: d162b24e-b3b8-4167-91bc-99f5a12a2b3c
+  uuid: 56988dc6-0054-473b-9658-a2f6f95c6cd7
 - alterId: 0
   cipher: auto
-  name: 343|[3X]马来西亚专线NO2
+  name: 330|[3X]马来西亚专线NO2
   port: 45059
   server: xdd.dashuai.cyou
   type: vmess
   udp: true
-  uuid: d162b24e-b3b8-4167-91bc-99f5a12a2b3c
+  uuid: 56988dc6-0054-473b-9658-a2f6f95c6cd7
 - alterId: 0
   cipher: auto
-  name: '523|🇲🇾 马来西亚专线NO2 #2'
+  name: '509|🇲🇾 马来西亚专线NO2 #2'
   port: 45059
   server: xdd.dashuai.cyou
   tls: false
@@ -452,7 +468,7 @@ proxies:
   uuid: a04bdcd0-5839-43e5-a1ad-e9be9e414242
 - alterId: 0
   cipher: auto
-  name: 523|🇰 国 专线NO2
+  name: 509|🇰 国 专线NO2
   port: 45075
   server: xdd.dashuai.cyou
   tls: false
@@ -461,24 +477,196 @@ proxies:
   uuid: a04bdcd0-5839-43e5-a1ad-e9be9e414242
 - alterId: 0
   cipher: auto
-  name: '544|马来西亚专线NO1 #2'
+  name: 520,527|28|🇭 专线--1C
+  network: ws
+  port: 59350
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 520|🇾 马来西亚专线NO1-1A
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7637e6b-198a-42f4-8bcd-945d8490ae13
+- cipher: chacha20-ietf-poly1305
+  name: 520|专 01-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 44701
+  server: aambx01qt.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 02-1B
+  password: f155134d-a5b1-449c-ad25-736fffb60e55
+  port: 47728
+  server: aambx02qw.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 02-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 47728
+  server: aambx02qw.dorabbb.top
+  type: ss
+  udp: true
+- auth: 08ab5dc6-4c5b-4790-9072-1b21d4b91508
+  name: 520|🇪 联-专线1-1C
+  password: 08ab5dc6-4c5b-4790-9072-1b21d4b91508
+  port: 36383
+  server: st.fastcn.fun
+  skip-cert-verify: false
+  sni: st.fastcn.fun
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 520|🇦 专线-南-1C
+  network: ws
+  port: 53196
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- auth: 82d8fde1-5eae-45df-a782-0725f1798063
+  name: 520|🇪 阿联酋-专线1-1B
+  password: 82d8fde1-5eae-45df-a782-0725f1798063
+  port: 31277
+  server: db.medicalgpt.online
+  skip-cert-verify: false
+  sni: db.medicalgpt.online
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 03-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 37731
+  server: aambx01qt.dorabbb.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 520,527|28|🇦 专线-南非-1D
+  network: ws
+  port: 53196
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fa0e8d91-8115-4954-ac02-9dbd40d9638f
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 01-1B
+  password: f155134d-a5b1-449c-ad25-736fffb60e55
+  port: 44701
+  server: aambx01qt.dorabbb.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 520|🇾 马来西亚专线NO1-1B
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0109af16-5be7-456f-8ab7-125e2b016872
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 01-1A
+  password: 35165264-d6f9-47dd-b304-5e2b31faaabe
+  port: 44701
+  server: aambx01qt.dorabbb.top
+  type: ss
+  udp: true
+- auth: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  name: 520|🇪 联-专线1-1F
+  password: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  port: 27034
+  server: db.medicalgpt.online
+  skip-cert-verify: false
+  sni: db.medicalgpt.online
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 520|专用 02-1E
+  password: 0716aa57-2cb9-4f49-ba77-8b0192658ce3
+  port: 47728
+  server: aambx02qw.dorabbb.top
+  type: ss
+  udp: true
+- auth: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  name: 520|🇪 阿联酋-专线1-1E
+  password: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
+  port: 4495
+  server: st.fastcn.fun
+  skip-cert-verify: false
+  sni: st.fastcn.fun
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 520|🇾 马来西亚专线NO2-1B
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0109af16-5be7-456f-8ab7-125e2b016872
+- alterId: 0
+  cipher: auto
+  name: 527|28|🇾 马来西亚专线NO2-1B
+  network: tcp
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 0109af16-5be7-456f-8ab7-125e2b016872
+- alterId: 0
+  cipher: auto
+  name: 527|28|🇾 马来西亚专线NO1-1B
+  network: tcp
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 0109af16-5be7-456f-8ab7-125e2b016872
+- alterId: 0
+  cipher: auto
+  name: '530|马来西亚专线NO1 #2'
   network: tcp
   port: '45058'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 86c494c8-e575-4b12-bedd-c199e29604d0
+  uuid: ddf671b2-5cbf-4ed6-b2e1-ac96a8927c44
 - alterId: 0
   cipher: auto
-  name: '544|马来西亚专线NO2 #2'
+  name: '530|马来西亚专线NO2 #2'
   network: tcp
   port: '45059'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 86c494c8-e575-4b12-bedd-c199e29604d0
+  uuid: ddf671b2-5cbf-4ed6-b2e1-ac96a8927c44
 - client-fingerprint: random
-  name: 545|🇧🇷_定制专线：@QS00008
+  name: 531|🇧🇷_定制专线：@QS00008
   network: ws
   port: 8080
   server: 188.114.97.3
@@ -488,7 +676,7 @@ proxies:
   uuid: 0751d920-cc41-4ae6-8a10-cf17efd7e6c3
   ws-opts:
     path: /admin
-- name: 545|🇮🇷_定制专线：@QS00008
+- name: 531|🇮🇷_定制专线：@QS00008
   network: ws
   port: 23297
   server: 37.202.237.107
@@ -497,21 +685,21 @@ proxies:
   uuid: 51e44d01-5fa0-47d3-8ee3-ad1f04d3abcc
   ws-opts:
     path: /
-- name: '545|🇮🇷_定制专线：@QS00008 #1'
+- name: '531|🇮🇷_定制专线：@QS00008 #1'
   network: tcp
   port: 443
   server: 5.78.53.184
   tls: false
   type: vless
   uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
-- name: 545|🏳️_定制专线：@QS00008
+- name: 531|🏳️_定制专线：@QS00008
   network: tcp
   port: 5000
   server: 138.199.229.172
   tls: false
   type: vless
   uuid: 7fd9c29c-1fa7-42b6-8310-2d1024a1d422
-- name: '545|🇮🇪_定制专线：@QS00008 #1'
+- name: 531|🇮🇪_定制专线：@QS00008
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -519,7 +707,7 @@ proxies:
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 545|🇱🇹_定制专线：@QS00008
+- name: 531|🇱🇹_定制专线：@QS00008
   network: ws
   port: 8080
   server: 86.38.214.30
@@ -527,18 +715,10 @@ proxies:
   tls: false
   type: vless
   uuid: 0f9f0500-01a2-49a6-b67b-d1b38913ba2c
-- name: '545|🇮🇷_定制专线：@QS00008 #2'
+- name: '531|🇮🇷_定制专线：@QS00008 #2'
   network: tcp
   port: 48046
   server: 188.245.43.225
   tls: false
   type: vless
   uuid: 0d751e96-72bc-484b-8f0e-ceb8a733fba3
-- name: 545|🇮🇪_定制专线：@QS00008
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 46.137.191.115
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
