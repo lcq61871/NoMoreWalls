@@ -1,24 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  name: '1,22,181,185,312,373,411,518,519,521,525,536,539,543,544,546,547,549|🇰🇷 12,13|韩国|@ripaojiedian
-    #4'
-  network: tcp
-  password: 74fa3b6c-e333-49f4-ab15-9549fc53cf42
-  port: 46668
-  server: sla.cn.964e995b760.gogodns.xin
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,22,182,186,539,543,544|韩国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: cg1c15.waimaoglobaldirect.cc
+  servername: cg1c15.waimaoglobaldirect.cc
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 07d85fd8-fc9a-4484-9bcf-a72921c87e82
+  ws-opts:
+    headers:
+      Host: cg1c15.waimaoglobaldirect.cc
+    path: /api/v1/graphql
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: '1,22,181,185,312,411,518,519,543|🇰🇷 韩国特殊|@ripaojiedian #2'
+  name: '1,22,182,186,543|🇰🇷 韩国特殊|@ripaojiedian #2'
   password: amazonskr05
   port: 443
-  server: 54.180.243.85
+  server: 13.231.81.63
   tfo: false
   type: ss
-  udp: true
 - name: 8|🇰🇷 韩国
   password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
   port: 39593
@@ -85,7 +90,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   delay: 2618
-  name: 72,377,527|韩国 - 首尔特别市 - Shenzhen Tencent ...
+  name: 72,376,527|韩国 - 首尔特别市 - Shenzhen Tencent ...
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
@@ -194,16 +199,8 @@ proxies:
     headers:
       Host: i1.hdslb.com
     path: /download
-- name: '101,480|🇰🇷 韩国-三网优化2-1O #1'
-  password: d1256c25-37f2-49cf-9641-709523e9c233
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1H #1'
-  password: 2d474035-857b-4d58-8b99-60fbb6d41e04
+- name: '101,480|🇰🇷 韩国-三网优化2-1F #2'
+  password: 7d55f96a-e05c-4702-9ace-cacc66379bf1
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: false
@@ -211,79 +208,7 @@ proxies:
   type: trojan
   udp: true
 - name: '101,480|🇰🇷 韩国-三网优化2-1C #2'
-  password: 41b0b1df-0496-464f-b010-24debbf3704e
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1J #1'
-  password: 304d1360-7f70-4249-90d0-8d38f0ff0697
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1M #1'
-  password: e48b1060-b525-498b-bca4-de1d2fb31922
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1G #1'
-  password: 4726b5a1-c2ba-4fc9-9e9a-201ccc2feba8
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1D #2'
-  password: b6224635-37bf-4eff-ba25-7e0c87aa63c0
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1K #1'
-  password: 960c77b8-4d7a-406d-8cc5-7a8329be317d
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1B #2'
-  password: d91d343a-c7a4-40e5-be8b-7214c8e230d1
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1A #2'
-  password: 8f364742-da46-45e4-b055-d01e3d6adcbb
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1N #1'
-  password: f2d2817e-c43e-4182-9c92-e2c21d7931ce
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1P #1'
-  password: 004ded9c-0775-48e6-b09c-b474044f2199
+  password: d1256c25-37f2-49cf-9641-709523e9c233
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: false
@@ -291,7 +216,7 @@ proxies:
   type: trojan
   udp: true
 - name: '101,480|🇰🇷 韩国-三网优化2-1L #1'
-  password: 010b569f-72a8-40a0-a44d-53487fbab9ca
+  password: 4726b5a1-c2ba-4fc9-9e9a-201ccc2feba8
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: false
@@ -306,7 +231,55 @@ proxies:
   sni: kr-qingyun.dwyun.me
   type: trojan
   udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1E #2'
+- name: '101,480|🇰🇷 韩国-三网优化2-1K #1'
+  password: 004ded9c-0775-48e6-b09c-b474044f2199
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1N #1'
+  password: 2d474035-857b-4d58-8b99-60fbb6d41e04
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1P #1'
+  password: 41b0b1df-0496-464f-b010-24debbf3704e
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1G #1'
+  password: 010b569f-72a8-40a0-a44d-53487fbab9ca
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1A #2'
+  password: 304d1360-7f70-4249-90d0-8d38f0ff0697
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1D #2'
+  password: d91d343a-c7a4-40e5-be8b-7214c8e230d1
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1H #1'
   password: 0d797772-67b3-4c4a-bd7c-769dd658104b
   port: 44732
   server: kr-qingyun.dwyun.me
@@ -314,8 +287,48 @@ proxies:
   sni: kr-qingyun.dwyun.me
   type: trojan
   udp: true
-- name: '101,480|🇰🇷 韩国-三网优化2-1F #2'
-  password: 7d55f96a-e05c-4702-9ace-cacc66379bf1
+- name: '101,480|🇰🇷 韩国-三网优化2-1E #2'
+  password: f2d2817e-c43e-4182-9c92-e2c21d7931ce
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1O #1'
+  password: b6224635-37bf-4eff-ba25-7e0c87aa63c0
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1M #1'
+  password: 960c77b8-4d7a-406d-8cc5-7a8329be317d
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1Q #1'
+  password: 9dc949ac-de5f-4969-bcd7-7915a4fd04c9
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1J #1'
+  password: e48b1060-b525-498b-bca4-de1d2fb31922
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: false
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- name: '101,480|🇰🇷 韩国-三网优化2-1B #2'
+  password: 8f364742-da46-45e4-b055-d01e3d6adcbb
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: false
@@ -374,9 +387,23 @@ proxies:
   server: bit-kr.03ezhg0qsa.download
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 179|🇰🇷韩国 01 | 1x KR
+  password: bc406fb1-5cd2-4e40-a86e-9622cacb78c0
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 179|🇰🇷韩国 02 | 1x KR
+  password: bc406fb1-5cd2-4e40-a86e-9622cacb78c0
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 179|🌴韩国 01/纯穿/🚀CDN加速
+  name: 180|🌴韩国 01/纯穿/🚀CDN加速
   network: ws
   port: 80
   server: qdfhytmhg.fask511.cfd
@@ -392,7 +419,7 @@ proxies:
   ws-path: /market/akrjjz?ed=512
 - alterId: 0
   cipher: auto
-  name: 179|🌴韩国 03/纯穿/🚀CDN加速
+  name: 180|🌴韩国 03/纯穿/🚀CDN加速
   network: ws
   port: 80
   server: kkkghdragxc.fask511.cfd
@@ -407,41 +434,41 @@ proxies:
     path: /market/akrjjz?ed=512
   ws-path: /market/akrjjz?ed=512
 - cipher: chacha20-ietf-poly1305
-  name: 182|韩国 01
+  name: 183|韩国 01
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51061
   server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|韩国 02
+  name: 183|韩国 02
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51061
   server: cname03a-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
-- name: 187|🇰🇷韩国中部（首尔）trojan1
+- name: 188|🇰🇷韩国中部（首尔）trojan1
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 47918
   server: 250407.jichang.my
   sni: seoul2.678789.xyz
   type: trojan
   udp: true
-- name: 187|🇰🇷韩国中部（首尔）trojan2
+- name: 188|🇰🇷韩国中部（首尔）trojan2
   password: c6677829-5644-427a-996d-5ac4d3223c03
   port: 52803
   server: 250407.jichang.my
   sni: seoul3.678789.xyz
   type: trojan
   udp: true
-- name: '188|🇰🇷韩国中部（首尔）trojan1 #1'
+- name: '189|🇰🇷韩国中部（首尔）trojan1 #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 47918
   server: 250407.jichang.my
   sni: seoul2.678789.xyz
   type: trojan
   udp: true
-- name: '188|🇰🇷韩国中部（首尔）trojan2 #1'
+- name: '189|🇰🇷韩国中部（首尔）trojan2 #1'
   password: 1ebeff0a-6b43-4585-9fab-97859991f1f7
   port: 52803
   server: 250407.jichang.my
@@ -450,450 +477,393 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 245|🇰🇷韩国01|1x
+  name: 244|🇰🇷韩国01|1x
   port: 34241
   server: gg.youaremygod.top
   type: vmess
   udp: true
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 01
+  name: 265|韩国 전라북도 전주시 商宽 E 01
   password: 015tmS
   port: 30916
   server: kr11.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 02
+  name: 265|韩国 전라북도 전주시 商宽 E 02
   password: 015tmS
   port: 30916
   server: kr12.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 03
+  name: 265|韩国 전라북도 전주시 商宽 E 03
   password: 015tmS
   port: 30916
   server: kr13.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 04
+  name: 265|韩国 전라북도 전주시 商宽 E 04
   password: 015tmS
   port: 30916
   server: kr14.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 05
+  name: 265|韩国 전라북도 전주시 商宽 E 05
   password: 015tmS
   port: 30916
   server: kr15.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 06
+  name: 265|韩国 전라북도 전주시 商宽 E 06
   password: 015tmS
   port: 30916
   server: kr16.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 07
+  name: 265|韩国 전라북도 전주시 商宽 E 07
   password: 015tmS
   port: 30916
   server: kr17.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 08
+  name: 265|韩国 전라북도 전주시 商宽 E 08
   password: 015tmS
   port: 30916
   server: kr18.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 09
+  name: 265|韩国 전라북도 전주시 商宽 E 09
   password: 015tmS
   port: 30916
   server: kr19.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 266|韩国 전라북도 전주시 商宽 E 10
+  name: 265|韩国 전라북도 전주시 商宽 E 10
   password: 015tmS
   port: 30916
   server: kr20.ctg.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 01
-  password: A9kNnl
-  port: 56618
-  server: krsk01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 02
-  password: A9kNnl
-  port: 56618
-  server: krsk02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 03
-  password: A9kNnl
-  port: 56618
-  server: krsk03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 04
-  password: A9kNnl
-  port: 56618
-  server: krsk04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 05
-  password: A9kNnl
-  port: 56618
-  server: krsk05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 06
-  password: A9kNnl
-  port: 56618
-  server: krsk06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 07
-  password: A9kNnl
-  port: 56618
-  server: krsk07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 08
-  password: A9kNnl
-  port: 56618
-  server: krsk08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 09
-  password: A9kNnl
-  port: 56618
-  server: krsk09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 267|韩国 전라북도 전주시 商宽 B 10
-  password: A9kNnl
-  port: 56618
-  server: krsk10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 01
+  name: 267|韩国 전라북도 전주시 商宽 D 01
   password: g01bsgajojf
   port: 50646
   server: kr11.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 02
+  name: 267|韩国 전라북도 전주시 商宽 D 02
   password: g01bsgajojf
   port: 50646
   server: kr12.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 03
+  name: 267|韩国 전라북도 전주시 商宽 D 03
   password: g01bsgajojf
   port: 50646
   server: kr13.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 04
+  name: 267|韩国 전라북도 전주시 商宽 D 04
   password: g01bsgajojf
   port: 50646
   server: kr14.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 05
+  name: 267|韩国 전라북도 전주시 商宽 D 05
   password: g01bsgajojf
   port: 50646
   server: kr15.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 06
+  name: 267|韩国 전라북도 전주시 商宽 D 06
   password: g01bsgajojf
   port: 50646
   server: kr16.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 07
+  name: 267|韩国 전라북도 전주시 商宽 D 07
   password: g01bsgajojf
   port: 50646
   server: kr17.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 08
+  name: 267|韩国 전라북도 전주시 商宽 D 08
   password: g01bsgajojf
   port: 50646
   server: kr18.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 09
+  name: 267|韩国 전라북도 전주시 商宽 D 09
   password: g01bsgajojf
   port: 50646
   server: kr19.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 10
+  name: 267|韩国 전라북도 전주시 商宽 D 10
   password: g01bsgajojf
   port: 50646
   server: kr20.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 11
+  name: 267|韩国 전라북도 전주시 商宽 D 11
   password: g01bsgajojf
   port: 50646
   server: kr21.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 12
+  name: 267|韩国 전라북도 전주시 商宽 D 12
   password: g01bsgajojf
   port: 50646
   server: kr22.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 268|韩国 전라북도 전주시 商宽 D 13
+  name: 267|韩国 전라북도 전주시 商宽 D 13
   password: g01bsgajojf
   port: 50646
   server: kr23.ktp.wtf
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 01 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 01
   password: 26d8vZ
   port: 5185
   server: krsk01.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 02 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 02
   password: 26d8vZ
   port: 5185
   server: krsk02.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 03 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 03
   password: 26d8vZ
   port: 5185
   server: krsk03.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 04 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 04
   password: 26d8vZ
   port: 5185
   server: krsk04.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 05 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 05
   password: 26d8vZ
   port: 5185
   server: krsk05.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 06 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 06
   password: 26d8vZ
   port: 5185
   server: krsk06.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 07 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 07
   password: 26d8vZ
   port: 5185
   server: krsk07.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 08 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 08
   password: 26d8vZ
   port: 5185
   server: krsk08.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 09 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 09
   password: 26d8vZ
   port: 5185
   server: krsk09.graniterapids.com
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: '269|韩国 전라북도 전주시 商宽 B 10 #1'
+  name: 268|韩国 전라북도 전주시 商宽 B 10
   password: 26d8vZ
   port: 5185
   server: krsk10.graniterapids.com
   type: ss
   udp: true
-- name: 278|🇰🇷 韩国-碧海云
-  password: aaee1a8b-e033-43f3-9d8d-f46dd522b46a
+- name: 277|🇰🇷 韩国-碧海云
+  password: 13acf236-50a4-4309-ae45-0d4047395399
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 278|🇰🇷 韩国-碧海云 2
-  password: 8bf04e34-bda4-4053-847b-88dfb01d4e36
+- name: 277|🇰🇷 韩国-碧海云 2
+  password: 978ce8f6-b5ad-4cda-a6af-0fd2f1de3f5e
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 278|🇰🇷 韩国-碧海云 3
-  password: 9d2ef79f-b2f5-4553-914f-be5b3573262f
+- name: 277|🇰🇷 韩国-碧海云 3
+  password: f60094ab-29e8-47ed-840e-bff48e7d562f
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇰🇷 韩国-碧海云 #1'
-  password: 06088081-efb3-4647-a77d-15337d422ffb
+- name: '278|🇰🇷 韩国-碧海云 #1'
+  password: 894b3559-d01f-42b3-823c-de193e5f3deb
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇰🇷 韩国-碧海云 2 #1'
-  password: 7219f2ee-a9fd-4fa7-9483-b570f0f9b91b
+- name: '278|🇰🇷 韩国-碧海云 2 #1'
+  password: c84d3d1b-bdc9-45f7-9a00-89f0134bbd65
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇰🇷 韩国-碧海云 3 #1'
-  password: 68e613f5-681d-4439-9dec-fc4c40c4547a
+- name: '278|🇰🇷 韩国-碧海云 3 #1'
+  password: d3fdb992-e130-40d5-ba6d-64363822a793
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - cipher: aes-256-cfb
-  name: '312,518,519|2|🇰🇷2 |  1.7MB/s #1'
+  name: 311|South Korea_Suwon_ss_11113
   password: qwerREWQ@@
-  port: 8772
-  server: p235.panda004.net
+  port: 4857
+  server: p227.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 311,518,519,548|KR-221.150.109.90-189
+  password: qwerREWQ@@
+  port: 58487
+  server: p230.panda004.net
   tfo: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 325|KR.韩国.A
+  name: 324|KR.韩国.A
   password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
   port: 33167
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 325|KR.韩国.B | 高速.2x倍率
+  name: 324|KR.韩国.B | 高速.2x倍率
   password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb
   port: 28595
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '326|KR.韩国.A #1'
+  name: '325|KR.韩国.A #1'
   password: c106677f-d706-421f-9904-825db2ca97d8
   port: 33167
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '326|KR.韩国.B | 高速.2x倍率 #1'
+  name: '325|KR.韩国.B | 高速.2x倍率 #1'
   password: c106677f-d706-421f-9904-825db2ca97d8
   port: 28595
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '327|KR.韩国.A #2'
+  name: '326|KR.韩国.A #2'
   password: de6faec6-4bce-4537-9f53-0b31dbeef558
   port: 33167
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '327|KR.韩国.B | 高速.2x倍率 #2'
+  name: '326|KR.韩国.B | 高速.2x倍率 #2'
   password: de6faec6-4bce-4537-9f53-0b31dbeef558
   port: 28595
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '328|KR.韩国.A #3'
+  name: '327|KR.韩国.A #3'
   password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
   port: 33167
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '328|KR.韩国.B | 高速.2x倍率 #3'
+  name: '327|KR.韩国.B | 高速.2x倍率 #3'
   password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
   port: 28595
   server: xckr.cokecloud.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '354|🇰🇷 韩国 #1'
+  name: '353|🇰🇷 韩国 #1'
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 18081
   server: jp1.yidongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '355|🇰🇷 韩国 #2'
+  name: '354|🇰🇷 韩国 #2'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 18081
   server: jp1.yidongzf.one
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 366|🇰🇷韩国1 💧 0.6x
+  name: 365|🇰🇷韩国1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 46285
   server: jp1.qsm1.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 372|🇰🇷韩国02 2X ss
+  name: 371|🇰🇷韩国02 2X ss
   password: d40004e8-ac7a-45ad-9758-c28ec47129d6
   port: 25964
   server: ore.zenovz.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '373,536,546,547,549|2|🇰🇷2 |  1.3MB/s #2'
-  network: tcp
-  port: '17232'
-  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- cipher: chacha20-ietf-poly1305
+  name: 379|🇰🇷 韩国 01 | 1x KR
+  password: 5ada8e85-8cf5-40ca-aa13-9990840dd47c
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 379|🇰🇷 韩国 02 | 1x KR
+  password: 5ada8e85-8cf5-40ca-aa13-9990840dd47c
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 392|🇰🇷1 |  8.2MB/s
   password: amazonskr05
@@ -1007,7 +977,7 @@ proxies:
       Host: 0000000000000000000000000044.bgroup-node-for-bigairport.sbs
     path: /
 - cipher: aes-256-cfb
-  name: 411|🇷KR-3.39.227.28-0095
+  name: 411,548|🇷KR-3.39.227.28-009
   password: amazonskr05
   port: 443
   server: 3.39.227.28
@@ -1151,7 +1121,7 @@ proxies:
   skip-cert-verify: false
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
-- name: 411,531,536,546,547,553|🔒 TR-TCP-NA 🇰🇷 KR-119.195.104....
+- name: '411,531,536,546,547|24|🇰🇷 _韩国 #1'
   password: Aimer
   port: 32400
   server: 119.195.104.2
@@ -1167,7 +1137,7 @@ proxies:
   type: trojan
 - alterId: 1
   cipher: auto
-  name: '411,531,546|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #67'
+  name: '411,531,546|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #94'
   network: ws
   port: '8888'
   server: 54.180.96.67
@@ -1837,14 +1807,43 @@ proxies:
   skip-cert-verify: true
   sni: humble-rodent.treefrog761.one
   type: trojan
-- name: 529|🇷 韩国-2
-  password: 0f47b358-e0c7-404b-9984-121e1e13501c
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '518,519|🇰🇷 0|🇰🇷 韩国 01 | 1x KR #1'
+  password: 5adb284a-5064-4e16-a577-d254ccc5e7df
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '518,519|🇰🇷 0|🇰🇷 韩国 02 | 1x KR #1'
+  password: 5adb284a-5064-4e16-a577-d254ccc5e7df
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '518,519|🇰🇷 1|🇰🇷韩国 01 | 1x KR #1'
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '518,519|🇰🇷 1|🇰🇷韩国 02 | 1x KR #1'
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 525,539,547|11|2|🇷10 |  1.8MB/s
+  network: tcp
+  port: 17232
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: 531,546|🇨🇳 台湾_4
   password: Aimer
   port: 18020
@@ -1874,7 +1873,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 545|1|🇰🇷 韩国 02 | 1x KR
+  name: '545|1|🇰🇷 韩国 02 | 1x KR #2'
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36313
   server: free.2weradf.xyz
@@ -1899,22 +1898,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 546|🇰🇷 韩国_042410040 M64
+  name: 546|🇰🇷 韩国_042420100 M64
   network: tcp
   port: '8888'
   server: 146.56.112.110
   tls: false
   type: vmess
   uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- alterId: 0
-  cipher: auto
-  name: 546|2|🇰🇷2 |  1.6MB/s 2
-  network: tcp
-  port: '17232'
-  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: 547|26|V2-韩国03∣K16线路∣
   password: 7daf833c-37b9-4afc-8495-96590f03f781
   port: 21017
@@ -1923,24 +1913,64 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '547|30|12|🇷 韩国|@ripaojiedian #2'
+  name: '547|30|12|🇷 韩国|@ripaojiedian #1'
   network: tcp
   port: 17232
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-140.238.5.75...
+- alterId: 0
+  cipher: auto
+  name: 548,549|🇺🇸 github.com/freefq - 美国3COM公...
+  network: tcp
+  port: '443'
+  server: 152.67.213.242
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  ws-headers:
+    Host: 152.67.213.242
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 548|🇷KR-146.56.40.117-303
+  network: ws
+  port: 27675
+  server: 146.56.40.117
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  ws-headers:
+    Host: 146.56.40.117
+  ws-path: /
+- name: '548,549,646|🇦🇺 澳大利亚 001 #1'
+  password: e8012565-5b9f-373f-b1eb-e2445711e65c
+  port: 15055
+  server: 129.154.49.249
+  skip-cert-verify: false
+  sni: freehr01.jd0001.top
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-211.38.168.1...
   password: Aimer
-  port: 13644
-  server: 140.238.5.75
+  port: 50000
+  server: 211.38.168.1
+  skip-cert-verify: false
   sni: epcci.ambercc.filegear-sg.me
   type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-221.164.192....
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-112.185.223....
   password: Aimer
-  port: 50003
-  server: 221.164.192.95
-  sni: agepj.ambercc.filegear-sg.me
+  port: 50000
+  server: 112.185.223.152
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-129.154.207....
+  password: Aimer
+  port: 443
+  server: 129.154.207.203
+  sni: agept.ambercc.filegear-sg.me
   type: trojan
 - name: 553|🔒 TR-TCP-NA 🇰🇷 KR-152.70.245.6...
   password: Aimer
@@ -1948,82 +1978,6 @@ proxies:
   server: 152.70.245.66
   sni: agept.ambercc.filegear-sg.me
   type: trojan
-- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-154.90.63.8...
-  network: tcp
-  password: 3bcd9e33-8377-4b32-af33-217158577ff3
-  port: 443
-  server: 154.90.63.80
-  sni: kdlsupport.zendesk.com
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-218.144.55.1...
-  password: Aimer
-  port: 21282
-  server: 218.144.55.101
-  skip-cert-verify: false
-  sni: agepj.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-222.107.236....
-  password: Aimer
-  port: 12191
-  server: 222.107.236.137
-  sni: agepj.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-118.45.113.4...
-  password: Aimer
-  port: 12238
-  server: 118.45.113.48
-  sni: epccu.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-146.56.155....
-  network: tcp
-  password: Aimer
-  port: 20003
-  server: 146.56.155.102
-  sni: ngepo.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-WS-TLS 🇰🇷 KR-14.47.175.40...
-  network: ws
-  password: Aimer
-  port: 12115
-  server: 14.47.175.40
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.mehttp/1.1
-    path: /
-- grpc-opts:
-    grpc-service-name: freehr01
-  name: 553|🔒 TR-GRPC-TLS 🇰🇷 KR-158.180.82...
-  network: grpc
-  password: 63dbc6d0-4890-320c-8874-56f9f002d425
-  port: 15446
-  server: 158.180.82.98
-  sni: freehr01.jd0001.top
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-175.208.142....
-  password: Aimer
-  port: 12255
-  server: 175.208.142.21
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-221.151.204....
-  password: Aimer
-  port: 12369
-  server: 221.151.204.241
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-WS-TLS 🇰🇷 KR-210.222.30.1...
-  network: ws
-  password: Aimer
-  port: 17100
-  server: 210.222.30.180
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.mehttp%2F1.1
-    path: '%2F'
 - name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-175.214.237...
   network: tcp
   password: Aimer
@@ -2038,44 +1992,66 @@ proxies:
   server: 175.215.175.175
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-211.38.168.1...
-  password: Aimer
-  port: 50000
-  server: 211.38.168.1
-  skip-cert-verify: false
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-210.123.143...
+- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-146.56.155....
   network: tcp
   password: Aimer
-  port: 12514
-  server: 210.123.143.214
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-220.78.176.1...
-  password: Aimer
-  port: 18059
-  server: 220.78.176.158
-  skip-cert-verify: false
-  sni: epcci.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-112.185.223....
-  password: Aimer
-  port: 50000
-  server: 112.185.223.152
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-118.37.220.1...
-  password: Aimer
-  port: 11300
-  server: 118.37.220.10
+  port: 20003
+  server: 146.56.155.102
   sni: ngepo.ambercc.filegear-sg.me
   type: trojan
-- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-129.154.207....
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-222.107.236....
   password: Aimer
+  port: 12191
+  server: 222.107.236.137
+  sni: agepj.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-121.139.207...
+  network: tcp
+  password: Aimer
+  port: 12370
+  server: 121.139.207.184
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- grpc-opts:
+    grpc-service-name: freehr01
+  name: 553|🔒 TR-GRPC-TLS 🇰🇷 KR-158.180.82...
+  network: grpc
+  password: 63dbc6d0-4890-320c-8874-56f9f002d425
+  port: 15446
+  server: 158.180.82.98
+  sni: freehr01.jd0001.top
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-221.151.204....
+  password: Aimer
+  port: 12369
+  server: 221.151.204.241
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-218.144.55.1...
+  password: Aimer
+  port: 21282
+  server: 218.144.55.101
+  skip-cert-verify: false
+  sni: agepj.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-175.208.142....
+  password: Aimer
+  port: 12255
+  server: 175.208.142.21
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-118.45.113.4...
+  password: Aimer
+  port: 12238
+  server: 118.45.113.48
+  sni: epccu.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-154.90.63.8...
+  network: tcp
+  password: 3bcd9e33-8377-4b32-af33-217158577ff3
   port: 443
-  server: 129.154.207.203
-  sni: agept.ambercc.filegear-sg.me
+  server: 154.90.63.80
+  sni: kdlsupport.zendesk.com
   type: trojan
 - name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-220.71.185....
   network: tcp
@@ -2084,68 +2060,80 @@ proxies:
   server: 220.71.185.223
   sni: ngepz.ambercc.filegear-sg.me
   type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-220.78.176.1...
+  password: Aimer
+  port: 18059
+  server: 220.78.176.158
+  skip-cert-verify: false
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-221.164.192....
+  password: Aimer
+  port: 50003
+  server: 221.164.192.95
+  sni: agepj.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-WS-TLS 🇰🇷 KR-210.222.30.1...
+  network: ws
+  password: Aimer
+  port: 17100
+  server: 210.222.30.180
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.mehttp%2F1.1
+    path: '%2F'
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-118.37.220.1...
+  password: Aimer
+  port: 11300
+  server: 118.37.220.10
+  sni: ngepo.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-WS-TLS 🇰🇷 KR-14.47.175.40...
+  network: ws
+  password: Aimer
+  port: 12115
+  server: 14.47.175.40
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agept.ambercc.filegear-sg.mehttp/1.1
+    path: /
+- name: 553|🔒 TR-TCP-TLS 🇰🇷 KR-210.123.143...
+  network: tcp
+  password: Aimer
+  port: 12514
+  server: 210.123.143.214
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-140.238.5.75...
+  password: Aimer
+  port: 13644
+  server: 140.238.5.75
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
+- name: 553|🔒 TR-TCP-NA 🇰🇷 KR-218.158.109....
+  password: Aimer
+  port: 12336
+  server: 218.158.109.102
+  sni: epcci.ambercc.filegear-sg.me
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 566|🇰🇷 韩国1
   network: ws
   port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
+  server: b35970.96d3-6fad-d92d.shop
   type: vmess
   udp: true
   uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
   ws-headers:
-    Host: kr01s.7a83-e0fd-8a7c.shop
+    Host: kr01s.96d3-6fad-d92d.shop
   ws-opts:
     headers:
-      Host: kr01s.7a83-e0fd-8a7c.shop
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 566|🇰🇷 韩国2
-  network: ws
-  port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
-  type: vmess
-  udp: true
-  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
-  ws-headers:
-    Host: kr02s.7a83-e0fd-8a7c.shop
-  ws-opts:
-    headers:
-      Host: kr02s.7a83-e0fd-8a7c.shop
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 566|🇰🇷 韩国3
-  network: ws
-  port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
-  type: vmess
-  udp: true
-  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
-  ws-headers:
-    Host: kr03s.7a83-e0fd-8a7c.shop
-  ws-opts:
-    headers:
-      Host: kr03s.7a83-e0fd-8a7c.shop
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 566|🇰🇷 韩国4
-  network: ws
-  port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
-  type: vmess
-  udp: true
-  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
-  ws-headers:
-    Host: kr04s.7a83-e0fd-8a7c.shop
-  ws-opts:
-    headers:
-      Host: kr04s.7a83-e0fd-8a7c.shop
+      Host: kr01s.96d3-6fad-d92d.shop
     path: /
   ws-path: /
 - alterId: 0
@@ -2153,15 +2141,31 @@ proxies:
   name: '567|🇰🇷 韩国2 #1'
   network: ws
   port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
+  server: b35970.96d3-6fad-d92d.shop
   type: vmess
   udp: true
   uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
   ws-headers:
-    Host: kr02s.7a83-e0fd-8a7c.shop
+    Host: kr02s.96d3-6fad-d92d.shop
   ws-opts:
     headers:
-      Host: kr02s.7a83-e0fd-8a7c.shop
+      Host: kr02s.96d3-6fad-d92d.shop
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '567|🇰🇷 韩国3 #1'
+  network: ws
+  port: 80
+  server: b35970.96d3-6fad-d92d.shop
+  type: vmess
+  udp: true
+  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
+  ws-headers:
+    Host: kr03s.96d3-6fad-d92d.shop
+  ws-opts:
+    headers:
+      Host: kr03s.96d3-6fad-d92d.shop
     path: /
   ws-path: /
 - alterId: 0
@@ -2169,15 +2173,15 @@ proxies:
   name: '567|🇰🇷 韩国4 #1'
   network: ws
   port: 80
-  server: 8f910b.7a83-e0fd-8a7c.shop
+  server: b35970.96d3-6fad-d92d.shop
   type: vmess
   udp: true
   uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
   ws-headers:
-    Host: kr04s.7a83-e0fd-8a7c.shop
+    Host: kr04s.96d3-6fad-d92d.shop
   ws-opts:
     headers:
-      Host: kr04s.7a83-e0fd-8a7c.shop
+      Host: kr04s.96d3-6fad-d92d.shop
     path: /
   ws-path: /
 - cipher: chacha20-ietf-poly1305
@@ -2324,16 +2328,16 @@ proxies:
   udp: true
 - name: 651|V1-韩国
   password: b3d566e4-e177-48fa-b09c-45bc5e58bc58
-  port: 45738
-  server: d627b478bff5554c34ee351bedec01cc.v1.cac.node-is.green
+  port: 46504
+  server: 2c93c476cf3fcc40e3a3531b087a6877.v1.cac.node-is.green
   skip-cert-verify: true
   sni: kr1.bilibili.com
   type: trojan
   udp: true
 - name: '653|V1-韩国 #1'
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 42266
-  server: c3f84b21639c2d3c55421a66bc6d1a29.v1.cac.node-is.green
+  port: 41305
+  server: 6312fa3cc0a7b390b8a1ab61d8f1a8a3.v1.cac.node-is.green
   skip-cert-verify: true
   sni: kr1.bilibili.com
   type: trojan

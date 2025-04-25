@@ -40,7 +40,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e096dcc5-223b-4dd8-8fb6-b09657563017
+  uuid: 8baff9d1-817e-4515-8f24-b7acc3e732f2
 - alterId: 0
   cipher: auto
   name: '101,480|🇨🇦 加拿大2 #3'
@@ -49,7 +49,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e096dcc5-223b-4dd8-8fb6-b09657563017
+  uuid: 8baff9d1-817e-4515-8f24-b7acc3e732f2
 - alterId: 0
   cipher: auto
   name: '102,484|加拿大2 #2'
@@ -103,113 +103,127 @@ proxies:
     path: /
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 01
+  name: 179|🇨🇦加拿大 01 | 1x CA
+  password: bc406fb1-5cd2-4e40-a86e-9622cacb78c0
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 183|加拿大 01
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 03
+  name: 183|加拿大 03
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cname03b-ncpbbyhazxjnwkrx.bestluausa.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 02
+  name: 183|加拿大 02
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cname03a-ncpbbyhazxjnwkrx.222schweinshaxe.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 04
+  name: 183|加拿大 04
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cname03c-ncpbbyhazxjnwkrx.bestluausa.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 05 [0.5x]
+  name: 183|加拿大 05 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cnamepc01-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 06 [0.5x]
+  name: 183|加拿大 06 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cnamepc02-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 182|加拿大 07 [0.5x]
+  name: 183|加拿大 07 [0.5x]
   password: 0e7f9306-0021-450b-b6b1-81d6fe9add1c
   port: 51091
   server: cnamepc03-d2zdrzg6ilecsynk.besttarik.com
   type: ss
   udp: true
-- name: 278|🇨🇦 加拿大-碧海云
-  password: e6d0841b-5397-4676-99c7-1c3857cc5b13
+- name: 277|🇨🇦 加拿大-碧海云
+  password: e04a46ca-9bf2-4cfe-830e-fca54d5836a0
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 278|🇨🇦 加拿大-碧海云 2
-  password: 7195e736-0bb6-421c-911e-92396544c1ba
+- name: 277|🇨🇦 加拿大-碧海云 2
+  password: 9e2e7422-5a38-4b56-a2d9-222cfdc09f0c
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇨🇦 加拿大-碧海云 #1'
-  password: a4fd3a1b-0f72-4ee2-b6f3-e6e4d38d0b4a
+- name: '278|🇨🇦 加拿大-碧海云 #1'
+  password: 92c58b2a-4d12-4855-97a2-651cc1702863
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: '279|🇨🇦 加拿大-碧海云 2 #1'
-  password: 66151e81-1da4-4cfb-bf0f-61cea677eee9
+- name: '278|🇨🇦 加拿大-碧海云 2 #1'
+  password: 1e690cb3-859a-4e1e-a8cf-8b50db258963
   port: 34016
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '350|加拿大1 #1'
+  name: '349|加拿大1 #1'
   port: 45064
   server: haa.dashuai.cyou
   type: vmess
   udp: true
-  uuid: 01593151-212c-45b5-8e8d-434f5883785e
+  uuid: 0f29c73d-307e-4b65-9fd1-ce723befdf8b
 - alterId: 0
   cipher: auto
-  name: '350|加拿大2 #1'
+  name: '349|加拿大2 #1'
   port: 45065
   server: xdd.dashuai.cyou
   type: vmess
   udp: true
-  uuid: 01593151-212c-45b5-8e8d-434f5883785e
+  uuid: 0f29c73d-307e-4b65-9fd1-ce723befdf8b
 - cipher: chacha20-ietf-poly1305
-  name: '354|🇨🇦 加拿大 #1'
+  name: '353|🇨🇦 加拿大 #1'
   password: a4e169c9-3933-4d1e-98f5-4b58cd460c54
   port: 47503
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '355|🇨🇦 加拿大 #2'
+  name: '354|🇨🇦 加拿大 #2'
   password: eb79c4fa-baf9-456c-9163-67d9d3cf6ab5
   port: 47503
   server: 01.liantongzf.one
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 366|🇨🇦加拿大1 💧 0.6x
+  name: 365|🇨🇦加拿大1 💧 0.6x
   password: a0d131b6-43e2-4bac-b5ff-b3979a574046
   port: 36067
   server: jp1.qsm1.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 379|🇨🇦 加拿大 01 | 1x CA
+  password: 5ada8e85-8cf5-40ca-aa13-9990840dd47c
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -219,13 +233,15 @@ proxies:
   server: 149.22.95.183
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 392,411|🇨🇦CA-142.4.216.225-1105
+  country: 🇦CA
+  name: 392,411,489|🇦CA_130
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 392,411,556|SS-加拿大-NF解锁加拿大地区非自制剧-ChatGPT-T...
+  country: 🇿 CZ
+  name: 392,411,489| CZ_136
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 79.127.233.170
@@ -264,25 +280,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 52704bc6-015d-4c36-bead-87053a8a9641
-- name: 411,531,549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+- name: 411,531|🇨🇦CA-51.222.86.136-0000
   password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: false
   type: trojan
-- name: '411,531,549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #2'
+- name: '411,531|🇨🇦CA-51.222.86.136-0002 #1'
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: false
   type: trojan
-- name: '411,531,549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #6'
+- name: '411,531|🇨🇦CA-51.222.86.136-0006 #1'
   password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   skip-cert-verify: false
   type: trojan
-- name: '411,531,549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #14'
+- name: '411,531|🇨🇦CA-51.222.86.136-0014 #1'
   password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
@@ -319,7 +335,7 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 411|🇨🇦CA-142.4.216.225-1134
+  name: 411,489|_06
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
@@ -639,7 +655,7 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8
-- name: 411,531|🇨🇦CA-178.128.238.42-6138
+- name: 411,489,531|🇨🇦CA-178.128.238.42-6138
   password: acfef609-b3c7-4e52-b292-8921d5fca90d
   port: 443
   server: ca-full.privateip.net
@@ -1292,9 +1308,9 @@ proxies:
   cipher: auto
   name: '482,483|加拿大1-多伦多-白嫖优化节点-CDN | 1x #1'
   network: ws
-  port: 8443
-  server: 1745519541.tencentapp.cn
-  servername: 1745519578.speed.fdvb.cccp.freefly.pp.ua
+  port: 2096
+  server: 1745545941.tencentapp.cn
+  servername: 1745545978.speed.fdvb.cccp.freefly.pp.ua
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1302,7 +1318,7 @@ proxies:
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1745519578.speed.fdvb.cccp.freefly.pp.ua
+      Host: 1745545978.speed.fdvb.cccp.freefly.pp.ua
     path: /
 - name: '504|加拿大_多伦多 #42'
   network: ws
@@ -1476,14 +1492,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '505|加拿大_多伦多 #220'
+  name: 505,548|🏁RELAY-104.19.32.46-083
   network: ws
   port: 2086
   server: 104.19.32.46
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-headers:
+    Host: 104.19.32.46
   ws-opts: {}
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '505|加拿大_多伦多 #221'
@@ -1516,24 +1536,32 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '505|加拿大_多伦多 #224'
+  name: 505,548|🏁RELAY-104.19.47.32-008
   network: ws
   port: 2086
   server: 104.19.47.32
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-headers:
+    Host: 104.19.47.32
   ws-opts: {}
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '505|加拿大_多伦多 #225'
+  name: 505,548|🏁RELAY-104.19.46.39-006
   network: ws
   port: 2086
   server: 104.19.46.39
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-headers:
+    Host: 104.19.46.39
   ws-opts: {}
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '505,551|关注电报https://t.me/aifenxiang202... #16'
@@ -1566,14 +1594,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '505|加拿大_多伦多 #229'
+  name: 505,548|🏁RELAY-104.20.25.146-011
   network: ws
   port: 2086
   server: 104.20.25.146
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-headers:
+    Host: 104.20.25.146
   ws-opts: {}
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '505|加拿大_渥太華 #2'
@@ -3687,6 +3719,20 @@ proxies:
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
+  name: '518,519|🇨🇦 0|🇨🇦 加拿大 01 | 1x CA #1'
+  password: 5adb284a-5064-4e16-a577-d254ccc5e7df
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '518,519|🇨🇦 1|🇨🇦加拿大 01 | 1x CA #1'
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 545|0|🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31441
@@ -3713,22 +3759,9 @@ proxies:
     headers:
       Host: teams.microsoft.com
     path: /
-- alterId: 1
-  cipher: auto
-  name: 546|🇨🇦 加拿大_042410020 L0
-  network: ws
-  port: '443'
-  server: 15.235.83.228
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kapelleng.com
-    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 546|🇨🇦 加拿大_042410104 L31
+  name: 546|🇨🇦 加拿大_042420070 L31
   network: ws
   port: '80'
   server: 51.79.103.76
@@ -3739,6 +3772,19 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 1
+  cipher: auto
+  name: 546|🇨🇦 加拿大_042420069 L0
+  network: ws
+  port: '443'
+  server: 15.235.83.228
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kapelleng.com
+    path: /linkvws
 - name: 547|8|🇨🇦CA-15.222.64.220-198_1@198
   password: xV6yLF0Z69Hm
   port: 16700
@@ -4054,156 +4100,16 @@ proxies:
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #1'
-  password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #3'
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #4'
-  password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #5'
-  password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #7'
-  password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #8'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #9'
-  password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #10'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #11'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #12'
-  password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #13'
-  password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #15'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #16'
-  password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #17'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #18'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #19'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #20'
-  password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #21'
-  password: 36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #22'
-  password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
-- name: '549|🇨🇦 加拿大(欢迎订阅Youtube破解资源君) #23'
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '549|🇪🇺 欧洲(欢迎订阅Youtube破解资源君) #4'
+  name: 547,554|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.17...
   network: tcp
-  port: '31250'
-  server: ca-nf-route.teacher2050.com
+  port: '28984'
+  server: 91.194.11.178
+  servername: ''
   tls: false
   type: vmess
-  uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33
-- name: 549|🇨🇦 github.com/freefq - 加拿大  23
-  password: ea48cdda-6db7-4f34-9d42-7bd9d41b4740
-  port: 443
-  server: 1002hk1326.tfzhc.top
-  skip-cert-verify: false
-  type: trojan
-- name: 549|🇨🇦 github.com/freefq - 加拿大  38
-  password: ea48cdda-6db7-4f34-9d42-7bd9d41b4740
-  port: 443
-  server: 1002tw01.tfzhc.top
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '550|加拿大2 #3'
-  network: tcp
-  port: '45065'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 83051a25-c401-47a6-aa52-fabbe54b0d7b
+  uuid: 9b2335af-f24c-4810-9c34-95568ebd579d
 - alterId: 0
   cipher: auto
   name: '550|加拿大1 #3'
@@ -4212,7 +4118,16 @@ proxies:
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 83051a25-c401-47a6-aa52-fabbe54b0d7b
+  uuid: f7e159ea-3773-4b49-8eeb-fb5f290a0423
+- alterId: 0
+  cipher: auto
+  name: '550|加拿大2 #3'
+  network: tcp
+  port: '45065'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: f7e159ea-3773-4b49-8eeb-fb5f290a0423
 - name: 553|🔒 TR-TCP-TLS 🇨🇦 CA-104.234.239...
   network: tcp
   password: Aimer
@@ -4290,8 +4205,8 @@ proxies:
   udp: true
 - name: 647|Trojan-加拿大2 | 低倍率
   password: 593c3d63-04c7-4bbb-a03f-114eba08636c
-  port: 47907
-  server: 58cc3fbaa3e5d00e7f7ff3aa7864b68e.lh.gtm.node-is.green
+  port: 41444
+  server: 3f085965cbdf9efcb2497faa359c1d14.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4320,8 +4235,8 @@ proxies:
   udp: true
 - name: '648|Trojan-加拿大2 | 低倍率 #1'
   password: b64ec383-e598-465a-9e59-70e9b0d87f66
-  port: 46549
-  server: 3e2c9a506faca19fb195e21e28c74459.lh.gtm.node-is.green
+  port: 49173
+  server: e8cab0c6f76ae7a1115f95da08261e14.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4350,8 +4265,8 @@ proxies:
   udp: true
 - name: '649|Trojan-加拿大2 | 低倍率 #2'
   password: 8d4fa037-3324-485e-a3fc-2862210ee4f7
-  port: 42801
-  server: 33ff54afa07875ca116bc9ac2b158c42.lh.gtm.node-is.green
+  port: 44140
+  server: 9c00b4c17dde56acd3a358c9492dd1cc.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
@@ -4380,24 +4295,24 @@ proxies:
   udp: true
 - name: '650|Trojan-加拿大2 | 低倍率 #3'
   password: 07e55e4a-ef94-4e81-addc-b62532cb503a
-  port: 47971
-  server: 6e92941f4df5555c416d5f76adafb202.lh.gtm.node-is.green
+  port: 48349
+  server: 10ab4536a78f09a752a58b0ccb5e73a5.lh.gtm.node-is.green
   skip-cert-verify: true
   sni: tcca1.bilibili.com
   type: trojan
   udp: true
 - name: 651|V1-加拿大-IPv6
   password: b3d566e4-e177-48fa-b09c-45bc5e58bc58
-  port: 40183
-  server: b3326d7d6cf0e0297824b39363fb4ed1.v1.cac.node-is.green
+  port: 49187
+  server: 9f3d0810da949f295395460c2fedbe08.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan
   udp: true
 - name: '653|V1-加拿大-IPv6 #1'
   password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 40572
-  server: 87c3b581b64ba221c97345b2f161a21c.v1.cac.node-is.green
+  port: 41352
+  server: 86a82abc721c3d7545eaba537b5a901e.v1.cac.node-is.green
   skip-cert-verify: true
   sni: ca1.bilibili.com
   type: trojan
