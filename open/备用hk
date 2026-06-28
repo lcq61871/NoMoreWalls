@@ -7,6 +7,71 @@ DOMAIN-SUFFIX,gaypornhot.com
 
 
 # 香港
+# === Now TV / Now E / ViuTV (电讯盈科系列) ===
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,nowtv.now.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,now-e.com
+DOMAIN-SUFFIX,nowtv.com
+DOMAIN-SUFFIX,nowtv.hk
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,pccwmedia.com
+DOMAIN-SUFFIX,pccwmflive.com
+DOMAIN-SUFFIX,pccwmvod.com
+DOMAIN-SUFFIX,hktv.now.com
+DOMAIN-SUFFIX,hkt-stream.com
+DOMAIN-KEYWORD,nowtv
+DOMAIN-KEYWORD,pccw
+DOMAIN-KEYWORD,viu
+
+# === myTV SUPER / TVB 系列 ===
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,tvb.com.au
+DOMAIN-SUFFIX,tvbanywhere.com
+DOMAIN-SUFFIX,tvbanywhere.com.sg
+DOMAIN-SUFFIX,tvbc.com.cn
+DOMAIN-SUFFIX,tvbusa.com
+DOMAIN-SUFFIX,tvbweekly.com
+DOMAIN-SUFFIX,encoretvb.com
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,mytvsuper.com.mp
+DOMAIN-SUFFIX,bigbigchannel.com.hk
+DOMAIN-SUFFIX,bigbigshop.com
+DOMAIN-SUFFIX,tvbeventpower.com.hk
+DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,tvbtracking.azurewebsites.net
+DOMAIN-SUFFIX,edgeware.tvb.com
+USER-AGENT,mytv*
+USER-AGENT,encoreTVB*
+
+# === 视频播放器底层 CDN & 行为分析 (Akamai / Brightcove / JWPlayer) ===
+DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,edge.api.brightcove.com
+DOMAIN-SUFFIX,content.jwplatform.com
+DOMAIN-SUFFIX,videos-f.jwpsrv.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,tvmedia.net.au
+
+# === 自建/第三方 IPTV 中转、反代及解析域名 ===
+DOMAIN-SUFFIX,php.jdshipin.com
+DOMAIN-SUFFIX,livednow.com
+DOMAIN-SUFFIX,beesport.livednow.com
+DOMAIN-SUFFIX,assets.livednow.com
+DOMAIN-SUFFIX,mytvb.livednow.us.kg
+DOMAIN-SUFFIX,mytvsuper.us.kg
+DOMAIN-SUFFIX,567852.xyz
+DOMAIN-SUFFIX,console.567852.xyz
+DOMAIN-SUFFIX,mainserver.567852.xyz
+DOMAIN-KEYWORD,hkdvb
+
+
+
+
+
 DOMAIN-SUFFIX,video.mytvsuper.xyz
 DOMAIN-SUFFIX,rthktv31-live.akamaized.net
 DOMAIN-SUFFIX,rthktv32-live.akamaized.net
